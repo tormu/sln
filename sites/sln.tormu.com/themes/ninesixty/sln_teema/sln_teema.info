@@ -1,0 +1,28 @@
+; $Id: sln_Teema.info,v 1.1.2.1 2009/06/06 11:55:54 jari Exp $
+
+name = #sln
+description = #sln-sivuston teema
+screenshot = images/screenshot.png
+version = .01
+core = 6.x
+engine = phptemplate
+
+; Stylesheets. Anything within the "framework" folder will be placed before all others.
+stylesheets[all][] = ../styles/framework/reset.css
+stylesheets[all][] = ../styles/framework/text.css
+stylesheets[all][] = ../styles/framework/960.css
+stylesheets[all][] = ../styles/framework/debug.css
+
+; Theme specific styles. Any sub-themes should override this.
+stylesheets[all][] = styles/styles.css
+stylesheets[all][] = styles/sln_teema.css
+
+; Regions
+regions[right] = Right sidebar
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
+
+; Information added by drupal.org packaging script on 2009-04-11
+version = "6.x-1.x-dev"
+core = "6.x"

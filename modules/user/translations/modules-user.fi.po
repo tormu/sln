@@ -1,0 +1,1810 @@
+# translation of general.po to
+# Finnish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  common.inc,v 1.602 2006/12/15 07:47:08 unconed
+#  system.module,v 1.428 2006/12/15 08:53:56 unconed
+#  upload.module,v 1.145 2006/12/14 13:30:59 dries
+#  image.inc,v 1.16 2006/12/12 01:03:34 unconed
+#  unicode.inc,v 1.23 2006/12/06 16:15:52 dries
+#  system.install,v 1.60 2006/12/13 10:41:56 unconed
+#  database.mysql.inc,v 1.64 2006/12/04 11:06:29 dries
+#  database.mysqli.inc,v 1.30 2006/12/04 11:06:29 dries
+#  file.inc,v 1.88 2006/12/11 16:45:17 dries
+#  user.module,v 1.731 2006/12/12 10:11:43 unconed
+#  form.inc,v 1.166 2006/12/12 10:01:38 unconed
+#  filter.module,v 1.157 2006/12/14 10:14:05 unconed
+#  locale.inc,v 1.101 2006/12/10 09:54:32 unconed
+#  blogapi.module,v 1.99 2006/11/21 20:14:17 dries
+#  forum.module,v 1.371 2006/12/10 20:34:02 dries
+#  block.module,v 1.244 2006/12/11 23:00:09 unconed
+#  book.module,v 1.403 2006/11/30 02:04:31 drumm
+#  comment.module,v 1.515 2006/12/15 01:33:00 unconed
+#  contact.module,v 1.72 2006/12/04 10:43:34 dries
+#  menu.module,v 1.99 2006/11/30 01:55:31 drumm
+#  content_types.inc,v 1.18 2006/12/05 05:47:37 dries
+#  node.module,v 1.752 2006/12/14 14:07:57 dries
+#  path.module,v 1.103 2006/11/26 02:20:01 drumm
+#  profile.module,v 1.185 2006/12/13 23:50:26 unconed
+#  drupal.module,v 1.137 2006/12/11 16:57:42 dries
+#  statistics.module,v 1.246 2006/11/26 02:20:01 drumm
+#  aggregator.module,v 1.323 2006/12/14 13:41:02 dries
+#  taxonomy.module,v 1.328 2006/11/30 07:05:57 unconed
+#  watchdog.module,v 1.164 2006/12/10 09:54:35 unconed
+#  locale.module,v 1.154 2006/12/01 22:47:53 unconed
+#  search.module,v 1.206 2006/12/11 16:57:42 dries
+#  search.info,v 1.3 2006/11/21 20:55:35 dries
+#  menu.inc,v 1.143 2006/12/12 06:02:52 unconed
+#  chameleon.theme,v 1.56 2006/11/29 06:36:12 drumm
+#  pager.inc,v 1.59 2006/10/15 19:57:05 dries
+#  theme.inc,v 1.332 2006/12/15 01:06:33 unconed
+#  phptemplate.engine,v 1.53 2006/12/13 23:22:57 unconed
+#  poll.module,v 1.221 2006/12/10 20:34:03 dries
+#  legacy.module,v 1.15 2006/11/21 20:14:18 dries
+#  blog.module,v 1.271 2006/12/10 20:34:02 dries
+#  tracker.module,v 1.141 2006/12/10 09:54:34 unconed
+#  aggregator.info,v 1.3 2006/11/21 20:55:33 dries
+#  blog.info,v 1.3 2006/11/21 20:55:33 dries
+#  blogapi.info,v 1.3 2006/11/21 20:55:33 dries
+#  book.info,v 1.3 2006/11/21 20:55:33 dries
+#  color.info,v 1.2 2006/11/21 20:55:34 dries
+#  comment.info,v 1.3 2006/11/21 20:55:34 dries
+#  contact.info,v 1.3 2006/11/21 20:55:34 dries
+#  drupal.info,v 1.3 2006/11/21 20:55:34 dries
+#  forum.info,v 1.4 2006/11/21 20:55:34 dries
+#  help.info,v 1.3 2006/11/21 20:55:34 dries
+#  legacy.info,v 1.3 2006/11/21 20:55:34 dries
+#  locale.info,v 1.3 2006/11/21 20:55:34 dries
+#  menu.info,v 1.3 2006/11/21 20:55:34 dries
+#  path.info,v 1.3 2006/11/21 20:55:34 dries
+#  ping.info,v 1.3 2006/11/21 20:55:35 dries
+#  poll.info,v 1.3 2006/11/21 20:55:35 dries
+#  profile.info,v 1.3 2006/11/21 20:55:35 dries
+#  statistics.info,v 1.3 2006/11/21 20:55:35 dries
+#  taxonomy.info,v 1.3 2006/11/21 20:55:35 dries
+#  throttle.info,v 1.3 2006/11/21 20:55:35 dries
+#  tracker.info,v 1.3 2006/11/21 20:55:35 dries
+#  upload.info,v 1.3 2006/11/21 20:55:35 dries
+#  block.info,v 1.3 2006/11/21 20:55:33 dries
+#  filter.info,v 1.3 2006/11/21 20:55:34 dries
+#  node.info,v 1.3 2006/11/21 20:55:34 dries
+#  system.info,v 1.3 2006/11/21 20:55:35 dries
+#  user.info,v 1.3 2006/11/21 20:55:36 dries
+#  watchdog.info,v 1.3 2006/11/21 20:55:36 dries
+#  throttle.module,v 1.71 2006/12/04 10:56:21 dries
+#  color.module,v 1.12 2006/12/10 09:54:33 unconed
+#  help.module,v 1.67 2006/12/10 09:54:33 unconed
+#  color.inc,v 1.2 2006/12/06 16:32:54 dries
+#  database.pgsql.inc,v 1.42 2006/12/14 13:26:41 dries
+#  install.inc,v 1.30 2006/12/08 11:54:04 dries
+#  tablesort.inc,v 1.43 2006/12/01 08:50:33 dries
+#  xmlrpc.inc,v 1.38 2006/09/03 08:21:18 dries
+#  xmlrpcs.inc,v 1.21 2006/07/05 11:45:51 dries
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#  ping.module,v 1.45 2006/11/21 20:14:18 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-02-04 13:47+0100\n"
+"PO-Revision-Date: 2008-02-19 14:10+0200\n"
+"Last-Translator: Ilari Sani <ilari.sani@assemblix.net>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/user/user.admin.inc:13 modules/user/user.module:667;2425;908
+msgid "Create new account"
+msgstr "Luo uusi käyttäjätili"
+
+#: modules/user/user.admin.inc:43
+msgid "Show only users where"
+msgstr "Näytä ainoastaan käyttäjät joiden"
+
+#: modules/user/user.admin.inc:52
+msgid ""
+"<em>and</em> where <strong>%property</strong> is <strong>%value</strong>"
+msgstr ""
+"<em>ja</em> missä <strong>%property</strong> on <strong>%value</strong>"
+
+#: modules/user/user.admin.inc:55
+msgid "<strong>%property</strong> is <strong>%value</strong>"
+msgstr "<strong>%property</strong> on <strong>%value</strong>"
+
+#: modules/user/user.admin.inc:137;911 modules/user/user.module:621
+msgid "Member for"
+msgstr "Käyttäjä jo"
+
+#: modules/user/user.admin.inc:138;912
+msgid "Last access"
+msgstr "Viimeksi paikalla"
+
+#: modules/user/user.admin.inc:169 modules/user/user.module:1957
+msgid "blocked"
+msgstr "suljettu"
+
+#: modules/user/user.admin.inc:169 modules/user/user.module:1957
+msgid "active"
+msgstr "aktiivinen"
+
+#: modules/user/user.admin.inc:221
+msgid "No users selected."
+msgstr "Yhtään käyttäjää ei ole valittuna."
+
+#: modules/user/user.admin.inc:233
+msgid "User registration settings"
+msgstr "Käyttäjien rekisteröinnin asetukset"
+
+#: modules/user/user.admin.inc:234
+msgid "Public registrations"
+msgstr "Julkiset rekisteröitymiset"
+
+#: modules/user/user.admin.inc:234
+msgid "Visitors can create accounts and no administrator approval is required."
+msgstr "Vierailijat voivat luoda käyttäjätilejä ilman ylläpidon hyväksyntää."
+
+#: modules/user/user.admin.inc:234
+msgid "Visitors can create accounts but administrator approval is required."
+msgstr ""
+"Vierailijat voivat luoda käyttäjätilejä, mutta ylläpidon on hyväksyttävä ne."
+
+#: modules/user/user.admin.inc:235
+msgid "Require e-mail verification when a visitor creates an account"
+msgstr "Vaadi sähköpostivahvistus vierailijoiden luomille käyttäjätileille"
+
+#: modules/user/user.admin.inc:235
+msgid ""
+"If this box is checked, new users will be required to validate their e-mail "
+"address prior to logging into the site, and will be assigned a system-"
+"generated password. With it unchecked, users will be logged in immediately "
+"upon registering, and may select their own passwords during registration."
+msgstr ""
+"Jos valitset tämän, uusien käyttäjien täytyy vahvistaa sähköpostiosoitteensa "
+"ennen ensimmäistä sisään kirjautumista ja heille toimitetaan järjestelmän "
+"luoma salasana.  Jos et valitse tätä, käyttäjät saavat valita oman "
+"salasanansa rekisteröityessään ja kirjautuvat sisään heti rekisteröitymisen "
+"jälkeen."
+
+#: modules/user/user.admin.inc:236
+msgid "User registration guidelines"
+msgstr "Rekisteröinnin ohjeet"
+
+#: modules/user/user.admin.inc:236
+msgid ""
+"This text is displayed at the top of the user registration form and is "
+"useful for helping or instructing your users."
+msgstr ""
+"Tämä teksti näytetään käyttäjän rekisteröintilomakkeen ylälaidassa.  Se voi "
+"sisältää ohjeita tai sääntöjä käyttäjille."
+
+#: modules/user/user.admin.inc:241
+msgid "User e-mail settings"
+msgstr "Käyttäjän sähköpostiasetukset"
+
+#: modules/user/user.admin.inc:242
+msgid ""
+"Drupal sends emails whenever new users register on your site, and "
+"optionally, may also notify users after other account actions. Using a "
+"simple set of content templates, notification e-mails can be customized to "
+"fit the specific needs of your site."
+msgstr ""
+"Drupal lähettää sähköpostia sivustolle rekisteröityville käyttäjille, ja voi "
+"haluttaessa lähettää postia myös muista käyttäjätilin muutoksista. Lähtevät "
+"postit voi mukauttaa sivustosi tarpeisiin muokkaamalla viestipohjia."
+
+#: modules/user/user.admin.inc:246
+msgid "Available variables are:"
+msgstr "Mahdolliset muuttujat ovat:"
+
+#: modules/user/user.admin.inc:250
+msgid "Welcome, new user created by administrator"
+msgstr "Tervetuloa, ylläpitäjän luoma käyttäjä"
+
+#: modules/user/user.admin.inc:253
+msgid ""
+"Customize welcome e-mail messages sent to new member accounts created by an "
+"administrator."
+msgstr ""
+"Muokkaa sähköpostiviestiä, joka lähetetään käyttäjälle kun ylläpitäjä luo "
+"hänelle käyttäjätilin"
+
+#: modules/user/user.admin.inc:270
+msgid "Welcome, no approval required"
+msgstr "Tervetuloa, hyväksymistä ei vaadita"
+
+#: modules/user/user.admin.inc:273
+msgid ""
+"Customize welcome e-mail messages sent to new members upon registering, when "
+"no administrator approval is required."
+msgstr ""
+"Muokkaa sähköpostiviestiä, joka lähetetään vasta rekisteröityneelle "
+"käyttäjälle silloin kun ylläpitäjän hyväksyntää ei vaadita"
+
+#: modules/user/user.admin.inc:290
+msgid "Welcome, awaiting administrator approval"
+msgstr "Tervetuloa, odota ylläpitäjän hyväksyntää"
+
+#: modules/user/user.admin.inc:293
+msgid ""
+"Customize welcome e-mail messages sent to new members upon registering, when "
+"administrative approval is required."
+msgstr ""
+"Muokkaa sähköpostiviestiä, joka lähetetään vasta rekisteröityneelle "
+"käyttäjälle silloin kun ylläpitäjän pitää hyväksyä heidät"
+
+#: modules/user/user.admin.inc:310
+msgid "Password recovery email"
+msgstr "Salasanan palautus"
+
+#: modules/user/user.admin.inc:313
+msgid "Customize e-mail messages sent to users who request a new password."
+msgstr ""
+"Muokkaa sähköpostiviestiä, joka lähetetään käyttäjille jotka pyytävät uutta "
+"salasanaa"
+
+#: modules/user/user.admin.inc:330
+msgid "Account activation email"
+msgstr "Käyttäjätili aktivoitu"
+
+#: modules/user/user.admin.inc:333
+msgid ""
+"Enable and customize e-mail messages sent to users upon account activation "
+"(when an administrator activates an account of a user who has already "
+"registered, on a site where administrative approval is required)."
+msgstr ""
+"Ota käyttöön ja muokkaa sähköpostiviestiä, joka lähetetään käyttäjälle kun "
+"hänen käyttäjätilinsä aktivoidaan. (Käyttäjä on rekisteröitynyt aikaisemmin "
+"ja ylläpitäjä hyväksyy hänet nyt sivustolle.)"
+
+#: modules/user/user.admin.inc:337
+msgid "Notify user when account is activated."
+msgstr "Ilmoita käyttäjälle käyttäjätilin aktivoinnista"
+
+#: modules/user/user.admin.inc:355
+msgid "Account blocked email"
+msgstr "Käyttäjätili suljettu"
+
+#: modules/user/user.admin.inc:358
+msgid ""
+"Enable and customize e-mail messages sent to users when their accounts are "
+"blocked."
+msgstr ""
+"Ota käyttöön ja muokkaa sähköpostiviestiä, joka lähetetään käyttäjälle jos "
+"hänen käyttäjätilinsä suljetaan."
+
+#: modules/user/user.admin.inc:362
+msgid "Notify user when account is blocked."
+msgstr "Ilmoita käyttäjälle käyttäjätilin sulkemisesta."
+
+#: modules/user/user.admin.inc:380
+msgid "Account deleted email"
+msgstr "Käyttäjätili poistettu"
+
+#: modules/user/user.admin.inc:383
+msgid ""
+"Enable and customize e-mail messages sent to users when their accounts are "
+"deleted."
+msgstr ""
+"Ota käyttöön ja muokkaa sähköpostiviestiä, joka lähetetään käyttäjälle kun "
+"hänen käyttäjätilinsä poistetaan."
+
+#: modules/user/user.admin.inc:387
+msgid "Notify user when account is deleted."
+msgstr "Ilmoita käyttäjälle käyttäjätilin poistamisesta."
+
+#: modules/user/user.admin.inc:406
+msgid "Signatures"
+msgstr "Allekirjoitukset"
+
+#: modules/user/user.admin.inc:410
+msgid "Signature support"
+msgstr "Allekirjoitusten tuki"
+
+#: modules/user/user.admin.inc:423
+msgid "Pictures"
+msgstr "Kuvat"
+
+#: modules/user/user.admin.inc:428
+msgid "Picture support"
+msgstr "Kuvien tuki"
+
+#: modules/user/user.admin.inc:448
+msgid "Picture image path"
+msgstr "Kuvahakemiston sijainti"
+
+#: modules/user/user.admin.inc:452
+msgid "Subdirectory in the directory %dir where pictures will be stored."
+msgstr "Hakemiston %dir alihakemisto, jossa kuvat säilytetään."
+
+#: modules/user/user.admin.inc:456
+msgid "Default picture"
+msgstr "Oletuskuva"
+
+#: modules/user/user.admin.inc:460
+msgid ""
+"URL of picture to display for users with no custom picture selected. Leave "
+"blank for none."
+msgstr ""
+"Osoite kuvalle, joka näytetään käyttäjille, joilla ei ole omaa kuvaa "
+"valittuna. Jätä tyhjäksi, jos kuvaa ei näytetä."
+
+#: modules/user/user.admin.inc:464
+msgid "Picture maximum dimensions"
+msgstr "Kuvan suurimmat sallitut mitat"
+
+#: modules/user/user.admin.inc:468
+msgid "Maximum dimensions for pictures, in pixels."
+msgstr "Suurimmat sallitut mitat kuville, pikseleissä."
+
+#: modules/user/user.admin.inc:472
+msgid "Picture maximum file size"
+msgstr "Kuvan suurin sallittu tiedostokoko"
+
+#: modules/user/user.admin.inc:476
+msgid "Maximum file size for pictures, in kB."
+msgstr "Suurin sallittu tiedostokoko kuville kilotavuissa (kt)."
+
+#: modules/user/user.admin.inc:480
+msgid "Picture guidelines"
+msgstr "Kuvaohjeet"
+
+#: modules/user/user.admin.inc:482
+msgid ""
+"This text is displayed at the picture upload form in addition to the default "
+"guidelines. It's useful for helping or instructing your users."
+msgstr ""
+"Tämä teksti näytetään kuvan siirtolomakkeessa oletusohjeiden lisäksi.  Se "
+"voi sisältää ohjeita tai sääntöjä käyttäjille."
+
+#: modules/user/user.admin.inc:543
+msgid "Save permissions"
+msgstr "Tallenna käyttöoikeudet"
+
+#: modules/user/user.admin.inc:563 modules/user/user.pages.inc:280;346
+msgid "The changes have been saved."
+msgstr "Muutokset on tallennettu."
+
+#: modules/user/user.admin.inc:582 modules/user/user.module:1941
+msgid "@module module"
+msgstr "moduuli @module"
+
+#: modules/user/user.admin.inc:595
+msgid "Permission"
+msgstr "Käyttöoikeus"
+
+#: modules/user/user.admin.inc:624
+msgid "Role name"
+msgstr "Roolin nimi"
+
+#: modules/user/user.admin.inc:629
+msgid ""
+"The name for this role. Example: \"moderator\", \"editorial board\", \"site "
+"architect\"."
+msgstr ""
+"Roolin nimi.  Esimerkkejä: \"valvoja\", \"toimittaja\", \"sivuarkkitehti\"."
+
+#: modules/user/user.admin.inc:637;662;679
+msgid "Save role"
+msgstr "Tallenna rooli"
+
+#: modules/user/user.admin.inc:641;683
+msgid "Delete role"
+msgstr "Poista rooli"
+
+#: modules/user/user.admin.inc:652;667;691
+msgid "Add role"
+msgstr "Lisää rooli"
+
+#: modules/user/user.admin.inc:664;669
+msgid "The role name %name already exists. Please choose another role name."
+msgstr "Rooli %name on jo olemassa. Ole hyvä, valitse toinen nimi."
+
+#: modules/user/user.admin.inc:674
+msgid "You must specify a valid role name."
+msgstr "Roolille on määritettävä kelvollinen nimi."
+
+#: modules/user/user.admin.inc:681
+msgid "The role has been renamed."
+msgstr "Rooli on nimetty uudelleen."
+
+#: modules/user/user.admin.inc:689
+msgid "The role has been deleted."
+msgstr "Rooli poistettu."
+
+#: modules/user/user.admin.inc:693
+msgid "The role has been added."
+msgstr "Rooli lisätty."
+
+#: modules/user/user.admin.inc:715;737
+msgid "You must enter a mask."
+msgstr "Peite on annettava."
+
+#: modules/user/user.admin.inc:720
+msgid "The access rule has been added."
+msgstr "Pääsysääntö on lisätty."
+
+#: modules/user/user.admin.inc:728 modules/user/user.module:1007
+msgid "Add rule"
+msgstr "Lisää sääntö"
+
+#: modules/user/user.admin.inc:741
+msgid "The access rule has been saved."
+msgstr "Pääsysääntö on talletettu."
+
+#: modules/user/user.admin.inc:748
+msgid "Save rule"
+msgstr "Tallenna sääntö"
+
+#: modules/user/user.admin.inc:759;886
+msgid "Access type"
+msgstr "Pääsytyyppi"
+
+#: modules/user/user.admin.inc:761
+msgid "Allow"
+msgstr "Sallittu"
+
+#: modules/user/user.admin.inc:761
+msgid "Deny"
+msgstr "Estetty"
+
+#: modules/user/user.admin.inc:763
+msgid "Host"
+msgstr "Isäntä"
+
+#: modules/user/user.admin.inc:766;886
+msgid "Rule type"
+msgstr "Säännön tyyppi"
+
+#: modules/user/user.admin.inc:772;886
+msgid "Mask"
+msgstr "Peite"
+
+#: modules/user/user.admin.inc:776
+msgid "Matches any number of characters, even zero characters"
+msgstr "Vastaa mitä tahansa merkkimäärää, myös nollaa merkkiä"
+
+#: modules/user/user.admin.inc:776
+msgid "Matches exactly one character."
+msgstr "Vastaa täsmälleen yhtä merkkiä."
+
+#: modules/user/user.admin.inc:786
+msgid "No value entered. Please enter a test string and try again."
+msgstr "Mitään arvoa ei syötetty.  Syötä testimerkkijono ja yritä uudestaan."
+
+#: modules/user/user.admin.inc:792
+msgid "Enter a username to check if it will be denied or allowed."
+msgstr "Kirjoita käyttäjätunnus tarkistaaksesi onko se sallittu vai ei."
+
+#: modules/user/user.admin.inc:794
+msgid "Check username"
+msgstr "Tarkista käyttäjätunnus"
+
+#: modules/user/user.admin.inc:803
+msgid "Enter an e-mail address to check if it will be denied or allowed."
+msgstr "Kirjoita sähköpostiosoite tarkistaaksesi onko se sallittu vai ei."
+
+#: modules/user/user.admin.inc:805
+msgid "Check e-mail"
+msgstr "Tarkista sähköpostiosoite"
+
+#: modules/user/user.admin.inc:814
+msgid ""
+"Enter a hostname or IP address to check if it will be denied or allowed."
+msgstr ""
+"Kirjoita isäntänimi tai IP-osoite tarkistaaksesi, onko se kielletty tai "
+"sallittu."
+
+#: modules/user/user.admin.inc:816
+msgid "Check hostname"
+msgstr "Tarkista isäntänimi"
+
+#: modules/user/user.admin.inc:827
+msgid "The username %name is not allowed."
+msgstr "Käyttäjätunnus %name ei ole sallittu."
+
+#: modules/user/user.admin.inc:830
+msgid "The username %name is allowed."
+msgstr "Käyttäjätunnus %name sallittu."
+
+#: modules/user/user.admin.inc:835
+msgid "The e-mail address %mail is not allowed."
+msgstr "Sähköpostiosoite %mail ei ole sallittu."
+
+#: modules/user/user.admin.inc:838
+msgid "The e-mail address %mail is allowed."
+msgstr "Sähköpostiosoite %mail sallittu."
+
+#: modules/user/user.admin.inc:843
+msgid "The hostname %host is not allowed."
+msgstr "Isäntänimeä %host ei sallita."
+
+#: modules/user/user.admin.inc:846
+msgid "The hostname %host is allowed."
+msgstr "Isäntänimi %host on sallittu."
+
+#: modules/user/user.admin.inc:861;888
+msgid "username"
+msgstr "käyttäjätunnus"
+
+#: modules/user/user.admin.inc:861;888
+msgid "e-mail"
+msgstr "sähköposti"
+
+#: modules/user/user.admin.inc:861;888
+msgid "host"
+msgstr "isäntä"
+
+#: modules/user/user.admin.inc:867
+msgid "Are you sure you want to delete the @type rule for %rule?"
+msgstr "Oletko varma, että haluat poistaa tyypin @type säännön %rule?"
+
+#: modules/user/user.admin.inc:877
+msgid "The access rule has been deleted."
+msgstr "Pääsysääntö on poistettu."
+
+#: modules/user/user.admin.inc:891
+msgid "allow"
+msgstr "salli"
+
+#: modules/user/user.admin.inc:891
+msgid "deny"
+msgstr "estä"
+
+#: modules/user/user.admin.inc:894
+msgid "There are currently no access rules."
+msgstr "Yhtään pääsysääntöä ei ole määriteltynä."
+
+#: modules/user/user.admin.inc:931
+msgid "No users available."
+msgstr "Yhtään käyttäjää ei ole saatavilla."
+
+#: modules/user/user.admin.inc:952
+msgid "edit permissions"
+msgstr "muokkaa käyttöoikeuksia"
+
+#: modules/user/user.admin.inc:954
+msgid "edit role"
+msgstr "muokkaa roolia"
+
+#: modules/user/user.admin.inc:957
+msgid "locked"
+msgstr "lukittu"
+
+#: modules/user/user.pages.inc:34
+msgid "Username or e-mail address"
+msgstr "Käyttäjätunnus tai sähköpostiosoite"
+
+#: modules/user/user.pages.inc:39
+msgid "E-mail new password"
+msgstr "Lähetä uusi salasana sähköpostitse"
+
+#: modules/user/user.pages.inc:56
+msgid "Sorry, %name is not recognized as a user name or an e-mail address."
+msgstr ""
+"Tekstiä %name ei tunnistettu käyttäjätunnukseksi tai sähköpostiosoitteeksi."
+
+#: modules/user/user.pages.inc:67
+msgid "Further instructions have been sent to your e-mail address."
+msgstr "Lisäohjeet on lähetetty sähköpostiosoitteeseesi."
+
+#: modules/user/user.pages.inc:81
+msgid ""
+"You have already used this one-time login link. It is not necessary to use "
+"this link to login anymore. You are already logged in."
+msgstr ""
+"Olet jo käyttänyt tämän kertakäyttöisen kirjautumislinkin. Et tarvitse sitä "
+"enää uudelleen koska olet jo kirjautuneena sisään."
+
+#: modules/user/user.pages.inc:92
+msgid ""
+"You have tried to use a one-time login link that has expired. Please request "
+"a new one using the form below."
+msgstr ""
+"Olet yrittänyt käyttää vanhentunutta kertakäyttöistä kirjautumislinkkiä. Ole "
+"hyvä ja pyydä uusi linkki allaolevalla lomakkeella."
+
+#: modules/user/user.pages.inc:104
+msgid ""
+"You have just used your one-time login link. It is no longer necessary to "
+"use this link to login. Please change your password."
+msgstr ""
+"Olet juuri käyttänyt kertakäyttöistä kirjautumislinkkiä. Et enää enää "
+"tarvitse sitä kirjautumiseen. Ole hyvä ja vaihda salasanasi nyt."
+
+#: modules/user/user.pages.inc:108
+msgid ""
+"<p>This is a one-time login for %user_name and will expire on %"
+"expiration_date.</p><p>Click on this button to login to the site and change "
+"your password.</p>"
+msgstr ""
+"<p>Tämä on kertakäyttöinen kirjautumislinkki tunnukselle %user_name ja se "
+"vanhenee %expiration_date.</p><p>Klikkaa tätä painiketta kirjautuaksesi "
+"sivustolle ja vaihtaaksesi salasanasi.</p>"
+
+#: modules/user/user.pages.inc:109
+msgid "This login can be used only once."
+msgstr "<p>Tätä kirjautumista voi käyttää vain kerran.</p>"
+
+#: modules/user/user.pages.inc:110 modules/user/user.module:663;1255;902
+msgid "Log in"
+msgstr "Kirjaudu sisään"
+
+#: modules/user/user.pages.inc:116
+msgid ""
+"You have tried to use a one-time login link which has either been used or is "
+"no longer valid. Please request a new one using the form below."
+msgstr ""
+"Olet yrittänyt käyttää kertakäyttöistä kirjautumislinkkiä, joka on jo "
+"käytetty tai ei ole enää kelvollinen.  Ole hyvä ja pyydä uusi allaolevalla "
+"lomakkeella."
+
+#: modules/user/user.pages.inc:263;332;261;330
+#: modules/user/user.module:1768;2277
+msgid "Detected malicious attempt to alter protected user fields."
+msgstr ""
+"Havaittiin vihamielinen yritys muuttaa suojattuja käyttäjätietokenttiä."
+
+#: modules/user/user.pages.inc:308
+msgid "Are you sure you want to delete the account %name?"
+msgstr "Haluatko varmasti poistaa käyttäjätilin %name?"
+
+#: modules/user/user.pages.inc:310
+msgid ""
+"All submissions made by this user will be attributed to the anonymous "
+"account. This action cannot be undone."
+msgstr ""
+"Kaikki tämän käyttäjän luoma sisältö merkitään anonyymin käyttäjän "
+"kirjoittamaksi. Tämä toimenpide ei ole peruttavissa."
+
+#: modules/user/user.pages.inc:319
+msgid "%name has been deleted."
+msgstr "%name on poistettu."
+
+#: modules/user/user.pages.inc:66
+msgid "Password reset instructions mailed to %name at %email."
+msgstr ""
+"Salasanan uusimisohjeet lähetetty käyttäjälle %name osoitteeseen %email."
+
+#: modules/user/user.pages.inc:98
+msgid "User %name used one-time login link at time %timestamp."
+msgstr ""
+"Käyttäjä %name käytti kertakäyttöisen sisäänkirjautumislinkin %timestamp."
+
+#: modules/user/user.pages.inc:134
+msgid "Session closed for %name."
+msgstr "Tunnuksen %name istunto on suljettu."
+
+#: modules/user/user.module:379
+msgid "You must enter a username."
+msgstr "Käyttäjätunnus on annettava."
+
+#: modules/user/user.module:380
+msgid "The username cannot begin with a space."
+msgstr "Käyttäjätunnus ei voi alkaa välilyönnillä."
+
+#: modules/user/user.module:381
+msgid "The username cannot end with a space."
+msgstr "Käyttäjätunnus ei voi loppua välilyöntiin."
+
+#: modules/user/user.module:382
+msgid "The username cannot contain multiple spaces in a row."
+msgstr "Käyttäjätunnuksessa ei saa olla useampia välilyöntejä peräkkäin."
+
+#: modules/user/user.module:383;394
+msgid "The username contains an illegal character."
+msgstr "Käyttäjätunnus sisältää kielletyn merkin."
+
+#: modules/user/user.module:396
+msgid "The username is not a valid authentication ID."
+msgstr "Käyttäjätunnus ei ole kelvollinen sisäänkirjautumistunnus."
+
+#: modules/user/user.module:397
+msgid "The username %name is too long: it must be %max characters or less."
+msgstr ""
+"Käyttäjätunnus %name on liian pitkä: sen täytyy olla %max merkkiä tai "
+"vähemmän."
+
+#: modules/user/user.module:401
+msgid "You must enter an e-mail address."
+msgstr "Sähköpostiosoite on annettava."
+
+#: modules/user/user.module:403
+msgid "The e-mail address %mail is not valid."
+msgstr "%mail ei ole kelvollinen sähköpostiosoite."
+
+#: modules/user/user.module:429
+msgid ""
+"Failed to upload the picture image; the %directory directory doesn't exist "
+"or is not writable."
+msgstr ""
+"Kuvan siirto ei onnistunut, hakemistoa %directory ei löydy tai siihen ei voi "
+"kirjoittaa."
+
+#: modules/user/user.module:617
+msgid "History"
+msgstr "Historia"
+
+#: modules/user/user.module:639
+msgid "Account settings"
+msgstr "Käyttäjätilin asetukset"
+
+#: modules/user/user.module:667
+msgid "Create a new user account."
+msgstr "Luo uusi käyttäjätili."
+
+#: modules/user/user.module:669;917
+msgid "Request new password"
+msgstr "Pyydä uutta salasanaa"
+
+#: modules/user/user.module:669
+msgid "Request new password via e-mail."
+msgstr "Pyydä uutta salasanaa sähköpostitse."
+
+#: modules/user/user.module:681;728
+msgid "User login"
+msgstr "Kirjautuminen"
+
+#: modules/user/user.module:690;749
+msgid "Who's new"
+msgstr "Uudet käyttäjät"
+
+#: modules/user/user.module:693;788
+msgid "Who's online"
+msgstr "Paikalla olevat käyttäjät"
+
+#: modules/user/user.module:700
+msgid "Number of users to display"
+msgstr "Näytettävien käyttäjien määrä"
+
+#: modules/user/user.module:708
+msgid "User activity"
+msgstr "Käyttäjäaktiivisuus"
+
+#: modules/user/user.module:708
+msgid ""
+"A user is considered online for this long after they have last viewed a page."
+msgstr ""
+"Sen jäkeen kun käyttäjä viimeksi latasi sivun, hänen katsotaan olevan "
+"paikalla vielä näin kauan"
+
+#: modules/user/user.module:709
+msgid "User list length"
+msgstr "Käyttäjälistan pituus"
+
+#: modules/user/user.module:709
+msgid "Maximum number of currently online users to display."
+msgstr "Suurin näytettävä paikalla olevien käyttäjien määrä."
+
+#: modules/user/user.module:776
+msgid "There is currently %members and %visitors online."
+msgstr "Paikalla on tällä hetkellä %members ja %visitors."
+
+#: modules/user/user.module:779
+msgid "There are currently %members and %visitors online."
+msgstr "Paikalla on tällä hetkellä %members ja %visitors."
+
+#: modules/user/user.module:785
+msgid "Online users"
+msgstr "Paikalla ovat käyttäjät"
+
+#: modules/user/user.module:816
+msgid "@user's picture"
+msgstr "Käyttäjän @user kuva"
+
+#: modules/user/user.module:1171;1041
+msgid "My account"
+msgstr "Oma käyttäjätilini"
+
+#: modules/user/user.module:1247
+msgid "Enter your @s username."
+msgstr "Syötä käyttäjätunnuksesi sivustolle @s."
+
+#: modules/user/user.module:1250
+msgid "Enter the password that accompanies your username."
+msgstr "Syötä tunnuksesi salasana."
+
+#: modules/user/user.module:1289
+msgid "The username %name has not been activated or is blocked."
+msgstr "Käyttäjätunnusta %name ei ole aktivoitu tai se on suljettu."
+
+#: modules/user/user.module:1293
+msgid "The name %name is a reserved username."
+msgstr "Käyttäjätunnus %name on varattu."
+
+#: modules/user/user.module:1313
+msgid ""
+"Sorry, unrecognized username or password. <a href=\"@password\">Have you "
+"forgotten your password?</a>"
+msgstr ""
+"Tuntematon käyttäjätunnus tai salasana.  <a href=\"@password\">Oletko "
+"unohtanut salasanasi?</a>"
+
+#: modules/user/user.module:1419
+msgid "Account information"
+msgstr "Käyttäjätilin tiedot"
+
+#: modules/user/user.module:1427
+msgid ""
+"Spaces are allowed; punctuation is not allowed except for periods, hyphens, "
+"and underscores."
+msgstr ""
+"Välilyöntejä voi käyttää. Sallitut välimerkit ovat piste, väliviiva ja "
+"alaviiva."
+
+#: modules/user/user.module:1435
+msgid ""
+"A valid e-mail address. All e-mails from the system will be sent to this "
+"address. The e-mail address is not made public and will only be used if you "
+"wish to receive a new password or wish to receive certain news or "
+"notifications by e-mail."
+msgstr ""
+"Kelvollinen sähköpostiosoite. Järjestelmän sinulle lähettämät sähköpostit "
+"menevät tähän osoitteeseen. Osoitetta ei julkisteta ja sitä käytetään vain, "
+"jos tahdot tilata uuden salasanan, tai jos haluat saada tiettyjä uutisia tai "
+"ilmoituksia sähköpostitse."
+
+#: modules/user/user.module:1440
+msgid ""
+"To change the current user password, enter the new password in both fields."
+msgstr ""
+"Vaihtaaksesi nykyisen salasanan, kirjoita uusi salasana molempiin kenttiin."
+
+#: modules/user/user.module:1447
+msgid "Provide a password for the new account in both fields."
+msgstr "Anna uuden käyttäjätilin salasana molempiin kenttiin."
+
+#: modules/user/user.module:1457
+msgid "Blocked"
+msgstr "Suljettu"
+
+#: modules/user/user.module:1492
+msgid "Signature settings"
+msgstr "Allekirjoituksen asetukset"
+
+#: modules/user/user.module:1497
+msgid "Signature"
+msgstr "Allekirjoitus"
+
+#: modules/user/user.module:1499
+msgid "Your signature will be publicly displayed at the end of your comments."
+msgstr "Allekirjoituksesi näytetään julkisesti kommenttiesi lopussa."
+
+#: modules/user/user.module:1505
+msgid "Picture"
+msgstr "Kuva"
+
+#: modules/user/user.module:1509
+msgid "Delete picture"
+msgstr "Poista kuva"
+
+#: modules/user/user.module:1509
+msgid "Check this box to delete your current picture."
+msgstr "Valitse tämä poistaaksesi nykyisen kuvasi."
+
+#: modules/user/user.module:1514
+msgid "Upload picture"
+msgstr "Lataa kuva palvelimelle"
+
+#: modules/user/user.module:1514
+msgid ""
+"Your virtual face or picture. Maximum dimensions are %dimensions and the "
+"maximum size is %size kB."
+msgstr ""
+"Virtuaaliset kasvosi tai kuvasi. Suurimmat sallitut mitat ovat %dimensions "
+"ja suurin sallittu tiedostokoko %size kt."
+
+#: modules/user/user.module:1530
+msgid "The name %name is already taken."
+msgstr "Nimi %name on jo käytössä."
+
+#: modules/user/user.module:1533
+msgid "The name %name has been denied access."
+msgstr "Nimellä %name pääsy on kielletty."
+
+#: modules/user/user.module:1542
+msgid ""
+"The e-mail address %email is already registered. <a href=\"@password\">Have "
+"you forgotten your password?</a>"
+msgstr ""
+"Sähköpostiosoite %email on jo rekisteröity. <a href=\"@password\">Oletko "
+"unohtanut salasanasi?</a>"
+
+#: modules/user/user.module:1545
+msgid "The e-mail address %email has been denied access."
+msgstr "Sähköpostiosoitteella %email pääsy on kielletty."
+
+#: modules/user/user.module:1625
+msgid "Account details for !username at !site"
+msgstr "Käyttäjän !username tiedot sivustolla !site"
+
+#: modules/user/user.module:1627
+msgid ""
+"!username,\n"
+"\n"
+"Thank you for registering at !site. You may now log in to !login_uri using "
+"the following username and password:\n"
+"\n"
+"username: !username\n"
+"password: !password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\n"
+"\n"
+"Kiitos kun rekisteröidyit !site -sivustolle. Voit nyt kirjautua sisään !"
+"login_uri -sivulla käyttämällä seuraavaa tunnusta ja salasanaa:\n"
+"\n"
+"käyttäjätunnus: !username\n"
+"salasana: !password\n"
+"\n"
+"Voit myös kirjautua sisään klikkaamalla tätä linkkiä tai kopioimalla sen "
+"selaimeesi::\n"
+"\n"
+"!login_url\n"
+"\n"
+"Salasana on kertakäyttöinen, joten se ei toimi toista kertaa.\n"
+"\n"
+"Kirjauduttuasi sinut ohjataan !edit_uri -sivulle, jossa voit vaihtaa "
+"salasanasi.\n"
+"\n"
+"\n"
+"--  Sivuston !site ylläpito"
+
+#: modules/user/user.module:1629
+msgid "An administrator created an account for you at !site"
+msgstr "Ylläpitäjä loi sinulle käyttäjätilin sivustolle !site"
+
+#: modules/user/user.module:1631
+msgid ""
+"!username,\n"
+"\n"
+"A site administrator at !site has created an account for you. You may now "
+"log in to !login_uri using the following username and password:\n"
+"\n"
+"username: !username\n"
+"password: !password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\n"
+"\n"
+"Sivuston !site ylläpitäjä on luonut sinulle käyttäjätilin. Voit nyt "
+"kirjautua sisään !login_uri -sivulla käyttämällä seuraavaa tunnusta ja "
+"salasanaa:\n"
+"\n"
+"käyttäjätunnus: !username\n"
+"salasana: !password\n"
+"\n"
+"Voit myös kirjautua sisään klikkaamalla tätä linkkiä tai kopioimalla sen "
+"selaimeesi::\n"
+"\n"
+"!login_url\n"
+"\n"
+"Salasana on kertakäyttöinen, joten se ei toimi toista kertaa.\n"
+"\n"
+"Kirjauduttuasi sinut ohjataan !edit_uri -sivulle, jossa voit vaihtaa "
+"salasanasi.\n"
+"\n"
+"\n"
+"--  Sivuston !site ylläpito"
+
+#: modules/user/user.module:1634
+msgid "Account details for !username at !site (pending admin approval)"
+msgstr ""
+"Käyttäjän !username tiedot sivustolla !site (odottaa ylläpitäjän hyväksyntää)"
+
+#: modules/user/user.module:1636
+msgid ""
+"!username,\n"
+"\n"
+"Thank you for registering at !site. Your application for an account is "
+"currently pending approval. Once it has been approved, you will receive "
+"another e-mail containing information about how to log in, set your "
+"password, and other details.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\n"
+"\n"
+"Kiitos kun rekisteröidyit !site -sivustolle. Rekisteröitymisesi odottaa "
+"parhaillaan ylläpitäjän hyväksyntää. Kun se on hyväksytty, saat postia jossa "
+"kerrotaan kuinka voit kirjautua sisään, vaihtaa salasanaa ja muita "
+"yksityiskohtia.\n"
+"\n"
+"\n"
+"--  Sivuston !site ylläpito"
+
+#: modules/user/user.module:1638
+msgid ""
+"!username has applied for an account.\n"
+"\n"
+"!edit_uri"
+msgstr ""
+"!username pyytää käyttäjätiliä.\n"
+"\n"
+"!edit_uri"
+
+#: modules/user/user.module:1640
+msgid "Replacement login information for !username at !site"
+msgstr "Käyttäjän !username salasanan uusiminen sivustolla !site"
+
+#: modules/user/user.module:1642
+msgid ""
+"!username,\n"
+"\n"
+"A request to reset the password for your account has been made at !site.\n"
+"\n"
+"You may now log in to !uri_brief by clicking on this link or copying and "
+"pasting it in your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once. It expires after one "
+"day and nothing will happen if it's not used.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password."
+msgstr ""
+"!username,\n"
+"\n"
+"Olet pyytänyt, että salasana jota käytät !site -sivustolla uusitaan.\n"
+"\n"
+"Voit kirjautua !uri_brief -sivulle klikkaamalla tätä linkkiä tai kopioimalla "
+"sen selaimeesi:\n"
+"\n"
+"!login_url\n"
+"\n"
+"Tämä on kertakäyttöinen kirjautumislinkki, joten se ei toimi toista kertaa. "
+"Linkki vanhenee päivän kuluttua, ja mitään ei tapahdu jos et käytä sitä.\n"
+"\n"
+"Kirjauduttuasi sinut ohjataan !edit_uri -sivulle, jossa voit vaihtaa "
+"salasanasi."
+
+#: modules/user/user.module:1644
+msgid "Account details for !username at !site (approved)"
+msgstr "Käyttäjän !username tiedot sivustolla !site (hyväksytty)"
+
+#: modules/user/user.module:1646
+msgid ""
+"!username,\n"
+"\n"
+"Your account at !site has been activated.\n"
+"\n"
+"You may now log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"Once you have set your own password, you will be able to log in to !"
+"login_uri in the future using:\n"
+"\n"
+"username: !username\n"
+msgstr ""
+"!username,\n"
+"\n"
+"Käyttäjätilisi !site -sivustolla on aktivoitu.\n"
+"\n"
+"Voit kirjautua sisään klikkaamalla tätä linkkiä tai kopioimalla sen "
+"selaimeesi:\n"
+"\n"
+"!login_url\n"
+"\n"
+"Tämä on kertakäyttöinen kirjautumislinkki, joten se ei toimi toista kertaa.\n"
+"\n"
+"Kirjauduttuasi sinut ohjataan !edit_uri -sivulle, jossa voit vaihtaa "
+"salasanasi.\n"
+"\n"
+"Kun olet vaihtanut salasanasi, voit jatkossa kirjautua sisään !login_uri -"
+"sivulla käyttämällä seuraavaa tunnusta:\n"
+"\n"
+"käyttäjänimi: !username\n"
+
+#: modules/user/user.module:1648
+msgid "Account details for !username at !site (blocked)"
+msgstr "Käyttäjän !username tiedot sivustolla !site (suljettu)"
+
+#: modules/user/user.module:1650
+msgid ""
+"!username,\n"
+"\n"
+"Your account on !site has been blocked."
+msgstr ""
+"!username,\n"
+"\n"
+"Käyttäjätilisi sivustolla !site on suljettu."
+
+#: modules/user/user.module:1652
+msgid "Account details for !username at !site (deleted)"
+msgstr "Käyttäjän !username tiedot sivustollla !site (poistettu)"
+
+#: modules/user/user.module:1654
+msgid ""
+"!username,\n"
+"\n"
+"Your account on !site has been deleted."
+msgstr ""
+"!username,\n"
+"\n"
+"Käyttäjätilisi sivustolla !site on poistettu."
+
+#: modules/user/user.module:1714
+msgid "Unblock the selected users"
+msgstr "Salli valittujen tunnusten käyttäminen"
+
+#: modules/user/user.module:1718
+msgid "Block the selected users"
+msgstr "Estä valittujen tunnusten käyttäminen"
+
+#: modules/user/user.module:1722
+msgid "Delete the selected users"
+msgstr "Poista valitut tunnukset"
+
+#: modules/user/user.module:1742
+msgid "Add a role to the selected users"
+msgstr "Lisää rooli valituille käyttäjille"
+
+#: modules/user/user.module:1745
+msgid "Remove a role from the selected users"
+msgstr "Poista rooli valituilta käyttäjiltä"
+
+#: modules/user/user.module:1847
+msgid "Are you sure you want to delete these users?"
+msgstr "Haluatko varmasti poistaa nämä käyttäjät?"
+
+#: modules/user/user.module:1857
+msgid "The users have been deleted."
+msgstr "Käyttäjät on poistettu."
+
+#: modules/user/user.module:1871
+msgid ""
+"The user module allows users to register, login, and log out. Users benefit "
+"from being able to sign on because it associates content they create with "
+"their account and allows various permissions to be set for their roles. The "
+"user module supports user roles which establish fine grained permissions "
+"allowing each role to do only what the administrator wants them to. Each "
+"user is assigned to one or more roles. By default there are two roles "
+"<em>anonymous</em> - a user who has not logged in, and <em>authenticated</"
+"em> a user who has signed up and who has been authorized."
+msgstr ""
+"Käyttäjämoduuli hoitaa käyttäjien rekisteröitymisen sekä sisään ja ulos "
+"kirjautumisen. Sisään kirjautuneiden käyttäjien luoma sisältö yhdistetään "
+"heidän käyttäjätiliinsä. Ylläpitäjä voi myös antaa käyttäjille rooleja, "
+"joilla määrätään mitä käyttäjät saavat tehdä. Oletuksena rooleja on kaksi: "
+"<em>anonyymi</em> käyttäjä joka ei ole kirjautunut sisään ja <em>sisään "
+"kirjautunut</em> käyttäjä, joka on rekisteröitynyt ja hyväksytty."
+
+#: modules/user/user.module:1872
+msgid ""
+"Users can use their own name or handle and can specify personal "
+"configuration settings through their individual <em>My account</em> page. "
+"Users must authenticate by supplying a local username and password or "
+"through their OpenID, an optional and secure method for logging into many "
+"websites with a single username and password. In some configurations, users "
+"may authenticate using a username and password from another Drupal site, or "
+"through some other site-specific mechanism."
+msgstr ""
+"Käyttäjät voivat käyttää omaa nimeään tai tunnustaan ja säätää "
+"henkilökohtaisia asetuksia <em>Oma käyttäjätilini</em> -sivulla.  Käyttäjät "
+"kirjautuvat sisään kirjoittamalla käyttäjänimen ja salasanan tai käyttämällä "
+"OpenID:tä, joka on vaihtoehtoinen ja turvallinen teknologia, jossa samaa "
+"tunnusta käytetään eri sivustoilla. Joissakin kokoonpanoissa sisään voi "
+"kirjautua myös käyttämällä toisen Drupal-sivuston tunnuksia tai jotakin "
+"sivuston omaa mekanismia."
+
+#: modules/user/user.module:1873
+msgid ""
+"A visitor accessing your website is assigned a unique ID, or session ID, "
+"which is stored in a cookie. The cookie does not contain personal "
+"information, but acts as a key to retrieve information from your site. Users "
+"should have cookies enabled in their web browser when using your site."
+msgstr ""
+"Sivustosi kävijöille annetaan ainutkertainen tunniste eli istuntotunniste, "
+"joka varastoidaan evästeeseen. Eväste ei sisällä henkilökohtaisia tietoja, "
+"mutta se toimii avaimena jolla tietoja noudetaan sivustoltasi. Käyttäjien "
+"selainten tulee käyttää evästeitä kun he selaavat sivustoasi."
+
+#: modules/user/user.module:1874
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@user"
+"\">User module</a>."
+msgstr "Lue käsikirjasta lisää <a href=\"@user\">käyttäjistä</a>."
+
+#: modules/user/user.module:1877
+msgid ""
+"Drupal allows users to register, login, log out, maintain user profiles, "
+"etc. Users of the site may not use their own names to post content until "
+"they have signed up for a user account."
+msgstr ""
+"Drupal sallii käyttäjien rekisteröityä, kirjautua sisään ja ulos, ylläpitää "
+"käyttäjäprofiileita, jne.  Sivuston käyttäjät eivät saa käyttää luomassaan "
+"sisällössään omia nimiään, ennen kuin he ovat rekisteröineet käyttäjätilin."
+
+#: modules/user/user.module:1880
+msgid ""
+"This web page allows administrators to register new users. Users' e-mail "
+"addresses and usernames must be unique."
+msgstr ""
+"Tällä sivulla ylläpitäjät voivat rekisteröidä uusia käyttäjiä. Käyttäjän "
+"sähköpostiosoite ja käyttäjänimi eivät saa jo kuulua toiselle käyttäjälle."
+
+#: modules/user/user.module:1882
+msgid ""
+"Set up username and e-mail address access rules for new <em>and</em> "
+"existing accounts (currently logged in accounts will not be logged out). If "
+"a username or e-mail address for an account matches any deny rule, but not "
+"an allow rule, then the account will not be allowed to be created or to log "
+"in. A host rule is effective for every page view, not just registrations."
+msgstr ""
+"Aseta sääntöjä käyttäjätunnuksille ja sähköpostiosoitteille. Säännöt "
+"koskevat sekä uusia että nykyisiä käyttäjätilejä, mutta tällä hetkellä "
+"sisään kirjautuneita käyttäjiä ei kirjata ulos. Jos käyttäjätunnus tai "
+"sähköpostiosoite vastaa estävää mutta ei sallivaa sääntöä, käyttäjätiliä ei "
+"voi rekisteröidä, tai sillä ei voi kirjautua sisään. Isäntäsäännöt koskevat "
+"joka sivua, ei vain rekisteröintiä."
+
+#: modules/user/user.module:1884
+msgid ""
+"Permissions let you control what users can do on your site. Each user role "
+"(defined on the <a href=\"@role\">user roles page</a>) has its own set of "
+"permissions. For example, you could give users classified as \"Administrators"
+"\" permission to \"administer nodes\" but deny this power to ordinary, "
+"\"authenticated\" users. You can use permissions to reveal new features to "
+"privileged users (those with subscriptions, for example). Permissions also "
+"allow trusted users to share the administrative burden of running a busy "
+"site."
+msgstr ""
+"Käyttöoikeudet määräävät, mitä käyttäjät voivat sivustolla tehdä.  "
+"Käyttäjillä on <a href=\"@role\">rooleja</a> joihin kuuluu erilaisia "
+"oikeuksia.  Esimerkiksi käyttäjälle jonka rooli on \"ylläpitäjä\" voi antaa "
+"oikeuden \"solmujen hallinnointi\" ja kieltää hallinnoinnin tavallisilta "
+"\"sisään kirjautuneilta\" käyttäjiltä. Etuoikeutetuille käyttäjille (esim. "
+"maksavat tilaajat) voi antaa oikeuksia uusiin toimintoihin. Osan "
+"ylläpitotyöstä voi siirtää luotettavien käyttäjien vastuulle antamalla "
+"heille sopivat oikeudet."
+
+#: modules/user/user.module:1886
+msgid ""
+"<p>Roles allow you to fine tune the security and administration of Drupal. A "
+"role defines a group of users that have certain privileges as defined in <a "
+"href=\"@permissions\">user permissions</a>. Examples of roles include: "
+"anonymous user, authenticated user, moderator, administrator and so on. In "
+"this area you will define the <em>role names</em> of the various roles. To "
+"delete a role choose \"edit\".</p><p>By default, Drupal comes with two user "
+"roles:</p>\n"
+"      <ul>\n"
+"      <li>Anonymous user: this role is used for users that don't have a user "
+"account or that are not authenticated.</li>\n"
+"      <li>Authenticated user: this role is automatically granted to all "
+"logged in users.</li>\n"
+"      </ul>"
+msgstr ""
+"<p>Rooleilla säädetään Drupalin tietoturvaa ja ylläpitoa.  Rooli on joukko "
+"käyttäjiä, joilla on tietyt <a href=\"@permissions\">käyttöoikeudet</a>. "
+"Mahdollisia rooleja ovat esimerkiksi anonyymi käyttäjä, valvoja, ylläpitäjä "
+"jne. Tällä sivulla voit lisätä rooleja ja muuttaa niiden nimiä. Poistaaksesi "
+"roolin, valitse ensin \"muokkaa roolia\".</p><p>Oletuksena Drupalissa on "
+"kaksi roolia:</p>\n"
+"      <ul>\n"
+"      <li>Anonyymi käyttäjä (Anonymous user): tähän rooliin kuuluvat "
+"käyttäjät, joilla ei ole käyttäjätiliä tai jotka eivät ole kirjautuneet "
+"sisään.</li>\n"
+"      <li>Sisään kirjautunut käyttäjä (Authenticated user): tähän rooliin "
+"kuuluvat kaikki sisään kirjautuneet käyttäjät.</li>\n"
+"      </ul>"
+
+#: modules/user/user.module:1892
+msgid ""
+"Enter a simple pattern (\"*\" may be used as a wildcard match) to search for "
+"a username or e-mail address. For example, one may search for \"br\" and "
+"Drupal might return \"brian\", \"brad\", and \"brenda@example.com\"."
+msgstr ""
+"Kirjoita yksinkertainen hakutermi, jonka perusteella haetaan käyttäjänimeä "
+"tai sähköpostiosoitetta.  (Voit käyttää tähteä \"*\" yleismerkkinä.)  Voit "
+"etsiä esimerkiksi nimen osalla \"ju\" niin Drupal voi löytää \"juha\", "
+"\"jussi\" ja \"julia@example.com\".</p>"
+
+#: modules/user/user.module:1929
+msgid "role"
+msgstr "rooli"
+
+#: modules/user/user.module:1947
+msgid "permission"
+msgstr "oikeus"
+
+#: modules/user/user.module:2149
+msgid "Password strength:"
+msgstr "Salasanan vahvuus:"
+
+#: modules/user/user.module:2150
+msgid "Low"
+msgstr "Matala"
+
+#: modules/user/user.module:2152
+msgid "High"
+msgstr "Korkea"
+
+#: modules/user/user.module:2153
+msgid ""
+"It is recommended to choose a password that contains at least six "
+"characters. It should include numbers, punctuation, and both upper and "
+"lowercase letters."
+msgstr ""
+"Suosittelemme, että valitset salasanan jossa on vähintään kuusi merkkiä. Sen "
+"tulisi sisältää numeroita, välimerkkejä ja sekä suuria että pieniä kirjaimia."
+
+#: modules/user/user.module:2154
+msgid "The password does not include enough variation to be secure. Try:"
+msgstr ""
+"Salasana ei ole turvallinen, koska siinä on liian vähän vaihtelua. Kokeile "
+"seuraavaa:"
+
+#: modules/user/user.module:2155
+msgid "Adding both upper and lowercase letters."
+msgstr "Lisää sekä suuria että pieniä kirjaimia."
+
+#: modules/user/user.module:2156
+msgid "Adding numbers."
+msgstr "Lisää numeroita."
+
+#: modules/user/user.module:2157
+msgid "Adding punctuation."
+msgstr "Lisää välimerkkejä."
+
+#: modules/user/user.module:2158
+msgid "It is recommended to choose a password different from the username."
+msgstr ""
+"Suosittelemme, että valitset salasanan joka on erilainen kuin käyttäjänimesi."
+
+#: modules/user/user.module:2161
+msgid "Passwords match:"
+msgstr "Salasanat täsmäävät:"
+
+#: modules/user/user.module:2176
+msgid "After a user account has been created"
+msgstr "Kun käyttäjätili on luotu"
+
+#: modules/user/user.module:2179
+msgid "After a user's profile has been updated"
+msgstr "Kun käyttäjän profiilia on päivitetty"
+
+#: modules/user/user.module:2182
+msgid "After a user has been deleted"
+msgstr "Kun käyttäjä on poistettu"
+
+#: modules/user/user.module:2185
+msgid "After a user has logged in"
+msgstr "Kun käyttäjä on kirjautunut sisään"
+
+#: modules/user/user.module:2188
+msgid "After a user has logged out"
+msgstr "Kun käyttäjä on kirjautunut ulos"
+
+#: modules/user/user.module:2191
+msgid "When a user's profile is being viewed"
+msgstr "Kun käyttäjän profiilia katsellaan"
+
+#: modules/user/user.module:2204
+msgid "Block current user"
+msgstr "Sulje tämän käyttäjän tili"
+
+#: modules/user/user.module:2210
+msgid "Ban IP address of current user"
+msgstr "Aseta kyseisen käyttäjän IP-osoite pannaan"
+
+#: modules/user/user.module:2303
+msgid ""
+"Welcome to Drupal. You are now logged in as user #1, which gives you full "
+"control over your website."
+msgstr ""
+"Tervetuloa Drupaliin. Olet kirjautunut sisään käyttäjänä numero yksi. "
+"Käyttäjällä yksi on kaikki sivuston hallinnan oikeudet."
+
+#: modules/user/user.module:2305
+msgid ""
+"</p><p> Your password is <strong>%pass</strong>. You may change your "
+"password below.</p>"
+msgstr ""
+"</p><p> Salasanasi on <strong>%pass</strong>. Voit vaihtaa salasanaasi alla."
+"</p>"
+
+#: modules/user/user.module:2317
+msgid ""
+"Created a new user account for <a href=\"@url\">%name</a>. No e-mail has "
+"been sent."
+msgstr ""
+"Luotiin uusi käyttäjätili <a href=\"@url\">%name</a>. Sähköpostia ei "
+"lähetetty."
+
+#: modules/user/user.module:2324
+msgid "Registration successful. You are now logged in."
+msgstr "Rekisteröityminen onnistui. Voit nyt kirjautua sisään."
+
+#: modules/user/user.module:2334
+msgid ""
+"Password and further instructions have been e-mailed to the new user <a href="
+"\"@url\">%name</a>."
+msgstr ""
+"Salasana ja lisäohjeet on lähetetty sähköpostissa uudelle käyttäjälle %user."
+
+#: modules/user/user.module:2337
+msgid ""
+"Your password and further instructions have been sent to your e-mail address."
+msgstr "Salasanasi ja lisäohjeita on lähetetty sähköpostiosoitteeseesi."
+
+#: modules/user/user.module:2345
+msgid ""
+"Thank you for applying for an account. Your account is currently pending "
+"approval by the site administrator.<br />In the meantime, a welcome message "
+"with further instructions has been sent to your e-mail address."
+msgstr ""
+"Kiitos rekisteröitymisestä. Rekisteröitymisesi odottaa parhaillaan "
+"ylläpitäjän hyväksyntää.<br />Lähetämme tällä välin sähköpostiosoitteeseesi "
+"viestin, jossa on lisäohjeita."
+
+#: modules/user/user.module:2382
+msgid "Notify user of new account"
+msgstr "Ilmoita käyttäjälle uudesta tilistä"
+
+#: modules/user/user.module:1314
+msgid "Login attempt failed for %user."
+msgstr "Käyttäjän %user kirjautumisyritys epäonnistui."
+
+#: modules/user/user.module:1351
+msgid "Session opened for %name."
+msgstr "Istunto avattu tunnukselle %name."
+
+#: modules/user/user.module:1400
+msgid "New external user: %name using module %module."
+msgstr "Uusi ulkoinen käyttäjä: %user moduulin %module välityksellä."
+
+#: modules/user/user.module:1577
+msgid "Deleted user: %name %email."
+msgstr "Poistettu käyttäjä: %name %email."
+
+#: modules/user/user.module:2235
+msgid "Blocked user %name."
+msgstr "Käyttäjätili suljettu: %name."
+
+#: modules/user/user.module:2245
+msgid "Banned IP address %ip"
+msgstr "IP-osoite %ip asetettiin pannaan"
+
+#: modules/user/user.module:2299
+msgid "New user: %name (%email)."
+msgstr "Uusi käyttäjä: %name (%email)."
+
+#: modules/user/user.module:776;779
+msgid "1 guest"
+msgid_plural "@count guests"
+msgstr[0] "1 vieras"
+msgstr[1] "@count vierasta"
+
+#: modules/user/user.module:544
+msgid "administer permissions"
+msgstr "käyttöoikeuksien ylläpito"
+
+#: modules/user/user.module:544
+msgid "administer users"
+msgstr "käyttäjien ylläpito"
+
+#: modules/user/user.module:544
+msgid "access user profiles"
+msgstr "käyttäjäprofiilien lukeminen"
+
+#: modules/user/user.module:544
+msgid "change own username"
+msgstr "oman käyttäjätunnuksen vaihtaminen"
+
+#: modules/user/user.module:884
+msgid "User autocomplete"
+msgstr "Käyttäjän automaattinen täydennys"
+
+#: modules/user/user.module:894
+msgid "User account"
+msgstr "Käyttäjätili"
+
+#: modules/user/user.module:925
+msgid "Reset password"
+msgstr "Uusi salasana"
+
+#: modules/user/user.module:935
+msgid "User management"
+msgstr "Käyttäjien hallinta"
+
+#: modules/user/user.module:936
+msgid "Manage your site's users, groups and access to site features."
+msgstr ""
+"Hallinnoi sivuston käyttäjiä, ryhmiä ja pääsyä sivuston eri toimintoihin."
+
+#: modules/user/user.module:945
+msgid "List, add, and edit users."
+msgstr "Listaa, lisää ja muokkaa käyttäjiä."
+
+#: modules/user/user.module:957
+msgid "Add user"
+msgstr "Lisää käyttäjä"
+
+#: modules/user/user.module:963
+msgid "User settings"
+msgstr "Käyttäjäasetukset"
+
+#: modules/user/user.module:964
+msgid ""
+"Configure default behavior of users, including registration requirements, e-"
+"mails, and user pictures."
+msgstr ""
+"Valitse kuinka käyttäjät rekisteröityvät, millaisia viestejä heille "
+"lähetetään, ja onko heillä kuva ja allekirjoitus."
+
+#: modules/user/user.module:973
+msgid "Permissions"
+msgstr "Käyttöoikeudet"
+
+#: modules/user/user.module:974
+msgid "Determine access to features by selecting permissions for roles."
+msgstr ""
+"Valitse, mitä toimintoja eri rooleihin kuuluvat käyttäjät voivat käyttää."
+
+#: modules/user/user.module:982
+msgid "List, edit, or add user roles."
+msgstr "Listaa, muokkaa tai lisää käyttäjärooleja."
+
+#: modules/user/user.module:989
+msgid "Edit role"
+msgstr "Muokkaa roolia"
+
+#: modules/user/user.module:995
+msgid "Access rules"
+msgstr "Pääsysäännöt"
+
+#: modules/user/user.module:996
+msgid ""
+"List and create rules to disallow usernames, e-mail addresses, and IP "
+"addresses."
+msgstr ""
+"Estä tietynlaisten käyttäjätunnusten, sähköpostiosoitteiden ja IP-"
+"osoitteiden käyttäminen."
+
+#: modules/user/user.module:1013
+msgid "Check rules"
+msgstr "Tarkista säännöt"
+
+#: modules/user/user.module:1019
+msgid "Edit rule"
+msgstr "Muokkaa sääntöä"
+
+#: modules/user/user.module:1025
+msgid "Delete rule"
+msgstr "Poista sääntö"
+
+#: modules/user/user.module:1033
+msgid "Log out"
+msgstr "Kirjaudu ulos"
+
+#: modules/user/user.module:1080
+msgid "Account"
+msgstr "Käyttäjätili"
+
+#: modules/user/user.module:0
+msgid "anonymous user"
+msgstr "anonyymi käyttäjä"
+
+#: modules/user/user.module:0
+msgid "authenticated user"
+msgstr "sisään kirjautunut käyttäjä"
+
+#: modules/user/user.install:9
+msgid "Stores site access rules."
+msgstr "Varastoi pääsysäännöt."
+
+#: modules/user/user.install:14
+msgid "Primary Key: Unique access ID."
+msgstr "Pääavain: Pääsyn ainutkertainen tunniste."
+
+#: modules/user/user.install:21
+msgid "Text mask used for filtering access."
+msgstr "Tekstipeite, jota käytetään sisäänpääsyn suodattamiseen."
+
+#: modules/user/user.install:28
+msgid "Type of access rule: name, mail or host."
+msgstr "Pääsysäännön tyyppi: nimi, sähköpostiosoite tai isäntä."
+
+#: modules/user/user.install:35
+msgid "Whether rule is to allow(1) or deny(0) access."
+msgstr "Salliiko (1) vai kieltääkö (0) sääntö pääsyn?"
+
+#: modules/user/user.install:42
+msgid "Stores distributed authentication mapping."
+msgstr "Varastoi hajautetun autentikaation kartoituksen."
+
+#: modules/user/user.install:45
+msgid "Primary Key: Unique authmap ID."
+msgstr "Pääavain: Ainutkertainen authmap-tunniste."
+
+#: modules/user/user.install:54
+msgid "User's {users}.uid."
+msgstr "Käyttäjän {users}.uid."
+
+#: modules/user/user.install:61
+msgid "Unique authentication name."
+msgstr "Ainutkertainen kirjautumisnimi."
+
+#: modules/user/user.install:68
+msgid "Module which is controlling the authentication."
+msgstr "Sisään kirjautumisesta vastaava moduuli."
+
+#: modules/user/user.install:76
+msgid "Stores permissions for users."
+msgstr "Varastoi käyttäjien oikeudet."
+
+#: modules/user/user.install:81
+msgid "Primary Key: Unique permission ID."
+msgstr "Päavain: Oikeuden ainutkertainen tunniste."
+
+#: modules/user/user.install:88
+msgid "The {role}.rid to which the permissions are assigned."
+msgstr "{role}.rid, jolle oikeudet myönnetään."
+
+#: modules/user/user.install:94
+msgid "List of permissions being assigned."
+msgstr "Myönnettävien oikeuksien lista."
+
+#: modules/user/user.install:101
+msgid "Originally intended for taxonomy-based permissions, but never used."
+msgstr ""
+"Tämä tarkoitettiin alun perin taksonomiaan perustuviin oikeuksiin, mutta "
+"sitä ei koskaan käytetty."
+
+#: modules/user/user.install:109
+msgid "Stores user roles."
+msgstr "Varastoi käyttäjien roolit."
+
+#: modules/user/user.install:115
+msgid "Primary Key: Unique role id."
+msgstr "Pääavain: Roolin ainutkertainen tunniste."
+
+#: modules/user/user.install:122
+msgid "Unique role name."
+msgstr "Roolin ainutkertainen nimi."
+
+#: modules/user/user.install:130
+msgid "Stores user data."
+msgstr "Varastoi käyttäjien tietoja."
+
+#: modules/user/user.install:136
+msgid "Primary Key: Unique user ID."
+msgstr "Pääavain: Käyttäjän ainutkertainen tunniste."
+
+#: modules/user/user.install:143
+msgid "Unique user name."
+msgstr "Käyttäjän ainutkertainen nimi."
+
+#: modules/user/user.install:150
+msgid "User's password (md5 hash)."
+msgstr "Käyttäjän salasana (md5-tiiviste)."
+
+#: modules/user/user.install:157
+msgid "User's email address."
+msgstr "Käyttäjän sähköpostiosoite."
+
+#: modules/user/user.install:164
+msgid ""
+"Per-user comment display mode (threaded vs. flat), used by the {comment} "
+"module."
+msgstr ""
+"{comment}-moduulin käyttäjäkohtainen kommenttien näyttötapa (ketjutettu vai "
+"lattea)."
+
+#: modules/user/user.install:171
+msgid ""
+"Per-user comment sort order (newest vs. oldest first), used by the {comment} "
+"module."
+msgstr ""
+"{comment}-moduulin käyttäjäkohtainen kommenttien järjestystapa (uusimmat vai "
+"vanhimmat ensin)."
+
+#: modules/user/user.install:178
+msgid ""
+"Previously used by the {comment} module for per-user preferences; no longer "
+"used."
+msgstr ""
+"{comment}-moduuli käytti tätä aiemmin käyttäjäkohtaisiin asetuksiin, sitä ei "
+"enää käytetä."
+
+#: modules/user/user.install:185
+msgid "User's default theme."
+msgstr "Käyttäjän oletusteema."
+
+#: modules/user/user.install:192
+msgid "User's signature."
+msgstr "Käyttäjän allekirjoitus."
+
+#: modules/user/user.install:198
+msgid "Timestamp for when user was created."
+msgstr "Ajanhetki, jolloin käyttäjä luotiin."
+
+#: modules/user/user.install:204
+msgid "Timestamp for previous time user accessed the site."
+msgstr "Ajanhetki, jolloin käyttäjä viimeksi käytti sivustoa."
+
+#: modules/user/user.install:210
+msgid "Timestamp for user's last login."
+msgstr "Ajanhetki, jolloin käyttäjä viimeksi kirjautui sisään."
+
+#: modules/user/user.install:217
+msgid "Whether the user is active(1) or blocked(0)."
+msgstr "Onko käyttäjä aktiivinen (1) vai suljettu (0)?"
+
+#: modules/user/user.install:223
+msgid "User's timezone."
+msgstr "Käyttäjän aikavyöhyke."
+
+#: modules/user/user.install:230
+msgid "User's default language."
+msgstr "Käyttäjän oletuskieli."
+
+#: modules/user/user.install:237
+msgid "Path to the user's uploaded picture."
+msgstr "Käyttäjän palvelimelle siirtämän kuvan polku."
+
+#: modules/user/user.install:244
+msgid "Email address used for initial account creation."
+msgstr "Käyttäjätilin luomiseen käytetty sähköpostiosoite."
+
+#: modules/user/user.install:250
+msgid ""
+"A serialized array of name value pairs that are related to the user. Any "
+"form values posted during user edit are stored and are loaded into the $user "
+"object during user_load(). Use of this field is discouraged and it will "
+"likely disappear in a future version of Drupal."
+msgstr ""
+"Sarjallistettu jono (serialized array) nimi-arvo -pareja, jotka liittyvät "
+"käyttäjään. Kaikki lomakkeen arvot, jotka lähetettiin käyttäjään "
+"muokattaessa varastoidaan ja ladataan $user-olioon user_load()-vaiheessa. "
+"Tämän kentän käyttöä ei suositella, ja se luultavasti poistetaan jossain "
+"tulevassa Drupalin versiossa."
+
+#: modules/user/user.install:265
+msgid "Maps users to roles."
+msgstr "Yhdistää käyttäjät rooleihin."
+
+#: modules/user/user.install:272
+msgid "Primary Key: {users}.uid for user."
+msgstr "Pääavain: Käyttäjän {users}.uid."
+
+#: modules/user/user.install:279
+msgid "Primary Key: {role}.rid for role."
+msgstr "Pääavain: Roolin {role}.rid."

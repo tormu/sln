@@ -1,0 +1,422 @@
+# translation of general.po to
+# Finnish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  common.inc,v 1.602 2006/12/15 07:47:08 unconed
+#  system.module,v 1.428 2006/12/15 08:53:56 unconed
+#  upload.module,v 1.145 2006/12/14 13:30:59 dries
+#  image.inc,v 1.16 2006/12/12 01:03:34 unconed
+#  unicode.inc,v 1.23 2006/12/06 16:15:52 dries
+#  system.install,v 1.60 2006/12/13 10:41:56 unconed
+#  database.mysql.inc,v 1.64 2006/12/04 11:06:29 dries
+#  database.mysqli.inc,v 1.30 2006/12/04 11:06:29 dries
+#  file.inc,v 1.88 2006/12/11 16:45:17 dries
+#  user.module,v 1.731 2006/12/12 10:11:43 unconed
+#  form.inc,v 1.166 2006/12/12 10:01:38 unconed
+#  filter.module,v 1.157 2006/12/14 10:14:05 unconed
+#  locale.inc,v 1.101 2006/12/10 09:54:32 unconed
+#  blogapi.module,v 1.99 2006/11/21 20:14:17 dries
+#  forum.module,v 1.371 2006/12/10 20:34:02 dries
+#  block.module,v 1.244 2006/12/11 23:00:09 unconed
+#  book.module,v 1.403 2006/11/30 02:04:31 drumm
+#  comment.module,v 1.515 2006/12/15 01:33:00 unconed
+#  contact.module,v 1.72 2006/12/04 10:43:34 dries
+#  menu.module,v 1.99 2006/11/30 01:55:31 drumm
+#  content_types.inc,v 1.18 2006/12/05 05:47:37 dries
+#  node.module,v 1.752 2006/12/14 14:07:57 dries
+#  path.module,v 1.103 2006/11/26 02:20:01 drumm
+#  profile.module,v 1.185 2006/12/13 23:50:26 unconed
+#  drupal.module,v 1.137 2006/12/11 16:57:42 dries
+#  statistics.module,v 1.246 2006/11/26 02:20:01 drumm
+#  aggregator.module,v 1.323 2006/12/14 13:41:02 dries
+#  taxonomy.module,v 1.328 2006/11/30 07:05:57 unconed
+#  watchdog.module,v 1.164 2006/12/10 09:54:35 unconed
+#  locale.module,v 1.154 2006/12/01 22:47:53 unconed
+#  search.module,v 1.206 2006/12/11 16:57:42 dries
+#  search.info,v 1.3 2006/11/21 20:55:35 dries
+#  menu.inc,v 1.143 2006/12/12 06:02:52 unconed
+#  chameleon.theme,v 1.56 2006/11/29 06:36:12 drumm
+#  pager.inc,v 1.59 2006/10/15 19:57:05 dries
+#  theme.inc,v 1.332 2006/12/15 01:06:33 unconed
+#  phptemplate.engine,v 1.53 2006/12/13 23:22:57 unconed
+#  poll.module,v 1.221 2006/12/10 20:34:03 dries
+#  legacy.module,v 1.15 2006/11/21 20:14:18 dries
+#  blog.module,v 1.271 2006/12/10 20:34:02 dries
+#  tracker.module,v 1.141 2006/12/10 09:54:34 unconed
+#  aggregator.info,v 1.3 2006/11/21 20:55:33 dries
+#  blog.info,v 1.3 2006/11/21 20:55:33 dries
+#  blogapi.info,v 1.3 2006/11/21 20:55:33 dries
+#  book.info,v 1.3 2006/11/21 20:55:33 dries
+#  color.info,v 1.2 2006/11/21 20:55:34 dries
+#  comment.info,v 1.3 2006/11/21 20:55:34 dries
+#  contact.info,v 1.3 2006/11/21 20:55:34 dries
+#  drupal.info,v 1.3 2006/11/21 20:55:34 dries
+#  forum.info,v 1.4 2006/11/21 20:55:34 dries
+#  help.info,v 1.3 2006/11/21 20:55:34 dries
+#  legacy.info,v 1.3 2006/11/21 20:55:34 dries
+#  locale.info,v 1.3 2006/11/21 20:55:34 dries
+#  menu.info,v 1.3 2006/11/21 20:55:34 dries
+#  path.info,v 1.3 2006/11/21 20:55:34 dries
+#  ping.info,v 1.3 2006/11/21 20:55:35 dries
+#  poll.info,v 1.3 2006/11/21 20:55:35 dries
+#  profile.info,v 1.3 2006/11/21 20:55:35 dries
+#  statistics.info,v 1.3 2006/11/21 20:55:35 dries
+#  taxonomy.info,v 1.3 2006/11/21 20:55:35 dries
+#  throttle.info,v 1.3 2006/11/21 20:55:35 dries
+#  tracker.info,v 1.3 2006/11/21 20:55:35 dries
+#  upload.info,v 1.3 2006/11/21 20:55:35 dries
+#  block.info,v 1.3 2006/11/21 20:55:33 dries
+#  filter.info,v 1.3 2006/11/21 20:55:34 dries
+#  node.info,v 1.3 2006/11/21 20:55:34 dries
+#  system.info,v 1.3 2006/11/21 20:55:35 dries
+#  user.info,v 1.3 2006/11/21 20:55:36 dries
+#  watchdog.info,v 1.3 2006/11/21 20:55:36 dries
+#  throttle.module,v 1.71 2006/12/04 10:56:21 dries
+#  color.module,v 1.12 2006/12/10 09:54:33 unconed
+#  help.module,v 1.67 2006/12/10 09:54:33 unconed
+#  color.inc,v 1.2 2006/12/06 16:32:54 dries
+#  database.pgsql.inc,v 1.42 2006/12/14 13:26:41 dries
+#  install.inc,v 1.30 2006/12/08 11:54:04 dries
+#  tablesort.inc,v 1.43 2006/12/01 08:50:33 dries
+#  xmlrpc.inc,v 1.38 2006/09/03 08:21:18 dries
+#  xmlrpcs.inc,v 1.21 2006/07/05 11:45:51 dries
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#  ping.module,v 1.45 2006/11/21 20:14:18 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-02-04 13:47+0100\n"
+"PO-Revision-Date: 2008-02-21 11:27+0200\n"
+"Last-Translator: Ilari Sani <ilari.sani@assemblix.net>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/upload/upload.admin.inc:10
+msgid ""
+"The maximum allowed image size expressed as WIDTHxHEIGHT (e.g. 640x480). Set "
+"to 0 for no restriction."
+msgstr "Näytä liitettyjen tiedostojen lista, kun kirjoitusta luetaan."
+
+#: modules/upload/upload.admin.inc:17;110
+msgid "Your PHP settings limit the maximum file size per upload to %size."
+msgstr ""
+"PHP:n asetusten takia siirrettävän tiedoston suurin mahdollinen koko on %"
+"size."
+
+#: modules/upload/upload.admin.inc:18
+msgid ""
+"Depending on your server environment, these settings may be changed in the "
+"system-wide php.ini file, a php.ini file in your Drupal root directory, in "
+"your Drupal site's settings.php file, or in the .htaccess file in your "
+"Drupal root directory."
+msgstr ""
+"Palvelinympäristöstä riippuen näitä asetuksia voidaan muuttaa muokkaamalla "
+"järjestelmänlaajuista php.ini -tiedostoa, Drupalin juurihakemistossa "
+"sijaitsevaa php.ini -tiedostoa, Drupal-sivuston settings.php-tiedostoa tai "
+"Drupalin juurihakemistossa sijaitsevaa .htaccess -tiedostoa."
+
+#: modules/upload/upload.admin.inc:21;24;39;42
+msgid "The %role file size limit must be a number and greater than zero."
+msgstr ""
+"Roolin %role tiedostokoon rajoituksen on oltava numero joka on suurempi kuin "
+"nolla."
+
+#: modules/upload/upload.admin.inc:21;24;31
+msgid "default"
+msgstr "oletus"
+
+#: modules/upload/upload.admin.inc:31;49
+msgid ""
+"The %role maximum file size per upload is greater than the total file size "
+"allowed per user"
+msgstr ""
+"Roolin %role suurimman yksittäisen tiedoston koko on suurempi kuin sallittu "
+"käyttäjäkohtainen tiedostojen yhteiskoko "
+
+#: modules/upload/upload.admin.inc:64
+msgid "General settings"
+msgstr "Yleiset asetukset"
+
+#: modules/upload/upload.admin.inc:69
+msgid "Maximum resolution for uploaded images"
+msgstr "Siirrettävien kuvien suurin sallittu tarkkuus"
+
+#: modules/upload/upload.admin.inc:73
+msgid ""
+"The maximum allowed image size (e.g. 640x480). Set to 0 for no restriction. "
+"If an <a href=\"!image-toolkit-link\">image toolkit</a> is installed, files "
+"exceeding this value will be scaled down to fit."
+msgstr ""
+"Suurin sallittu kuvien koko (esim. 640x480). Kirjoita 0, jos et halua "
+"rajoitusta. Jos käytössä on <a href=\"!image-toolkit-link"
+"\">grafiikkakirjasto</a>, liian suuret kuvat pienennetään sopiviksi."
+
+#: modules/upload/upload.admin.inc:74
+msgid "WIDTHxHEIGHT"
+msgstr "LEVEYSxKORKEUS"
+
+#: modules/upload/upload.admin.inc:78
+msgid "List files by default"
+msgstr "Listaa tiedostot oletuksena"
+
+#: modules/upload/upload.admin.inc:81
+msgid "Display attached files when viewing a post."
+msgstr "Näytä liitettyjen tiedostojen lista, kun kirjoitusta luetaan."
+
+#: modules/upload/upload.admin.inc:86
+msgid "Default permitted file extensions"
+msgstr "Sallitut tiedostopäätteet (oletus)"
+
+#: modules/upload/upload.admin.inc:89
+msgid ""
+"Default extensions that users can upload. Separate extensions with a space "
+"and do not include the leading dot."
+msgstr ""
+"Tiedostomuodot, joita käyttäjät voivat tavallisesti siirtää sivustolle. "
+"Kirjoita päätteiden väliin välilyönti, äläkä kirjoita niiden alkuun pistettä."
+
+#: modules/upload/upload.admin.inc:93
+msgid "Default maximum file size per upload"
+msgstr "Siirrettävien tiedostojen maksimikoko (oletus)"
+
+#: modules/upload/upload.admin.inc:97
+msgid ""
+"The default maximum file size a user can upload. If an image is uploaded and "
+"a maximum resolution is set, the size will be checked after the file has "
+"been resized."
+msgstr ""
+"Suurin tiedoston oletuskoko, jonka käyttäjä voi siirtää palvelimelle. Jos "
+"kyseessä on kuva ja suurin sallittu kuvan koko on asetettu, tiedoston koko "
+"tarkistetaan kuvan pienentämisen jälkeen."
+
+#: modules/upload/upload.admin.inc:102
+msgid "Default total file size per user"
+msgstr "Käyttäjän tiedostojen yhteenlaskettu koko (oletus)"
+
+#: modules/upload/upload.admin.inc:106
+msgid "The default maximum size of all files a user can have on the site."
+msgstr ""
+"Suurin määrä tiedostoja, jonka käyttäjät voivat tavallisesti säilyttää "
+"palvelimella."
+
+#: modules/upload/upload.admin.inc:118
+msgid "Settings for @role"
+msgstr "Roolin @role asetukset"
+
+#: modules/upload/upload.admin.inc:124
+msgid "Permitted file extensions"
+msgstr "Sallitut tiedostopäätteet"
+
+#: modules/upload/upload.admin.inc:127
+msgid ""
+"Extensions that users in this role can upload. Separate extensions with a "
+"space and do not include the leading dot."
+msgstr ""
+"Tiedostomuodot, joita tämän roolin käyttäjät voivat siirtää sivustolle. "
+"Kirjoita päätteiden väliin välilyönti, äläkä kirjoita niiden alkuun pistettä."
+
+#: modules/upload/upload.admin.inc:131
+msgid "Maximum file size per upload"
+msgstr "Siirrettävien tiedostojen maksimikoko"
+
+#: modules/upload/upload.admin.inc:135
+msgid ""
+"The maximum size of a file a user can upload. If an image is uploaded and a "
+"maximum resolution is set, the size will be checked after the file has been "
+"resized."
+msgstr ""
+"Suurin tiedostonkoko, jonka käyttäjä voi siirtää palvelimelle. Jos kyseessä "
+"on kuva ja suurin sallittu kuvan koko on asetettu, tiedoston koko "
+"tarkistetaan kuvan pienentämisen jälkeen."
+
+#: modules/upload/upload.admin.inc:140
+msgid "Total file size per user"
+msgstr "Käyttäjän tiedostojen yhteenlaskettu koko"
+
+#: modules/upload/upload.admin.inc:144
+msgid "The maximum size of all files a user can have on the site."
+msgstr ""
+"Yhden käyttäjän palvelimelle siirtämien tiedostojen suurin sallittu "
+"yhteenlaskettu koko."
+
+#: modules/upload/upload.module:16
+msgid ""
+"The upload module allows users to upload files to the site. The ability to "
+"upload files is important for members of a community who want to share work. "
+"It is also useful to administrators who want to keep uploaded files "
+"connected to posts."
+msgstr ""
+"Tiedostojen siirtomoduuli siirtää tiedostoja palvelimelle. Se sopii "
+"esimerkiksi yhteisön jäsenille, jotka haluavat jakaa teoksiaan. Myös "
+"ylläpitäjät voivat sen avulla liittää kirjoituksiin tiedostoja."
+
+#: modules/upload/upload.module:17
+msgid ""
+"Users with the upload files permission can upload attachments to posts. "
+"Uploads may be enabled for specific content types on the content types "
+"settings page. Each user role can be customized to limit or control the file "
+"size of uploads, or the maximum dimension of image files."
+msgstr ""
+"Käyttäjät, joilla on tiedostojen siirto-oikeus voivat liittää kirjoituksiin "
+"tiedostoja. Sisällön tyyppien asetussivulla voi valita, minkä tyyppisiin "
+"kirjoituksiin tiedostoja voi liittää. Jokaiselle roolille voidaan erikseen "
+"määrittää suurin sallittu siirrettävien tiedostojen koko ja suurimmat "
+"sallitut kuvien mitat."
+
+#: modules/upload/upload.module:18
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@upload"
+"\">Upload module</a>."
+msgstr ""
+"Lue käsikirjasta lisää <a href=\"@upload\">tiedostojen siirtämisestä</a>."
+
+#: modules/upload/upload.module:21
+msgid ""
+"Users with the <a href=\"@permissions\">upload files permission</a> can "
+"upload attachments. Users with the <a href=\"@permissions\">view uploaded "
+"files permission</a> can view uploaded attachments. You can choose which "
+"post types can take attachments on the <a href=\"@types\">content types "
+"settings</a> page."
+msgstr ""
+"Käyttäjät, joilla on <a href=\"@permissions\">tiedostojen siirto</a> -"
+"käyttöoikeus voivat siirtää palvelimelle liitetiedostoja. Vastaavasti "
+"käyttäjät, joilla on <a href=\"@permissions\">pääsy siirrettyihin "
+"tiedostoihin</a> -oikeus voivat ladata näitä tiedostoja. <a href=\"@types"
+"\">Sisältötyypppien ylläpitosivulla</a> voit valita, minkä tyyppisiin "
+"kirjoituksiin tiedostoja voi liittää."
+
+#: modules/upload/upload.module:67
+msgid "Read full article to view attachments."
+msgstr "Lue koko artikkeli nähdäksesi sen liitteet."
+
+#: modules/upload/upload.module:220
+msgid "Attachments"
+msgstr "Liitteet"
+
+#: modules/upload/upload.module:233
+msgid "File attachments"
+msgstr "Liitetiedostot"
+
+#: modules/upload/upload.module:236
+msgid ""
+"Changes made to the attachments are not permanent until you save this post. "
+"The first \"listed\" file will be included in RSS feeds."
+msgstr ""
+"Liitetiedostoihin tehdyt muutokset eivät ole pysyviä ennen kuin tallennat "
+"kirjoituksen. Listan ensimmäinen tiedosto lisätään RSS-syötteisiin."
+
+#: modules/upload/upload.module:254
+msgid ""
+"File attachments are disabled. The file directories have not been properly "
+"configured."
+msgstr ""
+"Liitetiedostot on poistettu käytöstä. Tiedostohakemistojen asetuksia ei ole "
+"määritelty oikein."
+
+#: modules/upload/upload.module:256
+msgid ""
+"Please visit the <a href=\"@admin-file-system\">file system configuration "
+"page</a>."
+msgstr ""
+"Siirry <a href=\"@admin-file-system\">tiedostojärjestelmän ylläpitosivulle</"
+"a>."
+
+#: modules/upload/upload.module:259
+msgid "Please contact the site administrator."
+msgstr "Ota yhteys sivuston ylläpitäjään."
+
+#: modules/upload/upload.module:361
+msgid "Attachment"
+msgstr "Liite"
+
+#: modules/upload/upload.module:361;544
+msgid "Size"
+msgstr "Koko"
+
+#: modules/upload/upload.module:516
+msgid "Attach new file"
+msgstr "Liitä uusi tiedosto"
+
+#: modules/upload/upload.module:518
+msgid "Images are larger than %resolution will be resized. "
+msgstr "Kuvat, jotka ovat suurempia kuin %resolution pienennetään."
+
+#: modules/upload/upload.module:518
+msgid ""
+"The maximum upload size is %filesize. Only files with the following "
+"extensions may be uploaded: %extensions. "
+msgstr ""
+"Sirrettävät tiedostot eivät saa olla suurempia kuin %filesize. Vain "
+"seuraavia päätteitä sisältäviä tiedostoja voi siirtää: %extensions."
+
+#: modules/upload/upload.module:522
+msgid "Attach"
+msgstr "Liitä"
+
+#: modules/upload/upload.module:527
+msgid "Please wait..."
+msgstr "Odota..."
+
+#: modules/upload/upload.module:65;326
+msgid "1 attachment"
+msgid_plural "@count attachments"
+msgstr[0] "1 liite"
+msgstr[1] "@count liitettä"
+
+#: modules/upload/upload.module:46
+msgid "upload files"
+msgstr "tiedostojen siirto"
+
+#: modules/upload/upload.module:46
+msgid "view uploaded files"
+msgstr "pääsy siirrettyihin tiedostoihin"
+
+#: modules/upload/upload.module:86
+msgid "File uploads"
+msgstr "Tiedostojen siirtäminen"
+
+#: modules/upload/upload.module:87
+msgid "Control how files may be attached to content."
+msgstr ""
+"Valitse. minkä tyyppisiä ja kokoisia tiedostoja kirjoituksiin voi liittää."
+
+#: modules/upload/upload.module:0
+msgid "upload"
+msgstr "siirrä"
+
+#: modules/upload/upload.install:25
+msgid "Stores uploaded file information and table associations."
+msgstr ""
+"Varastoi siirrettyjen tiedostojen tiedot ja assosiaatiot muihin tauluihin."
+
+#: modules/upload/upload.install:32
+msgid "Primary Key: The {files}.fid."
+msgstr "Ensisijainen avain: {files}.fid."
+
+#: modules/upload/upload.install:39
+msgid "The {node}.nid associated with the uploaded file."
+msgstr "Siirrettyyn tiedostoon liittyvä {node}.nid."
+
+#: modules/upload/upload.install:46
+msgid "Primary Key: The {node}.vid associated with the uploaded file."
+msgstr "Ensisijainen avain: {node}.vid, joka liittyy siirrettyyn tiedostoon."
+
+#: modules/upload/upload.install:53
+msgid "Description of the uploaded file."
+msgstr "Siirretyn tiedoston kuvaus."
+
+#: modules/upload/upload.install:61
+msgid "Whether the file should be visibly listed on the node: yes(1) or no(0)."
+msgstr "Näytetäänkö tiedosto listassa solmun yhteydessä. (1 = kyllä, 0 = ei)"
+
+#: modules/upload/upload.install:68
+msgid "Weight of this upload in relation to other uploads in this node."
+msgstr ""
+"Siirretyn tiedoston paino suhteessa muihin solmun tiedostojen painoihin."

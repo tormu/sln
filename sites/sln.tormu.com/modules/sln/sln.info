@@ -1,0 +1,7 @@
+name = "#sln"
+description = #sln-sivuston perusjuttuja
+package = Other
+
+version = "6.x-1.x-dev"
+core = "6.x"
+project = "sln"

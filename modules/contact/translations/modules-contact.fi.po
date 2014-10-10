@@ -1,0 +1,518 @@
+# translation of general.po to
+# Finnish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  common.inc,v 1.602 2006/12/15 07:47:08 unconed
+#  system.module,v 1.428 2006/12/15 08:53:56 unconed
+#  upload.module,v 1.145 2006/12/14 13:30:59 dries
+#  image.inc,v 1.16 2006/12/12 01:03:34 unconed
+#  unicode.inc,v 1.23 2006/12/06 16:15:52 dries
+#  system.install,v 1.60 2006/12/13 10:41:56 unconed
+#  database.mysql.inc,v 1.64 2006/12/04 11:06:29 dries
+#  database.mysqli.inc,v 1.30 2006/12/04 11:06:29 dries
+#  file.inc,v 1.88 2006/12/11 16:45:17 dries
+#  user.module,v 1.731 2006/12/12 10:11:43 unconed
+#  form.inc,v 1.166 2006/12/12 10:01:38 unconed
+#  filter.module,v 1.157 2006/12/14 10:14:05 unconed
+#  locale.inc,v 1.101 2006/12/10 09:54:32 unconed
+#  blogapi.module,v 1.99 2006/11/21 20:14:17 dries
+#  forum.module,v 1.371 2006/12/10 20:34:02 dries
+#  block.module,v 1.244 2006/12/11 23:00:09 unconed
+#  book.module,v 1.403 2006/11/30 02:04:31 drumm
+#  comment.module,v 1.515 2006/12/15 01:33:00 unconed
+#  contact.module,v 1.72 2006/12/04 10:43:34 dries
+#  menu.module,v 1.99 2006/11/30 01:55:31 drumm
+#  content_types.inc,v 1.18 2006/12/05 05:47:37 dries
+#  node.module,v 1.752 2006/12/14 14:07:57 dries
+#  path.module,v 1.103 2006/11/26 02:20:01 drumm
+#  profile.module,v 1.185 2006/12/13 23:50:26 unconed
+#  drupal.module,v 1.137 2006/12/11 16:57:42 dries
+#  statistics.module,v 1.246 2006/11/26 02:20:01 drumm
+#  aggregator.module,v 1.323 2006/12/14 13:41:02 dries
+#  taxonomy.module,v 1.328 2006/11/30 07:05:57 unconed
+#  watchdog.module,v 1.164 2006/12/10 09:54:35 unconed
+#  locale.module,v 1.154 2006/12/01 22:47:53 unconed
+#  search.module,v 1.206 2006/12/11 16:57:42 dries
+#  search.info,v 1.3 2006/11/21 20:55:35 dries
+#  menu.inc,v 1.143 2006/12/12 06:02:52 unconed
+#  chameleon.theme,v 1.56 2006/11/29 06:36:12 drumm
+#  pager.inc,v 1.59 2006/10/15 19:57:05 dries
+#  theme.inc,v 1.332 2006/12/15 01:06:33 unconed
+#  phptemplate.engine,v 1.53 2006/12/13 23:22:57 unconed
+#  poll.module,v 1.221 2006/12/10 20:34:03 dries
+#  legacy.module,v 1.15 2006/11/21 20:14:18 dries
+#  blog.module,v 1.271 2006/12/10 20:34:02 dries
+#  tracker.module,v 1.141 2006/12/10 09:54:34 unconed
+#  aggregator.info,v 1.3 2006/11/21 20:55:33 dries
+#  blog.info,v 1.3 2006/11/21 20:55:33 dries
+#  blogapi.info,v 1.3 2006/11/21 20:55:33 dries
+#  book.info,v 1.3 2006/11/21 20:55:33 dries
+#  color.info,v 1.2 2006/11/21 20:55:34 dries
+#  comment.info,v 1.3 2006/11/21 20:55:34 dries
+#  contact.info,v 1.3 2006/11/21 20:55:34 dries
+#  drupal.info,v 1.3 2006/11/21 20:55:34 dries
+#  forum.info,v 1.4 2006/11/21 20:55:34 dries
+#  help.info,v 1.3 2006/11/21 20:55:34 dries
+#  legacy.info,v 1.3 2006/11/21 20:55:34 dries
+#  locale.info,v 1.3 2006/11/21 20:55:34 dries
+#  menu.info,v 1.3 2006/11/21 20:55:34 dries
+#  path.info,v 1.3 2006/11/21 20:55:34 dries
+#  ping.info,v 1.3 2006/11/21 20:55:35 dries
+#  poll.info,v 1.3 2006/11/21 20:55:35 dries
+#  profile.info,v 1.3 2006/11/21 20:55:35 dries
+#  statistics.info,v 1.3 2006/11/21 20:55:35 dries
+#  taxonomy.info,v 1.3 2006/11/21 20:55:35 dries
+#  throttle.info,v 1.3 2006/11/21 20:55:35 dries
+#  tracker.info,v 1.3 2006/11/21 20:55:35 dries
+#  upload.info,v 1.3 2006/11/21 20:55:35 dries
+#  block.info,v 1.3 2006/11/21 20:55:33 dries
+#  filter.info,v 1.3 2006/11/21 20:55:34 dries
+#  node.info,v 1.3 2006/11/21 20:55:34 dries
+#  system.info,v 1.3 2006/11/21 20:55:35 dries
+#  user.info,v 1.3 2006/11/21 20:55:36 dries
+#  watchdog.info,v 1.3 2006/11/21 20:55:36 dries
+#  throttle.module,v 1.71 2006/12/04 10:56:21 dries
+#  color.module,v 1.12 2006/12/10 09:54:33 unconed
+#  help.module,v 1.67 2006/12/10 09:54:33 unconed
+#  color.inc,v 1.2 2006/12/06 16:32:54 dries
+#  database.pgsql.inc,v 1.42 2006/12/14 13:26:41 dries
+#  install.inc,v 1.30 2006/12/08 11:54:04 dries
+#  tablesort.inc,v 1.43 2006/12/01 08:50:33 dries
+#  xmlrpc.inc,v 1.38 2006/09/03 08:21:18 dries
+#  xmlrpcs.inc,v 1.21 2006/07/05 11:45:51 dries
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#  ping.module,v 1.45 2006/11/21 20:14:18 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-02-04 13:47+0100\n"
+"PO-Revision-Date: 2008-03-07 09:32+0200\n"
+"Last-Translator: Ilari Sani <ilari.sani@assemblix.net>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/contact/contact.admin.inc:18;47
+msgid "Recipients"
+msgstr "Vastaanottajat"
+
+#: modules/contact/contact.admin.inc:43
+msgid "Example: 'website feedback' or 'product information'."
+msgstr "Esimerkki: \"palaute\" tai \"tuotetiedot\"."
+
+#: modules/contact/contact.admin.inc:49
+msgid ""
+"Example: 'webmaster@example.com' or 'sales@example.com,support@example.com'. "
+"To specify multiple recipients, separate each e-mail address with a comma."
+msgstr ""
+"Esimerkki: \"webmaster@example.com\" tai \"myynti@example.com, tuki@example."
+"com\". Jos kirjoitat useampia osoitteita, laita niiden väliin pilkku."
+
+#: modules/contact/contact.admin.inc:53
+msgid "Auto-reply"
+msgstr "Automaattivastaus"
+
+#: modules/contact/contact.admin.inc:55
+msgid ""
+"Optional auto-reply. Leave empty if you do not want to send the user an auto-"
+"reply message."
+msgstr ""
+"Valinnainen automaattivastaus. Jätä tyhjäksi jos et halua lähettää "
+"käyttäjälle automaattista vastausviestiä."
+
+#: modules/contact/contact.admin.inc:60
+msgid ""
+"When listing categories, those with lighter (smaller) weights get listed "
+"before categories with heavier (larger) weights. Categories with equal "
+"weights are sorted alphabetically."
+msgstr ""
+"Kategorioita listatessa kevyemmät (pienemmät) painot näytetään ennen "
+"painavampia. Saman painoiset kategoriat näytetään aakkosjärjestyksessä."
+
+#: modules/contact/contact.admin.inc:66
+msgid ""
+"Set this to <em>Yes</em> if you would like this category to be selected by "
+"default."
+msgstr "Valitse <em>Kyllä</em> jos haluat, että kategoria valitaan oletuksena."
+
+#: modules/contact/contact.admin.inc:86
+msgid "You must enter one or more recipients."
+msgstr "Anna yksi tai useampi vastaanottaja."
+
+#: modules/contact/contact.admin.inc:92
+msgid "%recipient is an invalid e-mail address."
+msgstr "%recipient on virheellinen sähköpostiosoite."
+
+#: modules/contact/contact.admin.inc:114
+msgid "Category %category has been added."
+msgstr "Kategoria %category on lisätty."
+
+#: modules/contact/contact.admin.inc:120
+msgid "Category %category has been updated."
+msgstr "Kategoria %category on päivitetty."
+
+#: modules/contact/contact.admin.inc:138
+msgid "Are you sure you want to delete %category?"
+msgstr "Haluatko varmasti poistaa kategorian %category?"
+
+#: modules/contact/contact.admin.inc:147
+msgid "Category %category has been deleted."
+msgstr "Kategoria %category on poistettu."
+
+#: modules/contact/contact.admin.inc:156
+msgid "Additional information"
+msgstr "Lisätietoja"
+
+#: modules/contact/contact.admin.inc:157 modules/contact/contact.pages.inc:41
+msgid "You can leave a message using the contact form below."
+msgstr "Voit jättää viestin käyttämällä alla olevaa lomaketta."
+
+#: modules/contact/contact.admin.inc:158
+msgid ""
+"Information to show on the <a href=\"@form\">contact page</a>. Can be "
+"anything from submission guidelines to your postal address or telephone "
+"number."
+msgstr ""
+"<a href=\"@form\">Yhteydenottosivulla</a> näytettävät tiedot. Voivat "
+"sisältää mitä tahansa, esim. yhteydenotto-ohjeet, postiosoite tai "
+"puhelinnumero."
+
+#: modules/contact/contact.admin.inc:161
+msgid "Hourly threshold"
+msgstr "Tuntikohtainen rajoitus"
+
+#: modules/contact/contact.admin.inc:164
+msgid ""
+"The maximum number of contact form submissions a user can perform per hour."
+msgstr ""
+"Suurin sallittu yhteydenottojen määrä jonka käyttäjä voi tehdä tunnin "
+"sisällä."
+
+#: modules/contact/contact.admin.inc:168
+msgid "Enable personal contact form by default"
+msgstr "Ota käyttöön henkilökohtainen yhteydenotto oletusasetuksena"
+
+#: modules/contact/contact.admin.inc:170
+msgid "Default status of the personal contact form for new users."
+msgstr "Henkilökohtaisen yhteydenoton oletustila uusille käyttäjille."
+
+#: modules/contact/contact.admin.inc:115
+msgid "Contact form: category %category added."
+msgstr "Yhteydenotto: kategoria %category lisätty."
+
+#: modules/contact/contact.admin.inc:121
+msgid "Contact form: category %category updated."
+msgstr "Yhteydenotto: kategoria %category päivitetty."
+
+#: modules/contact/contact.admin.inc:148
+msgid "Contact form: category %category deleted."
+msgstr "Yhteydenotto: kategoria %category poistettu."
+
+#: modules/contact/contact.pages.inc:17
+msgid ""
+"You cannot send more than %number messages per hour. Please try again later."
+msgstr ""
+"Et voi lähettää enempää kuin %number viestiä tunnissa. Yritä myöhemmin "
+"uudelleen."
+
+#: modules/contact/contact.pages.inc:49
+msgid "Your e-mail address"
+msgstr "Sähköpostiosoitteesi"
+
+#: modules/contact/contact.pages.inc:88;197
+msgid "Send yourself a copy."
+msgstr "Lähetä itsellesi kopio."
+
+#: modules/contact/contact.pages.inc:99
+msgid ""
+"The contact form has not been configured. <a href=\"@add\">Add one or more "
+"categories</a> to the form."
+msgstr ""
+"Yhteydenottolomakkeen asetukset eivät ole valmiit. Lisää lomakkeeseen "
+"vähintään yksi <a href=\"@add\">kategoria</a>."
+
+#: modules/contact/contact.pages.inc:109
+msgid "You must select a valid category."
+msgstr "Kirjoita kelvollinen kategoria."
+
+#: modules/contact/contact.pages.inc:112
+msgid "You must enter a valid e-mail address."
+msgstr "Kirjoita kelvollinen sähköpostiosoite."
+
+#: modules/contact/contact.pages.inc:147
+msgid "Your message has been sent."
+msgstr "Viestisi on lähetetty."
+
+#: modules/contact/contact.pages.inc:161
+msgid ""
+"You need to provide a valid e-mail address to contact other users. Please "
+"update your <a href=\"@url\">user information</a> and try again."
+msgstr ""
+"Sinun on annettava sähköpostisoitteesi, jotta voit ottaa yhteyttä muihin "
+"käyttäjiin. Päivitä <a href=\"@url\">käyttäjätietosi</a> ja yritä uudestaan."
+
+#: modules/contact/contact.pages.inc:164
+msgid ""
+"You cannot contact more than %number users per hour. Please try again later."
+msgstr ""
+"Et voi ottaa yhteyttä useampaan kuin %number käyttäjään tunnissa. Yritä "
+"myöhemmin uudestaan."
+
+#: modules/contact/contact.pages.inc:179
+msgid "From"
+msgstr "Lähettäjä"
+
+#: modules/contact/contact.pages.inc:183
+msgid "To"
+msgstr "Vastaanottaja"
+
+#: modules/contact/contact.pages.inc:232
+msgid "The message has been sent."
+msgstr "Viesti on lähetetty."
+
+#: modules/contact/contact.pages.inc:146
+msgid "%name-from sent an e-mail regarding %category."
+msgstr "%name-from lähetti sähköpostin koskien aihetta %category."
+
+#: modules/contact/contact.pages.inc:231
+msgid "%name-from sent %name-to an e-mail."
+msgstr "%name-from lähetti sähköpostia käyttäjälle %name-to."
+
+#: modules/contact/contact.module:15
+msgid ""
+"The contact module facilitates communication via e-mail, by allowing your "
+"site's visitors to contact one another (personal contact forms), and by "
+"providing a simple way to direct messages to a set of administrator-defined "
+"recipients (the <a href=\"@contact\">contact page</a>). With either form, "
+"users specify a subject, write their message, and (optionally) have a copy "
+"of their message sent to their own e-mail address."
+msgstr ""
+"Kontaktimoduulilla lähetetään sähköpostia. Käyttäjät voivat lähettää "
+"viestejä toisilleen (henkilökohtainen yhteydenotto) tai ylläpitäjän "
+"määrittämiin osoitteisiin (<a href=\"@contact\">yhteydenottosivu</a>). "
+"Kummassakin tapauksessa käyttäjät valitsevat aiheen ja kirjoittavat "
+"viestinsä. Käyttäjä voi myös saada kopion viestistä omaan "
+"sähköpostiosoitteeseensa."
+
+#: modules/contact/contact.module:16
+msgid ""
+"Personal contact forms allow users to be contacted via e-mail, while keeping "
+"recipient e-mail addresses private. Users may enable or disable their "
+"personal contact forms by editing their <em>My account</em> page. If "
+"enabled, a <em>Contact</em> tab leading to their personal contact form is "
+"available on their user profile. Site administrators have access to all "
+"personal contact forms (even if they have been disabled). The <em>Contact</"
+"em> tab is only visible when viewing another user's profile (users do not "
+"see their own <em>Contact</em> tab)."
+msgstr ""
+"Henkilökohtainen yhteydenotto tarkoittaa, että käyttäjät voivat ottaa "
+"vastaan sähköpostia paljastamatta osoitettaan muille. Käyttäjät voivat "
+"kytkeä yhteydenoton käyttöön tai pois <em>Oma käyttäjätilini</em>-sivulla. "
+"Jos yhteydenotto on käytössä, käyttäjän profiilissa näkyy <em>Yhteydenotto</"
+"em>-välilehti. Ylläpitäjät voivat ottaa yhteyttä käyttäjään, vaikka tämä "
+"olisi poistanut toiminnon käytöstä. <em>Yhteydenotto</em>-välilehti näkyy "
+"vain muiden käyttäjien profiileissa, ei käyttäjän omassa profiilissa."
+
+#: modules/contact/contact.module:17
+msgid ""
+"The <a href=\"@contact\">contact page</a> provides a simple form for "
+"visitors to leave comments, feedback, or other requests. Messages are routed "
+"by selecting a category from a list of administrator-defined options; each "
+"category has its own set of e-mail recipients. Common categories for a "
+"business site include, for example, \"Website feedback\" (messages are "
+"forwarded to web site administrators) and \"Product information\" (messages "
+"are forwarded to members of the sales department). The actual e-mail "
+"addresses defined within a category are not displayed. Only users in roles "
+"with the <em>access site-wide contact form</em> permission may access the <a "
+"href=\"@contact\">contact page</a>."
+msgstr ""
+"<a href=\"@contact\">Yhteydenottosivulla</a> käyttäjät voivat lähettää "
+"kommentteja, palautetta ja muita viestejä. Ylläpitäjä luo listan "
+"kategorioita, joiden perusteella lähettäjä valitsee viestin vastaanottajan. "
+"Varsinaista vastaanottajan osoitetta ei näytetä lähettäjälle. Yrityssivujen "
+"tavallisia kategorioita ovat esim. \"Palaute\" (ohjataan ylläpitäjälle) ja "
+"\"Tuotetiedot\"  (ohjataan myyntiosastolle). Vain käyttäjät, joilla on "
+"<em>sivuston yhteydenotto</em> -oikeus voivat käyttää <a href=\"@contact"
+"\">yhteydenottosivua</a>"
+
+#: modules/contact/contact.module:18
+msgid ""
+"A link to your site's <a href=\"@contact\">contact page</a> from the main "
+"<em>Navigation</em> menu is created, but is disabled by default. Create a "
+"similar link on another menu by adding a menu item pointing to the path "
+"\"contact\""
+msgstr ""
+"Sivustosi <em>Navigaatio</em>-valikkoon lisätään linkki <a href=\"@contact"
+"\">yhteydenottosivulle</a>, mutta sitä ei oletuksena näytetä. Voit lisätä "
+"samanlaisen linkin muihin valikoihin käyttämällä polkua  \"contact\"."
+
+#: modules/contact/contact.module:19
+msgid ""
+"Customize the <a href=\"@contact\">contact page</a> with additional "
+"information (like physical location, mailing address, and telephone number) "
+"using the <a href=\"@contact-settings\">contact form settings page</a>. The "
+"<a href=\"@contact-settings\">settings page</a> also provides configuration "
+"options for the maximum number of contact form submissions a user may "
+"perform per hour, and the default status of users' personal contact forms."
+msgstr ""
+"<a href=\"@contact-settings\">Yhteydenoton ylläpitosivulla</a> voit lisätä "
+"<a href=\"@contact\">yhteydenottosivulle</a> lisätieotja (kuten postiosoite, "
+"sijainti ja puhelinnumero). <a href=\"@contact-settings\">Ylläpitosivulla</"
+"a> voit myös valita, kuinka monta kertaa tunnissa yhteydenottolomaketta voi "
+"käyttää, ja onko käyttäjillä oletuksena henkilökohtainen yhteydenotto "
+"käytössä. "
+
+#: modules/contact/contact.module:20
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@contact"
+"\">Contact module</a>."
+msgstr "Lue käsikirjasta lisää <a href=\"@contact\">yhteydenotosta</a>."
+
+#: modules/contact/contact.module:23
+msgid ""
+"This page lets you set up <a href=\"@form\">your site-wide contact form</a>. "
+"To do so, add one or more categories. You can associate different recipients "
+"with each category to route e-mails to different people. For example, you "
+"can route website feedback to the webmaster and direct product information "
+"requests to the sales department. On the <a href=\"@settings\">settings "
+"page</a>, you can customize the information shown above the contact form. "
+"This can be useful to provide additional contact information such as your "
+"postal address and telephone number."
+msgstr ""
+"Tällä sivulla voit ottaa käyttöön <a href=\"@form\">sivuston yhteydenoton</"
+"a>. Kategorioiden avulla voit esimerkiksi ohjata sivuston toimintaan "
+"liittyvät viestit ylläpitäjälle. Lisää vähintään yksi kategoria ja liitä "
+"siihen sähköpostiosoitteita. Muokkaa lomakkeen alussa näytettävää tekstiä <a "
+"href=\"@settings\">asetussivulla</a>. Voit esimerkiksi kirjoittaa siihen "
+"lisää yhteystietoja, kuten postiosoitteesi ja puhelinnumerosi."
+
+#: modules/contact/contact.module:25
+msgid ""
+"The menu item can be customized and configured only once the menu module has "
+"been <a href=\"@modules-page\">enabled</a>."
+msgstr ""
+"Valikon kohtaa voi mukauttaa ja säätää vain silloin, kun valikkomoduuli on "
+"<a href=\"@modules-page\">käytössä</a>."
+
+#: modules/contact/contact.module:30
+msgid ""
+"The contact module also adds a <a href=\"@menu-settings\">menu item</a> "
+"(disabled by default) to the navigation block."
+msgstr ""
+"Yhteydenottomoduuli lisää myös oman <a href=\"@menu-settings\">valikon "
+"kohdan</a> navigaatiolohkoon, mutta sitä ei oletuksena näytetä."
+
+#: modules/contact/contact.module:140
+msgid "Contact settings"
+msgstr "Yhteydenottoasetukset"
+
+#: modules/contact/contact.module:145
+msgid "Personal contact form"
+msgstr "Henkilökohtainen yhteydenotto"
+
+#: modules/contact/contact.module:147
+msgid ""
+"Allow other users to contact you by e-mail via <a href=\"@url\">your "
+"personal contact form</a>. Note that while your e-mail address is not made "
+"public to other members of the community, privileged users such as site "
+"administrators are able to contact you even if you choose not to enable this "
+"feature."
+msgstr ""
+"Anna muiden käyttäjien lähettää sinulle sähköpostia <a href=\"@url"
+"\">henkilökohtaisen yhteyslomakkeesi</a> kautta. Sähköpostiosoitettasi ei "
+"näytetä muille käyttäjille. Huomaa, että ylläpitäjät voivat ottaa sinuun "
+"yhteyttä vaikka et ota tätä toimintoa käyttöön."
+
+#: modules/contact/contact.module:168;174
+msgid "[!category] !subject"
+msgstr "[!category] !subject"
+
+#: modules/contact/contact.module:169
+msgid "!name sent a message using the contact form at !form."
+msgstr "!name lähetti viestin käyttäen lomaketta !form."
+
+#: modules/contact/contact.module:183
+msgid ""
+"!name (!name-url) has sent you a message via your contact form (!form-url) "
+"at !site."
+msgstr ""
+"!name (!name-url) on lähettänyt sinulle viestin yhteydenottolomakkeesi (!"
+"form-url) kautta sivustolla !site."
+
+#: modules/contact/contact.module:184
+msgid ""
+"If you don't want to receive such e-mails, you can change your settings at !"
+"url."
+msgstr ""
+"Jos et halua vastaanottaa tällaisia sähköpostiviestejä, voit muuttaa "
+"asetuksiasi osoitteessa !url."
+
+#: modules/contact/contact.module:185
+msgid "Message:"
+msgstr "Viesti:"
+
+#: modules/contact/contact.module:39
+msgid "access site-wide contact form"
+msgstr "sivuston yhteydenotto"
+
+#: modules/contact/contact.module:39
+msgid "administer site-wide contact form"
+msgstr "sivuston yhteydenoton ylläpito"
+
+#: modules/contact/contact.module:46
+msgid "Contact form"
+msgstr "Yhteydenotto"
+
+#: modules/contact/contact.module:47
+msgid "Create a system contact form and set up categories for the form to use."
+msgstr ""
+"Luo lomake, jolla käyttäjät voivat lähettää palautetta tai kysymyksiä. "
+"Valitse vastaanottajat."
+
+#: modules/contact/contact.module:67
+msgid "Edit contact category"
+msgstr "Muokkaa yhteystietokategoriaa"
+
+#: modules/contact/contact.module:74
+msgid "Delete contact"
+msgstr "Poista yhteystieto"
+
+#: modules/contact/contact.module:0
+msgid "contact"
+msgstr "yhteydenotto"
+
+#: modules/contact/contact.install:29
+msgid "Contact form category settings."
+msgstr "Yhteydenotto: kategoria %category lisätty."
+
+#: modules/contact/contact.install:35
+msgid "Primary Key: Unique category ID."
+msgstr "Ensisijainen avain: Kategorian ainutkertainen tunniste."
+
+#: modules/contact/contact.install:42
+msgid "Category name."
+msgstr "Kategorian nimi"
+
+#: modules/contact/contact.install:48
+msgid "Comma-separated list of recipient e-mail addresses."
+msgstr "Pilkulla erotettu lista vastaanottajien sähköpostiosoitteista."
+
+#: modules/contact/contact.install:54
+msgid "Text of the auto-reply message."
+msgstr "Automaattisen vastausviestin teksti."
+
+#: modules/contact/contact.install:61
+msgid "The category's weight."
+msgstr "Kategorian paino."
+
+#: modules/contact/contact.install:68
+msgid ""
+"Flag to indicate whether or not category is selected by default. (1 = Yes, 0 "
+"= No)"
+msgstr "Onko kategoria valittu oletuksena (1 = kyllä, 0 = ei)"

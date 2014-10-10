@@ -1,0 +1,618 @@
+# translation of general.po to
+# Finnish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  common.inc,v 1.602 2006/12/15 07:47:08 unconed
+#  system.module,v 1.428 2006/12/15 08:53:56 unconed
+#  upload.module,v 1.145 2006/12/14 13:30:59 dries
+#  image.inc,v 1.16 2006/12/12 01:03:34 unconed
+#  unicode.inc,v 1.23 2006/12/06 16:15:52 dries
+#  system.install,v 1.60 2006/12/13 10:41:56 unconed
+#  database.mysql.inc,v 1.64 2006/12/04 11:06:29 dries
+#  database.mysqli.inc,v 1.30 2006/12/04 11:06:29 dries
+#  file.inc,v 1.88 2006/12/11 16:45:17 dries
+#  user.module,v 1.731 2006/12/12 10:11:43 unconed
+#  form.inc,v 1.166 2006/12/12 10:01:38 unconed
+#  filter.module,v 1.157 2006/12/14 10:14:05 unconed
+#  locale.inc,v 1.101 2006/12/10 09:54:32 unconed
+#  blogapi.module,v 1.99 2006/11/21 20:14:17 dries
+#  forum.module,v 1.371 2006/12/10 20:34:02 dries
+#  block.module,v 1.244 2006/12/11 23:00:09 unconed
+#  book.module,v 1.403 2006/11/30 02:04:31 drumm
+#  comment.module,v 1.515 2006/12/15 01:33:00 unconed
+#  contact.module,v 1.72 2006/12/04 10:43:34 dries
+#  menu.module,v 1.99 2006/11/30 01:55:31 drumm
+#  content_types.inc,v 1.18 2006/12/05 05:47:37 dries
+#  node.module,v 1.752 2006/12/14 14:07:57 dries
+#  path.module,v 1.103 2006/11/26 02:20:01 drumm
+#  profile.module,v 1.185 2006/12/13 23:50:26 unconed
+#  drupal.module,v 1.137 2006/12/11 16:57:42 dries
+#  statistics.module,v 1.246 2006/11/26 02:20:01 drumm
+#  aggregator.module,v 1.323 2006/12/14 13:41:02 dries
+#  taxonomy.module,v 1.328 2006/11/30 07:05:57 unconed
+#  watchdog.module,v 1.164 2006/12/10 09:54:35 unconed
+#  locale.module,v 1.154 2006/12/01 22:47:53 unconed
+#  search.module,v 1.206 2006/12/11 16:57:42 dries
+#  search.info,v 1.3 2006/11/21 20:55:35 dries
+#  menu.inc,v 1.143 2006/12/12 06:02:52 unconed
+#  chameleon.theme,v 1.56 2006/11/29 06:36:12 drumm
+#  pager.inc,v 1.59 2006/10/15 19:57:05 dries
+#  theme.inc,v 1.332 2006/12/15 01:06:33 unconed
+#  phptemplate.engine,v 1.53 2006/12/13 23:22:57 unconed
+#  poll.module,v 1.221 2006/12/10 20:34:03 dries
+#  legacy.module,v 1.15 2006/11/21 20:14:18 dries
+#  blog.module,v 1.271 2006/12/10 20:34:02 dries
+#  tracker.module,v 1.141 2006/12/10 09:54:34 unconed
+#  aggregator.info,v 1.3 2006/11/21 20:55:33 dries
+#  blog.info,v 1.3 2006/11/21 20:55:33 dries
+#  blogapi.info,v 1.3 2006/11/21 20:55:33 dries
+#  book.info,v 1.3 2006/11/21 20:55:33 dries
+#  color.info,v 1.2 2006/11/21 20:55:34 dries
+#  comment.info,v 1.3 2006/11/21 20:55:34 dries
+#  contact.info,v 1.3 2006/11/21 20:55:34 dries
+#  drupal.info,v 1.3 2006/11/21 20:55:34 dries
+#  forum.info,v 1.4 2006/11/21 20:55:34 dries
+#  help.info,v 1.3 2006/11/21 20:55:34 dries
+#  legacy.info,v 1.3 2006/11/21 20:55:34 dries
+#  locale.info,v 1.3 2006/11/21 20:55:34 dries
+#  menu.info,v 1.3 2006/11/21 20:55:34 dries
+#  path.info,v 1.3 2006/11/21 20:55:34 dries
+#  ping.info,v 1.3 2006/11/21 20:55:35 dries
+#  poll.info,v 1.3 2006/11/21 20:55:35 dries
+#  profile.info,v 1.3 2006/11/21 20:55:35 dries
+#  statistics.info,v 1.3 2006/11/21 20:55:35 dries
+#  taxonomy.info,v 1.3 2006/11/21 20:55:35 dries
+#  throttle.info,v 1.3 2006/11/21 20:55:35 dries
+#  tracker.info,v 1.3 2006/11/21 20:55:35 dries
+#  upload.info,v 1.3 2006/11/21 20:55:35 dries
+#  block.info,v 1.3 2006/11/21 20:55:33 dries
+#  filter.info,v 1.3 2006/11/21 20:55:34 dries
+#  node.info,v 1.3 2006/11/21 20:55:34 dries
+#  system.info,v 1.3 2006/11/21 20:55:35 dries
+#  user.info,v 1.3 2006/11/21 20:55:36 dries
+#  watchdog.info,v 1.3 2006/11/21 20:55:36 dries
+#  throttle.module,v 1.71 2006/12/04 10:56:21 dries
+#  color.module,v 1.12 2006/12/10 09:54:33 unconed
+#  help.module,v 1.67 2006/12/10 09:54:33 unconed
+#  color.inc,v 1.2 2006/12/06 16:32:54 dries
+#  database.pgsql.inc,v 1.42 2006/12/14 13:26:41 dries
+#  install.inc,v 1.30 2006/12/08 11:54:04 dries
+#  tablesort.inc,v 1.43 2006/12/01 08:50:33 dries
+#  xmlrpc.inc,v 1.38 2006/09/03 08:21:18 dries
+#  xmlrpcs.inc,v 1.21 2006/07/05 11:45:51 dries
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#  ping.module,v 1.45 2006/11/21 20:14:18 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-02-04 13:47+0100\n"
+"PO-Revision-Date: 2008-02-19 16:28+0200\n"
+"Last-Translator: Ilari Sani <ilari.sani@assemblix.net>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/block/block-admin-display-form.tpl.php:42
+msgid "Region"
+msgstr "Alue"
+
+#: modules/block/block-admin-display-form.tpl.php:57
+msgid "No blocks in this region"
+msgstr "Tällä alueella ei ole lohkoja"
+
+#: modules/block/block.admin.inc:85
+msgid "Save blocks"
+msgstr "Tallenna lohkot"
+
+#: modules/block/block.admin.inc:100
+msgid "The block settings have been updated."
+msgstr "Lohkojen asetukset on tallennettu."
+
+#: modules/block/block.admin.inc:151
+msgid "Block specific settings"
+msgstr "Lohkokohtaiset asetukset"
+
+#: modules/block/block.admin.inc:156
+msgid "Block title"
+msgstr "Lohkon otsikko"
+
+#: modules/block/block.admin.inc:158
+msgid "The title of the block as shown to the user."
+msgstr "Lohkon otsikko sellaisena kuin se näytetään käyttäjille."
+
+#: modules/block/block.admin.inc:158
+msgid ""
+"Override the default title for the block. Use <em>&lt;none&gt;</em> to "
+"display no title, or leave blank to use the default block title."
+msgstr ""
+"Korvaa lohkon oletusotsikon. Voit kirjoittaa <em>&lt;none&gt;</em>, jolloin "
+"otsikkoa ei näytetä, tai jättää tämän tyhjäksi jolloin näytetään "
+"oletusotsikko."
+
+#: modules/block/block.admin.inc:174
+msgid "'%name' block"
+msgstr "'%name' -lohko"
+
+#: modules/block/block.admin.inc:180
+msgid "User specific visibility settings"
+msgstr "Käyttäjäkohtaiset näkyvyysasetukset"
+
+#: modules/block/block.admin.inc:185
+msgid "Custom visibility settings"
+msgstr "Mukautetut näkyvyysasetukset"
+
+#: modules/block/block.admin.inc:187
+msgid "Users cannot control whether or not they see this block."
+msgstr "Käyttäjät eivät voi vaikuttaa siihen, näkevätkö he tämän lohkon."
+
+#: modules/block/block.admin.inc:188
+msgid "Show this block by default, but let individual users hide it."
+msgstr ""
+"Lohko on oletuksena näkyvissä, mutta käyttäjät voivat halutessaan piilottaa "
+"sen."
+
+#: modules/block/block.admin.inc:189
+msgid "Hide this block by default but let individual users show it."
+msgstr ""
+"Lohko on oletuksena piilotettuna, mutta käyttäjät voivat halutessaan nähdä "
+"sen."
+
+#: modules/block/block.admin.inc:191
+msgid ""
+"Allow individual users to customize the visibility of this block in their "
+"account settings."
+msgstr ""
+"Kayttäjät voivat valita käyttäjätilinsä asetuksissa, näkevätkö he tämän "
+"lohkon."
+
+#: modules/block/block.admin.inc:208
+msgid "Role specific visibility settings"
+msgstr "Roolikohtaiset näkyvyysasetukset"
+
+#: modules/block/block.admin.inc:213
+msgid "Show block for specific roles"
+msgstr "Näytä lohko näille rooleille"
+
+#: modules/block/block.admin.inc:216
+msgid ""
+"Show this block only for the selected role(s). If you select no roles, the "
+"block will be visible to all users."
+msgstr ""
+"Tämä lohko näytetään vain valittuille rooleille. Jos et valitse yhtäkään "
+"roolia, lohko näkyy kaikille käyttäjille."
+
+#: modules/block/block.admin.inc:221
+msgid "Page specific visibility settings"
+msgstr "Sivukohtaiset näkyvyysasetukset"
+
+#: modules/block/block.admin.inc:232
+msgid "Show on every page except the listed pages."
+msgstr "Näytä kaikilla paitsi näillä sivuilla."
+
+#: modules/block/block.admin.inc:232
+msgid "Show on only the listed pages."
+msgstr "Näytä vain näillä sivuilla."
+
+#: modules/block/block.admin.inc:233
+msgid ""
+"Enter one page per line as Drupal paths. The '*' character is a wildcard. "
+"Example paths are %blog for the blog page and %blog-wildcard for every "
+"personal blog. %front is the front page."
+msgstr ""
+"Kirjoita kullekin riville yksi Drupalin polku. Tähti (*) toimii "
+"jokerimerkkinä. Esimerkiksi polku %blog tarkoittaa blogisivuja ja %blog-"
+"wildcard jokaista henkilökohtaista blogia. Etusivu on %front."
+
+#: modules/block/block.admin.inc:236
+msgid ""
+"Show if the following PHP code returns <code>TRUE</code> (PHP-mode, experts "
+"only)."
+msgstr ""
+"Näytä vain, jos seuraava PHP-koodi palauttaa arvon <code>TRUE</code> (PHP-"
+"tila, vain asiantuntijoille)."
+
+#: modules/block/block.admin.inc:237
+msgid ""
+"If the PHP-mode is chosen, enter PHP code between %php. Note that executing "
+"incorrect PHP-code can break your Drupal site."
+msgstr ""
+"Jos PHP-tila on valittuna, syötä PHP-koodi %php -tagien väliin. Huom!  "
+"Virheellisen PHP-koodin ajaminen voi rikkoa sivuston."
+
+#: modules/block/block.admin.inc:241
+msgid "Show block on specific pages"
+msgstr "Näytä lohko tietyillä sivuilla"
+
+#: modules/block/block.admin.inc:247
+msgid "Pages"
+msgstr "Sivut"
+
+#: modules/block/block.admin.inc:255
+msgid "Save block"
+msgstr "Tallenna lohko"
+
+#: modules/block/block.admin.inc:264;293
+msgid "Please ensure that each block description is unique."
+msgstr "Varmista, että jokaisen lohkon kuvaus on ainutkertainen."
+
+#: modules/block/block.admin.inc:277
+msgid "The block configuration has been saved."
+msgstr "Lohkon asetukset on tallennettu."
+
+#: modules/block/block.admin.inc:314
+msgid "The block has been created."
+msgstr "Lohko on luotu."
+
+#: modules/block/block.admin.inc:329
+msgid "Are you sure you want to delete the block %name?"
+msgstr "Haluatko varmasti poistaa lohkon %name?"
+
+#: modules/block/block.admin.inc:338
+msgid "The block %name has been removed."
+msgstr "Lohko %name on poistettu."
+
+#: modules/block/block.module:70
+msgid ""
+"Blocks are boxes of content rendered into an area, or region, of a web page. "
+"The default theme Garland, for example, implements the regions \"left sidebar"
+"\", \"right sidebar\", \"content\", \"header\", and \"footer\", and a block "
+"may appear in any one of these areas. The <a href=\"@blocks\">blocks "
+"administration page</a> provides a drag-and-drop interface for assigning a "
+"block to a region, and for controlling the order of blocks within regions."
+msgstr ""
+"Lohkot ovat sisältölaatikoita, jotka näytetään sivun jossakin kohdassa eli "
+"jollakin alueella. Esimerkiksi oletusteema Garland sisältää seuraavat "
+"alueet: \"vasen sivupalkki\", \"oikea sivupalkki\", \"sisältö\", \"otsikko\" "
+"ja \"alatunniste\". Lohkot voivat sijaita millä tahansa näistä alueista. <a "
+"href=\"@blocks\">Lohkojen ylläpitosivulla</a> lohkoja voi siirtää alueesta "
+"toiseen, ja järjestellä alueen sisällä."
+
+#: modules/block/block.module:71
+msgid ""
+"Although blocks are usually generated automatically by modules (like the "
+"<em>User login</em> block, for example), administrators can also define "
+"custom blocks. Custom blocks have a title, description, and body. The body "
+"of the block can be as long as necessary, and can contain content supported "
+"by any available <a href=\"@input-format\">input format</a>."
+msgstr ""
+"Lohkot luo tavallisesti jokin moduuli (esim. <em>Kirjaudu sisään</em> -"
+"lohko), mutta ylläpitäjät voivat luoda myös omia lohkoja. Mukautetuilla "
+"lohkoilla on otsikko, kuvaus ja runko. Runko voi olla niin pitkä kuin on "
+"tarpeen, ja siinä voidaan käyttää mitä tahansa käytössä olevaa <a href="
+"\"@input-format\">syöttömuotoa</a>."
+
+#: modules/block/block.module:72
+msgid "When working with blocks, remember that:"
+msgstr "Työskennellessäsi lohkojen kanssa, muista seuraavat asiat:"
+
+#: modules/block/block.module:73
+msgid ""
+"since not all themes implement the same regions, or display regions in the "
+"same way, blocks are positioned on a per-theme basis."
+msgstr ""
+"Kaikki teemat eivät sisällä samoja alueita eivätkä näytä niitä samoilla "
+"tavoin. Lohkojen tarkka sijainti riippuu teemasta."
+
+#: modules/block/block.module:74
+msgid "disabled blocks, or blocks not in a region, are never shown."
+msgstr ""
+"Lohkot, jotka on poistettu käytöstä tai jotka eivät sijaitse millään "
+"alueella eivät näy käyttäjille."
+
+#: modules/block/block.module:75
+msgid ""
+"when throttle module is enabled, throttled blocks (blocks with the "
+"<em>Throttle</em> checkbox selected) are hidden during high server loads."
+msgstr ""
+"Jos kiihdytysmoduuli on käytössä, lohkot joiden <em>Kiihdytys</em>-ruutu on "
+"valittu poistetaan käytöstä jos palvelimen kuormitus on korkea."
+
+#: modules/block/block.module:76
+msgid "blocks can be configured to be visible only on certain pages."
+msgstr "Lohkon voi laittaa näkymään myös vain tietyillä sivulla."
+
+#: modules/block/block.module:77
+msgid ""
+"blocks can be configured to be visible only when specific conditions are "
+"true."
+msgstr ""
+"Lohkon voi laittaa näkymään myös vain silloin, kun tietyt ehdot täyttyvät."
+
+#: modules/block/block.module:78
+msgid "blocks can be configured to be visible only for certain user roles."
+msgstr "Lohkot voi laittaa näkymään myös vain tietyille käyttäjärooleille."
+
+#: modules/block/block.module:79
+msgid ""
+"when allowed by an administrator, specific blocks may be enabled or disabled "
+"on a per-user basis using the <em>My account</em> page."
+msgstr ""
+"Käyttäjät vovat valita haluavatko he nähdä eri lohkot, jos ylläpitäjä sallii "
+"tämän."
+
+#: modules/block/block.module:80
+msgid ""
+"some dynamic blocks, such as those generated by modules, will be displayed "
+"only on certain pages."
+msgstr ""
+"Jotkin esimerkiksi moduulien luomat dynaamiset lohkot näytetään vain "
+"tietyillä sivuilla."
+
+#: modules/block/block.module:81
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@block"
+"\">Block module</a>."
+msgstr "Lue käsikirjasta lisää <a href=\"@block\">lohkoista</a>."
+
+#: modules/block/block.module:85
+msgid ""
+"This page provides a drag-and-drop interface for assigning a block to a "
+"region, and for controlling the order of blocks within regions. To change "
+"the region or order of a block, grab a drag-and-drop handle under the "
+"<em>Block</em> column and drag the block to a new location in the list. "
+"(Grab a handle by clicking and holding the mouse while hovering over a "
+"handle icon.) Since not all themes implement the same regions, or display "
+"regions in the same way, blocks are positioned on a per-theme basis. "
+"Remember that your changes will not be saved until you click the <em>Save "
+"blocks</em> button at the bottom of the page."
+msgstr ""
+"Tällä sivulla voit lisätä lohkoja sivun eri alueille ja järjestellä niitä "
+"alueiden sisällä. Järjestele lohkoja vetämällä niitä <em>Lohko</em>-"
+"sarakkeen kahvasta. (Vie hiiri kahvan kohdalle, paina hiiren painike pohjaan "
+"ja vedä.) Kaikki teemat eivät sisällä samoja alueita eivätkä näytä niitä "
+"samalla tavalla, joten lohkojen tarkka sijainti riippuu teemasta. Huomaa, "
+"että muutoksia ei tallenneta ennen kuin klikkaat <em>Tallenna</em>-"
+"painiketta sivun alalaidassa."
+
+#: modules/block/block.module:87
+msgid ""
+"To reduce CPU usage, database traffic or bandwidth, blocks may be "
+"automatically disabled during high server loads by selecting their "
+"<em>Throttle</em> checkbox. Adjust throttle thresholds on the <a href="
+"\"@throttleconfig\">throttle configuration page</a>."
+msgstr ""
+"Ne lohkot, joiden <em>Kiihdytys</em>-ruutu on valittu kytketään "
+"automaattisesti pois käytöstä, kun kuormitus on raskas. Tämä vähentää "
+"prosessorin käyttöä, tietokannan liikennettä ja tiedonsiirtoa. <a href="
+"\"@throttleconfig\">Kiihdytyksen ylläpitosivulla</a> voit säätää, koska "
+"kiihdytystä käytetään."
+
+#: modules/block/block.module:89
+msgid ""
+"Click the <em>configure</em> link next to each block to configure its "
+"specific title and visibility settings. Use the <a href=\"@add-block\">add "
+"block page</a> to create a custom block."
+msgstr ""
+"Muokkaa lohkojen otsikoita ja näkyvyyttä kunkin lohkon <em>muokkaa</em>-"
+"linkistä. Lisää oma mukautettu lohko <a href=\"@add-block\">Lisää lohko</em> "
+"-sivulla."
+
+#: modules/block/block.module:92
+msgid ""
+"Use this page to create a new custom block. New blocks are disabled by "
+"default, and must be moved to a region on the <a href=\"@blocks\">blocks "
+"administration page</a> to be visible."
+msgstr ""
+"Tällä sivulla voit luoda mukautetun lohkon. Uusia lohkoja ei aluksi näytetä. "
+"Ne tulevat näkyviin, kun siirrät ne jollekin alueelle <a href=\"@blocks"
+"\">lohkojen ylläpitosivulla</a>."
+
+#: modules/block/block.module:272
+msgid ""
+"The block %info was assigned to the invalid region %region and has been "
+"disabled."
+msgstr "Alue %region ei sovi lohkolle %info. Lohko on poistettu käytöstä."
+
+#: modules/block/block.module:311
+msgid "Block description"
+msgstr "Lohkon kuvaus"
+
+#: modules/block/block.module:314
+msgid ""
+"A brief description of your block. Used on the <a href=\"@overview\">block "
+"overview page</a>."
+msgstr ""
+"Lohkon lyhyt kuvaus. Kuvausta käytetään <a href=\"@overview\">lohkojen "
+"yleisnäkymäsivulla</a>."
+
+#: modules/block/block.module:321
+msgid "Block body"
+msgstr "Lohkon runko"
+
+#: modules/block/block.module:324
+msgid "The content of the block as shown to the user."
+msgstr "Lohkon sisältö sellaisena, kuin se näytetään käyttäjille."
+
+#: modules/block/block.module:357
+msgid "Block configuration"
+msgstr "Lohkojen asetukset"
+
+#: modules/block/block.module:113
+msgid "administer blocks"
+msgstr "lohkojen ylläpito"
+
+#: modules/block/block.module:113
+msgid "use PHP for block visibility"
+msgstr "PHP:n käyttäminen lohkon näkyvyysasetuksissa"
+
+#: modules/block/block.module:121
+msgid "Blocks"
+msgstr "Lohkot"
+
+#: modules/block/block.module:122
+msgid ""
+"Configure what block content appears in your site's sidebars and other "
+"regions."
+msgstr "Valitse lohkot, jotka näytetään sivujen laidoilla ja muilla alueilla."
+
+#: modules/block/block.module:133
+msgid "JavaScript List Form"
+msgstr "JavaScript-listalomake"
+
+#: modules/block/block.module:139
+msgid "Configure block"
+msgstr "Lohkon asetukset"
+
+#: modules/block/block.module:146
+msgid "Delete block"
+msgstr "Poista lohko"
+
+#: modules/block/block.module:153
+msgid "Add block"
+msgstr "Lisää lohko"
+
+#: modules/block/block.module:0
+msgid "block"
+msgstr "lohko"
+
+#: modules/block/block.install:9
+msgid "Stores block settings, such as region and visibility settings."
+msgstr "Varastoi lohkon asetukset, kuten alueen ja näkyvyysasetukset."
+
+#: modules/block/block.install:14
+msgid "Primary Key: Unique block ID."
+msgstr "Ensisijainen avain: Lohkon ainutkertainen tunniste."
+
+#: modules/block/block.install:21
+msgid ""
+"The module from which the block originates; for example, 'user' for the "
+"Who's Online block, and 'block' for any custom blocks."
+msgstr ""
+"Moduuli, josta lohko on peräisin. Esim. 'user' Paikalla olevat käyttäjät -"
+"lohkolle ja 'block' käyttäjän luomille lohkoille."
+
+#: modules/block/block.install:28
+msgid "Unique ID for block within a module."
+msgstr "Lohkon ainutkertainen moduulikohtainen tunniste."
+
+#: modules/block/block.install:35
+msgid "The theme under which the block settings apply."
+msgstr "Teema, jotka lohkon asetukset koskevat."
+
+#: modules/block/block.install:42
+msgid "Block enabled status. (1 = enabled, 0 = disabled)"
+msgstr "Onko lohko käytössä? (1 = kyllä, 0 = ei)"
+
+#: modules/block/block.install:49
+msgid "Block weight within region."
+msgstr "Lohkon paino alueen sisällä."
+
+#: modules/block/block.install:56
+msgid "Theme region within which the block is set."
+msgstr "Teeman alue, jossa lohko sijaitsee."
+
+#: modules/block/block.install:63
+msgid ""
+"Flag to indicate how users may control visibility of the block. (0 = Users "
+"cannot control, 1 = On by default, but can be hidden, 2 = Hidden by default, "
+"but can be shown)"
+msgstr ""
+"Arvo, joka merkitsee kuinka käyttäjät voivat säätää lohkon näkyvyyttä. (0 = "
+"Käyttäjät eivät voi säätää, 1 = Päällä oletuksena, voi piilottaa, 2 = "
+"Piilotettu oletuksena, voi näyttää)"
+
+#: modules/block/block.install:70
+msgid ""
+"Flag to indicate whether or not to remove block when website traffic is "
+"high. (1 = throttle, 0 = do not throttle)"
+msgstr ""
+"Arvo, joka merkitsee poistetaanko lohko kun sivuston kuorimitus on suuri. (1 "
+"= kyllä, 0 = ei)"
+
+#: modules/block/block.install:77
+msgid ""
+"Flag to indicate how to show blocks on pages. (0 = Show on all pages except "
+"listed pages, 1 = Show only on listed pages, 2 = Use custom PHP code to "
+"determine visibility)"
+msgstr ""
+"Arvo, joka merkitsee kuinka lohkot näytetään sivuilla. (0 = Näytä kaikilla "
+"sivuilla paitsi listatuilla, 1 = Näytä vain listatuilla sivuilla, 2 = Käytä "
+"PHP-koodia näkyvyyden ratkaisemiseen)"
+
+#: modules/block/block.install:82
+msgid ""
+"Contents of the \"Pages\" block; contains either a list of paths on which to "
+"include/exclude the block or PHP code, depending on \"visibility\" setting."
+msgstr ""
+"\"Sivut\"-kentän sisältö, joko lista sivuista joilla lohko näytetään tai ei "
+"näytetä, tai PHP-koodia. Riippuu näkyvyysasetuksesta."
+
+#: modules/block/block.install:89
+msgid ""
+"Custom title for the block. (Empty string will use block default title, "
+"<none> will remove the title, text will cause block to use specified title.)"
+msgstr ""
+"Lohkon otsikko. (Tyhjä merkkijono käyttää oletusotsikkoa, <none> poistaa "
+"otsikon, tekstiä käytetään lohkon otsikkona)"
+
+#: modules/block/block.install:96
+msgid ""
+"Binary flag to indicate block cache mode. (-1: Do not cache, 1: Cache per "
+"role, 2: Cache per user, 4: Cache per page, 8: Block cache global) See "
+"BLOCK_CACHE_* constants in block.module for more detailed information."
+msgstr ""
+"Binääriarvo, joka ilmoittaa lohkon välimuistiasetuksen. (-1 = Ei "
+"välimuistia, 1 = Välimuisti kullekin roolille, 2 = Välimuisti kullekin "
+"käyttäjälle, 4 = Välimuisti kullekin sivulle, 8 = Yleinen lohkon välimuisti)"
+
+#: modules/block/block.install:109
+msgid "Sets up access permissions for blocks based on user roles"
+msgstr "Asettaa lohkojen pääsyoikeudet eri rooleille"
+
+#: modules/block/block.install:115
+msgid "The block's origin module, from {blocks}.module."
+msgstr "Lohkon alkuperämoduuli, kentästä {blocks}.module."
+
+#: modules/block/block.install:121
+msgid "The block's unique delta within module, from {blocks}.delta."
+msgstr ""
+"Lohkon ainutkertainen moduulikohtainen delta-arvo kentästä {blocks}.delta."
+
+#: modules/block/block.install:127
+msgid "The user's role ID from {users_roles}.rid."
+msgstr "Käyttäjän roolin tunniste kentästä {users_roles}.rid."
+
+#: modules/block/block.install:141
+msgid "Stores contents of custom-made blocks."
+msgstr "Varastoi käyttäjien luomien lohkojen sisällön."
+
+#: modules/block/block.install:147
+msgid "The block's {blocks}.bid."
+msgstr "Lohkon {blocks}.bid."
+
+#: modules/block/block.install:153
+msgid "Block contents."
+msgstr "Lohkon sisältö."
+
+#: modules/block/block.install:160
+msgid "Block description."
+msgstr "Lohkon kuvaus."
+
+#: modules/block/block.install:167
+msgid "Block body's {filter_formats}.format; for example, 1 = Filtered HTML."
+msgstr "Lohkon rungon {filter_formats}.format. Esim. 1 = Suodatettu HTML."
+
+#: modules/block/block.install:175
+msgid ""
+"Cache table for the Block module to store already built blocks, identified "
+"by module, delta, and various contexts which may change the block, such as "
+"theme, locale, and caching mode defined for the block."
+msgstr ""
+"Välimuistitaulu, johon lohkomoduuli varastoi jo rakennetut lohkot. Lohko "
+"tunnistetaan moduulin, delta-arvon ja erilaisten sitä muuntavien "
+"asiayhteyksien perusteella, kuten teema, lokalisaatio ja lohkon "
+"välimuistiasetus."
+
+#: modules/block/block.js:0
+msgid ""
+"The changes to these blocks will not be saved until the <em>Save blocks</em> "
+"button is clicked."
+msgstr ""
+"Lohkojen muutoksia ei tallenneta ennen kuin klikkaat <em>Tallenna</em>-"
+"painiketta."

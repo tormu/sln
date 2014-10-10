@@ -1,0 +1,502 @@
+# translation of general.po to
+# Finnish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  common.inc,v 1.602 2006/12/15 07:47:08 unconed
+#  system.module,v 1.428 2006/12/15 08:53:56 unconed
+#  upload.module,v 1.145 2006/12/14 13:30:59 dries
+#  image.inc,v 1.16 2006/12/12 01:03:34 unconed
+#  unicode.inc,v 1.23 2006/12/06 16:15:52 dries
+#  system.install,v 1.60 2006/12/13 10:41:56 unconed
+#  database.mysql.inc,v 1.64 2006/12/04 11:06:29 dries
+#  database.mysqli.inc,v 1.30 2006/12/04 11:06:29 dries
+#  file.inc,v 1.88 2006/12/11 16:45:17 dries
+#  user.module,v 1.731 2006/12/12 10:11:43 unconed
+#  form.inc,v 1.166 2006/12/12 10:01:38 unconed
+#  filter.module,v 1.157 2006/12/14 10:14:05 unconed
+#  locale.inc,v 1.101 2006/12/10 09:54:32 unconed
+#  blogapi.module,v 1.99 2006/11/21 20:14:17 dries
+#  forum.module,v 1.371 2006/12/10 20:34:02 dries
+#  block.module,v 1.244 2006/12/11 23:00:09 unconed
+#  book.module,v 1.403 2006/11/30 02:04:31 drumm
+#  comment.module,v 1.515 2006/12/15 01:33:00 unconed
+#  contact.module,v 1.72 2006/12/04 10:43:34 dries
+#  menu.module,v 1.99 2006/11/30 01:55:31 drumm
+#  content_types.inc,v 1.18 2006/12/05 05:47:37 dries
+#  node.module,v 1.752 2006/12/14 14:07:57 dries
+#  path.module,v 1.103 2006/11/26 02:20:01 drumm
+#  profile.module,v 1.185 2006/12/13 23:50:26 unconed
+#  drupal.module,v 1.137 2006/12/11 16:57:42 dries
+#  statistics.module,v 1.246 2006/11/26 02:20:01 drumm
+#  aggregator.module,v 1.323 2006/12/14 13:41:02 dries
+#  taxonomy.module,v 1.328 2006/11/30 07:05:57 unconed
+#  watchdog.module,v 1.164 2006/12/10 09:54:35 unconed
+#  locale.module,v 1.154 2006/12/01 22:47:53 unconed
+#  search.module,v 1.206 2006/12/11 16:57:42 dries
+#  search.info,v 1.3 2006/11/21 20:55:35 dries
+#  menu.inc,v 1.143 2006/12/12 06:02:52 unconed
+#  chameleon.theme,v 1.56 2006/11/29 06:36:12 drumm
+#  pager.inc,v 1.59 2006/10/15 19:57:05 dries
+#  theme.inc,v 1.332 2006/12/15 01:06:33 unconed
+#  phptemplate.engine,v 1.53 2006/12/13 23:22:57 unconed
+#  poll.module,v 1.221 2006/12/10 20:34:03 dries
+#  legacy.module,v 1.15 2006/11/21 20:14:18 dries
+#  blog.module,v 1.271 2006/12/10 20:34:02 dries
+#  tracker.module,v 1.141 2006/12/10 09:54:34 unconed
+#  aggregator.info,v 1.3 2006/11/21 20:55:33 dries
+#  blog.info,v 1.3 2006/11/21 20:55:33 dries
+#  blogapi.info,v 1.3 2006/11/21 20:55:33 dries
+#  book.info,v 1.3 2006/11/21 20:55:33 dries
+#  color.info,v 1.2 2006/11/21 20:55:34 dries
+#  comment.info,v 1.3 2006/11/21 20:55:34 dries
+#  contact.info,v 1.3 2006/11/21 20:55:34 dries
+#  drupal.info,v 1.3 2006/11/21 20:55:34 dries
+#  forum.info,v 1.4 2006/11/21 20:55:34 dries
+#  help.info,v 1.3 2006/11/21 20:55:34 dries
+#  legacy.info,v 1.3 2006/11/21 20:55:34 dries
+#  locale.info,v 1.3 2006/11/21 20:55:34 dries
+#  menu.info,v 1.3 2006/11/21 20:55:34 dries
+#  path.info,v 1.3 2006/11/21 20:55:34 dries
+#  ping.info,v 1.3 2006/11/21 20:55:35 dries
+#  poll.info,v 1.3 2006/11/21 20:55:35 dries
+#  profile.info,v 1.3 2006/11/21 20:55:35 dries
+#  statistics.info,v 1.3 2006/11/21 20:55:35 dries
+#  taxonomy.info,v 1.3 2006/11/21 20:55:35 dries
+#  throttle.info,v 1.3 2006/11/21 20:55:35 dries
+#  tracker.info,v 1.3 2006/11/21 20:55:35 dries
+#  upload.info,v 1.3 2006/11/21 20:55:35 dries
+#  block.info,v 1.3 2006/11/21 20:55:33 dries
+#  filter.info,v 1.3 2006/11/21 20:55:34 dries
+#  node.info,v 1.3 2006/11/21 20:55:34 dries
+#  system.info,v 1.3 2006/11/21 20:55:35 dries
+#  user.info,v 1.3 2006/11/21 20:55:36 dries
+#  watchdog.info,v 1.3 2006/11/21 20:55:36 dries
+#  throttle.module,v 1.71 2006/12/04 10:56:21 dries
+#  color.module,v 1.12 2006/12/10 09:54:33 unconed
+#  help.module,v 1.67 2006/12/10 09:54:33 unconed
+#  color.inc,v 1.2 2006/12/06 16:32:54 dries
+#  database.pgsql.inc,v 1.42 2006/12/14 13:26:41 dries
+#  install.inc,v 1.30 2006/12/08 11:54:04 dries
+#  tablesort.inc,v 1.43 2006/12/01 08:50:33 dries
+#  xmlrpc.inc,v 1.38 2006/09/03 08:21:18 dries
+#  xmlrpcs.inc,v 1.21 2006/07/05 11:45:51 dries
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#  ping.module,v 1.45 2006/11/21 20:14:18 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-02-04 13:47+0100\n"
+"PO-Revision-Date: 2008-03-10 11:34+0200\n"
+"Last-Translator: Ilari Sani <ilari.sani@assemblix.net>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/menu/menu.admin.inc:54
+msgid "There are no menu items yet."
+msgstr "Valikossa ei ole vielä kohtia."
+
+#: modules/menu/menu.admin.inc:72 modules/menu/menu.module:235
+msgid "disabled"
+msgstr "ei käytössä"
+
+#: modules/menu/menu.admin.inc:103
+msgid "reset"
+msgstr "nollaa"
+
+#: modules/menu/menu.admin.inc:174
+msgid "Menu item"
+msgstr "Valikon kohta"
+
+#: modules/menu/menu.admin.inc:176;298
+msgid "Expanded"
+msgstr "Laajennettu"
+
+#: modules/menu/menu.admin.inc:229 modules/menu/menu.module:358
+msgid "Menu settings"
+msgstr "Valikon asetukset"
+
+#: modules/menu/menu.admin.inc:259
+msgid ""
+"The path this menu item links to. This can be an internal Drupal path such "
+"as %add-node or an external URL such as %drupal. Enter %front to link to the "
+"front page."
+msgstr ""
+"Polku johon tämä valikon kohta viittaa. Tämä voi olla Drupalin sisäinen "
+"polku, kuten %add-node tai ulkoinen verkko-osoite, kuten %drupal. Jos haluat "
+"linkin johtavan etusivulle, kirjoita %front."
+
+#: modules/menu/menu.admin.inc:278 modules/menu/menu.module:385
+msgid "Menu link title"
+msgstr "Valikon linkin otsikko"
+
+#: modules/menu/menu.admin.inc:280
+msgid ""
+"The link text corresponding to this item that should appear in the menu."
+msgstr "Tähän kohtaan kuuluva linkkiteksti, joka näytetään valikossa."
+
+#: modules/menu/menu.admin.inc:288
+msgid "The description displayed when hovering over a menu item."
+msgstr "Kuvaus, joka näytetään jätettäessä hiiri valikon kohdan päälle."
+
+#: modules/menu/menu.admin.inc:294
+msgid "Menu items that are not enabled will not be listed in any menu."
+msgstr "Valikon kohtia jotka eivät ole käytössä ei näytetä missään valikossa."
+
+#: modules/menu/menu.admin.inc:300
+msgid ""
+"If selected and this menu item has children, the menu will always appear "
+"expanded."
+msgstr ""
+"Jos valitset tämän vaihtoehdon ja tällä kohdalla on alakohtia, se näytetään "
+"aina laajennettuna."
+
+# Onko tämä nyt oikein? Miten se rajoitus käytännössä toimii?
+#: modules/menu/menu.admin.inc:314 modules/menu/menu.module:401
+msgid ""
+"The maximum depth for an item and all its children is fixed at !maxdepth. "
+"Some menu items may not be available as parents if selecting them would "
+"exceed this limit."
+msgstr ""
+"Valikon kohdan ja sen alakohtien maksimisyvyys on !maxdepth. Joitakin "
+"valikon kohtia ei näytetä yläkohtina, jos niiden valitseminen ylittäisi "
+"tämän rajan."
+
+#: modules/menu/menu.admin.inc:321 modules/menu/menu.module:410
+msgid ""
+"Optional. In the menu, the heavier items will sink and the lighter items "
+"will be positioned nearer the top."
+msgstr ""
+"Valinnainen. Painavammat valikkokohdat \"uppoavat\" valikon pohjalle ja "
+"kevyemmät nousevat ylös."
+
+#: modules/menu/menu.admin.inc:377 modules/menu/menu.module:302
+msgid "There was an error saving the menu link."
+msgstr "Valikon kohdan tallentaminen ei onnistunut."
+
+#: modules/menu/menu.admin.inc:401
+msgid "Menu name"
+msgstr "Valikon nimi"
+
+#: modules/menu/menu.admin.inc:403
+msgid ""
+"The machine-readable name of this menu. This text will be used for "
+"constructing the URL of the <em>menu overview</em> page for this menu. This "
+"name must contain only lowercase letters, numbers, and hyphens, and must be "
+"unique."
+msgstr ""
+"Valikon nimi järjestelmää varten. Tätä nimeä käytetään <em>valikon "
+"yleiskatsaus</em> -sivun osoitteessa. Nimi voi sisältää vain pieniä "
+"kirjaimia, numeroita sekä väliviivoja, ja sen on oltava ainutkertainen."
+
+#: modules/menu/menu.admin.inc:458
+msgid "Are you sure you want to delete the custom menu %title?"
+msgstr "Haluatko varmasti mukautetun valikon %title?"
+
+#: modules/menu/menu.admin.inc:490
+msgid "The custom menu %title has been deleted."
+msgstr "Mukautettu valikko %title on poistettu."
+
+#: modules/menu/menu.admin.inc:500
+msgid ""
+"The menu name may only consist of lowercase letters, numbers, and hyphens."
+msgstr ""
+"Valikon nimi voi sisältää vain pieniä kirjaimia, numeroita ja väliviivoja."
+
+#: modules/menu/menu.admin.inc:510
+msgid "The menu already exists."
+msgstr "Valikko on jo olemassa."
+
+#: modules/menu/menu.admin.inc:562
+msgid "Are you sure you want to delete the custom menu item %item?"
+msgstr "Haluatko varmasti poistaa valikosta kohdan %item?"
+
+#: modules/menu/menu.admin.inc:572
+msgid "The menu item %title has been deleted."
+msgstr "Valikosta poistettiin kohta %title."
+
+#: modules/menu/menu.admin.inc:582
+msgid "Are you sure you want to reset the item %item to its default values?"
+msgstr "Oletko varma, että haluat palauttaa kohdan %item oletusarvoonsa?"
+
+#: modules/menu/menu.admin.inc:582
+msgid "Any customizations will be lost. This action cannot be undone."
+msgstr "Kaikki mukautukset menetetään. Tätä ei voi perua."
+
+#: modules/menu/menu.admin.inc:591
+msgid "The menu item was reset to its default settings."
+msgstr "Valikon kohta on palautettu oletusarvoonsa."
+
+#: modules/menu/menu.admin.inc:601
+msgid ""
+"The menu module allows on-the-fly creation of menu links in the content "
+"authoring forms. The following option sets the default menu in which a new "
+"link will be added."
+msgstr ""
+"Kirjoituksen voi lisätä valikkoon sen muokkauslomakkeesta käsin. Seuraava "
+"asetus määrittää, mihin valikkoon uusi linkki oletuksena lisätään."
+
+#: modules/menu/menu.admin.inc:606
+msgid "Default menu for content"
+msgstr "Sisällön oletusvalikko"
+
+#: modules/menu/menu.admin.inc:609
+msgid ""
+"Choose the menu to be the default in the menu options in the content "
+"authoring form."
+msgstr ""
+"Valitse valikko, joka näytetään oletuksena sisällön muokkauslomakkeen "
+"valikko-kohdassa."
+
+#: modules/menu/menu.admin.inc:615
+msgid "Source for the secondary links"
+msgstr "Toissijaisten linkkien lähde"
+
+# Toivottavasti tämä oli riittävän selkeää.
+#: modules/menu/menu.admin.inc:619
+msgid ""
+"Select what should be displayed as the secondary links. If %primary is "
+"chosen, the children of the active primary menu link (if any) will be shown "
+"instead of the links in the %secondary menu."
+msgstr ""
+"Valitse, mitä näytetään toissijaisina linkkeinä. Jos valitset %primary, "
+"ensisijaisten linkkien aktiivisen kohdan alakohdat (jos on) näytetään %"
+"secondary -valikon sijaan."
+
+#: modules/menu/menu.admin.inc:491
+msgid "Deleted custom menu %title and all its menu items."
+msgstr "Poistettiin mukautettu valikko %title ja kaikki sen kohdat."
+
+#: modules/menu/menu.admin.inc:573
+msgid "Deleted menu item %title."
+msgstr "Valikosta poistettiin kohta %title."
+
+#: modules/menu/menu.admin.inc:455
+msgid ""
+"<strong>Warning:</strong> There is currently 1 menu item in %title. It will "
+"be deleted (system-defined items will be reset)."
+msgid_plural ""
+"<strong>Warning:</strong> There are currently @count menu items in %title. "
+"They will be deleted (system-defined items will be reset)."
+msgstr[0] ""
+"<strong>Varoitus:</strong> Valikossa %title on yksi kohta. Se poistetaan "
+"(järjestelmän määrittämät kohdat nollataan)."
+msgstr[1] ""
+"<strong>Varoitus:</strong> Valikossa %title on @count kohtaa. Ne poistetaan "
+"(järjestelmän määrittämät kohdat nollataan)."
+
+#: modules/menu/menu.admin.inc:503
+msgid "The menu name can't be longer than 1 character."
+msgid_plural "The menu name can't be longer than @count characters."
+msgstr[0] "Valikon nimi ei voi olla pidempi kuin 1 merkki."
+msgstr[1] "Valikon nimi ei voi olla pidempi kuin @count merkkiä."
+
+#: modules/menu/menu.module:21
+msgid ""
+"The menu module provides an interface to control and customize Drupal's "
+"powerful menu system. Menus are a hierarchical collection of links, or menu "
+"items, used to navigate a website, and are positioned and displayed using "
+"Drupal's flexible block system. By default, three menus are created during "
+"installation: <em>Navigation</em>, <em>Primary links</em>, and <em>Secondary "
+"links</em>. The <em>Navigation</em> menu contains most links necessary for "
+"working with and navigating your site, and is often displayed in either the "
+"left or right sidebar. Most Drupal themes also provide support for "
+"<em>Primary links</em> and <em>Secondary links</em>, by displaying them in "
+"either the header or footer of each page. By default, <em>Primary links</em> "
+"and <em>Secondary links</em> contain no menu items but may be configured to "
+"contain custom menu items specific to your site."
+msgstr ""
+"Valikkomoduulin avulla voit hallita ja muokata Drupalin monipuolista "
+"valikkojärjestelmää. Valikot ovat hierarkisia linkkilistoja, joiden "
+"asetteluun ja näyttämiseen käytetään Drupalin joustavaa lohkojärjestelmää. "
+"Asennuksen yhteydessä luodaan kolme oletusvalikkoa: <em>Navigaatio</em>, "
+"<em>Ensisijaiset linkit</em> ja <em>Toissijaiset linkit</em>. "
+"<em>Navigaatio</em>-valikko sisältää useimmat sivuston navigoimiseen "
+"tarvittavat linkit, ja se näytetään yleensä oikeassa tai vasemmassa "
+"laidassa. Useimmat Drupalin teemat tukevat myös <em>Ensisijaisia linkkejä</"
+"em> ja <em>Toissijaisia linkkejä</em>, ja näyttävät ne sivun ylä- tai "
+"alalaidassa. <em>Ensisijaiset linkit</em> ja <em>Toissijaiset linkit</em> "
+"eivät oletuksena sisällä mitään, mutta voit lisätä niihin linkkejä "
+"haluamillesi sivuille. "
+
+#: modules/menu/menu.module:22
+msgid ""
+"The <a href=\"@menu\">menus page</a> displays all menus currently available "
+"on your site. Select a menu from this list to add or edit a menu item, or to "
+"rearrange items within the menu. Create new menus using the <a href=\"@add-"
+"menu\">add menu page</a> (the block containing a new menu must also be "
+"enabled on the <a href=\"@blocks\">blocks administration page</a>)."
+msgstr ""
+"<a href=\"@menu\">Valikkosivulla</a> näkyvät kaikki tällä hetkellä tarjolla "
+"ovat valikot. Valitse listasta jokin valikko, niin voit lisätä siihen kohtia "
+"ja nimetä tai järjestellä niitä uudelleen. Luo uusia valikoita <a href="
+"\"@add-menu\">valikon lisäyssivulla</a>. (Muista myös ottaa uuden valikon "
+"lohko käyttöön <a href=\"@blocks\">lohkojen ylläpitosivulla</a>."
+
+#: modules/menu/menu.module:23
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@menu"
+"\">Menu module</a>."
+msgstr "Lue käsikirjasta lisää <a href=\"@menu\">valikoista</a>."
+
+#: modules/menu/menu.module:26
+msgid ""
+"Menus are a collection of links (menu items) used to navigate a website. The "
+"menus currently available on your site are displayed below. Select a menu "
+"from this list to manage its menu items."
+msgstr ""
+"Valikot ovat linkkikokoelmia, joita käytetään sivustolla navigoimiseen. Alla "
+"ovat sivustollasi käytössä ovat valikot. Valitse valikko listasta "
+"muokataksesi sen eri kohtia."
+
+#: modules/menu/menu.module:28
+msgid ""
+"Enter the name for your new menu. Remember to enable the newly created block "
+"in the <a href=\"@blocks\">blocks administration page</a>."
+msgstr ""
+"Anna uuden valikon nimi. Muista myös kytkeä nyt luomasi lohko käyttöön <a "
+"href=\"@blocks\">lohkojen ylläpitosivulta</a>."
+
+#: modules/menu/menu.module:30
+msgid ""
+"To rearrange menu items, grab a drag-and-drop handle under the <em>Menu "
+"item</em> column and drag the items (or group of items) to a new location in "
+"the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save configuration</em> button at the bottom of the page."
+msgstr ""
+"Järjestele valikon kohtia uudelleen vetämällä niitä <em>Valikon kohta</em>-"
+"sarakkeen alla olevasta vetokahvasta. (Osoita hiirellä kahva-ikonia, paina "
+"hiiren näppäin pohjaan ja vedä.) Muista, että muutoksia ei tallenneta ennen "
+"kuin painat <em>Tallenna asetukset</em> -painiketta sivun alalaidassa."
+
+#: modules/menu/menu.module:32
+msgid "Enter the title and path for your new menu item."
+msgstr "Anna valikon uuden kohdan otsikko ja polku."
+
+#: modules/menu/menu.module:372
+msgid "Delete this menu item."
+msgstr "Poista tämä valikon kohta."
+
+#: modules/menu/menu.module:387
+msgid ""
+"The link text corresponding to this item that should appear in the menu. "
+"Leave blank if you do not wish to add this post to the menu."
+msgstr ""
+"Linkkiteksti, jolla tähän kirjoitukseen viitataan valikossa. Jätä tämä kohta "
+"tyhjäksi, jollet halua lisätä kirjoitusta valikkoon."
+
+#: modules/menu/menu.module:40
+msgid "administer menu"
+msgstr "valikon ylläpito"
+
+#: modules/menu/menu.module:48
+msgid "Menus"
+msgstr "Valikot"
+
+#: modules/menu/menu.module:49
+msgid ""
+"Control your site's navigation menu, primary links and secondary links. as "
+"well as rename and reorganize menu items."
+msgstr ""
+"Muokkaa navigaatiovalikkoa sekä ensisijaisia ja toissijaisia linkkejä. "
+"Järjestele valikon kohtia ja nimeä niitä uudelleen."
+
+#: modules/menu/menu.module:57
+msgid "List menus"
+msgstr "Listaa valikot"
+
+#: modules/menu/menu.module:63
+msgid "Add menu"
+msgstr "Lisää valikko"
+
+#: modules/menu/menu.module:78
+msgid "Customize menu"
+msgstr "Mukauta valikkoa"
+
+#: modules/menu/menu.module:88
+msgid "List items"
+msgstr "Listaa kohta"
+
+#: modules/menu/menu.module:94
+msgid "Add item"
+msgstr "Lisää kohta"
+
+#: modules/menu/menu.module:101
+msgid "Edit menu"
+msgstr "Muokkaa valikkoa"
+
+#: modules/menu/menu.module:108
+msgid "Delete menu"
+msgstr "Poista valikko"
+
+#: modules/menu/menu.module:115
+msgid "Edit menu item"
+msgstr "Muokkaa valikon kohtaa"
+
+#: modules/menu/menu.module:122
+msgid "Reset menu item"
+msgstr "Palauta valikon kohdan asetukset oletusarvoihinsa"
+
+#: modules/menu/menu.module:129
+msgid "Delete menu item"
+msgstr "Poista valikon kohta"
+
+#: modules/menu/menu.install:31
+msgid ""
+"Holds definitions for top-level custom menus (for example, Primary Links)."
+msgstr ""
+"Sisältää ylimmän tason mukautettujen valikoiden määritelmät (esim. "
+"Ensisijaiset linkit)."
+
+#: modules/menu/menu.install:38
+msgid ""
+"Primary Key: Unique key for menu. This is used as a block delta so length is "
+"32."
+msgstr ""
+"Pääavain: Valikon ainutkertainen tunniste. Tätä käytetään lohkon delta-"
+"arvona, joten pituus on 32."
+
+#: modules/menu/menu.install:45
+msgid "Menu title; displayed at top of block."
+msgstr "Valikon otsikko, näytetään lohkon ylälaidassa."
+
+#: modules/menu/menu.install:50
+msgid "Menu description."
+msgstr "Valikon kuvaus."
+
+#: (duplicate) modules/menu/menu.install:12
+msgid ""
+"The navigation menu is provided by Drupal and is the main interactive menu "
+"for any site. It is usually the only menu that contains personalized links "
+"for authenticated users, and is often not even visible to anonymous users."
+msgstr ""
+"Navigaatiovalikko on osa Drupalia, ja se on sivuston tärkein interaktiivinen "
+"valikko. Se on yleensä ainoa valikko jossa näytetään sisään kirjautuneille "
+"käyttäjille henkilökohtaisia linkkejä, eikä sitä välttämättä edes näytetä "
+"anonyymeille käyttäjille."
+
+#: (duplicate) modules/menu/menu.install:13
+msgid ""
+"Primary links are often used at the theme layer to show the major sections "
+"of a site. A typical representation for primary links would be tabs along "
+"the top."
+msgstr ""
+"Ensisijaisia linkkejä käytetään monissa teemoissa sivuston tärkeimpien "
+"alueiden näyttämiseen. Ne esitetään tavallisesti sivun ylälaidassa "
+"välilehtinä."
+
+#: (duplicate) modules/menu/menu.install:14
+msgid ""
+"Secondary links are often used for pages like legal notices, contact "
+"details, and other secondary navigation items that play a lesser role than "
+"primary links"
+msgstr ""
+"Toissijaisia linkkejä käytetään usein oikeustietoihin, yhteystietoihin ja "
+"muuhun navigaatioon, joka on vähemmän tärkeää kuin ensisijaiset linkit."

@@ -1,0 +1,759 @@
+# translation of general.po to
+# Finnish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  common.inc,v 1.602 2006/12/15 07:47:08 unconed
+#  system.module,v 1.428 2006/12/15 08:53:56 unconed
+#  upload.module,v 1.145 2006/12/14 13:30:59 dries
+#  image.inc,v 1.16 2006/12/12 01:03:34 unconed
+#  unicode.inc,v 1.23 2006/12/06 16:15:52 dries
+#  system.install,v 1.60 2006/12/13 10:41:56 unconed
+#  database.mysql.inc,v 1.64 2006/12/04 11:06:29 dries
+#  database.mysqli.inc,v 1.30 2006/12/04 11:06:29 dries
+#  file.inc,v 1.88 2006/12/11 16:45:17 dries
+#  user.module,v 1.731 2006/12/12 10:11:43 unconed
+#  form.inc,v 1.166 2006/12/12 10:01:38 unconed
+#  filter.module,v 1.157 2006/12/14 10:14:05 unconed
+#  locale.inc,v 1.101 2006/12/10 09:54:32 unconed
+#  blogapi.module,v 1.99 2006/11/21 20:14:17 dries
+#  forum.module,v 1.371 2006/12/10 20:34:02 dries
+#  block.module,v 1.244 2006/12/11 23:00:09 unconed
+#  book.module,v 1.403 2006/11/30 02:04:31 drumm
+#  comment.module,v 1.515 2006/12/15 01:33:00 unconed
+#  contact.module,v 1.72 2006/12/04 10:43:34 dries
+#  menu.module,v 1.99 2006/11/30 01:55:31 drumm
+#  content_types.inc,v 1.18 2006/12/05 05:47:37 dries
+#  node.module,v 1.752 2006/12/14 14:07:57 dries
+#  path.module,v 1.103 2006/11/26 02:20:01 drumm
+#  profile.module,v 1.185 2006/12/13 23:50:26 unconed
+#  drupal.module,v 1.137 2006/12/11 16:57:42 dries
+#  statistics.module,v 1.246 2006/11/26 02:20:01 drumm
+#  aggregator.module,v 1.323 2006/12/14 13:41:02 dries
+#  taxonomy.module,v 1.328 2006/11/30 07:05:57 unconed
+#  watchdog.module,v 1.164 2006/12/10 09:54:35 unconed
+#  locale.module,v 1.154 2006/12/01 22:47:53 unconed
+#  search.module,v 1.206 2006/12/11 16:57:42 dries
+#  search.info,v 1.3 2006/11/21 20:55:35 dries
+#  menu.inc,v 1.143 2006/12/12 06:02:52 unconed
+#  chameleon.theme,v 1.56 2006/11/29 06:36:12 drumm
+#  pager.inc,v 1.59 2006/10/15 19:57:05 dries
+#  theme.inc,v 1.332 2006/12/15 01:06:33 unconed
+#  phptemplate.engine,v 1.53 2006/12/13 23:22:57 unconed
+#  poll.module,v 1.221 2006/12/10 20:34:03 dries
+#  legacy.module,v 1.15 2006/11/21 20:14:18 dries
+#  blog.module,v 1.271 2006/12/10 20:34:02 dries
+#  tracker.module,v 1.141 2006/12/10 09:54:34 unconed
+#  aggregator.info,v 1.3 2006/11/21 20:55:33 dries
+#  blog.info,v 1.3 2006/11/21 20:55:33 dries
+#  blogapi.info,v 1.3 2006/11/21 20:55:33 dries
+#  book.info,v 1.3 2006/11/21 20:55:33 dries
+#  color.info,v 1.2 2006/11/21 20:55:34 dries
+#  comment.info,v 1.3 2006/11/21 20:55:34 dries
+#  contact.info,v 1.3 2006/11/21 20:55:34 dries
+#  drupal.info,v 1.3 2006/11/21 20:55:34 dries
+#  forum.info,v 1.4 2006/11/21 20:55:34 dries
+#  help.info,v 1.3 2006/11/21 20:55:34 dries
+#  legacy.info,v 1.3 2006/11/21 20:55:34 dries
+#  locale.info,v 1.3 2006/11/21 20:55:34 dries
+#  menu.info,v 1.3 2006/11/21 20:55:34 dries
+#  path.info,v 1.3 2006/11/21 20:55:34 dries
+#  ping.info,v 1.3 2006/11/21 20:55:35 dries
+#  poll.info,v 1.3 2006/11/21 20:55:35 dries
+#  profile.info,v 1.3 2006/11/21 20:55:35 dries
+#  statistics.info,v 1.3 2006/11/21 20:55:35 dries
+#  taxonomy.info,v 1.3 2006/11/21 20:55:35 dries
+#  throttle.info,v 1.3 2006/11/21 20:55:35 dries
+#  tracker.info,v 1.3 2006/11/21 20:55:35 dries
+#  upload.info,v 1.3 2006/11/21 20:55:35 dries
+#  block.info,v 1.3 2006/11/21 20:55:33 dries
+#  filter.info,v 1.3 2006/11/21 20:55:34 dries
+#  node.info,v 1.3 2006/11/21 20:55:34 dries
+#  system.info,v 1.3 2006/11/21 20:55:35 dries
+#  user.info,v 1.3 2006/11/21 20:55:36 dries
+#  watchdog.info,v 1.3 2006/11/21 20:55:36 dries
+#  throttle.module,v 1.71 2006/12/04 10:56:21 dries
+#  color.module,v 1.12 2006/12/10 09:54:33 unconed
+#  help.module,v 1.67 2006/12/10 09:54:33 unconed
+#  color.inc,v 1.2 2006/12/06 16:32:54 dries
+#  database.pgsql.inc,v 1.42 2006/12/14 13:26:41 dries
+#  install.inc,v 1.30 2006/12/08 11:54:04 dries
+#  tablesort.inc,v 1.43 2006/12/01 08:50:33 dries
+#  xmlrpc.inc,v 1.38 2006/09/03 08:21:18 dries
+#  xmlrpcs.inc,v 1.21 2006/07/05 11:45:51 dries
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#  ping.module,v 1.45 2006/11/21 20:14:18 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-02-04 13:47+0100\n"
+"PO-Revision-Date: 2008-02-20 16:17+0200\n"
+"Last-Translator: Ilari Sani <ilari.sani@assemblix.net>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/comment/comment-folded.tpl.php:20
+msgid "by"
+msgstr "Kirjoittanut"
+
+#: modules/comment/comment.admin.inc:56
+msgid "Posted in"
+msgstr "Kirjoitus"
+
+#: modules/comment/comment.admin.inc:86
+msgid "Please select one or more comments to perform the update on."
+msgstr "Valitse yksi tai useampi kommentti, joita päivitys koskee."
+
+#: modules/comment/comment.admin.inc:142
+msgid "No comments available."
+msgstr "Kommentteja ei ole saatavilla."
+
+#: modules/comment/comment.admin.inc:183
+msgid ""
+"There do not appear to be any comments to delete or your selected comment "
+"was deleted by another administrator."
+msgstr ""
+"Kommentteja ei ole poistettavissa tai valitsemasi kommentin poisti toinen "
+"ylläpitäjä."
+
+#: modules/comment/comment.admin.inc:188
+msgid "Are you sure you want to delete these comments and all their children?"
+msgstr "Haluatko varmasti poistaa nämä kommentit ja kaikki vastaukset niihin?"
+
+#: modules/comment/comment.admin.inc:190
+msgid "Delete comments"
+msgstr "Poista kommentit"
+
+#: modules/comment/comment.admin.inc:207
+msgid "The comments have been deleted."
+msgstr "Kommentit on poistettu."
+
+#: modules/comment/comment.admin.inc:228
+msgid "The comment no longer exists."
+msgstr "Kommenttia ei enää ole."
+
+#: modules/comment/comment.admin.inc:245
+msgid "Are you sure you want to delete the comment %title?"
+msgstr "Haluatko varmasti poistaa kommentin %title?"
+
+#: modules/comment/comment.admin.inc:247
+msgid "Any replies to this comment will be lost. This action cannot be undone."
+msgstr "Kaikki tämän kommentin vastaukset poistetaan. Tätä ei voi perua."
+
+#: modules/comment/comment.admin.inc:257
+msgid "The comment and all its replies have been deleted."
+msgstr "Kommentti ja kaikki sen vastaukset on poistettu."
+
+#: modules/comment/comment.admin.inc:111 modules/comment/comment.module:707
+msgid "Comment: updated %subject."
+msgstr "Kommentti: päivitetty %subject."
+
+#: modules/comment/comment.admin.inc:280
+msgid "Cannot delete non-existent comment."
+msgstr "Olematonta kommenttia ei voida poistaa."
+
+#: modules/comment/comment.admin.inc:286
+msgid "Comment: deleted %subject."
+msgstr "Kommentti: poistettu %subject."
+
+#: modules/comment/comment.pages.inc:60
+#: modules/comment/comment.module:557;1425
+msgid "Preview comment"
+msgstr "Esikatsele kommenttia"
+
+#: modules/comment/comment.pages.inc:65;105
+msgid "You are not authorized to post comments."
+msgstr "Sinulla ei ole oikeutta kirjoittaa kommentteja."
+
+#: modules/comment/comment.pages.inc:78;87
+msgid "The comment you are replying to does not exist."
+msgstr "Kommenttia johon olit vastaamassa ei ole olemassa."
+
+#: modules/comment/comment.pages.inc:98
+msgid "This discussion is closed: you can't post new comments."
+msgstr "Tämä keskustelu on suljettu: et voi kirjoittaa uusia kommentteja."
+
+#: modules/comment/comment.pages.inc:102
+msgid "Reply"
+msgstr "Vastaa"
+
+#: modules/comment/comment.pages.inc:111
+msgid "You are not authorized to view comments."
+msgstr "Sinulla ei ole oikeutta lukea kommentteja."
+
+#: modules/comment/comment.module:129
+msgid ""
+"The comment module allows visitors to comment on your posts, creating ad hoc "
+"discussion boards. Any <a href=\"@content-type\">content type</a> may have "
+"its <em>Default comment setting</em> set to <em>Read/Write</em> to allow "
+"comments, or <em>Disabled</em>, to prevent comments. Comment display "
+"settings and other controls may also be customized for each content type "
+"(some display settings are customizable by individual users)."
+msgstr ""
+"Kommenttimoduulin avulla kävijät voivat kommentoida kirjoituksia ja käydä "
+"keskusteluja. <a href=\"@content-type\">Eri tyyppisten kirjoitusten</a> "
+"kommentoimisen voi sallia tai kieltää, ja niiden kommentit voi näyttää eri "
+"tavoin. Käyttäjät voivat myös itse säätää joitakin näyttöasetuksia."
+
+#: modules/comment/comment.module:130
+msgid ""
+"Comment permissions are assigned to user roles, and are used to determine "
+"whether anonymous users (or other roles) are allowed to comment on posts. If "
+"anonymous users are allowed to comment, their individual contact information "
+"may be retained in cookies stored on their local computer for use in later "
+"comment submissions. When a comment has no replies, it may be (optionally) "
+"edited by its author. The comment module uses the same input formats and "
+"HTML tags available when creating other forms of content."
+msgstr ""
+"Kommentointioikeuksia myönnetään käyttäjärooleille, ja niiden perusteella "
+"päätetään onko eri rooleihin kuuluvilla käyttäjillä oikeutta kommentoida "
+"kirjoituksia. Jos anonyymeillä käyttäjillä on kommentointioikeus, heidän "
+"yhteystietonsa saatetaan tallentaa evästeeseen heidän tietokoneelleen "
+"myöhempää kommentointia varten. Jos kommentilla ei ole vastauksia, sen "
+"kirjoittaja voi halutessaan muokata sitä. Kommentointiin käytetään samoja "
+"syöttömuotoja ja HTML-tageja kuin muissa kirjoituksissa."
+
+#: modules/comment/comment.module:131
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@comment"
+"\">Comment module</a>."
+msgstr "Lue käsikirjasta lisää <a href=\"@comment\">kommenteista</a>."
+
+#: modules/comment/comment.module:134
+msgid ""
+"Below is a list of the latest comments posted to your site. Click on a "
+"subject to see the comment, the author's name to edit the author's user "
+"information, 'edit' to modify the text, and 'delete' to remove their "
+"submission."
+msgstr ""
+"Alla on lista uusimmista lisätyistä kommenteista. Klikkaa aihetta nähdäksesi "
+"kommentin, kirjoittajan nimeä muokataksesi kirjoittajan käyttäjätietoja, "
+"\"muokkaa\" muokataksesi tekstiä ja \"poista\" poistaaksesi kommentin."
+
+#: modules/comment/comment.module:136
+msgid ""
+"Below is a list of the comments posted to your site that need approval. To "
+"approve a comment, click on 'edit' and then change its 'moderation status' "
+"to Approved. Click on a subject to see the comment, the author's name to "
+"edit the author's user information, 'edit' to modify the text, and 'delete' "
+"to remove their submission."
+msgstr ""
+"Alla on lista tarkistamista kaipaavista kommenteista. Hyväksyäksesi "
+"kommentin klikkaa sen valintaruutua,  valitse \"Julkaise valitut kommentit\" "
+"ja \"Päivitä\". Klikkaa kommentin aihetta nähdäksesi kommentin, kirjoittajan "
+"nimeä muokataksesi kirjoittajan käyttäjätietoja ja \"muokkaa\" muuttaaksesi "
+"tekstiä."
+
+#: modules/comment/comment.module:284;288
+msgid "Recent comments"
+msgstr "Uusimmat kommentit"
+
+#: modules/comment/comment.module:420
+msgid "Jump to the first comment of this posting."
+msgstr "Hyppää tämän kirjoituksen ensimmäiseen kommenttiin."
+
+#: modules/comment/comment.module:431
+msgid "Jump to the first new comment of this posting."
+msgstr "Hyppää tämän kirjoituksen ensimmäiseen uuteen kommenttiin."
+
+#: modules/comment/comment.module:440;461
+msgid "Add new comment"
+msgstr "Lisää uusi kommentti"
+
+#: modules/comment/comment.module:442
+msgid "Add a new comment to this page."
+msgstr "Lisää tälle sivulle uusi kommentti."
+
+#: modules/comment/comment.module:463
+msgid "Share your thoughts and opinions related to this posting."
+msgstr "Kerro mielipiteesi tästä kirjoituksesta."
+
+#: modules/comment/comment.module:492;575
+msgid "Comment settings"
+msgstr "Kommentoinnin asetukset"
+
+#: modules/comment/comment.module:498
+msgid "Default comment setting"
+msgstr "Oletuskommenttiasetus"
+
+#: modules/comment/comment.module:500;584
+msgid "Read only"
+msgstr "Vain luku"
+
+#: modules/comment/comment.module:500;584
+msgid "Read/Write"
+msgstr "Luku/Kirjoitus"
+
+#: modules/comment/comment.module:501
+msgid ""
+"Users with the <em>administer comments</em> permission will be able to "
+"override this setting."
+msgstr ""
+"Käyttäjät joilla on käyttöoikeus <em>kommenttien ylläpito</em> voivat "
+"kiertää tämän asetuksen."
+
+#: modules/comment/comment.module:505
+msgid "Default display mode"
+msgstr "Oletusnäkymä"
+
+#: modules/comment/comment.module:508
+msgid ""
+"The default view for comments. Expanded views display the body of the "
+"comment. Threaded views keep replies together."
+msgstr ""
+"Kommenttien oletusnäkymä. Laajennetut näkymät näyttävät kommentin sisällön. "
+"Ketjutetuissa näkymissä vastaukset niputetaan yhteen."
+
+#: modules/comment/comment.module:512
+msgid "Default display order"
+msgstr "Oletusärjestys"
+
+#: modules/comment/comment.module:515
+msgid ""
+"The default sorting for new users and anonymous users while viewing "
+"comments. These users may change their view using the comment control panel. "
+"For registered users, this change is remembered as a persistent user "
+"preference."
+msgstr ""
+"Kommenttien oletusjärjestys uusille ja anonyymeille käyttäjille. Käyttäjät "
+"voivat muuttaa näyttöasetuksia. Drupal muistaa rekisteröityneiden käyttäjien "
+"omat asetukset."
+
+#: modules/comment/comment.module:519
+msgid "Default comments per page"
+msgstr "Oletusmäärä sivua kohti"
+
+#: modules/comment/comment.module:522
+msgid ""
+"Default number of comments for each page: more comments are distributed in "
+"several pages."
+msgstr ""
+"Kommenttien oletusmäärä sivua kohden: määrän ylittyessä kommentit jaetaan "
+"useammalle sivulle."
+
+#: modules/comment/comment.module:526
+msgid "Comment controls"
+msgstr "Kommenttien näyttöasetukset"
+
+#: modules/comment/comment.module:529
+msgid "Display above the comments"
+msgstr "Näytä kommenttien yläpuolella"
+
+#: modules/comment/comment.module:530
+msgid "Display below the comments"
+msgstr "Näytä kommenttien alapuolella"
+
+#: modules/comment/comment.module:531
+msgid "Display above and below the comments"
+msgstr "Näytä sekä kommenttien ylä- että alapuolella."
+
+#: modules/comment/comment.module:532
+msgid "Do not display"
+msgstr "Älä näytä"
+
+#: modules/comment/comment.module:533
+msgid ""
+"Position of the comment controls box. The comment controls let the user "
+"change the default display mode and display order of comments."
+msgstr ""
+"Kommenttien näyttöasetusten sijainti. Asetuksista voi valita kommenttien "
+"näyttötavan ja järjestyksen."
+
+#: modules/comment/comment.module:537
+msgid "Anonymous commenting"
+msgstr "Anonyymi kommentointi"
+
+#: modules/comment/comment.module:540
+msgid "Anonymous posters may not enter their contact information"
+msgstr "Anonyymit kirjoittajat eivät voi jättää yhteystietojaan."
+
+#: modules/comment/comment.module:541
+msgid "Anonymous posters may leave their contact information"
+msgstr "Anonyymit kirjoittajat voivat jättää yhteystietonsa"
+
+#: modules/comment/comment.module:542
+msgid "Anonymous posters must leave their contact information"
+msgstr "Anonyymien kirjoittajien on jätettävä yhteystietonsa"
+
+#: modules/comment/comment.module:543
+msgid ""
+"This option is enabled when anonymous users have permission to post comments "
+"on the <a href=\"@url\">permissions page</a>."
+msgstr ""
+"Tämä vaihtoehto on käytössä kun anonyymeille käyttäjille annetaan <a href="
+"\"@url\">käyttöoikeussivulla</a> lupa kommenttien kirjoittamiseen."
+
+#: modules/comment/comment.module:550
+msgid "Comment subject field"
+msgstr "Kommentin otsikkokenttä"
+
+#: modules/comment/comment.module:553
+msgid "Can users provide a unique subject for their comments?"
+msgstr "Voivatko käyttäjät lisätä kommentteihinsa otsikon?"
+
+#: modules/comment/comment.module:560
+msgid ""
+"Forces a user to look at their comment by clicking on a 'Preview' button "
+"before they can actually add the comment"
+msgstr ""
+"Pakottaa käyttäjän lukemaan kommenttinsa klikkaamalla <em>Esikatsele</em>-"
+"nappia ennen kuin kommentin voi julkaista."
+
+#: modules/comment/comment.module:564
+msgid "Location of comment submission form"
+msgstr "Kommenttien kirjoituslomakkeen sijainti"
+
+#: modules/comment/comment.module:566
+msgid "Display on separate page"
+msgstr "Näytä erillisellä sivulla"
+
+#: modules/comment/comment.module:566
+msgid "Display below post or comments"
+msgstr "Näytä kirjoituksen ja kommenttien alapuolella"
+
+#: modules/comment/comment.module:778
+msgid ""
+"Your comment has been queued for moderation by site administrators and will "
+"be published after approval."
+msgstr ""
+"Kommenttisi on hyväksyttävänä, ja se julkaistaan ylläpidon hyväksyttyä sen."
+
+#: modules/comment/comment.module:791;790
+msgid ""
+"Comment: unauthorized comment submitted or comment submitted to a closed "
+"post %subject."
+msgstr ""
+"Kommentti: lisätty luvaton kommentti tai kommentti lisätty suljettuun "
+"kirjoitukseen %subject."
+
+#: modules/comment/comment.module:814
+msgid "parent"
+msgstr "isäntä"
+
+#: modules/comment/comment.module:831;843
+msgid "reply"
+msgstr "vastaa"
+
+#: modules/comment/comment.module:1048
+msgid "Post new comment"
+msgstr "Kirjoita uusi kommentti"
+
+#: modules/comment/comment.module:1069;1081
+msgid "Publish the selected comments"
+msgstr "Julkaise valitut kommentit"
+
+#: modules/comment/comment.module:1070;1076;1083
+msgid "Delete the selected comments"
+msgstr "Poista valitut kommentit"
+
+#: modules/comment/comment.module:1075;1082
+msgid "Unpublish the selected comments"
+msgstr "Peruuta valittujen kommenttien julkaisu"
+
+#: modules/comment/comment.module:1192
+msgid "You have to specify a valid author."
+msgstr "Sinun on valittava kelvollinen kirjoittaja."
+
+#: modules/comment/comment.module:1203
+msgid "The name you used belongs to a registered user."
+msgstr "Käyttämäsi nimi on varattu rekisteröityneelle käyttäjälle."
+
+#: modules/comment/comment.module:1208
+msgid "You have to leave your name."
+msgstr "Sinun on annettava nimesi."
+
+#: modules/comment/comment.module:1213
+msgid "The e-mail address you specified is not valid."
+msgstr "Antamasi sähköpostiosoite ei ole keplaa."
+
+#: modules/comment/comment.module:1217
+msgid "You have to leave an e-mail address."
+msgstr "Sinun on annettava sähköpostiosoite."
+
+#: modules/comment/comment.module:1222
+msgid ""
+"The URL of your homepage is not valid. Remember that it must be fully "
+"qualified, i.e. of the form <code>http://example.com/directory</code>."
+msgstr ""
+"Kotisivusi osoite ei kelpaa. Kirjoita osoite kokonaan, esimerkiksi "
+"<code>http://example.com/hakemisto</code>."
+
+#: modules/comment/comment.module:1278
+msgid "Administration"
+msgstr "Ylläpito"
+
+#: modules/comment/comment.module:1321;1346;1353
+msgid "Homepage"
+msgstr "Kotisivu"
+
+#: modules/comment/comment.module:1527
+msgid "(No subject)"
+msgstr "(Ei aihetta)"
+
+#: modules/comment/comment.module:1613
+msgid "!a comments per page"
+msgstr "!a kommenttia per sivu"
+
+#: modules/comment/comment.module:1640
+msgid ""
+"Select your preferred way to display the comments and click \"Save settings"
+"\" to activate your changes."
+msgstr "Valitse, kuinka kommentit näytetään ja klikkaa \"Tallenna asetukset\"."
+
+#: modules/comment/comment.module:1641
+msgid "Comment viewing options"
+msgstr "Kommenttien lukemisen asetukset"
+
+#: modules/comment/comment.module:1794
+msgid ""
+"<a href=\"@login\">Login</a> or <a href=\"@register\">register</a> to post "
+"comments"
+msgstr ""
+"<a href=\"@login\">Kirjaudu</a> tai <a href=\"@register\">rekisteröidy</a> "
+"kirjoittaaksesi kommentteja"
+
+#: modules/comment/comment.module:1798
+msgid "<a href=\"@login\">Login</a> to post comments"
+msgstr "<a href=\"@login\">Kirjaudu sisään</a> kirjoittaaksesi kommentteja"
+
+#: modules/comment/comment.module:1826
+msgid "Submitted by !username on @datetime."
+msgstr "Kirjoittanut !username @datetime."
+
+#: modules/comment/comment.module:1841
+msgid "Flat list - collapsed"
+msgstr "Lattea näkymä - supistettu"
+
+#: modules/comment/comment.module:1842
+msgid "Flat list - expanded"
+msgstr "Lattea näkymä - laajennettu"
+
+#: modules/comment/comment.module:1843
+msgid "Threaded list - collapsed"
+msgstr "Ketjutettu näkymä - supistettu"
+
+#: modules/comment/comment.module:1844
+msgid "Threaded list - expanded"
+msgstr "Ketjutettu näkymä - laajennettu"
+
+#: modules/comment/comment.module:2000
+msgid "After saving a new comment"
+msgstr "Uuden kommentin tallentamisen jälkeen"
+
+#: modules/comment/comment.module:2003
+msgid "After saving an updated comment"
+msgstr "Päivitetyn kommentin tallentamisen jälkeen"
+
+#: modules/comment/comment.module:2006
+msgid "After deleting a comment"
+msgstr "Kommentin poistamisen jälkeen"
+
+#: modules/comment/comment.module:2009
+msgid "When a comment is being viewed by an authenticated user"
+msgstr "Kun sisään kirjautunut käyttäjä lukee kommenttia"
+
+#: modules/comment/comment.module:2022
+msgid "Unpublish comment"
+msgstr "Peru kommentin julkaisu"
+
+#: modules/comment/comment.module:2030
+msgid "Unpublish comment containing keyword(s)"
+msgstr "Peru kommentin julkaisu, jos se sisältää avainsanan/sanoja"
+
+#: modules/comment/comment.module:2070
+msgid ""
+"The comment will be unpublished if it contains any of the character "
+"sequences above. Use a comma-separated list of character sequences. Example: "
+"funny, bungee jumping, \"Company, Inc.\". Character sequences are case-"
+"sensitive."
+msgstr ""
+"Kommenttia ei julkaista, jos se sisältää yhdenkin ylläolevista "
+"merkkijonoista. Käytä pilkulla erotettua listaa merkkijonoista. Esimerkki: "
+"hassu, benji-hyppy, \"Aho, Juhani\". Isot ja pienet kirjaimet ovat erillisiä."
+
+#: modules/comment/comment.module:768
+msgid "Comment: added %subject."
+msgstr "Kommentti lisätty: %subject."
+
+#: modules/comment/comment.module:2058;2098
+msgid "Unpublished comment %subject."
+msgstr "Peruttiin kommentin %subject julkaisu."
+
+#: modules/comment/comment.module:428
+msgid "1 new comment"
+msgid_plural "@count new comments"
+msgstr[0] "1 uusi kommentti"
+msgstr[1] "@count uutta kommenttia"
+
+#: modules/comment/comment.module:274
+msgid "access comments"
+msgstr "kommenttien lukeminen"
+
+#: modules/comment/comment.module:274
+msgid "post comments"
+msgstr "kommenttien kirjoittaminen"
+
+#: modules/comment/comment.module:274
+msgid "administer comments"
+msgstr "kommenttien ylläpito"
+
+#: modules/comment/comment.module:274
+msgid "post comments without approval"
+msgstr "kommenttien kirjoittaminen ilman hyväksyntää"
+
+#: modules/comment/comment.module:199
+msgid "List and edit site comments and the comment moderation queue."
+msgstr ""
+"Lue ja muokkaa kommentteja. Hyväksy tai hylkää tarkastamista kaipaavat "
+"kommentit."
+
+#: modules/comment/comment.module:207
+msgid "Published comments"
+msgstr "Julkaistut kommentit"
+
+#: modules/comment/comment.module:212
+msgid "Approval queue"
+msgstr "Tarkistettavat kommentit"
+
+#: modules/comment/comment.module:219
+msgid "Delete comment"
+msgstr "Poista kommentti"
+
+#: modules/comment/comment.module:227
+msgid "Edit comment"
+msgstr "Muokkaa kommenttia"
+
+#: modules/comment/comment.module:234
+msgid "Reply to comment"
+msgstr "Vastaa kommenttiin"
+
+#: modules/comment/comment.module:0
+msgid "comment"
+msgstr "kommentti"
+
+#: modules/comment/comment.install:76
+msgid "Stores comments and associated data."
+msgstr "Varastoi kommentit ja niihin liittyvät tiedot."
+
+#: modules/comment/comment.install:81
+msgid "Primary Key: Unique comment ID."
+msgstr "Ensisijainen avain: Kommentin ainutkertainen tunniste."
+
+#: modules/comment/comment.install:87
+msgid ""
+"The {comments}.cid to which this comment is a reply. If set to 0, this "
+"comment is not a reply to an existing comment."
+msgstr ""
+"{comments}.cid, jota tämä kommentti koskee. Jos tämä on nolla, kommentti ei "
+"ole vastaus aiempaan kommenttiin."
+
+#: modules/comment/comment.install:93
+msgid "The {node}.nid to which this comment is a reply."
+msgstr "{node}.nid, jota tämä kommentti koskee."
+
+#: modules/comment/comment.install:99
+msgid ""
+"The {users}.uid who authored the comment. If set to 0, this comment was "
+"created by an anonymous user."
+msgstr ""
+"Kommentin kirjoittajan {users}.uid. Jos tämä on nolla, kommentin kirjoitti "
+"anonyymi kirjoittaja."
+
+#: modules/comment/comment.install:106
+msgid "The comment title."
+msgstr "Kommentin otsikko."
+
+#: modules/comment/comment.install:112
+msgid "The comment body."
+msgstr "Kommentin sisältö."
+
+#: modules/comment/comment.install:119
+msgid "The author's host name."
+msgstr "Kirjoittajan isäntänimi."
+
+#: modules/comment/comment.install:125
+msgid ""
+"The time that the comment was created, or last edited by its author, as a "
+"Unix timestamp."
+msgstr "Kommentin luomisaika tai uusin muokkausaika UNIX-aikaleimana."
+
+#: modules/comment/comment.install:133
+msgid "The published status of a comment. (0 = Published, 1 = Not Published)"
+msgstr "Kommentin julkaistila. (0 = Julkaistu, 1 = Ei julkaistu)"
+
+#: modules/comment/comment.install:140
+msgid "The {filter_formats}.format of the comment body."
+msgstr "Kommentin sisällön {filter_formats}.format."
+
+#: modules/comment/comment.install:146
+msgid "The vancode representation of the comment's place in a thread."
+msgstr "Kommentin sijainti viestiketjussa vancode-merkintätavan mukaan."
+
+#: modules/comment/comment.install:152
+msgid ""
+"The comment author's name. Uses {users}.name if the user is logged in, "
+"otherwise uses the value typed into the comment form."
+msgstr ""
+"Kommentin kirjoittajan nimi. Käyttäjän {users}.name, jos käyttäjä on "
+"kirjautunut sisään, muussa tapauksessa kommenttilomakkeeseen kirjoitettu "
+"nimi."
+
+#: modules/comment/comment.install:158
+msgid ""
+"The comment author's e-mail address from the comment form, if user is "
+"anonymous, and the 'Anonymous users may/must leave their contact "
+"information' setting is turned on."
+msgstr ""
+"Kommentin kirjoittajan sähköpostiosoite kommenttilomakkeesta, jos käyttäjä "
+"on anonyymi ja \"Anonyymit kirjoittajat voivat jättää yhteystietonsa\" tai "
+"\"Anonyymien kirjoittajien on jätettävä yhteystietonsa\" -asetus on päällä."
+
+#: modules/comment/comment.install:164
+msgid ""
+"The comment author's home page address from the comment form, if user is "
+"anonymous, and the 'Anonymous users may/must leave their contact "
+"information' setting is turned on."
+msgstr ""
+"Kommentin kirjoittajan kotisivun osoite kommenttilomakkeesta, jos käyttäjä "
+"on anonyymi ja \"Anonyymit kirjoittajat voivat jättää yhteystietonsa\" tai "
+"\"Anonyymien kirjoittajien on jätettävä yhteystietonsa\" -asetus on päällä."
+
+#: modules/comment/comment.install:176
+msgid ""
+"Maintains statistics of node and comments posts to show \"new\" and \"updated"
+"\" flags."
+msgstr ""
+"Kerää tilastoja kirjoituksista ja kommenteista, näyttää \"uusi\" ja "
+"\"päivitetty\"-merkinnät."
+
+#: modules/comment/comment.install:183
+msgid "The {node}.nid for which the statistics are compiled."
+msgstr "{node}.nid, jota tilastot koskevat."
+
+#: modules/comment/comment.install:189
+msgid ""
+"The Unix timestamp of the last comment that was posted within this node, "
+"from {comments}.timestamp."
+msgstr "Uusimman kommentin UNIX-aikaleima, {comments}.timestamp."
+
+#: modules/comment/comment.install:195
+msgid ""
+"The name of the latest author to post a comment on this node, from "
+"{comments}.name."
+msgstr "Uusimman kommentoijan nimi, {comments}.name."
+
+#: modules/comment/comment.install:201
+msgid ""
+"The user ID of the latest author to post a comment on this node, from "
+"{comments}.uid."
+msgstr "Uusimman kommentoijan käyttäjänumero, {comments}.uid."
+
+#: modules/comment/comment.install:208
+msgid "The total number of comments on this node."
+msgstr "Kirjoituksen kommenttien määrä."

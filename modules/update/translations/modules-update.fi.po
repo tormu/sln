@@ -1,0 +1,577 @@
+# translation of general.po to
+# Finnish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  common.inc,v 1.602 2006/12/15 07:47:08 unconed
+#  system.module,v 1.428 2006/12/15 08:53:56 unconed
+#  upload.module,v 1.145 2006/12/14 13:30:59 dries
+#  image.inc,v 1.16 2006/12/12 01:03:34 unconed
+#  unicode.inc,v 1.23 2006/12/06 16:15:52 dries
+#  system.install,v 1.60 2006/12/13 10:41:56 unconed
+#  database.mysql.inc,v 1.64 2006/12/04 11:06:29 dries
+#  database.mysqli.inc,v 1.30 2006/12/04 11:06:29 dries
+#  file.inc,v 1.88 2006/12/11 16:45:17 dries
+#  user.module,v 1.731 2006/12/12 10:11:43 unconed
+#  form.inc,v 1.166 2006/12/12 10:01:38 unconed
+#  filter.module,v 1.157 2006/12/14 10:14:05 unconed
+#  locale.inc,v 1.101 2006/12/10 09:54:32 unconed
+#  blogapi.module,v 1.99 2006/11/21 20:14:17 dries
+#  forum.module,v 1.371 2006/12/10 20:34:02 dries
+#  block.module,v 1.244 2006/12/11 23:00:09 unconed
+#  book.module,v 1.403 2006/11/30 02:04:31 drumm
+#  comment.module,v 1.515 2006/12/15 01:33:00 unconed
+#  contact.module,v 1.72 2006/12/04 10:43:34 dries
+#  menu.module,v 1.99 2006/11/30 01:55:31 drumm
+#  content_types.inc,v 1.18 2006/12/05 05:47:37 dries
+#  node.module,v 1.752 2006/12/14 14:07:57 dries
+#  path.module,v 1.103 2006/11/26 02:20:01 drumm
+#  profile.module,v 1.185 2006/12/13 23:50:26 unconed
+#  drupal.module,v 1.137 2006/12/11 16:57:42 dries
+#  statistics.module,v 1.246 2006/11/26 02:20:01 drumm
+#  aggregator.module,v 1.323 2006/12/14 13:41:02 dries
+#  taxonomy.module,v 1.328 2006/11/30 07:05:57 unconed
+#  watchdog.module,v 1.164 2006/12/10 09:54:35 unconed
+#  locale.module,v 1.154 2006/12/01 22:47:53 unconed
+#  search.module,v 1.206 2006/12/11 16:57:42 dries
+#  search.info,v 1.3 2006/11/21 20:55:35 dries
+#  menu.inc,v 1.143 2006/12/12 06:02:52 unconed
+#  chameleon.theme,v 1.56 2006/11/29 06:36:12 drumm
+#  pager.inc,v 1.59 2006/10/15 19:57:05 dries
+#  theme.inc,v 1.332 2006/12/15 01:06:33 unconed
+#  phptemplate.engine,v 1.53 2006/12/13 23:22:57 unconed
+#  poll.module,v 1.221 2006/12/10 20:34:03 dries
+#  legacy.module,v 1.15 2006/11/21 20:14:18 dries
+#  blog.module,v 1.271 2006/12/10 20:34:02 dries
+#  tracker.module,v 1.141 2006/12/10 09:54:34 unconed
+#  aggregator.info,v 1.3 2006/11/21 20:55:33 dries
+#  blog.info,v 1.3 2006/11/21 20:55:33 dries
+#  blogapi.info,v 1.3 2006/11/21 20:55:33 dries
+#  book.info,v 1.3 2006/11/21 20:55:33 dries
+#  color.info,v 1.2 2006/11/21 20:55:34 dries
+#  comment.info,v 1.3 2006/11/21 20:55:34 dries
+#  contact.info,v 1.3 2006/11/21 20:55:34 dries
+#  drupal.info,v 1.3 2006/11/21 20:55:34 dries
+#  forum.info,v 1.4 2006/11/21 20:55:34 dries
+#  help.info,v 1.3 2006/11/21 20:55:34 dries
+#  legacy.info,v 1.3 2006/11/21 20:55:34 dries
+#  locale.info,v 1.3 2006/11/21 20:55:34 dries
+#  menu.info,v 1.3 2006/11/21 20:55:34 dries
+#  path.info,v 1.3 2006/11/21 20:55:34 dries
+#  ping.info,v 1.3 2006/11/21 20:55:35 dries
+#  poll.info,v 1.3 2006/11/21 20:55:35 dries
+#  profile.info,v 1.3 2006/11/21 20:55:35 dries
+#  statistics.info,v 1.3 2006/11/21 20:55:35 dries
+#  taxonomy.info,v 1.3 2006/11/21 20:55:35 dries
+#  throttle.info,v 1.3 2006/11/21 20:55:35 dries
+#  tracker.info,v 1.3 2006/11/21 20:55:35 dries
+#  upload.info,v 1.3 2006/11/21 20:55:35 dries
+#  block.info,v 1.3 2006/11/21 20:55:33 dries
+#  filter.info,v 1.3 2006/11/21 20:55:34 dries
+#  node.info,v 1.3 2006/11/21 20:55:34 dries
+#  system.info,v 1.3 2006/11/21 20:55:35 dries
+#  user.info,v 1.3 2006/11/21 20:55:36 dries
+#  watchdog.info,v 1.3 2006/11/21 20:55:36 dries
+#  throttle.module,v 1.71 2006/12/04 10:56:21 dries
+#  color.module,v 1.12 2006/12/10 09:54:33 unconed
+#  help.module,v 1.67 2006/12/10 09:54:33 unconed
+#  color.inc,v 1.2 2006/12/06 16:32:54 dries
+#  database.pgsql.inc,v 1.42 2006/12/14 13:26:41 dries
+#  install.inc,v 1.30 2006/12/08 11:54:04 dries
+#  tablesort.inc,v 1.43 2006/12/01 08:50:33 dries
+#  xmlrpc.inc,v 1.38 2006/09/03 08:21:18 dries
+#  xmlrpcs.inc,v 1.21 2006/07/05 11:45:51 dries
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#  ping.module,v 1.45 2006/11/21 20:14:18 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-02-04 13:47+0100\n"
+"PO-Revision-Date: 2008-03-10 11:55+0200\n"
+"Last-Translator: Ilari Sani <ilari.sani@assemblix.net>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/update/update.compare.inc:155
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#: modules/update/update.compare.inc:258
+msgid "Project not secure"
+msgstr "Projekti on turvaton"
+
+#: modules/update/update.compare.inc:259
+msgid ""
+"This project has been labeled insecure by the Drupal security team, and is "
+"no longer available for download. Immediately disabling everything included "
+"by this project is strongly recommended!"
+msgstr ""
+"Drupalin turvallisuusryhmä on merkinnyt tämän projektin turvattomaksi, eikä "
+"sitä voi enää ladata. Suosittelemme voimakkaasti, että poistat välittömästi "
+"käytöstä kaiken tähän projektiin liittyvän!"
+
+#: modules/update/update.compare.inc:270
+msgid "Project revoked"
+msgstr "Projekti on peruttu"
+
+#: modules/update/update.compare.inc:271
+msgid ""
+"This project has been revoked, and is no longer available for download. "
+"Disabling everything included by this project is strongly recommended!"
+msgstr ""
+"Tämä projekti on peruttu, eikä sitä voi enää ladata. Suosittelemme "
+"voimakkaasti, että poistat käytöstä kaiken tähän projektiin liittyvän!"
+
+#: modules/update/update.compare.inc:281
+msgid "Project not supported"
+msgstr "Projektia ei tueta"
+
+#: modules/update/update.compare.inc:282
+msgid ""
+"This project is no longer supported, and is no longer available for "
+"download. Disabling everything included by this project is strongly "
+"recommended!"
+msgstr ""
+"Tätä projektia ei enää tueta, eikä sitä voi enää ladata. Suosittelemme "
+"voimakkaasti, että poistat käytöstä kaiken tähän projektiin liittyvän!"
+
+#: modules/update/update.compare.inc:348;497;546
+msgid "No available releases found"
+msgstr "Julkaisuja ei ole saatavilla"
+
+#: modules/update/update.compare.inc:365
+msgid "Release revoked"
+msgstr "Julkaisu on kumottu"
+
+#: modules/update/update.compare.inc:366
+msgid ""
+"Your currently installed release has been revoked, and is no longer "
+"available for download. Disabling everything included in this release or "
+"upgrading is strongly recommended!"
+msgstr ""
+"Käytössäsi oleva julkaisu on peruttu, eikä sitä voi enää ladata. "
+"Suosittelemme voimakkaasti, että poistat kokonaan käytöstä tämän julkaisun "
+"tai päivität sen."
+
+#: modules/update/update.compare.inc:377
+msgid "Release not supported"
+msgstr "Julkaisua ei tueta"
+
+#: modules/update/update.compare.inc:378
+msgid ""
+"Your currently installed release is now unsupported, and is no longer "
+"available for download. Disabling everything included in this release or "
+"upgrading is strongly recommended!"
+msgstr ""
+"Käytössäsi olevaa julkaisua ei enää tueta, eikä sitä voi enää ladata. "
+"Suosittelemme voimakkaasti, että poistat kokonaan käytöstä tämän julkaisun "
+"tai päivität sen."
+
+#: modules/update/update.compare.inc:529
+msgid "Unknown release date"
+msgstr "Tuntematon julkaisupäivämäärä"
+
+#: modules/update/update.compare.inc:541
+msgid "Invalid info"
+msgstr "Virheelliset tiedot"
+
+#: modules/update/update.fetch.inc:14;57
+msgid "Fetched information about all available new releases and updates."
+msgstr ""
+"Haettiin tietoja kaikista saatavilla olevista uusista julkaisuista ja "
+"päivityksistä."
+
+#: modules/update/update.fetch.inc:17;61
+msgid ""
+"Unable to fetch any information about available new releases and updates."
+msgstr ""
+"Ei kyetty hakemaan tietoja saatavilla olevista uusista julkaisuista ja "
+"päivityksistä."
+
+#: modules/update/update.fetch.inc:57;61 modules/update/update.module:0
+msgid "update"
+msgstr "päivitys"
+
+#: modules/update/update.report.inc:30
+msgid "Last checked: @time ago"
+msgstr "Tarkistettu viimeksi @time sitten"
+
+#: modules/update/update.report.inc:30
+msgid "Last checked: never"
+msgstr "Ei tarkistettu koskaan"
+
+#: modules/update/update.report.inc:31
+msgid "Check manually"
+msgstr "Tarkista käsin"
+
+#: modules/update/update.report.inc:48;48
+msgid "ok"
+msgstr "ok"
+
+#: modules/update/update.report.inc:70
+msgid "Security update required!"
+msgstr "Turvapäivitys vaaditaan!"
+
+#: modules/update/update.report.inc:73 modules/update/update.module:259
+msgid "Revoked!"
+msgstr "Peruttu!"
+
+#: modules/update/update.report.inc:76
+msgid "Not supported!"
+msgstr "Ei tuettu!"
+
+#: modules/update/update.report.inc:79
+msgid "Update available"
+msgstr "Päivitys saatavilla"
+
+#: modules/update/update.report.inc:137
+msgid "Recommended version:"
+msgstr "Suositeltava versio:"
+
+#: modules/update/update.report.inc:143
+msgid "Security update:"
+msgstr "Turvapäivitys:"
+
+#: modules/update/update.report.inc:149
+msgid "Latest version:"
+msgstr "Uusin versio:"
+
+#: modules/update/update.report.inc:155
+msgid "Development version:"
+msgstr "Kehitysversio:"
+
+#: modules/update/update.report.inc:161
+msgid "Also available:"
+msgstr "Saatavilla myös:"
+
+#: modules/update/update.report.inc:181
+msgid "Includes: %includes"
+msgstr "Sisältää: %includes"
+
+#: modules/update/update.report.inc:196
+msgid "Drupal core"
+msgstr "Drupalin ydin"
+
+#: modules/update/update.report.inc:199
+msgid "Disabled modules"
+msgstr "Käytöstä poistetut moduulit"
+
+#: modules/update/update.report.inc:200
+msgid "Disabled themes"
+msgstr "Käytöstä poistetut teemat"
+
+#: modules/update/update.report.inc:229
+msgid "Download"
+msgstr "Lataa"
+
+#: modules/update/update.report.inc:233
+msgid "Release notes"
+msgstr "Julkaisutiedote"
+
+#: modules/update/update.settings.inc:18
+msgid "E-mail addresses to notify when updates are available"
+msgstr ""
+"Sähköpostiosoitteet, joihin lähetetään tiedote kun päivityksiä on saatavilla"
+
+#: modules/update/update.settings.inc:21
+msgid ""
+"Whenever your site checks for available updates and finds new releases, it "
+"can notify a list of users via e-mail. Put each address on a separate line. "
+"If blank, no e-mails will be sent."
+msgstr ""
+"Sivustosi lähettää listalla oleville käyttäjille sähköpostitiedotteen aina "
+"kun se löytää uuden päivityksen. Laita jokainen osoite erilliselle riville. "
+"Jos jätät listan tyhjäksi, tiedotteita ei lähetetä."
+
+#: modules/update/update.settings.inc:26
+msgid "Check for updates"
+msgstr "Tarkista päivitykset"
+
+#: modules/update/update.settings.inc:29
+msgid "Daily"
+msgstr "Päivittäin"
+
+#: modules/update/update.settings.inc:30
+msgid "Weekly"
+msgstr "Viikoittain"
+
+#: modules/update/update.settings.inc:32
+msgid ""
+"Select how frequently you want to automatically check for new releases of "
+"your currently installed modules and themes."
+msgstr ""
+"Valitse, kuinka usein asennettujen moduulien ja teemojen päivitykset "
+"tarkistetaan."
+
+#: modules/update/update.settings.inc:37
+msgid "Notification threshold"
+msgstr "Huomautusraja"
+
+#: modules/update/update.settings.inc:40
+msgid "All newer versions"
+msgstr "Kaikki uudemmat versiot"
+
+#: modules/update/update.settings.inc:41
+msgid "Only security updates"
+msgstr "Vain turvapäivitykset"
+
+#: modules/update/update.settings.inc:43
+msgid ""
+"If there are updates available of Drupal core or any of your installed "
+"modules and themes, your site will print an error message on the <a href="
+"\"@status_report\">status report</a>, the <a href=\"@modules_page\">modules "
+"page</a>, and the <a href=\"@themes_page\">themes page</a>. You can choose "
+"to only see these error messages if a security update is available, or to be "
+"notified about any newer versions."
+msgstr ""
+"Jos Drupalin ytimeen tai muihin asennettuihin moduuleihin ja teemoihin on "
+"saatavilla päivityksiä, sivustosi näyttää virheilmoituksen <a href="
+"\"@status_report\">tilaraportissa</a>, <a href=\"@modules_page"
+"\">moduulisivulla</a>, ja <a href=\"@themes_page\">teemasivulla</a>. Voit "
+"valita, näytetäänkö ilmoitus turvapäivitysten vai kaikkien uusien versioiden "
+"kohdalla."
+
+#: modules/update/update.settings.inc:80
+msgid "%email is not a valid e-mail address."
+msgstr "%email on virheellinen sähköpostiosoite."
+
+#: modules/update/update.settings.inc:83
+msgid "%emails are not valid e-mail addresses."
+msgstr "%emails ovat virheellisiä sähköpostiosotteita."
+
+#: modules/update/update.module:61
+msgid ""
+"Here you can find information about available updates for your installed "
+"modules and themes. Note that each module or theme is part of a \"project\", "
+"which may or may not have the same name, and might include multiple modules "
+"or themes within it."
+msgstr ""
+"Täältä löydät tietoja asennettuihin moduuleihin ja teemoihin saatavilla "
+"olevista päivityksistä. Huomaa, että jokainen moduuli ja teema kuuluu "
+"<em>projektiin</em>, johon saattaa kuulua useampia moduuleja tai teemoja."
+
+#: modules/update/update.module:62
+msgid ""
+"To extend the functionality or to change the look of your site, a number of "
+"contributed <a href=\"@modules\">modules</a> and <a href=\"@themes\">themes</"
+"a> are available."
+msgstr ""
+"Saatavilla on monia muiden kehittämiä <a href=\"@modules\">moduuleja</a> ja "
+"<a href=\"@themes\">teemoja</a>, jotka lisäävät uusia toimintoja ja "
+"muuttavat sivustosi ulkonäköä."
+
+#: modules/update/update.module:79
+msgid ""
+"See the <a href=\"@available_updates\">available updates</a> page for "
+"information on installed modules and themes with new versions released."
+msgstr ""
+"Katso <a href=\"@available_updates\">Saatavilla olevat päivitykset</a> -"
+"sivulta tietoja asennetuista moduuleista ja teemoista, joista on julkaistu "
+"uusia versioita."
+
+#: modules/update/update.module:87
+msgid ""
+"The Update status module periodically checks for new versions of your site's "
+"software (including contributed modules and themes), and alerts you to "
+"available updates."
+msgstr ""
+"Päivitysmoduuli tarkistaa sivustosi ohjelmiston säännöllisesti (mukaan "
+"lukien muiden kehittämät moduulit ja teemat). Saat ilmoituksen, kun "
+"päivityksiä on saatavilla."
+
+#: modules/update/update.module:88
+msgid ""
+"The <a href=\"@update-report\">report of available updates</a> will alert "
+"you when new releases are available for download. You may configure options "
+"for update checking frequency and notifications at the <a href=\"@update-"
+"settings\">Update status module settings page</a>."
+msgstr ""
+"<a href=\"@update-report\">Saatavilla olevien päivitysten raportti</a> "
+"tiedottaa, kun uusia julkaisuja voi ladata. Voit säätää päivitysten "
+"tarkistuksen tiheyttä ja tietotuksia <a href=\"@update-settings"
+"\">Päivitysmoduulin ylläpitosivulta</a>."
+
+#: modules/update/update.module:89
+msgid ""
+"Please note that in order to provide this information, anonymous usage "
+"statistics are sent to drupal.org. If desired, you may disable the Update "
+"status module from the <a href=\"@modules\">module administration page</a>."
+msgstr ""
+"Huomaa, että osoitteeseen drupal.org lähetetään anonyymejä käyttötilastoja, "
+"jotta voimme tarjota nämä tiedot. Jos haluat, voit poistaa päivitysmoduulin "
+"käytöstä <a href=\"@modules\">moduulien ylläpitosivulta</a>."
+
+#: modules/update/update.module:90
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@update"
+"\">Update status module</a>."
+msgstr "Lue käsikirjasta lisää <a href=\"@update\">päivittämisestä</a>."
+
+#: modules/update/update.module:211;243
+msgid "Drupal core update status"
+msgstr "Drupalin ytimen päivitysten tila"
+
+#: modules/update/update.module:212
+msgid "No update data available"
+msgstr "Päivitystietoja ei ole saatavilla"
+
+#: modules/update/update.module:246
+msgid "Module and theme update status"
+msgstr "Moduuien ja teemojen päivitysten tila"
+
+#: modules/update/update.module:256
+msgid "Not secure!"
+msgstr "Turvaton!"
+
+#: modules/update/update.module:262
+msgid "Unsupported release"
+msgstr "Julkaisua ei tueta"
+
+#: modules/update/update.module:270
+msgid "Can not determine status"
+msgstr "Tilaa ei voida määritellä"
+
+#: modules/update/update.module:277
+msgid "(version @version available)"
+msgstr "(versio @version on saatavilla)"
+
+#: modules/update/update.module:314
+msgid ""
+"No information is available about potential new releases for currently "
+"installed modules and themes. To check for updates, you may need to <a href="
+"\"@run_cron\">run cron</a> or you can <a href=\"@check_manually\">check "
+"manually</a>. Please note that checking for available updates can take a "
+"long time, so please be patient."
+msgstr ""
+"Mahdollisista asennettujen moduulien ja teemojen päivityksistä ei ole "
+"tietoja. Voi olla, että sinun pitää tehdä <a href=\"@run_cron\">cron-ajo</a> "
+"tai <a href=\"@check_manually\">tarkistaa päivitykset käsin</a>. Päivitysten "
+"tarkistaminen voi kestää kauan, joten olethan kärsivällinen."
+
+#: modules/update/update.module:415
+msgid "New release(s) available for !site_name"
+msgstr "Sivustolle !site_name on saatavilla uusia julkaisuja"
+
+#: modules/update/update.module:419
+msgid "See the available updates page for more information:"
+msgstr "Lue lisää <em>Saatavilla olevat päivitykset</em> -sivulta:"
+
+#: modules/update/update.module:448
+msgid ""
+"There is a security update available for your version of Drupal. To ensure "
+"the security of your server, you should update immediately!"
+msgstr ""
+"Käyttämääsi Drupal-vesioon on saatavilla turvapäivitys. Varmista palvelimesi "
+"turvallisuus päivittämällä välittömästi!"
+
+#: modules/update/update.module:451
+msgid ""
+"There are security updates available for one or more of your modules or "
+"themes. To ensure the security of your server, you should update immediately!"
+msgstr ""
+"Yhteen tai useampaan käyttämääsi moduuliin tai teemaan on saatavilla "
+"turvapäivitys. Varmista palvelimesi turvallisuus päivittämällä välittömästi!"
+
+#: modules/update/update.module:457
+msgid ""
+"Your version of Drupal has been revoked and is no longer available for "
+"download. Upgrading is strongly recommended!"
+msgstr ""
+"Käytössäsi oleva Drupalin versio on peruttu, eikä sitä voi enää ladata. "
+"Suosittelemme voimakkaasti, että päivität Drupalin!"
+
+#: modules/update/update.module:460
+msgid ""
+"The installed version of at least one of your modules or themes has been "
+"revoked and is no longer available for download. Upgrading or disabling is "
+"strongly recommended!"
+msgstr ""
+"Ainakin yksi käyttämäsi moduuli tai teema on peruttu, eikä sitä voi enää "
+"ladata. Suosittelemme voimakkaasti, että päivität sen tai poistat sen "
+"käytöstä!"
+
+#: modules/update/update.module:466
+msgid ""
+"Your version of Drupal is no longer supported. Upgrading is strongly "
+"recommended!"
+msgstr ""
+"Käytössäsi olevaa Drupalin versiota ei enää tueta. Suosittelemme "
+"voimakkaasti, että päivität Drupalin!"
+
+#: modules/update/update.module:469
+msgid ""
+"The installed version of at least one of your modules or themes is no longer "
+"supported. Upgrading or disabling is strongly recommended! Please see the "
+"project homepage for more details."
+msgstr ""
+"Ainakin yksi käyttämääsi moduulia tai teemaa ei enää tueta. Suosittelemme "
+"voimakkaasti, että päivität sen tai poistat sen käytöstä! Lue lisää "
+"projektin kotisivulta."
+
+#: modules/update/update.module:475
+msgid ""
+"There are updates available for your version of Drupal. To ensure the proper "
+"functioning of your site, you should update as soon as possible."
+msgstr ""
+"Käyttämääsi Drupal-versioon on saatavilla päivitys. Varmista sivustosi "
+"toimivuus päivittämällä niin pian kuin mahdollista."
+
+#: modules/update/update.module:478
+msgid ""
+"There are updates available for one or more of your modules or themes. To "
+"ensure the proper functioning of your site, you should update as soon as "
+"possible."
+msgstr ""
+"Yhteen tai useampaan käyttämääsi moduuliin tai teemaan on saatavilla "
+"päivitys. Varmista sivustosi toimivuus päivittämällä niin pian kuin "
+"mahdollista."
+
+#: modules/update/update.module:485
+msgid ""
+"There was a problem determining the status of available updates for your "
+"version of Drupal."
+msgstr "Drupal-versiosi päivitysten tarkistaminen ei onnistunut."
+
+#: modules/update/update.module:488
+msgid ""
+"There was a problem determining the status of available updates for one or "
+"more of your modules or themes."
+msgstr "Moduulien ja teemojen päivitysten tarkistaminen ei onnistunut."
+
+#: modules/update/update.module:494
+msgid ""
+"See the <a href=\"@available_updates\">available updates</a> page for more "
+"information."
+msgstr ""
+"Lue lisätietoja <a href=\"@available_updates\">Saatavilla ovat päivitykset</"
+"a> -sivulta."
+
+#: modules/update/update.module:120
+msgid "Available updates"
+msgstr "Saatavilla ovat päivitykset"
+
+#: modules/update/update.module:121
+msgid ""
+"Get a status report about available updates for your installed modules and "
+"themes."
+msgstr ""
+"Hae raportti asennettuihin moduuleihin ja teemoihin saatavilla olevista "
+"päivityksistä."
+
+#: modules/update/update.module:143
+msgid "Manual update check"
+msgstr "Päivitysten tarkistaminen käsin"
+
+#: modules/update/update.install:39
+msgid ""
+"Cache table for the Update module to store information about available "
+"releases, fetched from central server."
+msgstr ""
+"Välimuistitaulu, joka varastoi päivitysmoduulin keskitetyltä palvelimelta "
+"hakemat tiedot saatavilla olevista päivityksistä."

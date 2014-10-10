@@ -1,0 +1,383 @@
+# translation of general.po to
+# Finnish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  common.inc,v 1.602 2006/12/15 07:47:08 unconed
+#  system.module,v 1.428 2006/12/15 08:53:56 unconed
+#  upload.module,v 1.145 2006/12/14 13:30:59 dries
+#  image.inc,v 1.16 2006/12/12 01:03:34 unconed
+#  unicode.inc,v 1.23 2006/12/06 16:15:52 dries
+#  system.install,v 1.60 2006/12/13 10:41:56 unconed
+#  database.mysql.inc,v 1.64 2006/12/04 11:06:29 dries
+#  database.mysqli.inc,v 1.30 2006/12/04 11:06:29 dries
+#  file.inc,v 1.88 2006/12/11 16:45:17 dries
+#  user.module,v 1.731 2006/12/12 10:11:43 unconed
+#  form.inc,v 1.166 2006/12/12 10:01:38 unconed
+#  filter.module,v 1.157 2006/12/14 10:14:05 unconed
+#  locale.inc,v 1.101 2006/12/10 09:54:32 unconed
+#  blogapi.module,v 1.99 2006/11/21 20:14:17 dries
+#  forum.module,v 1.371 2006/12/10 20:34:02 dries
+#  block.module,v 1.244 2006/12/11 23:00:09 unconed
+#  book.module,v 1.403 2006/11/30 02:04:31 drumm
+#  comment.module,v 1.515 2006/12/15 01:33:00 unconed
+#  contact.module,v 1.72 2006/12/04 10:43:34 dries
+#  menu.module,v 1.99 2006/11/30 01:55:31 drumm
+#  content_types.inc,v 1.18 2006/12/05 05:47:37 dries
+#  node.module,v 1.752 2006/12/14 14:07:57 dries
+#  path.module,v 1.103 2006/11/26 02:20:01 drumm
+#  profile.module,v 1.185 2006/12/13 23:50:26 unconed
+#  drupal.module,v 1.137 2006/12/11 16:57:42 dries
+#  statistics.module,v 1.246 2006/11/26 02:20:01 drumm
+#  aggregator.module,v 1.323 2006/12/14 13:41:02 dries
+#  taxonomy.module,v 1.328 2006/11/30 07:05:57 unconed
+#  watchdog.module,v 1.164 2006/12/10 09:54:35 unconed
+#  locale.module,v 1.154 2006/12/01 22:47:53 unconed
+#  search.module,v 1.206 2006/12/11 16:57:42 dries
+#  search.info,v 1.3 2006/11/21 20:55:35 dries
+#  menu.inc,v 1.143 2006/12/12 06:02:52 unconed
+#  chameleon.theme,v 1.56 2006/11/29 06:36:12 drumm
+#  pager.inc,v 1.59 2006/10/15 19:57:05 dries
+#  theme.inc,v 1.332 2006/12/15 01:06:33 unconed
+#  phptemplate.engine,v 1.53 2006/12/13 23:22:57 unconed
+#  poll.module,v 1.221 2006/12/10 20:34:03 dries
+#  legacy.module,v 1.15 2006/11/21 20:14:18 dries
+#  blog.module,v 1.271 2006/12/10 20:34:02 dries
+#  tracker.module,v 1.141 2006/12/10 09:54:34 unconed
+#  aggregator.info,v 1.3 2006/11/21 20:55:33 dries
+#  blog.info,v 1.3 2006/11/21 20:55:33 dries
+#  blogapi.info,v 1.3 2006/11/21 20:55:33 dries
+#  book.info,v 1.3 2006/11/21 20:55:33 dries
+#  color.info,v 1.2 2006/11/21 20:55:34 dries
+#  comment.info,v 1.3 2006/11/21 20:55:34 dries
+#  contact.info,v 1.3 2006/11/21 20:55:34 dries
+#  drupal.info,v 1.3 2006/11/21 20:55:34 dries
+#  forum.info,v 1.4 2006/11/21 20:55:34 dries
+#  help.info,v 1.3 2006/11/21 20:55:34 dries
+#  legacy.info,v 1.3 2006/11/21 20:55:34 dries
+#  locale.info,v 1.3 2006/11/21 20:55:34 dries
+#  menu.info,v 1.3 2006/11/21 20:55:34 dries
+#  path.info,v 1.3 2006/11/21 20:55:34 dries
+#  ping.info,v 1.3 2006/11/21 20:55:35 dries
+#  poll.info,v 1.3 2006/11/21 20:55:35 dries
+#  profile.info,v 1.3 2006/11/21 20:55:35 dries
+#  statistics.info,v 1.3 2006/11/21 20:55:35 dries
+#  taxonomy.info,v 1.3 2006/11/21 20:55:35 dries
+#  throttle.info,v 1.3 2006/11/21 20:55:35 dries
+#  tracker.info,v 1.3 2006/11/21 20:55:35 dries
+#  upload.info,v 1.3 2006/11/21 20:55:35 dries
+#  block.info,v 1.3 2006/11/21 20:55:33 dries
+#  filter.info,v 1.3 2006/11/21 20:55:34 dries
+#  node.info,v 1.3 2006/11/21 20:55:34 dries
+#  system.info,v 1.3 2006/11/21 20:55:35 dries
+#  user.info,v 1.3 2006/11/21 20:55:36 dries
+#  watchdog.info,v 1.3 2006/11/21 20:55:36 dries
+#  throttle.module,v 1.71 2006/12/04 10:56:21 dries
+#  color.module,v 1.12 2006/12/10 09:54:33 unconed
+#  help.module,v 1.67 2006/12/10 09:54:33 unconed
+#  color.inc,v 1.2 2006/12/06 16:32:54 dries
+#  database.pgsql.inc,v 1.42 2006/12/14 13:26:41 dries
+#  install.inc,v 1.30 2006/12/08 11:54:04 dries
+#  tablesort.inc,v 1.43 2006/12/01 08:50:33 dries
+#  xmlrpc.inc,v 1.38 2006/09/03 08:21:18 dries
+#  xmlrpcs.inc,v 1.21 2006/07/05 11:45:51 dries
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#  ping.module,v 1.45 2006/11/21 20:14:18 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-02-04 13:47+0100\n"
+"PO-Revision-Date: 2008-02-11 15:01+0200\n"
+"Last-Translator: Ilari Sani <ilari.sani@assemblix.net>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/poll/poll-bar.tpl.php:25 modules/poll/poll.pages.inc:20
+msgid "1 vote"
+msgid_plural "@count votes"
+msgstr[0] "1 ääni"
+msgstr[1] "@count ääntä"
+
+#: modules/poll/poll-results-block.tpl.php:26
+#: modules/poll/poll-results.tpl.php:24
+msgid "Total votes: @votes"
+msgstr "Ääniä yhteensä: @votes"
+
+#: modules/poll/poll.pages.inc:20
+msgid "open"
+msgstr "avoin"
+
+#: modules/poll/poll.pages.inc:20
+msgid "closed"
+msgstr "suljettu"
+
+#: modules/poll/poll.pages.inc:32
+msgid ""
+"This table lists all the recorded votes for this poll. If anonymous users "
+"are allowed to vote, they will be identified by the IP address of the "
+"computer they used when they voted."
+msgstr ""
+"Tämä taulukko näyttää kaikki tässä kyselyssä annetut äänet. Jos anonyymien "
+"käyttäjien annetaan äänestää, heidät tunnistetaan äänestämiseen käytetyn "
+"tietokoneen IP-osoitteen perusteella."
+
+#: modules/poll/poll.pages.inc:35 modules/poll/poll.module:571
+msgid "Vote"
+msgstr "Äänestä"
+
+#: modules/poll/poll.module:16
+msgid ""
+"The poll module can be used to create simple polls for site users. A poll is "
+"a simple, multiple choice questionnaire which displays the cumulative "
+"results of the answers to the poll. Having polls on the site is a good way "
+"to receive feedback from community members."
+msgstr ""
+"Kyselymoduulia voidaan käyttää yksinkertaisten kyselyiden tekemiseen "
+"käyttäjille. Kysely on yksinkertainen monivalinta, joka näyttää vastauksista "
+"kertyneet tulokset. Kyselyt ovat hyvä tapa saada suoraa palautetta "
+"käyttäjäyhteisön jäseniltä."
+
+#: modules/poll/poll.module:17
+msgid ""
+"When creating a poll, enter the question being posed, as well as the "
+"potential choices (and beginning vote counts for each choice). The status "
+"and duration (length of time the poll remains active for new votes) can also "
+"be specified. Use the <a href=\"@poll\">poll</a> menu item to view all "
+"current polls. To vote in or view the results of a specific poll, click on "
+"the poll itself."
+msgstr ""
+"Luodessasi kyselyn, syötä sekä esitettävä kysymys, että vaihtoehtoiset "
+"vastaukset, ja halutessasi kunkin vaihtoehdon lähtötilanne. Lisäksi voit "
+"antaa kyselyn tilan ja ajan, jonka se säilyy avoimena. Valikon linkistä <a "
+"href=\"@poll\">Kyselyt</a> näet kaikki kyselyt. Klikkaa kyselyä änestääksesi "
+"tai nähdäksesi sen tuloksen."
+
+#: modules/poll/poll.module:18
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@poll"
+"\">Poll module</a>."
+msgstr "Lue käsikirjasta lisää <a href=\"@\">kyselyistä</a>."
+
+#: modules/poll/poll.module:133
+msgid "Most recent poll"
+msgstr "Uusin kysely"
+
+#: modules/poll/poll.module:174
+msgid ""
+"A <em>poll</em> is a question with a set of possible responses. A <em>poll</"
+"em>, once created, automatically provides a simple running count of the "
+"number of votes received for each response."
+msgstr ""
+"<em>Kysely</em> on kysymys jolla on joukko vaihtoehtoisia vastauksia. Kunkin "
+"vastauksen saamat äänet lasketaan ja näytetään automaattisesti."
+
+#: modules/poll/poll.module:175
+msgid "Question"
+msgstr "Kysymys"
+
+#: modules/poll/poll.module:237
+msgid "More choices"
+msgstr "Lisää vaihtoehtoja"
+
+#: modules/poll/poll.module:238
+msgid ""
+"If the amount of boxes above isn't enough, click here to add more choices."
+msgstr "Jos vaihtoehtoja on liian vähän, klikkaa tästä saadaksesi niitä lisää."
+
+#: modules/poll/poll.module:251
+msgid "Closed"
+msgstr "Suljettu"
+
+#: modules/poll/poll.module:257
+msgid "Poll settings"
+msgstr "Kyselyn asetukset"
+
+#: modules/poll/poll.module:263
+msgid "Poll status"
+msgstr "Kyselyn tila"
+
+#: modules/poll/poll.module:266
+msgid "When a poll is closed, visitors can no longer vote for it."
+msgstr "Kun kysely on suljettu, vierailijat eivät voi enää äänestää."
+
+#: modules/poll/poll.module:271
+msgid "Poll duration"
+msgstr "Kyselyn kesto"
+
+#: modules/poll/poll.module:274
+msgid "After this period, the poll will be closed automatically."
+msgstr "Tämän ajanjakson jälkeen kysely suljetaan automaattisesti."
+
+#: modules/poll/poll.module:306
+msgid "Choice @n"
+msgstr "Vaihtoehto @n"
+
+#: modules/poll/poll.module:314
+msgid "Votes for choice @n"
+msgstr "Ääniä vaihtoehdolle @n"
+
+#: modules/poll/poll.module:385
+msgid "Negative values are not allowed."
+msgstr "Negatiiviset arvot eivät ole sallittuja"
+
+#: modules/poll/poll.module:390
+msgid "You must fill in at least two choices."
+msgstr "Anna vähintään kaksi vaihtoehtoa."
+
+#: modules/poll/poll.module:511
+msgid "Older polls"
+msgstr "Vanhemmat kyselyt"
+
+#: modules/poll/poll.module:511
+msgid "View the list of polls on this site."
+msgstr "Näytä lista tämän sivuston kyselyistä."
+
+#: modules/poll/poll.module:513;98
+msgid "Results"
+msgstr "Tulokset"
+
+#: modules/poll/poll.module:513
+msgid "View the current poll results."
+msgstr "Näytä kyselyn tämänhetkiset tulokset."
+
+#: modules/poll/poll.module:593
+msgid ""
+"Your vote could not be recorded because you did not select any of the "
+"choices."
+msgstr ""
+"Antamaasi ääntä ei voitu kirjata, koska et valinnut ainuttakaan vastausta."
+
+#: modules/poll/poll.module:616
+msgid "Your vote was recorded."
+msgstr "Äänesi on kirjattu."
+
+#: modules/poll/poll.module:672
+msgid "Add another choice"
+msgstr "Lisää vaihtoehto"
+
+#: modules/poll/poll.module:676
+msgid "Choice"
+msgstr "Vaihtoehto"
+
+#: modules/poll/poll.module:677
+msgid "Vote count"
+msgstr "Äänten määrä"
+
+#: modules/poll/poll.module:759
+msgid "Cancel your vote"
+msgstr "Peru antamasi ääni"
+
+#: modules/poll/poll.module:57
+msgid "create poll content"
+msgstr "kyselyiden luominen"
+
+#: modules/poll/poll.module:57
+msgid "delete own poll content"
+msgstr "oman kyselyn poistaminen"
+
+#: modules/poll/poll.module:57
+msgid "delete any poll content"
+msgstr "minkä tahansa kyselyn poistaminen"
+
+#: modules/poll/poll.module:57
+msgid "edit any poll content"
+msgstr "minkä tahansa kyselyn muokkaaminen"
+
+#: modules/poll/poll.module:57
+msgid "edit own poll content"
+msgstr "oman kyselyn muokkaaminen"
+
+#: modules/poll/poll.module:57
+msgid "vote on polls"
+msgstr "kyselyissä äänestäminen"
+
+#: modules/poll/poll.module:57
+msgid "cancel own vote"
+msgstr "oman äänen peruuttaminen"
+
+#: modules/poll/poll.module:57
+msgid "inspect all votes"
+msgstr "kaikkien äänten tarkastelu"
+
+#: modules/poll/poll.module:79
+msgid "Polls"
+msgstr "Kyselyt"
+
+#: modules/poll/poll.module:87
+msgid "Votes"
+msgstr "Äänet"
+
+#: modules/poll/poll.module:109
+msgid "Javascript Choice Form"
+msgstr "JavaScript-lomake"
+
+#: modules/poll/poll.module:0
+msgid "poll"
+msgstr "kysely"
+
+#: modules/poll/poll.install:25
+msgid "Stores poll-specific information for poll nodes."
+msgstr "Tallettaa kyselyihin liittyviä tietoja."
+
+#: modules/poll/poll.install:32
+msgid "The poll's {node}.nid."
+msgstr "Kyselyn {node}.nid."
+
+#: modules/poll/poll.install:38
+msgid ""
+"The number of seconds past {node}.created during which the poll is open."
+msgstr "Kyselyn aukioloaika sekunteina alkaen hetkestä {node}.created."
+
+#: modules/poll/poll.install:45
+msgid "Boolean indicating whether or not the poll is open."
+msgstr "Kyselyn tilan boolean-arvo: suljettu tai avoinna"
+
+#: modules/poll/poll.install:52
+msgid "Stores information about all choices for all {poll}s."
+msgstr "Tallentaa tietoja kyselyiden eri vaihtoehdoista."
+
+#: modules/poll/poll.install:58
+msgid "Unique identifier for a poll choice."
+msgstr "Kyselyn vaihtoehdon ainutkertainen tunnus."
+
+#: modules/poll/poll.install:65
+msgid "The {node}.nid this choice belongs to."
+msgstr "The {node}.nid, johon tämä vaihtoehto kuuluu."
+
+#: modules/poll/poll.install:72
+msgid "The text for this choice."
+msgstr "Tämän vaihtoehdon teksti"
+
+#: modules/poll/poll.install:78
+msgid "The total number of votes this choice has received by all users."
+msgstr "Tälle vaihtoehdolle annettujen äänien yhteismäärä"
+
+#: modules/poll/poll.install:84
+msgid "The sort order of this choice among all choices for the same node."
+msgstr "Tämän vaihtoehdon lajittelujärjestys"
+
+#: modules/poll/poll.install:94
+msgid "Stores per-{users} votes for each {poll}."
+msgstr "Tallettaa per-{users} ääntä jokaiselle {poll}."
+
+#: modules/poll/poll.install:100
+msgid "The {poll} node this vote is for."
+msgstr "{poll} solmu jolle tämä ääni on annettu."
+
+#: modules/poll/poll.install:107
+msgid "The {users}.uid this vote is from unless the voter was anonymous."
+msgstr "Tämän äänen antajan {users}.uid paitsi jos äänen antaja oli anonyymi."
+
+#: modules/poll/poll.install:113
+msgid "The {users}'s vote for this poll."
+msgstr "Äänen antajan {users} ääni tälle kyselylle."
+
+#: modules/poll/poll.install:120
+msgid "The IP address this vote is from unless the voter was logged in."
+msgstr "Äänen antajan IP-osoite (paitsi jos äänen antaja oli kirjautuneena)."

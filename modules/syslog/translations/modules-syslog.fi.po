@@ -1,0 +1,202 @@
+# translation of general.po to
+# Finnish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  common.inc,v 1.602 2006/12/15 07:47:08 unconed
+#  system.module,v 1.428 2006/12/15 08:53:56 unconed
+#  upload.module,v 1.145 2006/12/14 13:30:59 dries
+#  image.inc,v 1.16 2006/12/12 01:03:34 unconed
+#  unicode.inc,v 1.23 2006/12/06 16:15:52 dries
+#  system.install,v 1.60 2006/12/13 10:41:56 unconed
+#  database.mysql.inc,v 1.64 2006/12/04 11:06:29 dries
+#  database.mysqli.inc,v 1.30 2006/12/04 11:06:29 dries
+#  file.inc,v 1.88 2006/12/11 16:45:17 dries
+#  user.module,v 1.731 2006/12/12 10:11:43 unconed
+#  form.inc,v 1.166 2006/12/12 10:01:38 unconed
+#  filter.module,v 1.157 2006/12/14 10:14:05 unconed
+#  locale.inc,v 1.101 2006/12/10 09:54:32 unconed
+#  blogapi.module,v 1.99 2006/11/21 20:14:17 dries
+#  forum.module,v 1.371 2006/12/10 20:34:02 dries
+#  block.module,v 1.244 2006/12/11 23:00:09 unconed
+#  book.module,v 1.403 2006/11/30 02:04:31 drumm
+#  comment.module,v 1.515 2006/12/15 01:33:00 unconed
+#  contact.module,v 1.72 2006/12/04 10:43:34 dries
+#  menu.module,v 1.99 2006/11/30 01:55:31 drumm
+#  content_types.inc,v 1.18 2006/12/05 05:47:37 dries
+#  node.module,v 1.752 2006/12/14 14:07:57 dries
+#  path.module,v 1.103 2006/11/26 02:20:01 drumm
+#  profile.module,v 1.185 2006/12/13 23:50:26 unconed
+#  drupal.module,v 1.137 2006/12/11 16:57:42 dries
+#  statistics.module,v 1.246 2006/11/26 02:20:01 drumm
+#  aggregator.module,v 1.323 2006/12/14 13:41:02 dries
+#  taxonomy.module,v 1.328 2006/11/30 07:05:57 unconed
+#  watchdog.module,v 1.164 2006/12/10 09:54:35 unconed
+#  locale.module,v 1.154 2006/12/01 22:47:53 unconed
+#  search.module,v 1.206 2006/12/11 16:57:42 dries
+#  search.info,v 1.3 2006/11/21 20:55:35 dries
+#  menu.inc,v 1.143 2006/12/12 06:02:52 unconed
+#  chameleon.theme,v 1.56 2006/11/29 06:36:12 drumm
+#  pager.inc,v 1.59 2006/10/15 19:57:05 dries
+#  theme.inc,v 1.332 2006/12/15 01:06:33 unconed
+#  phptemplate.engine,v 1.53 2006/12/13 23:22:57 unconed
+#  poll.module,v 1.221 2006/12/10 20:34:03 dries
+#  legacy.module,v 1.15 2006/11/21 20:14:18 dries
+#  blog.module,v 1.271 2006/12/10 20:34:02 dries
+#  tracker.module,v 1.141 2006/12/10 09:54:34 unconed
+#  aggregator.info,v 1.3 2006/11/21 20:55:33 dries
+#  blog.info,v 1.3 2006/11/21 20:55:33 dries
+#  blogapi.info,v 1.3 2006/11/21 20:55:33 dries
+#  book.info,v 1.3 2006/11/21 20:55:33 dries
+#  color.info,v 1.2 2006/11/21 20:55:34 dries
+#  comment.info,v 1.3 2006/11/21 20:55:34 dries
+#  contact.info,v 1.3 2006/11/21 20:55:34 dries
+#  drupal.info,v 1.3 2006/11/21 20:55:34 dries
+#  forum.info,v 1.4 2006/11/21 20:55:34 dries
+#  help.info,v 1.3 2006/11/21 20:55:34 dries
+#  legacy.info,v 1.3 2006/11/21 20:55:34 dries
+#  locale.info,v 1.3 2006/11/21 20:55:34 dries
+#  menu.info,v 1.3 2006/11/21 20:55:34 dries
+#  path.info,v 1.3 2006/11/21 20:55:34 dries
+#  ping.info,v 1.3 2006/11/21 20:55:35 dries
+#  poll.info,v 1.3 2006/11/21 20:55:35 dries
+#  profile.info,v 1.3 2006/11/21 20:55:35 dries
+#  statistics.info,v 1.3 2006/11/21 20:55:35 dries
+#  taxonomy.info,v 1.3 2006/11/21 20:55:35 dries
+#  throttle.info,v 1.3 2006/11/21 20:55:35 dries
+#  tracker.info,v 1.3 2006/11/21 20:55:35 dries
+#  upload.info,v 1.3 2006/11/21 20:55:35 dries
+#  block.info,v 1.3 2006/11/21 20:55:33 dries
+#  filter.info,v 1.3 2006/11/21 20:55:34 dries
+#  node.info,v 1.3 2006/11/21 20:55:34 dries
+#  system.info,v 1.3 2006/11/21 20:55:35 dries
+#  user.info,v 1.3 2006/11/21 20:55:36 dries
+#  watchdog.info,v 1.3 2006/11/21 20:55:36 dries
+#  throttle.module,v 1.71 2006/12/04 10:56:21 dries
+#  color.module,v 1.12 2006/12/10 09:54:33 unconed
+#  help.module,v 1.67 2006/12/10 09:54:33 unconed
+#  color.inc,v 1.2 2006/12/06 16:32:54 dries
+#  database.pgsql.inc,v 1.42 2006/12/14 13:26:41 dries
+#  install.inc,v 1.30 2006/12/08 11:54:04 dries
+#  tablesort.inc,v 1.43 2006/12/01 08:50:33 dries
+#  xmlrpc.inc,v 1.38 2006/09/03 08:21:18 dries
+#  xmlrpcs.inc,v 1.21 2006/07/05 11:45:51 dries
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#  ping.module,v 1.45 2006/11/21 20:14:18 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-02-04 13:47+0100\n"
+"PO-Revision-Date: 2007-04-18 16:51+0200\n"
+"Last-Translator: Pekka L J Jalkanen <plj@iki.fi>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/syslog/syslog.module:22
+msgid ""
+"The syslog module enables Drupal to send messages to the operating system's "
+"logging facility."
+msgstr ""
+"Syslog-moduuli lähettää Drupalin viestit käyttöjärjestelmän lokitoiminnolle."
+
+#: modules/syslog/syslog.module:23
+msgid ""
+"Syslog is an operating system administrative logging tool, and provides "
+"valuable information for use in system management and security auditing. "
+"Most suited to medium and large sites, syslog provides filtering tools that "
+"allow messages to be routed by type and severity. On UNIX/Linux systems, the "
+"file /etc/syslog.conf defines this routing configuration; on Microsoft "
+"Windows, all messages are sent to the Event Log. For more information on "
+"syslog facilities, severity levels, and how to set up a syslog.conf file, "
+"see <a href=\"@syslog_conf\">UNIX/Linux syslog.conf</a> and PHP's <a href="
+"\"@php_openlog\">openlog</a> and <a href=\"@php_syslog\">syslog</a> "
+"functions."
+msgstr ""
+"Syslog on ylläpitäjän työkalu, joka tallentaa tietoja käyttöjärjestelmän "
+"lokiin. Se tuottaa arvokasta tietoa järjestelmän ylläpitoa ja "
+"turvatarkastuksia varten. Syslog soveltuu parhaiten keskikokoisille ja "
+"suurille sivustoille. Viestit reititetään tyypin ja vakavuuden mukaan. UNIX- "
+"ja Linux-järjestelmissä reitit määritellään /etc/syslog.conf-tiedostossa. "
+"Microsoft Windows-järjestelmissä kaikki viestit lähetetään Tapahtumalokiin "
+"(Event Log). Lisätietoa syslogin toiminnoista, turvatasoista ja syslog.conf-"
+"tiedoston asetuksista: Katso <a href=\"@syslog_conf\">UNIX/Linux syslog."
+"conf</a>, PHP:n <a href=\"@php_openlog\">openlog</a> ja <a href=\"@php_syslog"
+"\">syslog</a>-funktiot."
+
+#: modules/syslog/syslog.module:24
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@syslog"
+"\">Syslog module</a>."
+msgstr "Lue käsikirjasta lisää <a href=\"@contact\">syslogista</a>."
+
+#: modules/syslog/syslog.module:42
+msgid "Send events to this syslog facility"
+msgstr ""
+
+#: modules/syslog/syslog.module:45
+msgid ""
+"Select the syslog facility code under which Drupal's messages should be "
+"sent. On UNIX/Linux systems, Drupal can flag its messages with the code "
+"LOG_LOCAL0 through LOG_LOCAL7; for Microsoft Windows, all messages are "
+"flagged with the code LOG_USER. Depending on the system configuration, "
+"syslog and other logging tools use this code to identify or filter Drupal "
+"messages from within the entire system log. For more information on syslog, "
+"see <a href=\"@syslog_help\">Syslog help</a>."
+msgstr ""
+
+#: modules/syslog/syslog.module:55
+msgid "LOG_USER - User level messages. Use this for Windows."
+msgstr ""
+
+#: modules/syslog/syslog.module:59
+msgid "LOG_LOCAL0 - Local 0"
+msgstr ""
+
+#: modules/syslog/syslog.module:60
+msgid "LOG_LOCAL1 - Local 1"
+msgstr ""
+
+#: modules/syslog/syslog.module:61
+msgid "LOG_LOCAL2 - Local 2"
+msgstr ""
+
+#: modules/syslog/syslog.module:62
+msgid "LOG_LOCAL3 - Local 3"
+msgstr ""
+
+#: modules/syslog/syslog.module:63
+msgid "LOG_LOCAL4 - Local 4"
+msgstr ""
+
+#: modules/syslog/syslog.module:64
+msgid "LOG_LOCAL5 - Local 5"
+msgstr ""
+
+#: modules/syslog/syslog.module:65
+msgid "LOG_LOCAL6 - Local 6"
+msgstr ""
+
+#: modules/syslog/syslog.module:66
+msgid "LOG_LOCAL7 - Local 7"
+msgstr ""
+
+#: modules/syslog/syslog.module:32
+msgid ""
+"Settings for syslog logging. Syslog is an operating system administrative "
+"logging tool used in systems management and security auditing. Most suited "
+"to medium and large sites, syslog provides filtering tools that allow "
+"messages to be routed by type and severity."
+msgstr ""
+"Syslog-lokitoiminnon asetukset. Syslog tallentaa tiedot käyttöjärjestelmän "
+"lokipalveluun, ja se soveltuu parhaiten keskikokoisille ja suurille "
+"sivustoille. Viestit reititetään tyypin ja vakavuuden mukaan."
+
+#: modules/syslog/syslog.module:0
+msgid "syslog"
+msgstr "syslog"

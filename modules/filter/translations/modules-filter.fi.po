@@ -1,0 +1,853 @@
+# translation of general.po to
+# Finnish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  common.inc,v 1.602 2006/12/15 07:47:08 unconed
+#  system.module,v 1.428 2006/12/15 08:53:56 unconed
+#  upload.module,v 1.145 2006/12/14 13:30:59 dries
+#  image.inc,v 1.16 2006/12/12 01:03:34 unconed
+#  unicode.inc,v 1.23 2006/12/06 16:15:52 dries
+#  system.install,v 1.60 2006/12/13 10:41:56 unconed
+#  database.mysql.inc,v 1.64 2006/12/04 11:06:29 dries
+#  database.mysqli.inc,v 1.30 2006/12/04 11:06:29 dries
+#  file.inc,v 1.88 2006/12/11 16:45:17 dries
+#  user.module,v 1.731 2006/12/12 10:11:43 unconed
+#  form.inc,v 1.166 2006/12/12 10:01:38 unconed
+#  filter.module,v 1.157 2006/12/14 10:14:05 unconed
+#  locale.inc,v 1.101 2006/12/10 09:54:32 unconed
+#  blogapi.module,v 1.99 2006/11/21 20:14:17 dries
+#  forum.module,v 1.371 2006/12/10 20:34:02 dries
+#  block.module,v 1.244 2006/12/11 23:00:09 unconed
+#  book.module,v 1.403 2006/11/30 02:04:31 drumm
+#  comment.module,v 1.515 2006/12/15 01:33:00 unconed
+#  contact.module,v 1.72 2006/12/04 10:43:34 dries
+#  menu.module,v 1.99 2006/11/30 01:55:31 drumm
+#  content_types.inc,v 1.18 2006/12/05 05:47:37 dries
+#  node.module,v 1.752 2006/12/14 14:07:57 dries
+#  path.module,v 1.103 2006/11/26 02:20:01 drumm
+#  profile.module,v 1.185 2006/12/13 23:50:26 unconed
+#  drupal.module,v 1.137 2006/12/11 16:57:42 dries
+#  statistics.module,v 1.246 2006/11/26 02:20:01 drumm
+#  aggregator.module,v 1.323 2006/12/14 13:41:02 dries
+#  taxonomy.module,v 1.328 2006/11/30 07:05:57 unconed
+#  watchdog.module,v 1.164 2006/12/10 09:54:35 unconed
+#  locale.module,v 1.154 2006/12/01 22:47:53 unconed
+#  search.module,v 1.206 2006/12/11 16:57:42 dries
+#  search.info,v 1.3 2006/11/21 20:55:35 dries
+#  menu.inc,v 1.143 2006/12/12 06:02:52 unconed
+#  chameleon.theme,v 1.56 2006/11/29 06:36:12 drumm
+#  pager.inc,v 1.59 2006/10/15 19:57:05 dries
+#  theme.inc,v 1.332 2006/12/15 01:06:33 unconed
+#  phptemplate.engine,v 1.53 2006/12/13 23:22:57 unconed
+#  poll.module,v 1.221 2006/12/10 20:34:03 dries
+#  legacy.module,v 1.15 2006/11/21 20:14:18 dries
+#  blog.module,v 1.271 2006/12/10 20:34:02 dries
+#  tracker.module,v 1.141 2006/12/10 09:54:34 unconed
+#  aggregator.info,v 1.3 2006/11/21 20:55:33 dries
+#  blog.info,v 1.3 2006/11/21 20:55:33 dries
+#  blogapi.info,v 1.3 2006/11/21 20:55:33 dries
+#  book.info,v 1.3 2006/11/21 20:55:33 dries
+#  color.info,v 1.2 2006/11/21 20:55:34 dries
+#  comment.info,v 1.3 2006/11/21 20:55:34 dries
+#  contact.info,v 1.3 2006/11/21 20:55:34 dries
+#  drupal.info,v 1.3 2006/11/21 20:55:34 dries
+#  forum.info,v 1.4 2006/11/21 20:55:34 dries
+#  help.info,v 1.3 2006/11/21 20:55:34 dries
+#  legacy.info,v 1.3 2006/11/21 20:55:34 dries
+#  locale.info,v 1.3 2006/11/21 20:55:34 dries
+#  menu.info,v 1.3 2006/11/21 20:55:34 dries
+#  path.info,v 1.3 2006/11/21 20:55:34 dries
+#  ping.info,v 1.3 2006/11/21 20:55:35 dries
+#  poll.info,v 1.3 2006/11/21 20:55:35 dries
+#  profile.info,v 1.3 2006/11/21 20:55:35 dries
+#  statistics.info,v 1.3 2006/11/21 20:55:35 dries
+#  taxonomy.info,v 1.3 2006/11/21 20:55:35 dries
+#  throttle.info,v 1.3 2006/11/21 20:55:35 dries
+#  tracker.info,v 1.3 2006/11/21 20:55:35 dries
+#  upload.info,v 1.3 2006/11/21 20:55:35 dries
+#  block.info,v 1.3 2006/11/21 20:55:33 dries
+#  filter.info,v 1.3 2006/11/21 20:55:34 dries
+#  node.info,v 1.3 2006/11/21 20:55:34 dries
+#  system.info,v 1.3 2006/11/21 20:55:35 dries
+#  user.info,v 1.3 2006/11/21 20:55:36 dries
+#  watchdog.info,v 1.3 2006/11/21 20:55:36 dries
+#  throttle.module,v 1.71 2006/12/04 10:56:21 dries
+#  color.module,v 1.12 2006/12/10 09:54:33 unconed
+#  help.module,v 1.67 2006/12/10 09:54:33 unconed
+#  color.inc,v 1.2 2006/12/06 16:32:54 dries
+#  database.pgsql.inc,v 1.42 2006/12/14 13:26:41 dries
+#  install.inc,v 1.30 2006/12/08 11:54:04 dries
+#  tablesort.inc,v 1.43 2006/12/01 08:50:33 dries
+#  xmlrpc.inc,v 1.38 2006/09/03 08:21:18 dries
+#  xmlrpcs.inc,v 1.21 2006/07/05 11:45:51 dries
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#  ping.module,v 1.45 2006/11/21 20:14:18 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-02-04 13:47+0100\n"
+"PO-Revision-Date: 2008-02-15 15:58+0200\n"
+"Last-Translator: Ilari Sani <ilari.sani@assemblix.net>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/filter/filter.admin.inc:33
+msgid "All roles may use default format"
+msgstr "Kaikki roolit saavat käyttää oletusmuotoa"
+
+#: modules/filter/filter.admin.inc:33
+msgid "No roles may use this format"
+msgstr "Mikään rooli eivät saa käyttää tätä muotoa"
+
+#: modules/filter/filter.admin.inc:38
+msgid "Set default format"
+msgstr "Aseta oletusmuoto"
+
+#: modules/filter/filter.admin.inc:45
+msgid "Default format updated."
+msgstr "Oletusmuoto päivitetty."
+
+#: modules/filter/filter.admin.inc:81 modules/filter/filter.module:83
+msgid "Add input format"
+msgstr "Lisää syöttömuoto"
+
+#: modules/filter/filter.admin.inc:97
+msgid "All roles for the default format must be enabled and cannot be changed."
+msgstr "Kaikki roolit voivat käyttää oletusmuotoa. Tätä ei voi muuttaa."
+
+#: modules/filter/filter.admin.inc:104
+msgid "Specify a unique name for this filter format."
+msgstr "Anna yksilöllinen nimi tälle suodatinmuodolle."
+
+#: modules/filter/filter.admin.inc:111
+msgid ""
+"Choose which roles may use this filter format. Note that roles with the "
+"\"administer filters\" permission can always use all the filter formats."
+msgstr ""
+"Valitse käyttäjäroolit, jotka saavat käyttää tätä suodatinmuotoa. Huomaa, "
+"että roolit, joilla on \"suodattimien ylläpito\" -oikeus voivat aina käyttää "
+"kaikkia muotoja."
+
+#: modules/filter/filter.admin.inc:130
+msgid "Filters"
+msgstr "Suodattimet"
+
+#: modules/filter/filter.admin.inc:131
+msgid "Choose the filters that will be used in this filter format."
+msgstr "Valitse tässä suodatinmuodossa käytettävät suodattimet."
+
+#: modules/filter/filter.admin.inc:146 modules/filter/filter.module:583
+msgid "More information about formatting options"
+msgstr "Lisätietoa muotoiluasetuksista"
+
+#: modules/filter/filter.admin.inc:149
+msgid "No guidelines available."
+msgstr "Ohjeita ei ole saatavilla."
+
+#: modules/filter/filter.admin.inc:151
+msgid ""
+"These are the guidelines that users will see for posting in this input "
+"format. They are automatically generated from the filter settings."
+msgstr ""
+"Nämä ohjeet näytetään käyttäjille, jotka luovat sisältöä tässä "
+"syöttömuodossa. Ne näytetään automaattisesti suodatinasetusten mukaan."
+
+#: modules/filter/filter.admin.inc:153 modules/filter/filter.module:512
+msgid "Formatting guidelines"
+msgstr "Muotoiluohjeet"
+
+#: modules/filter/filter.admin.inc:168
+msgid ""
+"Filter format names need to be unique. A format named %name already exists."
+msgstr ""
+"Suodatinmuotojen nimien on oltava yksilöllisiä. Suodatin nimeltä %name on jo "
+"olemassa."
+
+#: modules/filter/filter.admin.inc:187
+msgid "Added input format %format."
+msgstr "Lisätty syöttömuoto %format."
+
+#: modules/filter/filter.admin.inc:190
+msgid "The input format settings have been updated."
+msgstr "Syöttömuodon asetukset on päivitetty."
+
+#: modules/filter/filter.admin.inc:252
+msgid "Are you sure you want to delete the input format %format?"
+msgstr "Haluatko varmasti poistaa tiedonsyöttömuodon %format?"
+
+#: modules/filter/filter.admin.inc:252
+msgid ""
+"If you have any content left in this input format, it will be switched to "
+"the default input format. This action cannot be undone."
+msgstr ""
+"Jos tässä syöttömuodossa on jäljellä yhtään sisältöä, se muutetaan "
+"oletusmuotoon. Tätä toimintoa ei voida perua."
+
+#: modules/filter/filter.admin.inc:255
+msgid "The default format cannot be deleted."
+msgstr "Oletusmuotoa ei voi poistaa."
+
+#: modules/filter/filter.admin.inc:278
+msgid "Deleted input format %format."
+msgstr "Syöttömuoto %format poistettu."
+
+#: modules/filter/filter.admin.inc:289
+msgid "Configure %format"
+msgstr "Säädä %format"
+
+#: modules/filter/filter.admin.inc:312
+msgid "No settings are available."
+msgstr "Yhtään asetusta ei ole käytettävissä."
+
+#: modules/filter/filter.admin.inc:330
+msgid "Rearrange %format"
+msgstr "Järjestele %format uudelleen"
+
+#: modules/filter/filter.admin.inc:391
+msgid "The filter ordering has been saved."
+msgstr "Suodatinten järjestys on tallennettu."
+
+#: modules/filter/filter.pages.inc:35
+msgid "input formats"
+msgstr "syöttömuodot"
+
+#: modules/filter/filter.module:23
+msgid ""
+"The filter module allows administrators to configure text input formats for "
+"use on your site. An input format defines the HTML tags, codes, and other "
+"input allowed in both content and comments, and is a key feature in guarding "
+"against potentially damaging input from malicious users. Two input formats "
+"included by default are <em>Filtered HTML</em> (which allows only an "
+"administrator-approved subset of HTML tags) and <em>Full HTML</em> (which "
+"allows the full set of HTML tags). Additional input formats may be created "
+"by an administrator."
+msgstr ""
+"Suodatinmoduulin avulla ylläpitäjä voi määritellä sivuston tekstin "
+"syöttömuodot. Näin valitaan ne HTML-tagit, koodit ja muut syötteet, joita "
+"kirjoituksissa ja kommenteissa saa käyttää. Tämä suojelee sivustoa "
+"mahdollisten ilkeiden käyttäjien haitallisilta syötteiltä. Tarjolla on "
+"oletuksena kaksi syöttömuotoa: <em>Suodatettu HTML</em>, joka sallii vain "
+"ylläpitäjän hyväksymät HTML-tagit, sekä <em>Täysi HTML</em>, joka sallii "
+"kaikki HTML-tagit. Ylläpitäjä voi myös luoda lisää syöttömuotoja."
+
+#: modules/filter/filter.module:24
+msgid ""
+"Each input format uses filters to manipulate text, and most input formats "
+"apply several different filters to text in a specific order. Each filter is "
+"designed for a specific purpose, and generally either adds, removes or "
+"transforms elements within user-entered text before it is displayed. A "
+"filter does not change the actual content of a post, but instead, modifies "
+"it temporarily before it is displayed. A filter may remove unapproved HTML "
+"tags, for instance, while another automatically adds HTML to make links "
+"referenced in text clickable."
+msgstr ""
+"Syöttömuodot koostuvat tekstiä muokkaavista suodattimista, joita käytetään "
+"tietyssä järjestyksessä. Jokainen suodatin tekee jotain tiettyä tehtävää. Ne "
+"tavallisesti poistavat tekstistä elementtejä tai lisäävät niitä ennen "
+"näyttämistä. Suodattimet eivät muuta kirjoituksen varsinaista tekstiä, vaan "
+"muuttavat sitä tilapäisesti ennen näyttämistä. Suodatin voi esimerkiksi "
+"poistaa haitallisia HTML-tageja, tai lisätä HTML-tageja jotka tekevät "
+"osoitteista linkkejä."
+
+#: modules/filter/filter.module:25
+msgid ""
+"Users can choose between the available input formats when creating or "
+"editing content. Administrators can configure which input formats are "
+"available to which user roles, as well as choose a default input format."
+msgstr ""
+"Käyttäjät voivat valita käytettävien syöttömuotojen välillä luodessaan tai "
+"muokatessaan sisältöä. Ylläpitäjä valitsee, mitä syöttömuotoja kukin "
+"käyttäjärooli voi käyttää, ja mikä on oletussyöttömuoto."
+
+#: modules/filter/filter.module:26
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@filter"
+"\">Filter module</a>."
+msgstr "Lue käsikirjasta lisää <a href=\"@filter\">suodattimista</a>."
+
+#: modules/filter/filter.module:29
+msgid ""
+"<em>Input formats</em> define a way of processing user-supplied text in "
+"Drupal. Each input format uses filters to manipulate text, and most input "
+"formats apply several different filters to text, in a specific order. Each "
+"filter is designed to accomplish a specific purpose, and generally either "
+"removes elements from or adds elements to text before it is displayed. Users "
+"can choose between the available input formats when submitting content."
+msgstr ""
+"<em>Syöttömuodot</em> käsittelevät käyttäjien kirjoittamaa tekstiä. "
+"Syöttömuodot koostuvat tekstiä muokkaavista suodattimista, joita käytetään "
+"tietyssä järjestyksessä. Jokainen suodatin tekee jotain tiettyä tehtävää. Ne "
+"tavallisesti poistavat tekstistä elementtejä tai lisäävät niitä ennen "
+"näyttämistä. Käyttäjät voivat valita kirjoitustensa syöttömuodon."
+
+#: modules/filter/filter.module:30
+msgid ""
+"Use the list below to configure which input formats are available to which "
+"roles, as well as choose a default input format (used for imported content, "
+"for example). The default format is always available to users. All input "
+"formats are available to users in a role with the \"administer filters\" "
+"permission."
+msgstr ""
+"Alla olevasta listasta voit valita, mitä syöttömuotoja kukin rooli voi "
+"käyttää, sekä valita oletussyöttömuodon, jota käytetään esim. muualta "
+"tuotuun sisältöön. Kaikki käyttäjät voivat käyttää oletussyöttömuotoa. "
+"Käyttäjät, joilla on \"suodatinten ylläpito\" -oikeus voivat käyttää mitä "
+"tahansa syöttömuotoa."
+
+#: modules/filter/filter.module:33
+msgid ""
+"Every <em>filter</em> performs one particular change on the user input, for "
+"example stripping out malicious HTML or making URLs clickable. Choose which "
+"filters you want to apply to text in this input format. If you notice some "
+"filters are causing conflicts in the output, you can <a href=\"@rearrange"
+"\">rearrange them</a>."
+msgstr ""
+"Jokainen <em>suodatin</em> tekee käyttäjän syötteeseen jonkin tietyn "
+"muutoksen, esimerkiksi poistaa haitallisen HTML-koodin tai tekee osoitteista "
+"linkkejä. Valitse, mitä suodattimia tässä syöttömuodossa käytetään. Jos "
+"huomaat, että suodattimet vaikuttavat toisiinsa haitallisesti, voit <a href="
+"\"@rearrange\">muuttaa niiden järjestystä</a>."
+
+#: modules/filter/filter.module:35
+msgid ""
+"If you cannot find the settings for a certain filter, make sure you have "
+"enabled it on the <a href=\"@url\">view tab</a> first."
+msgstr ""
+"Jos tietyn suodattimen asetuksia ei löydy, varmista että se on otettu "
+"käyttöön <a href=\"@url\">näytä -välilehdellä</a>."
+
+#: modules/filter/filter.module:37
+msgid ""
+"Because of the flexible filtering system, you might encounter a situation "
+"where one filter prevents another from doing its job. For example: a word in "
+"an URL gets converted into a glossary term, before the URL can be converted "
+"to a clickable link. When this happens, rearrange the order of the filters."
+msgstr ""
+"Koska suodatusjärjestelmä on joustava, voi käydä niin että suodatin estää "
+"toisen toiminnan. Yksi suodatin voi esimerkiksi muuttaa osoitteesta löytyvää "
+"sanaa ennen kuin toinen muuttaa sen linkiksi. Jos näin käy, vaihda "
+"suodatinten järjestystä."
+
+#: modules/filter/filter.module:38
+msgid ""
+"Filters are executed from top-to-bottom. To change the order of the filters, "
+"modify the values in the <em>Weight</em> column or grab a drag-and-drop "
+"handle under the <em>Name</em> column and drag filters to new locations in "
+"the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save configuration</em> button at the bottom of the page."
+msgstr ""
+"Suodattimet toimivat järjestyksessä ylhäältä alas. Voit muuttaa suodatinten "
+"järjestystä muuttamalla <em>Paino</em>-sarakkeen arvoja tai vetämällä "
+"suodattimia <em>Nimi</em>-sarakkeen alla olevista kahvoista. (Vie hiiri "
+"kahvan päälle, paina näppäin pohjaan ja vedä.) Muista, että muutokset "
+"tallennetaan vasta kun klikkaan <em>Tallenna asetukset</em> -painiketta "
+"sivun alalaidassa."
+
+#: modules/filter/filter.module:176;178
+msgid "Allowed HTML tags: @tags"
+msgstr "Sallitut HTML-tagit: @tags"
+
+#: modules/filter/filter.module:183
+msgid ""
+"\n"
+"<p>This site allows HTML content. While learning all of HTML may feel "
+"intimidating, learning how to use a very small number of the most basic HTML "
+"\"tags\" is very easy. This table provides examples for each tag that is "
+"enabled on this site.</p>\n"
+"<p>For more information see W3C's <a href=\"http://www.w3.org/TR/html/"
+"\">HTML Specifications</a> or use your favorite search engine to find other "
+"sites that explain HTML.</p>"
+msgstr ""
+"\n"
+"<p>Tämä sivusto mahdollistaa HTML-muotoisen sisällön luonnin.  Vaikka HTML:n "
+"opettelu kokonaisuudessaan voi kuulostaa hankalalta, on erittäin helppoa "
+"oppia pieni määrä kaikkein yleisimpiä HTML-\"tageja\". Tämä taulukko antaa "
+"esimerkkejä kaikista tällä sivulla käytettävissä olevista tageista.</p>\n"
+"<p>Lisätietoja on saatavissa W3C's <a href=\"http://www.w3.org/TR/html/"
+"\">HTML-määrityksistä</a>. Voit myös etsiä hakukoneella  muita HTML:ää "
+"opettavia sivustoja.</p>"
+
+#: modules/filter/filter.module:187
+msgid "Anchors are used to make links to other pages."
+msgstr "Ankkureilla luodaan linkkejä muille sivuille."
+
+#: modules/filter/filter.module:188
+msgid ""
+"By default line break tags are automatically added, so use this tag to add "
+"additional ones. Use of this tag is different because it is not used with an "
+"open/close pair like all the others. Use the extra \" /\" inside the tag to "
+"maintain XHTML 1.0 compatibility"
+msgstr ""
+"Oletuksena rivinvaihdot lisätään automaattisesti, joten tätä tagia voidaan "
+"käyttää ylimääräisten rivinvaihtojen lisäämiseksi. Tagin käyttö eroaa "
+"normaalista koska sitä ei käytetä avaa/sulje -pareina niinkuin muita html-"
+"merkkauksia. Käytä merkkauksen sulkemiseksi ylimääräistä \"/\"-merkkiä "
+"merkkauksen sisällä säilyttääksesi XHTML 1.0 -yhteensopivuuden."
+
+#: modules/filter/filter.module:188
+msgid "Text with <br />line break"
+msgstr "Teksti <br />rivinvaihdolla"
+
+#: modules/filter/filter.module:189
+msgid ""
+"By default paragraph tags are automatically added, so use this tag to add "
+"additional ones."
+msgstr ""
+"Oletuksena kappalemerkkaukset lisätään automaattisesti, joten tätä "
+"merkkausta voidaan käyttää ylimääräisten kappaleiden lisäämiseksi."
+
+#: modules/filter/filter.module:189
+msgid "Paragraph one."
+msgstr "Kappale yksi"
+
+#: modules/filter/filter.module:189
+msgid "Paragraph two."
+msgstr "Kappale kaksi."
+
+#: modules/filter/filter.module:190;190
+msgid "Strong"
+msgstr "Lihavoitu"
+
+#: modules/filter/filter.module:191;191
+msgid "Emphasized"
+msgstr "Korostettu"
+
+#: modules/filter/filter.module:192;192
+msgid "Cited"
+msgstr "Siteerattu"
+
+#: modules/filter/filter.module:193
+msgid "Coded text used to show programming source code"
+msgstr ""
+"Ohjelmointikielisen lähdekoodin näyttämiseen käytettävä koodimuotoinen "
+"teksti."
+
+#: modules/filter/filter.module:193
+msgid "Coded"
+msgstr "Koodattu"
+
+#: modules/filter/filter.module:194;194
+msgid "Bolded"
+msgstr "Lihavoitu"
+
+#: modules/filter/filter.module:195;195
+msgid "Underlined"
+msgstr "Alleviivattu"
+
+#: modules/filter/filter.module:196;196
+msgid "Italicized"
+msgstr "Kursivoitu"
+
+#: modules/filter/filter.module:197
+msgid "Superscripted"
+msgstr "Yläindeksi"
+
+#: modules/filter/filter.module:197
+msgid "<sup>Super</sup>scripted"
+msgstr "<sup>Ylä</sup>indeksi"
+
+#: modules/filter/filter.module:198
+msgid "Subscripted"
+msgstr "Alaindeksi"
+
+#: modules/filter/filter.module:198
+msgid "<sub>Sub</sub>scripted"
+msgstr "<sub>Ala</sub>indeksi"
+
+#: modules/filter/filter.module:199;199
+msgid "Preformatted"
+msgstr "Esimuotoiltu"
+
+#: modules/filter/filter.module:200
+msgid "Abbreviation"
+msgstr "Lyhenne"
+
+#: modules/filter/filter.module:200
+msgid "<abbr title=\"Abbreviation\">Abbrev.</abbr>"
+msgstr "<abbr title=\"Lyhennys\">Lyhenn.</abbr>"
+
+#: modules/filter/filter.module:201
+msgid "Acronym"
+msgstr "Lyhennesana"
+
+#: modules/filter/filter.module:201
+msgid "<acronym title=\"Three-Letter Acronym\">TLA</acronym>"
+msgstr "<acronym title=\"Kolmen kirjaimen lyhennesana\">KKL</acronym>"
+
+#: modules/filter/filter.module:202;202
+msgid "Block quoted"
+msgstr "Lohkolainaus"
+
+#: modules/filter/filter.module:203;203
+msgid "Quoted inline"
+msgstr "Välitön lainaus"
+
+#: modules/filter/filter.module:205
+msgid "Table"
+msgstr "Taulukko"
+
+#: modules/filter/filter.module:205
+msgid "Table header"
+msgstr "Taulukon otsikko"
+
+#: modules/filter/filter.module:205
+msgid "Table cell"
+msgstr "Taulukon solu"
+
+#: modules/filter/filter.module:207;207
+msgid "Deleted"
+msgstr "Poistettu"
+
+#: modules/filter/filter.module:208;208
+msgid "Inserted"
+msgstr "Lisätty"
+
+#: modules/filter/filter.module:210
+msgid "Ordered list - use the &lt;li&gt; to begin each list item"
+msgstr "Järjestetty lista - käytä &lt;li&gt;-merkkausta kunkin kohdan alussa."
+
+#: modules/filter/filter.module:210;211
+msgid "First item"
+msgstr "Ensimmäinen kohta"
+
+#: modules/filter/filter.module:210;211
+msgid "Second item"
+msgstr "Toinen kohta"
+
+#: modules/filter/filter.module:211
+msgid "Unordered list - use the &lt;li&gt; to begin each list item"
+msgstr "Järjestämätön lista - käytä &ltli&gt;-merkkausta kunkin kohdan alussa"
+
+#: modules/filter/filter.module:214
+msgid ""
+"Definition lists are similar to other HTML lists. &lt;dl&gt; begins the "
+"definition list, &lt;dt&gt; begins the definition term and &lt;dd&gt; begins "
+"the definition description."
+msgstr ""
+"Määrityslistat ovat samankaltaisia kuin muut HTML-listat. &lt;dl&gt; "
+"aloittaa listan, &lt;dt&gt; aloittaa määritystermin ja &lt;dd&gt; "
+"määrityskuvauksen."
+
+#: modules/filter/filter.module:214
+msgid "First term"
+msgstr "Ensimmäinen termi"
+
+#: modules/filter/filter.module:214
+msgid "First definition"
+msgstr "Ensimmäinen määritys"
+
+#: modules/filter/filter.module:214
+msgid "Second term"
+msgstr "Toinen termi"
+
+#: modules/filter/filter.module:214
+msgid "Second definition"
+msgstr "Toinen määritys"
+
+#: modules/filter/filter.module:217
+msgid "Subtitle"
+msgstr "Alaotsikko"
+
+#: modules/filter/filter.module:218
+msgid "Subtitle three"
+msgstr "Alaotsikko kolme"
+
+#: modules/filter/filter.module:219
+msgid "Subtitle four"
+msgstr "Alaotsikko neljä"
+
+#: modules/filter/filter.module:220
+msgid "Subtitle five"
+msgstr "Alaotsikko viisi"
+
+#: modules/filter/filter.module:221
+msgid "Subtitle six"
+msgstr "Alaotsikko kuusi"
+
+#: modules/filter/filter.module:223
+msgid "Tag Description"
+msgstr "Koodin kuvaus"
+
+#: modules/filter/filter.module:223;252
+msgid "You Type"
+msgstr "Kun kirjoitat"
+
+#: modules/filter/filter.module:223;252
+msgid "You Get"
+msgstr "Näet seuraavaa"
+
+#: modules/filter/filter.module:237
+msgid "No help provided for tag %tag."
+msgstr "Tagille %tag ei löydy ohjetta."
+
+#: modules/filter/filter.module:243
+msgid ""
+"\n"
+"<p>Most unusual characters can be directly entered without any problems.</"
+"p>\n"
+"<p>If you do encounter problems, try using HTML character entities. A common "
+"example looks like &amp;amp; for an ampersand &amp; character. For a full "
+"list of entities see HTML's <a href=\"http://www.w3.org/TR/html4/sgml/"
+"entities.html\">entities</a> page. Some of the available characters include:"
+"</p>"
+msgstr ""
+"\n"
+"<p>Useimmat epättavalliset merkit voidaan kirjoittaa suoraan ongelmitta.</"
+"p>\n"
+"<p>Ongelmatapauksissa on mahdollista käyttää HTML:n merkkientiteettejä. "
+"Esimerkiksi näin: &amp;amp; &amp;-merkkiä varten. Täydellisen listan HTML:n "
+"merkkientiteeteistä löydät W3 Consortiumin <a href=\"http://www.w3.org/TR/"
+"html4/sgml/entities.html\">entiteetit</a> sivulta. Jotkut saatavilla olevat "
+"merkit sisältävät:</p>"
+
+#: modules/filter/filter.module:247
+msgid "Ampersand"
+msgstr "&amp;-merkki"
+
+#: modules/filter/filter.module:248
+msgid "Greater than"
+msgstr "Suurempi kuin"
+
+#: modules/filter/filter.module:249
+msgid "Less than"
+msgstr "Pienempi kuin"
+
+#: modules/filter/filter.module:250
+msgid "Quotation mark"
+msgstr "Lainausmerkki"
+
+#: modules/filter/filter.module:252
+msgid "Character Description"
+msgstr "Merkin kuvaus"
+
+#: modules/filter/filter.module:266
+msgid "No HTML tags allowed"
+msgstr "HTML-tagit eivät ole sallittuja"
+
+#: modules/filter/filter.module:274
+msgid "Lines and paragraphs break automatically."
+msgstr "Rivit ja kappaleet päätetään automaattisesti."
+
+#: modules/filter/filter.module:276
+msgid ""
+"Lines and paragraphs are automatically recognized. The &lt;br /&gt; line "
+"break, &lt;p&gt; paragraph and &lt;/p&gt; close paragraph tags are inserted "
+"automatically. If paragraphs are not recognized simply add a couple blank "
+"lines."
+msgstr ""
+"Rivit ja kappaleet tunnistetaan automaattisesti. Rivinvaihdon kohdalle "
+"merkitään &lt;br /&gt;-tagi, ja kaksi rivinvaihtoa tuottaa kappaleenvaihdon "
+"&lt;p&gt; &lt;/p&gt; -tagit. Jos kappaleen vaihtoa ei tunnisteta, lisää pari "
+"ylimääräistä rivinvaihtoa."
+
+#: modules/filter/filter.module:280
+msgid "Web page addresses and e-mail addresses turn into links automatically."
+msgstr "Www-osoitteet ja email-osoitteet muutetaan automaattisesti linkeiksi."
+
+#: modules/filter/filter.module:484
+msgid "Input format"
+msgstr "Syöttömuoto"
+
+#: modules/filter/filter.module:604;655
+msgid "HTML filter"
+msgstr "HTML-suodatin"
+
+#: modules/filter/filter.module:604
+msgid "Line break converter"
+msgstr "Rivinvaihdon muunnin"
+
+#: modules/filter/filter.module:604;715
+msgid "URL filter"
+msgstr "URL-suodatin"
+
+#: modules/filter/filter.module:604
+msgid "HTML corrector"
+msgstr "HTML:n korjaaja"
+
+#: modules/filter/filter.module:609
+msgid ""
+"Allows you to restrict whether users can post HTML and which tags to filter "
+"out. It will also remove harmful content such as JavaScript events, "
+"JavaScript URLs and CSS styles from those tags that are not removed."
+msgstr ""
+"Rajoita, voivatkä käyttäjät käyttää HTML:ää, ja mitkä tagit suodatetaan "
+"pois. Voit poistaa myös jäljelle jätettävistä  tageista haitallista "
+"sisältöä, kuten JavaScript-tapahtumat, JavaScript-osoitteet ja CSS-tyylit."
+
+#: modules/filter/filter.module:611
+msgid "Converts line breaks into HTML (i.e. &lt;br&gt; and &lt;p&gt; tags)."
+msgstr ""
+"Muuntaa rivinvaihdot HTML-muotoon (eli &lt;br&gt; ja &lt;p&gt; -tageiksi)."
+
+#: modules/filter/filter.module:613
+msgid "Turns web and e-mail addresses into clickable links."
+msgstr "Muuttaa www- ja email-osoitteet klikattaviksi linkeiksi."
+
+#: modules/filter/filter.module:615
+msgid "Corrects faulty and chopped off HTML in postings."
+msgstr "Korjaa kirjoitusten vialliset ja puutteelliset HTML-merkinnät."
+
+#: modules/filter/filter.module:660
+msgid "Filter HTML tags"
+msgstr "HTML-tagien suodatus"
+
+#: modules/filter/filter.module:662
+msgid "Strip disallowed tags"
+msgstr "Poista kielletyt tagit"
+
+# Plääh, vaikea.
+#: modules/filter/filter.module:662
+msgid "Escape all tags"
+msgstr "Näytä tagit sellaisenaan"
+
+#: modules/filter/filter.module:663
+msgid ""
+"How to deal with HTML tags in user-contributed content. If set to \"Strip "
+"disallowed tags\", dangerous tags are removed (see below). If set to "
+"\"Escape tags\", all HTML is escaped and presented as it was typed."
+msgstr ""
+"Kuinka käyttäjien kirjoittamia HTML-tageja käsitellään. Jos valitset "
+"\"Poista kielletyt tagit\", vaaralliset tagit poistetaan (katso alla). Jos "
+"asetus on \"Näytä tagit sellaisenaan\", näytetään raaka HTML-koodi eikä sen "
+"vaikutuksia."
+
+#: modules/filter/filter.module:671
+msgid ""
+"If \"Strip disallowed tags\" is selected, optionally specify tags which "
+"should not be stripped. JavaScript event attributes are always stripped."
+msgstr ""
+"Jos valitset \"Poista kielletyt tagit\", voit valita tagit jotka jätetään "
+"paikalleen. JavaScriptin tapahtuma-attribuutit poistetaan aina."
+
+#: modules/filter/filter.module:675
+msgid "Display HTML help"
+msgstr "Näytä HTML-ohje"
+
+#: modules/filter/filter.module:677
+msgid ""
+"If enabled, Drupal will display some basic HTML help in the long filter tips."
+msgstr ""
+"Jos tämä asetus on käytössä, pitkissä suodatinvihjeissä näytetään joitakin "
+"HTML:n perusohjeita."
+
+#: modules/filter/filter.module:681
+msgid "Spam link deterrent"
+msgstr "Roskapostilinkkien esto"
+
+#: modules/filter/filter.module:683
+msgid ""
+"If enabled, Drupal will add rel=\"nofollow\" to all links, as a measure to "
+"reduce the effectiveness of spam links. Note: this will also prevent valid "
+"links from being followed by search engines, therefore it is likely most "
+"effective when enabled for anonymous users."
+msgstr ""
+"Jos tämä on käytössä, Drupal lisää attribuutin rel=\"nofollow\" kaikkiin "
+"linkkeihin vähentääkseen roskapostilinkkien tehokkuutta. Huomaa: tämä estää "
+"hakukoneita seuraamasta myös kelvollisia linkkejä, joten on todennäköisesti "
+"tehokkainta käyttää tätä anonyymeille käyttäjille."
+
+#: modules/filter/filter.module:720
+msgid "Maximum link text length"
+msgstr "Suurin linkkitekstin pituus"
+
+#: modules/filter/filter.module:723
+msgid ""
+"URLs longer than this number of characters will be truncated to prevent long "
+"strings that break formatting. The link itself will be retained; just the "
+"text portion of the link will be truncated."
+msgstr ""
+"Tätä merkkimäärää pidemmät URL:t lyhennetään, jolla estetään muotoilun "
+"rikkovat ylipitkät merkkijonot.  Itse linkki jää ennalleen; vain linkin "
+"tekstiosaa lyhennetään."
+
+#: modules/filter/filter.module:153
+msgid "administer filters"
+msgstr "suodattimien ylläpito"
+
+#: modules/filter/filter.module:71
+msgid "Input formats"
+msgstr "Syöttömuodot"
+
+#: modules/filter/filter.module:72
+msgid ""
+"Configure how content input by users is filtered, including allowed HTML "
+"tags. Also allows enabling of module-provided filters."
+msgstr ""
+"Suodata käyttäjien kirjoittamaa sisältöä. Voit esimerkiksi suodattaa pois "
+"tietyt HTML-tagit. Voit myös kytkeä päälle moduulien tarjoamia suodattimia."
+
+#: modules/filter/filter.module:90
+msgid "Delete input format"
+msgstr "Poista syöttömuoto"
+
+#: modules/filter/filter.module:97
+msgid "Compose tips"
+msgstr "Tiedonsyöttövihjeitä"
+
+#: modules/filter/filter.module:128
+msgid "Rearrange"
+msgstr "Järjestä uudelleen"
+
+#: modules/filter/filter.module:0
+msgid "filter"
+msgstr "suodatin"
+
+#: modules/filter/filter.install:9
+msgid ""
+"Table that maps filters (HTML corrector) to input formats (Filtered HTML)."
+msgstr "Taulukko, joka yhdistää suodattimet ja syöttömuodot."
+
+#: modules/filter/filter.install:14
+msgid "Primary Key: Auto-incrementing filter ID."
+msgstr "pääavain: Suodattimen automaattisesti kasvatettava tunniste."
+
+#: modules/filter/filter.install:20
+msgid ""
+"Foreign key: The {filter_formats}.format to which this filter is assigned."
+msgstr "Vieras avain: {filter_formats}.format, johon tämä suodatin kuuluu."
+
+#: modules/filter/filter.install:34
+msgid "ID to identify which filter within module is being referenced."
+msgstr "Tunniste, joka ilmoittaa mihin moduulin suodattimista viitataan."
+
+#: modules/filter/filter.install:41
+msgid "Weight of filter within format."
+msgstr "Suodattimen paino syöttömuodossa."
+
+#: modules/filter/filter.install:53
+msgid ""
+"Stores input formats: custom groupings of filters, such as Filtered HTML."
+msgstr "Varatoi syöttömuotoja eli suodattimien ryhmiä."
+
+#: modules/filter/filter.install:58
+msgid "Primary Key: Unique ID for format."
+msgstr "Pääavain: Syöttömuodon ainutkertainen tunniste."
+
+#: modules/filter/filter.install:65
+msgid "Name of the input format (Filtered HTML)."
+msgstr "Syöttömuodon nimi."
+
+#: modules/filter/filter.install:72
+msgid "A comma-separated string of roles; references {role}.rid."
+msgstr "Pilkulla erotettu roolien lista. viittaa kenttään  {role}.rid."
+
+#: modules/filter/filter.install:79
+msgid ""
+"Flag to indicate whether format is cachable. (1 = cachable, 0 = not cachable)"
+msgstr "Voiko suodatetun sisällön tallentaa välimuistiin? (1 = kyllä, 0 = ei)"
+
+#: modules/filter/filter.install:87
+msgid ""
+"Cache table for the Filter module to store already filtered pieces of text, "
+"identified by input format and md5 hash of the text."
+msgstr ""
+"Välimuistitaulu, johan suodatinmoduuli tallentaa valmiiksi suodatetut "
+"tekstit, jotka tunnistetaan syötemuodon ja md5-tiivisteen perusteella."

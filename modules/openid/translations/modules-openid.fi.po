@@ -1,0 +1,330 @@
+# translation of general.po to
+# Finnish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  common.inc,v 1.602 2006/12/15 07:47:08 unconed
+#  system.module,v 1.428 2006/12/15 08:53:56 unconed
+#  upload.module,v 1.145 2006/12/14 13:30:59 dries
+#  image.inc,v 1.16 2006/12/12 01:03:34 unconed
+#  unicode.inc,v 1.23 2006/12/06 16:15:52 dries
+#  system.install,v 1.60 2006/12/13 10:41:56 unconed
+#  database.mysql.inc,v 1.64 2006/12/04 11:06:29 dries
+#  database.mysqli.inc,v 1.30 2006/12/04 11:06:29 dries
+#  file.inc,v 1.88 2006/12/11 16:45:17 dries
+#  user.module,v 1.731 2006/12/12 10:11:43 unconed
+#  form.inc,v 1.166 2006/12/12 10:01:38 unconed
+#  filter.module,v 1.157 2006/12/14 10:14:05 unconed
+#  locale.inc,v 1.101 2006/12/10 09:54:32 unconed
+#  blogapi.module,v 1.99 2006/11/21 20:14:17 dries
+#  forum.module,v 1.371 2006/12/10 20:34:02 dries
+#  block.module,v 1.244 2006/12/11 23:00:09 unconed
+#  book.module,v 1.403 2006/11/30 02:04:31 drumm
+#  comment.module,v 1.515 2006/12/15 01:33:00 unconed
+#  contact.module,v 1.72 2006/12/04 10:43:34 dries
+#  menu.module,v 1.99 2006/11/30 01:55:31 drumm
+#  content_types.inc,v 1.18 2006/12/05 05:47:37 dries
+#  node.module,v 1.752 2006/12/14 14:07:57 dries
+#  path.module,v 1.103 2006/11/26 02:20:01 drumm
+#  profile.module,v 1.185 2006/12/13 23:50:26 unconed
+#  drupal.module,v 1.137 2006/12/11 16:57:42 dries
+#  statistics.module,v 1.246 2006/11/26 02:20:01 drumm
+#  aggregator.module,v 1.323 2006/12/14 13:41:02 dries
+#  taxonomy.module,v 1.328 2006/11/30 07:05:57 unconed
+#  watchdog.module,v 1.164 2006/12/10 09:54:35 unconed
+#  locale.module,v 1.154 2006/12/01 22:47:53 unconed
+#  search.module,v 1.206 2006/12/11 16:57:42 dries
+#  search.info,v 1.3 2006/11/21 20:55:35 dries
+#  menu.inc,v 1.143 2006/12/12 06:02:52 unconed
+#  chameleon.theme,v 1.56 2006/11/29 06:36:12 drumm
+#  pager.inc,v 1.59 2006/10/15 19:57:05 dries
+#  theme.inc,v 1.332 2006/12/15 01:06:33 unconed
+#  phptemplate.engine,v 1.53 2006/12/13 23:22:57 unconed
+#  poll.module,v 1.221 2006/12/10 20:34:03 dries
+#  legacy.module,v 1.15 2006/11/21 20:14:18 dries
+#  blog.module,v 1.271 2006/12/10 20:34:02 dries
+#  tracker.module,v 1.141 2006/12/10 09:54:34 unconed
+#  aggregator.info,v 1.3 2006/11/21 20:55:33 dries
+#  blog.info,v 1.3 2006/11/21 20:55:33 dries
+#  blogapi.info,v 1.3 2006/11/21 20:55:33 dries
+#  book.info,v 1.3 2006/11/21 20:55:33 dries
+#  color.info,v 1.2 2006/11/21 20:55:34 dries
+#  comment.info,v 1.3 2006/11/21 20:55:34 dries
+#  contact.info,v 1.3 2006/11/21 20:55:34 dries
+#  drupal.info,v 1.3 2006/11/21 20:55:34 dries
+#  forum.info,v 1.4 2006/11/21 20:55:34 dries
+#  help.info,v 1.3 2006/11/21 20:55:34 dries
+#  legacy.info,v 1.3 2006/11/21 20:55:34 dries
+#  locale.info,v 1.3 2006/11/21 20:55:34 dries
+#  menu.info,v 1.3 2006/11/21 20:55:34 dries
+#  path.info,v 1.3 2006/11/21 20:55:34 dries
+#  ping.info,v 1.3 2006/11/21 20:55:35 dries
+#  poll.info,v 1.3 2006/11/21 20:55:35 dries
+#  profile.info,v 1.3 2006/11/21 20:55:35 dries
+#  statistics.info,v 1.3 2006/11/21 20:55:35 dries
+#  taxonomy.info,v 1.3 2006/11/21 20:55:35 dries
+#  throttle.info,v 1.3 2006/11/21 20:55:35 dries
+#  tracker.info,v 1.3 2006/11/21 20:55:35 dries
+#  upload.info,v 1.3 2006/11/21 20:55:35 dries
+#  block.info,v 1.3 2006/11/21 20:55:33 dries
+#  filter.info,v 1.3 2006/11/21 20:55:34 dries
+#  node.info,v 1.3 2006/11/21 20:55:34 dries
+#  system.info,v 1.3 2006/11/21 20:55:35 dries
+#  user.info,v 1.3 2006/11/21 20:55:36 dries
+#  watchdog.info,v 1.3 2006/11/21 20:55:36 dries
+#  throttle.module,v 1.71 2006/12/04 10:56:21 dries
+#  color.module,v 1.12 2006/12/10 09:54:33 unconed
+#  help.module,v 1.67 2006/12/10 09:54:33 unconed
+#  color.inc,v 1.2 2006/12/06 16:32:54 dries
+#  database.pgsql.inc,v 1.42 2006/12/14 13:26:41 dries
+#  install.inc,v 1.30 2006/12/08 11:54:04 dries
+#  tablesort.inc,v 1.43 2006/12/01 08:50:33 dries
+#  xmlrpc.inc,v 1.38 2006/09/03 08:21:18 dries
+#  xmlrpcs.inc,v 1.21 2006/07/05 11:45:51 dries
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#  ping.module,v 1.45 2006/11/21 20:14:18 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-02-04 13:47+0100\n"
+"PO-Revision-Date: 2008-02-11 11:41+0200\n"
+"Last-Translator: Ilari Sani <ilari.sani@assemblix.net>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/openid/openid.inc:44
+msgid "OpenID redirect"
+msgstr "OpenID-uudelleenohjaus"
+
+#: modules/openid/openid.inc:67
+msgid "Send"
+msgstr "Lähetä"
+
+#: modules/openid/openid.pages.inc:18
+msgid "OpenID login failed."
+msgstr "Sisäänkirjautuminen OpenID-tunnuksella ei onnistunut."
+
+#: modules/openid/openid.pages.inc:21
+msgid "OpenID login cancelled."
+msgstr "Sisäänkirjautuminen OpenID-tunnuksella keskeytettiin."
+
+#: modules/openid/openid.pages.inc:39
+msgid "Successfully added %identity"
+msgstr "%identity lisättiin."
+
+#: modules/openid/openid.pages.inc:66
+msgid "Add an OpenID"
+msgstr "Lisää OpenID-tunnus"
+
+#: modules/openid/openid.pages.inc:74
+msgid "That OpenID is already in use on this site."
+msgstr "OpenID-tunnus on jo käytössä tällä sivustolla."
+
+#: modules/openid/openid.pages.inc:88
+msgid "OpenID deleted."
+msgstr "OpenID-tunnus poistettiin."
+
+#: modules/openid/openid.module:46
+msgid ""
+"This site supports <a href=\"@openid-net\">OpenID</a>, a secure way to log "
+"into many websites using a single username and password. OpenID can reduce "
+"the necessity of managing many usernames and passwords for many websites."
+msgstr ""
+"Tämä sivusto tukee <a href=\"@openid-net\">OpenID:tä</a>, jonka avulla voi "
+"turvallisesti kirjautua eri sivustoille käyttämällä samaa käyttäjätunnusta "
+"ja salasanaa. OpenID vähentää eri tunnusten ja salasanojen muistamisen "
+"tarvetta."
+
+#: modules/openid/openid.module:47
+msgid ""
+"To use OpenID you must first establish an identity on a public or private "
+"OpenID server. If you do not have an OpenID and would like one, look into "
+"one of the <a href=\"@openid-providers\">free public providers</a>. You can "
+"find out more about OpenID at <a href=\"@openid-net\">this website</a>."
+msgstr ""
+"Käyttääksesi OpenID:tä sinun on ensin hankittava tunnus joltakin OpenID-"
+"palveluntarjoajalta. Jos sinulla ei ole tunnusta ja haluat sellaisen, "
+"tutustu <a href=\"@openid-providers\">ilmaisiin julkisiin "
+"palveluntarjoajiin</a>. Voit myös lukea lisää <a href=\"@openid-net\">OpenID:"
+"stä</a>."
+
+#: modules/openid/openid.module:48
+msgid ""
+"If you already have an OpenID, enter the URL to your OpenID server below (e."
+"g. myusername.openidprovider.com). Next time you login, you will be able to "
+"use this URL instead of a regular username and password. You can have "
+"multiple OpenID servers if you like; just keep adding them here."
+msgstr ""
+"Jos sinulla on jo OpenID-tunnus, lisää sen osoite tähän (esim. tunnuksesi."
+"palveluntarjoaja.fi). Kun kirjaudut seuraavan kerran sisään, voit käyttää "
+"OpenID-tunnusta etkä tarvitse tavallista käyttäjätunnusta ja salasanaa. Voit "
+"käyttää useampaa OpenID-tunnusta jos haluat, lisää ne vain listaan."
+
+#: modules/openid/openid.module:52
+msgid ""
+"OpenID is a secure method for logging into many websites with a single "
+"username and password. It does not require special software, and it does not "
+"share passwords with any site to which it is associated; including your site."
+msgstr ""
+"OpenID on turvallinen tapa kirjautua monelle eri sivustolle samalla "
+"käyttäjätunnuksella ja salasanalla. Se ei vaadi erityisiä ohjelmia, eikä "
+"salasanaa näytetä sivustoille, joihin kirjaudutaan sisään. (Ei myöskään "
+"sinun sivustollesi.)"
+
+#: modules/openid/openid.module:53
+msgid ""
+"Users can create accounts using their OpenID, assign one or more OpenIDs to "
+"an existing account, and log in using an OpenID. This lowers the barrier to "
+"registration, which is good for the site, and offers convenience and "
+"security to the users. OpenID is not a trust system, so email verification "
+"is still necessary. The benefit stems from the fact that users can have a "
+"single password that they can use on many websites. This means they can "
+"easily update their single password from a centralized location, rather than "
+"having to change dozens of passwords individually."
+msgstr ""
+"Käyttäjät voivat avata käyttäjätilin käyttämällä OpenID-tunnusta, tai "
+"liittää OpenID-tunnuksen nykyiseen tiliin ja kirjautua sisään sillä. Tämä "
+"laskee rekisteröitymiskynnystä ja on käyttäjien kannalta kätevää ja "
+"turvallista. OpenID ei ole luottamusjärjestelmä, joten sähköpostiosotteiden "
+"vahvistaminen on edelleen tarpeen. Hyötynä on, että käyttäjät voivat käyttää "
+"kertaalleen luotua tunnusta ja salasanaa, eikä niitä tarvitse muokata "
+"lukuisissa eri paikoissa."
+
+#: modules/openid/openid.module:54
+msgid ""
+"The basic concept is as follows: A user has an account on an OpenID server. "
+"This account provides them with a unique URL (such as myusername."
+"openidprovider.com). When the user comes to your site, they are presented "
+"with the option of entering this URL. Your site then communicates with the "
+"OpenID server, asking it to verify the identity of the user. If the user is "
+"logged into their OpenID server, the server communicates back to your site, "
+"verifying the user. If they are not logged in, the OpenID server will ask "
+"the user for their password. At no point does your site record, or need to "
+"record the user's password."
+msgstr ""
+"Perusajatus on seuraava: Käyttäjällä on OpenID-palveluntarjoajan myöntämä "
+"tunnus. Tunnukseen liittyy osoite, kuten tunnus.palveluntarjoaja.fi. Kun "
+"käyttäjä tulee sivustollesi, hän syöttää tämän osoitteen. Sivustosi "
+"kommunikoi palveluntarjoajan kanssa, ja pyytää sitä vahvistamaan käyttäjän "
+"identiteetin. Palveluntarjoaja tunnistaa käyttäjän ja lähettää sivustollesi "
+"vahvistuksen. Sivustosi ei missään vaiheessa tarvitse käyttäjän salasanaa."
+
+#: modules/openid/openid.module:55
+msgid ""
+"More information on OpenID is available at <a href=\"@openid-net\">OpenID."
+"net</a>."
+msgstr ""
+"Lisätietoja OpenID:stä löytyy osoitteesta <a href=\"@openid-net\">OpenID."
+"net</a>."
+
+#: modules/openid/openid.module:56
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@handbook"
+"\">OpenID module</a>."
+msgstr "Lue käsikirjasta lisää <a href=\"@handbook\">OpenID:stä</a>."
+
+#: modules/openid/openid.module:68
+msgid "Once you have verified your email address, you may log in via OpenID."
+msgstr ""
+"Voit kirjautua sisään käyttämällä OpenID:tä, kun olet vahvistanut "
+"sähköpostiosoitteesi."
+
+#: modules/openid/openid.module:90;107
+msgid "Log in using OpenID"
+msgstr "Kirjaudu sisään käyttämällä OpenID:tä"
+
+#: modules/openid/openid.module:94
+msgid "Cancel OpenID login"
+msgstr "Peru OpenID-kirjautuminen"
+
+#: modules/openid/openid.module:111
+msgid "What is OpenID?"
+msgstr "Mikä OpenID on?"
+
+#: modules/openid/openid.module:160
+msgid ""
+"Sorry, that is not a valid OpenID. Please ensure you have spelled your ID "
+"correctly."
+msgstr ""
+"Tämä ei ole toimiva OpenID-tunnus. Varmista, että olet kirjoittanut "
+"tunnuksen oikein."
+
+#: modules/openid/openid.module:395
+msgid ""
+"You must validate your email address for this account before logging in via "
+"OpenID"
+msgstr ""
+"Sinun on vahvistettava sähköpostiosoitteesi ennen kuin voit kirjautua sisään "
+"käyttämällä OpenID-tunnistautumista."
+
+#: modules/openid/openid.module:413
+msgid ""
+"OpenID registration failed for the reasons listed. You may register now, or "
+"if you already have an account you can <a href=\"@login\">log in</a> now and "
+"add your OpenID under \"My Account\""
+msgstr ""
+"OpenID-rekisteröinti ei onnistunut mainituista syistä. Voit rekisteröityä "
+"nyt, tai jos sinulla on jo käyttäjätili, voit <a href=\"@login\">kirjautua "
+"sisään</a> ja lisätä OpenID-tunnuksesi kohdassa \"Käyttäjätilini\"."
+
+#: modules/openid/openid.module:14
+msgid "OpenID Login"
+msgstr "OpenID-sisäänkirjautuminen"
+
+#: modules/openid/openid.module:21
+msgid "OpenID identities"
+msgstr "OpenID-tunnukset"
+
+#: modules/openid/openid.module:30
+msgid "Delete OpenID"
+msgstr "Poista OpenID-tunnus"
+
+#: modules/openid/openid.module:0
+msgid "openid"
+msgstr "openid"
+
+#: modules/openid/openid.install:25
+msgid ""
+"Stores temporary shared key association information for OpenID "
+"authentication."
+msgstr ""
+"Varastoi OpenID-tunnistautumiseen käytettäviä tilapäisiä jaetun avaimen "
+"assosiaatiotietoja."
+
+#: modules/openid/openid.install:30
+msgid "URI of the OpenID Provider endpoint."
+msgstr "OpenID-palveluntarjoajan osoite."
+
+#: modules/openid/openid.install:36
+msgid "Primary Key: Used to refer to this association in subsequent messages."
+msgstr "Pääavain: Viittaa tähän assosiaatioon seuraavissa viesteissä."
+
+#: modules/openid/openid.install:41
+msgid "The signature algorithm used: one of HMAC-SHA1 or HMAC-SHA256."
+msgstr "Käytetty allekirjoitusalgoritmi: joko HMAC-SHA1 tai HMAC-SHA256."
+
+#: modules/openid/openid.install:46
+msgid ""
+"Valid association session types: \"no-encryption\", \"DH-SHA1\", and \"DH-"
+"SHA256\"."
+msgstr ""
+"Hyväksytyt assosiaation istunnon tyypit: \"no-encryption\", \"DH-SHA1\", and "
+"\"DH-SHA256\"."
+
+#: modules/openid/openid.install:51
+msgid "The MAC key (shared secret) for this association."
+msgstr " Assosiaation MAC-avain (jaettu salaisuus)."
+
+#: modules/openid/openid.install:57
+msgid "UNIX timestamp for when the association was created."
+msgstr "Assosiaation luomishetken UNIX-aikaleima."
+
+#: modules/openid/openid.install:63
+msgid "The lifetime, in seconds, of this association."
+msgstr "Assosiaation kesto sekunteina."

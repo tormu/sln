@@ -1,0 +1,753 @@
+# translation of general.po to
+# Finnish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  common.inc,v 1.602 2006/12/15 07:47:08 unconed
+#  system.module,v 1.428 2006/12/15 08:53:56 unconed
+#  upload.module,v 1.145 2006/12/14 13:30:59 dries
+#  image.inc,v 1.16 2006/12/12 01:03:34 unconed
+#  unicode.inc,v 1.23 2006/12/06 16:15:52 dries
+#  system.install,v 1.60 2006/12/13 10:41:56 unconed
+#  database.mysql.inc,v 1.64 2006/12/04 11:06:29 dries
+#  database.mysqli.inc,v 1.30 2006/12/04 11:06:29 dries
+#  file.inc,v 1.88 2006/12/11 16:45:17 dries
+#  user.module,v 1.731 2006/12/12 10:11:43 unconed
+#  form.inc,v 1.166 2006/12/12 10:01:38 unconed
+#  filter.module,v 1.157 2006/12/14 10:14:05 unconed
+#  locale.inc,v 1.101 2006/12/10 09:54:32 unconed
+#  blogapi.module,v 1.99 2006/11/21 20:14:17 dries
+#  forum.module,v 1.371 2006/12/10 20:34:02 dries
+#  block.module,v 1.244 2006/12/11 23:00:09 unconed
+#  book.module,v 1.403 2006/11/30 02:04:31 drumm
+#  comment.module,v 1.515 2006/12/15 01:33:00 unconed
+#  contact.module,v 1.72 2006/12/04 10:43:34 dries
+#  menu.module,v 1.99 2006/11/30 01:55:31 drumm
+#  content_types.inc,v 1.18 2006/12/05 05:47:37 dries
+#  node.module,v 1.752 2006/12/14 14:07:57 dries
+#  path.module,v 1.103 2006/11/26 02:20:01 drumm
+#  profile.module,v 1.185 2006/12/13 23:50:26 unconed
+#  drupal.module,v 1.137 2006/12/11 16:57:42 dries
+#  statistics.module,v 1.246 2006/11/26 02:20:01 drumm
+#  aggregator.module,v 1.323 2006/12/14 13:41:02 dries
+#  taxonomy.module,v 1.328 2006/11/30 07:05:57 unconed
+#  watchdog.module,v 1.164 2006/12/10 09:54:35 unconed
+#  locale.module,v 1.154 2006/12/01 22:47:53 unconed
+#  search.module,v 1.206 2006/12/11 16:57:42 dries
+#  search.info,v 1.3 2006/11/21 20:55:35 dries
+#  menu.inc,v 1.143 2006/12/12 06:02:52 unconed
+#  chameleon.theme,v 1.56 2006/11/29 06:36:12 drumm
+#  pager.inc,v 1.59 2006/10/15 19:57:05 dries
+#  theme.inc,v 1.332 2006/12/15 01:06:33 unconed
+#  phptemplate.engine,v 1.53 2006/12/13 23:22:57 unconed
+#  poll.module,v 1.221 2006/12/10 20:34:03 dries
+#  legacy.module,v 1.15 2006/11/21 20:14:18 dries
+#  blog.module,v 1.271 2006/12/10 20:34:02 dries
+#  tracker.module,v 1.141 2006/12/10 09:54:34 unconed
+#  aggregator.info,v 1.3 2006/11/21 20:55:33 dries
+#  blog.info,v 1.3 2006/11/21 20:55:33 dries
+#  blogapi.info,v 1.3 2006/11/21 20:55:33 dries
+#  book.info,v 1.3 2006/11/21 20:55:33 dries
+#  color.info,v 1.2 2006/11/21 20:55:34 dries
+#  comment.info,v 1.3 2006/11/21 20:55:34 dries
+#  contact.info,v 1.3 2006/11/21 20:55:34 dries
+#  drupal.info,v 1.3 2006/11/21 20:55:34 dries
+#  forum.info,v 1.4 2006/11/21 20:55:34 dries
+#  help.info,v 1.3 2006/11/21 20:55:34 dries
+#  legacy.info,v 1.3 2006/11/21 20:55:34 dries
+#  locale.info,v 1.3 2006/11/21 20:55:34 dries
+#  menu.info,v 1.3 2006/11/21 20:55:34 dries
+#  path.info,v 1.3 2006/11/21 20:55:34 dries
+#  ping.info,v 1.3 2006/11/21 20:55:35 dries
+#  poll.info,v 1.3 2006/11/21 20:55:35 dries
+#  profile.info,v 1.3 2006/11/21 20:55:35 dries
+#  statistics.info,v 1.3 2006/11/21 20:55:35 dries
+#  taxonomy.info,v 1.3 2006/11/21 20:55:35 dries
+#  throttle.info,v 1.3 2006/11/21 20:55:35 dries
+#  tracker.info,v 1.3 2006/11/21 20:55:35 dries
+#  upload.info,v 1.3 2006/11/21 20:55:35 dries
+#  block.info,v 1.3 2006/11/21 20:55:33 dries
+#  filter.info,v 1.3 2006/11/21 20:55:34 dries
+#  node.info,v 1.3 2006/11/21 20:55:34 dries
+#  system.info,v 1.3 2006/11/21 20:55:35 dries
+#  user.info,v 1.3 2006/11/21 20:55:36 dries
+#  watchdog.info,v 1.3 2006/11/21 20:55:36 dries
+#  throttle.module,v 1.71 2006/12/04 10:56:21 dries
+#  color.module,v 1.12 2006/12/10 09:54:33 unconed
+#  help.module,v 1.67 2006/12/10 09:54:33 unconed
+#  color.inc,v 1.2 2006/12/06 16:32:54 dries
+#  database.pgsql.inc,v 1.42 2006/12/14 13:26:41 dries
+#  install.inc,v 1.30 2006/12/08 11:54:04 dries
+#  tablesort.inc,v 1.43 2006/12/01 08:50:33 dries
+#  xmlrpc.inc,v 1.38 2006/09/03 08:21:18 dries
+#  xmlrpcs.inc,v 1.21 2006/07/05 11:45:51 dries
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#  ping.module,v 1.45 2006/11/21 20:14:18 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-02-04 13:47+0100\n"
+"PO-Revision-Date: 2008-03-10 11:48+0200\n"
+"Last-Translator: Ilari Sani <ilari.sani@assemblix.net>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/taxonomy/taxonomy.admin.inc:29
+msgid "edit vocabulary"
+msgstr "sanaston muokkaaminen"
+
+#: modules/taxonomy/taxonomy.admin.inc:30
+msgid "list terms"
+msgstr "termien tarkastelu"
+
+#: modules/taxonomy/taxonomy.admin.inc:31
+msgid "add terms"
+msgstr "termien lisääminen"
+
+#: modules/taxonomy/taxonomy.admin.inc:85
+msgid "No vocabularies available."
+msgstr "Yhtään sanastoa ei ole saatavilla."
+
+#: modules/taxonomy/taxonomy.admin.inc:122
+msgid "Vocabulary name"
+msgstr "Sanaston nimi"
+
+#: modules/taxonomy/taxonomy.admin.inc:125
+msgid "The name for this vocabulary. i.e. <em>\"Tags\"</em>."
+msgstr "Sanaston nimi, esim. <em>\"Aiheet\"</em>."
+
+#: modules/taxonomy/taxonomy.admin.inc:131
+msgid "Description of the vocabulary; can be used by modules."
+msgstr "Sanaston kuvaus. Moduulit voivat käyttää tätä kuvausta."
+
+#: modules/taxonomy/taxonomy.admin.inc:134
+msgid "Help text"
+msgstr "Ohjeteksti"
+
+#: modules/taxonomy/taxonomy.admin.inc:137
+msgid ""
+"Instructions to present to the user when selecting terms. i.e. <em>\"Enter a "
+"comma separated list of words\".</em>"
+msgstr ""
+"Käyttäjälle näytettävät termin valintaohjeet, esim. <em>\"Anna lista "
+"termejä, kirjoita sanojen väliin pilkku.\"</em>"
+
+#: modules/taxonomy/taxonomy.admin.inc:148
+msgid "Select content types to categorize using this vocabulary."
+msgstr "Valitse, minkä tyyppisiä kirjoituksia tällä sanastolla luokitellaan."
+
+#: modules/taxonomy/taxonomy.admin.inc:156
+msgid "Tags"
+msgstr "Vapaa määrittely"
+
+#: modules/taxonomy/taxonomy.admin.inc:158
+msgid ""
+"Terms are created by users when submitting posts by typing a comma separated "
+"list."
+msgstr ""
+"Käyttäjät voivat luoda omia termejä lisäämällä kirjoitukseen listan sitä "
+"koskevista termeistä."
+
+#: modules/taxonomy/taxonomy.admin.inc:161
+msgid "Multiple select"
+msgstr "Monivalinta"
+
+#: modules/taxonomy/taxonomy.admin.inc:163
+msgid ""
+"Allows posts to have more than one term from this vocabulary (always true "
+"for tags)."
+msgstr ""
+"Kirjoitukseen voi liittyä useampi tämän sanaston termi. (Tätä käytetään "
+"aina, jos vapaa määrittely on valittu.)"
+
+#: modules/taxonomy/taxonomy.admin.inc:168
+msgid ""
+"At least one term in this vocabulary must be selected when submitting a post."
+msgstr "Kirjoitukseen täytyy littyä vähintään yksi termi tästä sanastosta."
+
+#: modules/taxonomy/taxonomy.admin.inc:173
+msgid "Vocabularies are displayed in ascending order by weight."
+msgstr "Sanastot näytetään nousevassa järjestyksessä painon mukaan."
+
+#: modules/taxonomy/taxonomy.admin.inc:202;203
+msgid "Created new vocabulary %name."
+msgstr "Uusi sanasto %name luotu."
+
+#: modules/taxonomy/taxonomy.admin.inc:206;207
+msgid "Updated vocabulary %name."
+msgstr "Sanasto %name päivitetty."
+
+#: modules/taxonomy/taxonomy.admin.inc:254
+msgid "Terms in %vocabulary"
+msgstr "Sanaston %vocabulary termit"
+
+#: modules/taxonomy/taxonomy.admin.inc:409
+msgid "No terms available."
+msgstr "Yhtään termiä ei ole saatavilla."
+
+#: modules/taxonomy/taxonomy.admin.inc:418;445;912
+msgid "Reset to alphabetical"
+msgstr "Palauta aakkosjärjestys"
+
+#: modules/taxonomy/taxonomy.admin.inc:624
+msgid "Add term to %vocabulary"
+msgstr "Lisää termi sanastoon %vocabulary"
+
+#: modules/taxonomy/taxonomy.admin.inc:663
+msgid "Term name"
+msgstr "Termin nimi"
+
+#: modules/taxonomy/taxonomy.admin.inc:666
+msgid "The name of this term."
+msgstr "Nimi tälle termille."
+
+#: modules/taxonomy/taxonomy.admin.inc:672
+msgid ""
+"A description of the term. To be displayed on taxonomy/term pages and RSS "
+"feeds."
+msgstr "Termin kuvaus. Näytetään termin sivulla ja RSS-syötteissä."
+
+#: modules/taxonomy/taxonomy.admin.inc:676
+msgid "Advanced options"
+msgstr "Edistyneet vaihtoehdot"
+
+#: modules/taxonomy/taxonomy.admin.inc:695
+msgid "Parents"
+msgstr "Ylätermit"
+
+#: modules/taxonomy/taxonomy.admin.inc:695
+msgid "Parent terms"
+msgstr "Ylemmän tason termit"
+
+#: modules/taxonomy/taxonomy.admin.inc:696
+msgid "Related terms"
+msgstr "Sukulaistermit"
+
+#: modules/taxonomy/taxonomy.admin.inc:700
+msgid "Synonyms"
+msgstr "Synonyymit"
+
+#: modules/taxonomy/taxonomy.admin.inc:702
+msgid "Synonyms of this term, one synonym per line."
+msgstr "Tämän termin synonyymit, yksi kullekin riville."
+
+#: modules/taxonomy/taxonomy.admin.inc:708
+msgid "Terms are displayed in ascending order by weight."
+msgstr "Termit näytetään nousevassa järjestyksessä painon mukaan."
+
+#: modules/taxonomy/taxonomy.admin.inc:739
+msgid "Weight value must be numeric."
+msgstr "Painon arvon täytyy olla numero."
+
+#: modules/taxonomy/taxonomy.admin.inc:768;769
+msgid "Created new term %term."
+msgstr "Luotiin uusi termi %term."
+
+#: modules/taxonomy/taxonomy.admin.inc:772;773
+msgid "Updated term %term."
+msgstr "Päivitettiin termi %term."
+
+#: modules/taxonomy/taxonomy.admin.inc:818
+msgid "Set multiple term parents?"
+msgstr "Asetetaanko termille useampia ylätermejä?"
+
+#: modules/taxonomy/taxonomy.admin.inc:819
+msgid ""
+"Adding multiple parents to a term will cause the %vocabulary vocabulary to "
+"look for multiple parents on every term. Because multiple parents are not "
+"supported when using the drag and drop outline interface, drag and drop will "
+"be disabled if you enable this option. If you choose to have multiple "
+"parents, you will only be able to set parents by using the term edit form."
+msgstr ""
+"Jos lisäät termille useampia ylätermejä, sanaston %vocabulary jokaisesta "
+"termistä etsitään useampia ylätermejä. Termien järjestely vetämällä ei tue "
+"useampia ylätermejä, ja vetokäyttöliittymä poistetaan käytöstä jos valitset "
+"tämän vaihtoehdon. Voit tällöin asettaa ylätermit ainoastaan käyttämällä "
+"termin muokkauslomaketta."
+
+#: modules/taxonomy/taxonomy.admin.inc:820
+msgid ""
+"You may re-enable the drag and drop interface at any time by reducing "
+"multiple parents to a single parent for the terms in this vocabulary."
+msgstr ""
+"Voit ottaa vetokäyttöliittymän uudelleen käyttöön muuttamalla sanaston useat "
+"ylätermit yhdeksi ylätermiksi."
+
+#: modules/taxonomy/taxonomy.admin.inc:821
+msgid "Set multiple parents"
+msgstr "Aseta useita ylätermejä"
+
+#: modules/taxonomy/taxonomy.admin.inc:838
+msgid "Are you sure you want to delete the term %title?"
+msgstr "Haluatko varmasti poistaa termin %title?"
+
+#: modules/taxonomy/taxonomy.admin.inc:841
+msgid ""
+"Deleting a term will delete all its children if there are any. This action "
+"cannot be undone."
+msgstr ""
+"Termin poistaminen poistaa myös kaikki sen mahdolliset alatermit. Tätä ei "
+"voi perua."
+
+#: modules/taxonomy/taxonomy.admin.inc:854;855
+msgid "Deleted term %name."
+msgstr "Termi %name poistettu."
+
+#: modules/taxonomy/taxonomy.admin.inc:873
+msgid "Are you sure you want to delete the vocabulary %title?"
+msgstr "Haluatko varmasti poistaa sanaston %title?"
+
+#: modules/taxonomy/taxonomy.admin.inc:876
+msgid ""
+"Deleting a vocabulary will delete all the terms in it. This action cannot be "
+"undone."
+msgstr ""
+"Sanaston poistaminen tuhoaa myös kaikki sen sisältämät termit. Tätä ei voi "
+"perua."
+
+#: modules/taxonomy/taxonomy.admin.inc:888;889
+msgid "Deleted vocabulary %name."
+msgstr "Sanasto %name poistettu."
+
+#: modules/taxonomy/taxonomy.admin.inc:908
+msgid ""
+"Are you sure you want to reset the vocabulary %title to alphabetical order?"
+msgstr "Haluatko varmasti palauttaa sanaston %title aakkosjärjestykseen?"
+
+#: modules/taxonomy/taxonomy.admin.inc:911
+msgid ""
+"Resetting a vocabulary will discard all custom ordering and sort items "
+"alphabetically."
+msgstr ""
+"Sanaston palauttaminen aakkosjärjestykseen poistaa kaikki itse asetetut "
+"järjestykset, ja järjestää termit aakkosjärjestykseen."
+
+#: modules/taxonomy/taxonomy.admin.inc:923;924
+msgid "Reset vocabulary %name to alphabetical order."
+msgstr "Palauta sanasto %name aakkosjärjestykseen."
+
+#: modules/taxonomy/taxonomy.admin.inc:203;207;769;773;855;889;924
+#: modules/taxonomy/taxonomy.module:0
+msgid "taxonomy"
+msgstr "luokittelu"
+
+#: modules/taxonomy/taxonomy.module:418
+msgid "- None selected -"
+msgstr "- Ei valittu -"
+
+#: modules/taxonomy/taxonomy.module:421
+msgid "- None -"
+msgstr "- Ei mikään -"
+
+#: modules/taxonomy/taxonomy.module:517
+msgid ""
+"A comma-separated list of terms describing this content. Example: funny, "
+"bungee jumping, \"Company, Inc.\"."
+msgstr ""
+"Pilkulla erotettu lista tätä sisältöä kuvaavista termeistä. Esimerkki: "
+"hauska, kotimaan uutiset, \"Aho, Juhani\"."
+
+#: modules/taxonomy/taxonomy.module:548
+msgid "Vocabularies"
+msgstr "Sanastot"
+
+#: modules/taxonomy/taxonomy.module:635
+msgid "The %name vocabulary can not be modified in this way."
+msgstr "Sanastoa %name ei voi muokata tällä tavoin."
+
+#: modules/taxonomy/taxonomy.module:1133
+msgid "There are currently no posts in this category."
+msgstr "Tämän termin mukaisia kirjoituksia ei tällä hetkellä ole."
+
+#: modules/taxonomy/taxonomy.module:1236
+msgid ""
+"The taxonomy module allows you to categorize content using various systems "
+"of classification. Free-tagging vocabularies are created by users on the fly "
+"when they submit posts (as commonly found in blogs and social bookmarking "
+"applications). Controlled vocabularies allow for administrator-defined short "
+"lists of terms as well as complex hierarchies with multiple relationships "
+"between different terms. These methods can be applied to different content "
+"types and combined together to create a powerful and flexible method of "
+"classifying and presenting your content."
+msgstr ""
+"Luokittelumoduulin avulla voit luokitella sisältöä eri tavoin. Jos sanasto "
+"on vapaasti määriteltävissä, käyttäjät voivat luoda omia termejä "
+"kirjoittaessaan (kuten monissa blogeissa ja sosiaalisissa "
+"kirjanmerkkipalveluissa). Ylläpitäjä voi myös määritellä hallittuja "
+"sanastoja, joissa voi olla monimutkaisia hierarkioita ja termien välisiä "
+"suhteita. Näitä menetelmiä voi soveltaa eri tyyppisiin kirjoituksiin, ja "
+"yhdessä ne sallivat tehokkaan ja joustavan sisällön luokittelun ja "
+"esittämisen."
+
+#: modules/taxonomy/taxonomy.module:1237
+msgid ""
+"For example, when creating a recipe site, you might want to classify posts "
+"by both the type of meal and preparation time. A vocabulary for each allows "
+"you to categorize using each criteria independently instead of creating a "
+"tag for every possible combination."
+msgstr ""
+"Jos esimerkiksi teet reseptisivustoa, haluat ehkä luokitella reseptit "
+"aterian tyypin ja valmistusajan mukaan. Jos annat kummallekin perusteelle "
+"oman sanaston, voit luokitella niitä toisistaan riippumatta eikä sinun "
+"tarvitse antaa omaa termiä joka yhdistelmälle."
+
+#: modules/taxonomy/taxonomy.module:1238
+msgid "Type of Meal: <em>Appetizer, Main Course, Salad, Dessert</em>"
+msgstr "Aterian tyyppi: <em>Alkupala, Pääruoka, Salaatti, Jälkiruoka</em>"
+
+#: modules/taxonomy/taxonomy.module:1239
+msgid "Preparation Time: <em>0-30mins, 30-60mins, 1-2 hrs, 2hrs+</em>"
+msgstr "Valmistusaika: <em>0-30 min, 30-60 min, 1-2 t, Yli 2 t</em>"
+
+#: modules/taxonomy/taxonomy.module:1240
+msgid ""
+"Each taxonomy term (often called a 'category' or 'tag' in other systems) "
+"automatically provides lists of posts and a corresponding RSS feed. These "
+"taxonomy/term URLs can be manipulated to generate AND and OR lists of posts "
+"classified with terms. In our recipe site example, it then becomes easy to "
+"create pages displaying 'Main courses', '30 minute recipes', or '30 minute "
+"main courses and appetizers' by using terms on their own or in combination "
+"with others. There are a significant number of contributed modules which you "
+"to alter and extend the behavior of the core module for both display and "
+"organization of terms."
+msgstr ""
+"Jokaisella termillä on sivu ja RSS-syöte, joissa näkyvät termillä merkityt "
+"kirjoitukset. (Termejä kutsutaan usein myös \"kategorioiksi\" tai \"tageiksi"
+"\".) On myös mahdollista muokata osoitetta niin että sivulla näkyvät "
+"termillä ja/tai muilla termeillä merkityt kirjoitukset. "
+"Reseptiesimerkissämme on mahdollista luoda sivuja, joilla näkyvät \"Pääruoat"
+"\", \"30 minuutin reseptit\" tai \"30 minuutin pääruoat ja alkupalat\". "
+"Luokittelumoduulille on myös suuri määrä muiden kehittämiä "
+"laajennusmoduuleja, jotka muuttavat ja laajentavat termien järjestelyä ja "
+"esitystapaa."
+
+#: modules/taxonomy/taxonomy.module:1241
+msgid ""
+"Terms can also be organized in parent/child relationships from the admin "
+"interface. An example would be a vocabulary grouping countries under their "
+"parent geo-political regions. The taxonomy module also enables advanced "
+"implementations of hierarchy, for example placing Turkey in both the 'Middle "
+"East' and 'Europe'."
+msgstr ""
+"Termejä voi myös järjestellä ylä- ja alatermeiksi ylläpidon "
+"käyttöliittymästä. Esimerkiksi paikkoja kuvaavat termit voivat olla "
+"suurempien alueiden termien alatermejä. Hierarkiassa voi myös olla monta "
+"tasoa. Esimerkiksi \"Ivalo\" voi kuulua \"Lappiin\", joka puolestaan kuuluu "
+"\"Suomeen\"."
+
+#: modules/taxonomy/taxonomy.module:1242
+msgid ""
+"The taxonomy module supports the use of both synonyms and related terms, but "
+"does not directly use this functionality. However, optional contributed or "
+"custom modules may make full use of these advanced features."
+msgstr ""
+"Luokittelumoduuli tukee sekä synonyymejä että sukulaistermejä, mutta ei "
+"hyödynnä näitä toimintoja itse. Mahdolliset muualla tai itse kehitetyt "
+"moduulit voivat kuitenkin hyödyntää näitä edistyneitä toimintoja."
+
+#: modules/taxonomy/taxonomy.module:1243
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@taxonomy"
+"\">Taxonomy module</a>."
+msgstr "Lue käsikirjasta lisää <a href=\"@taxonomy\">luokittelusta</a>."
+
+#: modules/taxonomy/taxonomy.module:1246
+msgid ""
+"The taxonomy module allows you to categorize your content using both tags "
+"and administrator defined terms. It is a flexible tool for classifying "
+"content with many advanced features. To begin, create a 'Vocabulary' to hold "
+"one set of terms or tags. You can create one free-tagging vocabulary for "
+"everything, or separate controlled vocabularies to define the various "
+"properties of your content, for example 'Countries' or 'Colors'."
+msgstr ""
+"Luokittelumoduulin avulla voit luokitella sisältöä käyttämällä sekä vapaasti "
+"määriteltäviä että ylläpitäjän määrittelemiä termejä. Luo aluksi "
+"<em>sanasto</em>, joka sisältää joukon <em>termejä</em>. Voit luoda vapaasti "
+"määriteltävän sanaston kaikille termeille, tai monia erillisiä hallittuja "
+"sanastoja eri tarpeisiin, kuten \"Maat\" tai \"Värit\"."
+
+#: modules/taxonomy/taxonomy.module:1247
+msgid ""
+"Use the list below to configure and review the vocabularies defined on your "
+"site, or to list and manage the terms (tags) they contain. A vocabulary may "
+"(optionally) be tied to specific content types as shown in the <em>Type</em> "
+"column and, if so, will be displayed when creating or editing posts of that "
+"type. Multiple vocabularies tied to the same content type will be displayed "
+"in the order shown below. To change the order of a vocabulary, grab a drag-"
+"and-drop handle under the <em>Name</em> column and drag it to a new location "
+"in the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save</em> button at the bottom of the page."
+msgstr ""
+"Alla olevasta listasta voit säätää ja tarkastella sivustosi sanastoja ja "
+"niiden sisältämiä termejä. Voit halutessasi liittää sanaston tietyn "
+"tyyppiseen sisältöön, jolloin sanasto näytetään ainoastaan muokattaessa sen "
+"typpisiä kirjoituksia. Jos samaan tyyppiin liittyy useita sanastoja, ne "
+"näytetään alla olevassa järjestyksessä. Järjestele sanastoja vetämällä niitä "
+"<em>Nimi</em>-sarakkeen alla olevasta kahvasta. (Vie hiiri kahvan päälle, "
+"paina hiiren painike pohjaan ja vedä.) Huomaa, että muutoksia ei tallenneta "
+"ennen kuin painat <em>Tallenna</em>-painiketta sivun alalaidassa."
+
+#: modules/taxonomy/taxonomy.module:1252
+msgid ""
+"%capital_name is a free-tagging vocabulary. To change the name or "
+"description of a term, click the <em>edit</em> link next to the term."
+msgstr ""
+"%capital_name on vapaasti määriteltävä sanasto. Muuta termin nimeä tai "
+"kuvausta klikkaamalla sen vieressä olevaa <em>muokkaa</em>-linkkiä."
+
+#: modules/taxonomy/taxonomy.module:1256
+msgid ""
+"%capital_name is a flat vocabulary. You may organize the terms in the %name "
+"vocabulary by using the handles on the left side of the table. To change the "
+"name or description of a term, click the <em>edit</em> link next to the term."
+msgstr ""
+"%capital_name on yksitasoinen sanasto. Muuta termien järjestystä vetämällä "
+"niitä vasemman laidan kahvasta. Muuta termin nimeä tai kuvausta klikkaamalla "
+"sen vieressä olevaa <em>muokkaa</em>-linkkiä."
+
+#: modules/taxonomy/taxonomy.module:1258
+msgid ""
+"%capital_name is a single hierarchy vocabulary. You may organize the terms "
+"in the %name vocabulary by using the handles on the left side of the table. "
+"To change the name or description of a term, click the <em>edit</em> link "
+"next to the term."
+msgstr ""
+"%capital_name on yhden hierarkian sanasto. Muuta termien järjestystä "
+"vetämällä niitä vasemman laidan kahvasta. Muuta termin nimeä tai kuvausta "
+"klikkaamalla sen vieressä olevaa <em>muokkaa</em>-linkkiä."
+
+#: modules/taxonomy/taxonomy.module:1260
+msgid ""
+"%capital_name is a multiple hierarchy vocabulary. To change the name or "
+"description of a term, click the <em>edit</em> link next to the term. Drag "
+"and drop of multiple hierarchies is not supported, but you can re-enable "
+"drag and drop support by editing each term to include only a single parent."
+msgstr ""
+"%capital_name on monen hierarkian sanasto. Muuta termin nimeä tai kuvausta "
+"klikkaamalla sen vieressä olevaa <em>muokkaa</em>-linkkiä. Termejä ei voi "
+"järjestellä vetämällä, mutta voit palauttaa tämän toiminnon käyttöön "
+"muokkaamalla termejä siten että kullakin on enintään yksi ylätermi."
+
+#: modules/taxonomy/taxonomy.module:1263
+msgid ""
+"Define how your vocabulary will be presented to administrators and users, "
+"and which content types to categorize with it. Tags allows users to create "
+"terms when submitting posts by typing a comma separated list. Otherwise "
+"terms are chosen from a select list and can only be created by users with "
+"the \"administer taxonomy\" permission."
+msgstr ""
+"Valitse, kuinka sanastosi esitetään ylläpitäjille ja käyttäjille, ja minkä "
+"tyyppistä sisältöä sen avulla luokitellaan. Vapaa määrittely sallii "
+"käyttäjien luoda omia termejä lisäämällä kirjoitukseen pilkulla erotetun "
+"listan. Muussa tapauksessa termit valitaan lisasta ja vain käyttäjät, joilla "
+"on \"luokittelun ylläpito\" -oikeus voivat luoda niitä."
+
+#: modules/taxonomy/taxonomy.module:1302
+msgid "After saving a new term to the database"
+msgstr "Kun uusi termi tallennetaan"
+
+#: modules/taxonomy/taxonomy.module:1305
+msgid "After saving an updated term to the database"
+msgstr "Kun päivitetty termi tallennetaan"
+
+#: modules/taxonomy/taxonomy.module:1308
+msgid "After deleting a term"
+msgstr "Kun termi poistetaan"
+
+#: modules/taxonomy/taxonomy.module:13
+msgid "administer taxonomy"
+msgstr "luokittelun ylläpito"
+
+#: modules/taxonomy/taxonomy.module:114
+msgid "Manage tagging, categorization, and classification of your content."
+msgstr "Luokittele ja järjestele sisältöä."
+
+#: modules/taxonomy/taxonomy.module:128
+msgid "Add vocabulary"
+msgstr "Lisää sanasto"
+
+#: modules/taxonomy/taxonomy.module:137
+msgid "Edit vocabulary"
+msgstr "Muokkaa sanastoa"
+
+#: modules/taxonomy/taxonomy.module:145
+msgid "Edit term"
+msgstr "Muokkaa termiä"
+
+#: modules/taxonomy/taxonomy.module:152
+msgid "Taxonomy term"
+msgstr "Luokittelutermi"
+
+#: modules/taxonomy/taxonomy.module:161
+msgid "Autocomplete taxonomy"
+msgstr "Luokittelun automaattitäydennys"
+
+#: modules/taxonomy/taxonomy.module:168
+msgid "List terms"
+msgstr "Listaa termit"
+
+#: modules/taxonomy/taxonomy.module:183
+msgid "Add term"
+msgstr "Lisää termi"
+
+#: modules/taxonomy/taxonomy.install:9
+msgid "Stores term information."
+msgstr "Varastoi termin tiedot"
+
+#: modules/taxonomy/taxonomy.install:15
+msgid "Primary Key: Unique term ID."
+msgstr "Ensisijainen avain: Termin ainutkertainen tunniste."
+
+#: modules/taxonomy/taxonomy.install:22
+msgid "The {vocabulary}.vid of the vocabulary to which the term is assigned."
+msgstr "Termin sanaston {vocabulary}.vid."
+
+#: modules/taxonomy/taxonomy.install:29
+msgid "The term name."
+msgstr "Termin nimi"
+
+#: modules/taxonomy/taxonomy.install:35
+msgid "A description of the term."
+msgstr "Termin kuvaus."
+
+#: modules/taxonomy/taxonomy.install:42
+msgid "The weight of this term in relation to other terms."
+msgstr "Termin paino suhteessa muihin termeihin."
+
+#: modules/taxonomy/taxonomy.install:53
+msgid "Stores the hierarchical relationship between terms."
+msgstr "Varastoi termien hierarkkiset suhteet."
+
+#: modules/taxonomy/taxonomy.install:60
+msgid "Primary Key: The {term_data}.tid of the term."
+msgstr "Ensisijainen avain: Termin {term_data}.tid."
+
+#: modules/taxonomy/taxonomy.install:67
+msgid ""
+"Primary Key: The {term_data}.tid of the term's parent. 0 indicates no parent."
+msgstr ""
+"Ensisijainen avain: Termin ylätermin {term_data}.tid. 0 merkitsee, ettei "
+"ylätermiä ole"
+
+#: modules/taxonomy/taxonomy.install:77
+msgid "Stores the relationship of terms to nodes."
+msgstr "Varastoi termien ja solmujen suhteet."
+
+#: modules/taxonomy/taxonomy.install:84
+msgid "Primary Key: The {node}.nid of the node."
+msgstr "Ensisijainen avain: Solmun {node}.nid."
+
+#: modules/taxonomy/taxonomy.install:98
+msgid "Primary Key: The {term_data}.tid of a term assigned to the node."
+msgstr "Ensisijainen avain: Solmuun liitetyn termin {term_data}.tid."
+
+#: modules/taxonomy/taxonomy.install:109
+msgid "Stores non-hierarchical relationships between terms."
+msgstr "Varastoi termien ei-hierarkkiset suhteet."
+
+#: modules/taxonomy/taxonomy.install:114
+msgid "Primary Key: Unique term relation ID."
+msgstr "Ensisijainen avain: Termin suhteen ainutkertainen tunniste."
+
+#: modules/taxonomy/taxonomy.install:121
+msgid "The {term_data}.tid of the first term in a relationship."
+msgstr "Suhteen ensimmäisen termin {term_data}.tid."
+
+#: modules/taxonomy/taxonomy.install:128
+msgid "The {term_data}.tid of the second term in a relationship."
+msgstr "Suhteen toisen termin {term_data}.tid."
+
+#: modules/taxonomy/taxonomy.install:141
+msgid "Stores term synonyms."
+msgstr "Varastoi termien synonyymit."
+
+#: modules/taxonomy/taxonomy.install:146
+msgid "Primary Key: Unique term synonym ID."
+msgstr "Ensisijainen avain: Termin synonyymin ainutkertainen tunniste."
+
+#: modules/taxonomy/taxonomy.install:153
+msgid "The {term_data}.tid of the term."
+msgstr "Termin {term_data}.tid."
+
+#: modules/taxonomy/taxonomy.install:160
+msgid "The name of the synonym."
+msgstr "Synonyymin nimi."
+
+#: modules/taxonomy/taxonomy.install:171
+msgid "Stores vocabulary information."
+msgstr "Varastoi tietoja sanastoista."
+
+#: modules/taxonomy/taxonomy.install:177
+msgid "Primary Key: Unique vocabulary ID."
+msgstr "Ensisijainen avain: Sanaston ainutkertainen tunniste."
+
+#: modules/taxonomy/taxonomy.install:184
+msgid "Name of the vocabulary."
+msgstr "Sanaston nimi."
+
+#: modules/taxonomy/taxonomy.install:190
+msgid "Description of the vocabulary."
+msgstr "Sanaston kuvaus."
+
+#: modules/taxonomy/taxonomy.install:197
+msgid "Help text to display for the vocabulary."
+msgstr "Sanaston ohjeteksti."
+
+#: modules/taxonomy/taxonomy.install:205
+msgid ""
+"Whether or not related terms are enabled within the vocabulary. (0 = "
+"disabled, 1 = enabled)"
+msgstr "Ovatko sukulaistermit käytössä? (0 = ei, 1 = kyllä)"
+
+#: modules/taxonomy/taxonomy.install:213
+msgid ""
+"The type of hierarchy allowed within the vocabulary. (0 = disabled, 1 = "
+"single, 2 = multiple)"
+msgstr ""
+"Sallittu hierarkian tyyppi. (0 = ei käytössä, 1 = yksinkertainen, 2 = "
+"moninkertainen)"
+
+#: modules/taxonomy/taxonomy.install:221
+msgid ""
+"Whether or not multiple terms from this vocabulary may be assigned to a "
+"node. (0 = disabled, 1 = enabled)"
+msgstr "Voiko solmuun liittää useampia sanaston termejä? (0 = ei, 1 = kyllä)"
+
+#: modules/taxonomy/taxonomy.install:229
+msgid ""
+"Whether or not terms are required for nodes using this vocabulary. (0 = "
+"disabled, 1 = enabled)"
+msgstr "Onko solmuun liitettävä termi tästä sanastosta? (0 = ei, 1 = kyllä)"
+
+#: modules/taxonomy/taxonomy.install:237
+msgid ""
+"Whether or not free tagging is enabled for the vocabulary. (0 = disabled, 1 "
+"= enabled)"
+msgstr "Onko vapaa määrittely käytössä? (0 = ei, 1 = kyllä)"
+
+#: modules/taxonomy/taxonomy.install:244
+msgid "The module which created the vocabulary."
+msgstr "Sanaston luonut moduuli."
+
+#: modules/taxonomy/taxonomy.install:251
+msgid "The weight of the vocabulary in relation to other vocabularies."
+msgstr "Sanaston paino suhteessa muihin sanastoihin."
+
+#: modules/taxonomy/taxonomy.install:261
+msgid "Stores which node types vocabularies may be used with."
+msgstr "Varastoi, minkä tyyppisten solmujen kanssa sanastoja voi käyttää."
+
+#: modules/taxonomy/taxonomy.install:268
+msgid "Primary Key: the {vocabulary}.vid of the vocabulary."
+msgstr "Ensisijainen avain: Sanaston {vocabulary}.vid."
+
+#: modules/taxonomy/taxonomy.install:275
+msgid "The {node}.type of the node type for which the vocabulary may be used."
+msgstr "{node}.type, jonka kanssa sanastoa voi käyttää."

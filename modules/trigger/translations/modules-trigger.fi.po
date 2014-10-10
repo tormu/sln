@@ -1,0 +1,292 @@
+# translation of general.po to
+# Finnish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  common.inc,v 1.602 2006/12/15 07:47:08 unconed
+#  system.module,v 1.428 2006/12/15 08:53:56 unconed
+#  upload.module,v 1.145 2006/12/14 13:30:59 dries
+#  image.inc,v 1.16 2006/12/12 01:03:34 unconed
+#  unicode.inc,v 1.23 2006/12/06 16:15:52 dries
+#  system.install,v 1.60 2006/12/13 10:41:56 unconed
+#  database.mysql.inc,v 1.64 2006/12/04 11:06:29 dries
+#  database.mysqli.inc,v 1.30 2006/12/04 11:06:29 dries
+#  file.inc,v 1.88 2006/12/11 16:45:17 dries
+#  user.module,v 1.731 2006/12/12 10:11:43 unconed
+#  form.inc,v 1.166 2006/12/12 10:01:38 unconed
+#  filter.module,v 1.157 2006/12/14 10:14:05 unconed
+#  locale.inc,v 1.101 2006/12/10 09:54:32 unconed
+#  blogapi.module,v 1.99 2006/11/21 20:14:17 dries
+#  forum.module,v 1.371 2006/12/10 20:34:02 dries
+#  block.module,v 1.244 2006/12/11 23:00:09 unconed
+#  book.module,v 1.403 2006/11/30 02:04:31 drumm
+#  comment.module,v 1.515 2006/12/15 01:33:00 unconed
+#  contact.module,v 1.72 2006/12/04 10:43:34 dries
+#  menu.module,v 1.99 2006/11/30 01:55:31 drumm
+#  content_types.inc,v 1.18 2006/12/05 05:47:37 dries
+#  node.module,v 1.752 2006/12/14 14:07:57 dries
+#  path.module,v 1.103 2006/11/26 02:20:01 drumm
+#  profile.module,v 1.185 2006/12/13 23:50:26 unconed
+#  drupal.module,v 1.137 2006/12/11 16:57:42 dries
+#  statistics.module,v 1.246 2006/11/26 02:20:01 drumm
+#  aggregator.module,v 1.323 2006/12/14 13:41:02 dries
+#  taxonomy.module,v 1.328 2006/11/30 07:05:57 unconed
+#  watchdog.module,v 1.164 2006/12/10 09:54:35 unconed
+#  locale.module,v 1.154 2006/12/01 22:47:53 unconed
+#  search.module,v 1.206 2006/12/11 16:57:42 dries
+#  search.info,v 1.3 2006/11/21 20:55:35 dries
+#  menu.inc,v 1.143 2006/12/12 06:02:52 unconed
+#  chameleon.theme,v 1.56 2006/11/29 06:36:12 drumm
+#  pager.inc,v 1.59 2006/10/15 19:57:05 dries
+#  theme.inc,v 1.332 2006/12/15 01:06:33 unconed
+#  phptemplate.engine,v 1.53 2006/12/13 23:22:57 unconed
+#  poll.module,v 1.221 2006/12/10 20:34:03 dries
+#  legacy.module,v 1.15 2006/11/21 20:14:18 dries
+#  blog.module,v 1.271 2006/12/10 20:34:02 dries
+#  tracker.module,v 1.141 2006/12/10 09:54:34 unconed
+#  aggregator.info,v 1.3 2006/11/21 20:55:33 dries
+#  blog.info,v 1.3 2006/11/21 20:55:33 dries
+#  blogapi.info,v 1.3 2006/11/21 20:55:33 dries
+#  book.info,v 1.3 2006/11/21 20:55:33 dries
+#  color.info,v 1.2 2006/11/21 20:55:34 dries
+#  comment.info,v 1.3 2006/11/21 20:55:34 dries
+#  contact.info,v 1.3 2006/11/21 20:55:34 dries
+#  drupal.info,v 1.3 2006/11/21 20:55:34 dries
+#  forum.info,v 1.4 2006/11/21 20:55:34 dries
+#  help.info,v 1.3 2006/11/21 20:55:34 dries
+#  legacy.info,v 1.3 2006/11/21 20:55:34 dries
+#  locale.info,v 1.3 2006/11/21 20:55:34 dries
+#  menu.info,v 1.3 2006/11/21 20:55:34 dries
+#  path.info,v 1.3 2006/11/21 20:55:34 dries
+#  ping.info,v 1.3 2006/11/21 20:55:35 dries
+#  poll.info,v 1.3 2006/11/21 20:55:35 dries
+#  profile.info,v 1.3 2006/11/21 20:55:35 dries
+#  statistics.info,v 1.3 2006/11/21 20:55:35 dries
+#  taxonomy.info,v 1.3 2006/11/21 20:55:35 dries
+#  throttle.info,v 1.3 2006/11/21 20:55:35 dries
+#  tracker.info,v 1.3 2006/11/21 20:55:35 dries
+#  upload.info,v 1.3 2006/11/21 20:55:35 dries
+#  block.info,v 1.3 2006/11/21 20:55:33 dries
+#  filter.info,v 1.3 2006/11/21 20:55:34 dries
+#  node.info,v 1.3 2006/11/21 20:55:34 dries
+#  system.info,v 1.3 2006/11/21 20:55:35 dries
+#  user.info,v 1.3 2006/11/21 20:55:36 dries
+#  watchdog.info,v 1.3 2006/11/21 20:55:36 dries
+#  throttle.module,v 1.71 2006/12/04 10:56:21 dries
+#  color.module,v 1.12 2006/12/10 09:54:33 unconed
+#  help.module,v 1.67 2006/12/10 09:54:33 unconed
+#  color.inc,v 1.2 2006/12/06 16:32:54 dries
+#  database.pgsql.inc,v 1.42 2006/12/14 13:26:41 dries
+#  install.inc,v 1.30 2006/12/08 11:54:04 dries
+#  tablesort.inc,v 1.43 2006/12/01 08:50:33 dries
+#  xmlrpc.inc,v 1.38 2006/09/03 08:21:18 dries
+#  xmlrpcs.inc,v 1.21 2006/07/05 11:45:51 dries
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#  ping.module,v 1.45 2006/11/21 20:14:18 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-02-04 13:47+0100\n"
+"PO-Revision-Date: 2008-03-10 11:49+0200\n"
+"Last-Translator: Ilari Sani <ilari.sani@assemblix.net>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/trigger/trigger.admin.inc:74
+msgid "Are you sure you want to unassign the action %title?"
+msgstr "Haluatko varmasti poistaa tästä tilanteesta toiminnon %title?"
+
+#: modules/trigger/trigger.admin.inc:76
+msgid "You can assign it again later if you wish."
+msgstr "Voit halutessasi palauttaa toimenpiteen myöhemmin takaisin käyttöön."
+
+#: modules/trigger/trigger.admin.inc:77 modules/trigger/trigger.module:111
+msgid "Unassign"
+msgstr "Poista tilanteesta"
+
+#: modules/trigger/trigger.admin.inc:88;87
+msgid "Action %action has been unassigned."
+msgstr "Toimenpide %category on poistettu tilanteesta."
+
+#: modules/trigger/trigger.admin.inc:144
+msgid "Trigger: "
+msgstr "Tilanne: "
+
+#: modules/trigger/trigger.admin.inc:154
+msgid "unassign"
+msgstr "poista tilanteesta"
+
+#: modules/trigger/trigger.admin.inc:164 modules/trigger/trigger.module:411
+msgid "Choose an action"
+msgstr "Valitse toimenpide"
+
+#: modules/trigger/trigger.admin.inc:171
+msgid "Assign"
+msgstr "Liitä tilanteeseen"
+
+#: modules/trigger/trigger.admin.inc:176
+msgid "No available actions for this trigger."
+msgstr "Tähän tilanteeseen ei ole liitetty toimenpiteitä."
+
+#: modules/trigger/trigger.admin.inc:192
+msgid "The action you chose is already assigned to that trigger."
+msgstr "Valitsemasi toimenpide tehdään jo kyseisessä tilanteessa."
+
+#: modules/trigger/trigger.admin.inc:218
+msgid ""
+"You have added an action that changes a the property of a post. A Save post "
+"action has been added so that the property change will be saved."
+msgstr ""
+"Olet lisännyt toimenpiteen, joka muuttaa kirjoituksen ominaisuuksia. "
+"<em>Tallenna kirjoitus</em> -toimenpide lisättiin, jotta muuttunut "
+"ominaisuus tallennetaan."
+
+#: modules/trigger/trigger.admin.inc:238
+msgid "Operation"
+msgstr "Toimenpide"
+
+#: modules/trigger/trigger.module:14
+msgid ""
+"Triggers are system events, such as when new content is added or when a user "
+"logs in. Trigger module combines these triggers with actions (functional "
+"tasks), such as unpublishing content or e-mailing an administrator. The <a "
+"href=\"@url\">Actions settings page</a> contains a list of existing actions "
+"and provides the ability to create and configure additional actions."
+msgstr ""
+"Tilanteet ovat järjestelmän tapahtumia, kuten uuden kirjoituksen lisääminen "
+"tai käyttäjän kirjaaminen sisään. Tilannemoduuli tekee eri tilanteissa "
+"automaattisesti halutut toimenpiteet, kuten lähettää sähköpostia "
+"ylläpitäjälle. <a href=\"@url\">Toimenpiteiden ylläpitosivulta</a> löytyy "
+"lista nykyisistä toimenpiteistä. Siellä voi myös luoda ja säätää uusia "
+"toimenpiteitä."
+
+#: modules/trigger/trigger.module:17
+msgid ""
+"Below you can assign actions to run when certain comment-related triggers "
+"happen. For example, you could promote a post to the front page when a "
+"comment is added."
+msgstr ""
+"Alla voit lisätä toimenpiteitä kommentointiin liittyviin tilanteisiin. Voit "
+"esimerkiksi lisätä kirjoituksen etusivulle, kun siihen lisätään kommentti."
+
+#: modules/trigger/trigger.module:19
+msgid ""
+"Below you can assign actions to run when certain content-related triggers "
+"happen. For example, you could send an e-mail to an administrator when a "
+"post is created or updated."
+msgstr ""
+"Alla voit lisätä toimenpiteitä sisältöön liittyviin tilanteisiin. Voit "
+"esimerkiksi lähettää ylläpitäjälle sähköpostia, kun kirjoitus lisätään tai "
+"sitä muokataan."
+
+#: modules/trigger/trigger.module:21
+msgid ""
+"Below you can assign actions to run during each pass of a <a href=\"@cron"
+"\">cron maintenance task</a>."
+msgstr ""
+"Alla voit lisätä toimenpiteitä tehtäviksi joka <a href=\"@cron\">cron-"
+"ajolla</a>."
+
+#: modules/trigger/trigger.module:23
+msgid ""
+"Below you can assign actions to run when certain taxonomy-related triggers "
+"happen. For example, you could send an e-mail to an administrator when a "
+"term is deleted."
+msgstr ""
+"Alla voit lisätä toimenpiteitä luokitteluun liittyviin tilanteisiin. Voit "
+"esimerkiksi lähettää sähköpostia ylläpitäjälle aina kun termi poistetaan."
+
+#: modules/trigger/trigger.module:25
+msgid ""
+"Below you can assign actions to run when certain user-related triggers "
+"happen. For example, you could send an e-mail to an administrator when a "
+"user account is deleted."
+msgstr ""
+"Alla voit lisätä toimenpiteitä käyttäjiin liittyviin tilanteisiin. Voit "
+"esimerkiksi lähettää sähköpostia ylläpitäjälle, kun käyttäjätili poistetaan."
+
+#: modules/trigger/trigger.module:27
+msgid ""
+"The Trigger module provides the ability to trigger <a href=\"@actions"
+"\">actions</a> upon system events, such as when new content is added or when "
+"a user logs in."
+msgstr ""
+"Tilannemoduuli tekee määrätyt <a href=\"@actions\">toimenpiteet</a> "
+"automaattisesti eri tilanteissa, kuten silloin kun kirjoitus lisätään tai "
+"käyttäjä kirjautuu sisään."
+
+#: modules/trigger/trigger.module:28
+msgid ""
+"The combination of actions and triggers can perform many useful tasks, such "
+"as e-mailing an administrator if a user account is deleted, or automatically "
+"unpublishing comments that contain certain words. By default, there are five "
+"\"contexts\" of events (Comments, Content, Cron, Taxonomy, and Users), but "
+"more may be added by additional modules."
+msgstr ""
+"Tilanteita ja toimenpiteitä yhdistämällä voi tehdä monta hyödyllistä asiaa, "
+"kuten lähettää sähköpostia ylläpitäjälle jos käyttäjätili poistetaan, tai "
+"poistaa kirjoitus automaattisesti jos se sisältää tiettyjä sanoja. "
+"Tilanteilla on oletuksena viisi asiayhteyttä (kommentit, sisältö, cron, "
+"luokittelu ja käyttäjät). Moduulit voivat luoda niitä lisää."
+
+#: modules/trigger/trigger.module:29
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@trigger"
+"\">Trigger module</a>."
+msgstr ""
+"Lue käsikirjasta lisää <a href=\"@trigger\">tilanteista ja toimenpiteistä</"
+"a>."
+
+#: modules/trigger/trigger.module:39
+msgid "Triggers"
+msgstr "Tilanteet"
+
+#: modules/trigger/trigger.module:40
+msgid "Tell Drupal when to execute actions."
+msgstr "Kerro Drupalille, milloin eri toimenpiteitä tehdään."
+
+#: modules/trigger/trigger.module:83
+msgid "Cron"
+msgstr "Cron"
+
+#: modules/trigger/trigger.module:112
+msgid "Unassign an action from a trigger."
+msgstr "Poista toimenpide tilanteesta"
+
+#: modules/trigger/trigger.module:0
+msgid "trigger"
+msgstr "tilanne"
+
+#: modules/trigger/trigger.install:28
+msgid "Maps trigger to hook and operation assignments from trigger.module."
+msgstr "Yhdistää tilanteet koukkuihin ja trigger.modulen toimenpiteisiin."
+
+#: modules/trigger/trigger.install:35
+msgid ""
+"Primary Key: The name of the internal Drupal hook upon which an action is "
+"firing; for example, nodeapi."
+msgstr ""
+"Ensisijainen avain: Toimenpiteen käyttämän sisäisen Drupal-koukun nimi, "
+"esim. nodeapi."
+
+#: modules/trigger/trigger.install:42
+msgid ""
+"Primary Key: The specific operation of the hook upon which an action is "
+"firing: for example, presave."
+msgstr ""
+"Ensisijainen avain: Toimenpiteen käyttämän koukun tarkka toiminto, esim. "
+"presave."
+
+#: modules/trigger/trigger.install:49
+msgid "Primary Key: Action's {actions}.aid."
+msgstr "Ensisijainen avain: Toimenpiteen {actions}.aid."
+
+#: modules/trigger/trigger.install:55
+msgid "The weight of the trigger assignment in relation to other triggers."
+msgstr "Tilanteen paino suhteessa muihin tilanteisiin."

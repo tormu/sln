@@ -1,0 +1,489 @@
+# translation of general.po to
+# Finnish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  common.inc,v 1.602 2006/12/15 07:47:08 unconed
+#  system.module,v 1.428 2006/12/15 08:53:56 unconed
+#  upload.module,v 1.145 2006/12/14 13:30:59 dries
+#  image.inc,v 1.16 2006/12/12 01:03:34 unconed
+#  unicode.inc,v 1.23 2006/12/06 16:15:52 dries
+#  system.install,v 1.60 2006/12/13 10:41:56 unconed
+#  database.mysql.inc,v 1.64 2006/12/04 11:06:29 dries
+#  database.mysqli.inc,v 1.30 2006/12/04 11:06:29 dries
+#  file.inc,v 1.88 2006/12/11 16:45:17 dries
+#  user.module,v 1.731 2006/12/12 10:11:43 unconed
+#  form.inc,v 1.166 2006/12/12 10:01:38 unconed
+#  filter.module,v 1.157 2006/12/14 10:14:05 unconed
+#  locale.inc,v 1.101 2006/12/10 09:54:32 unconed
+#  blogapi.module,v 1.99 2006/11/21 20:14:17 dries
+#  forum.module,v 1.371 2006/12/10 20:34:02 dries
+#  block.module,v 1.244 2006/12/11 23:00:09 unconed
+#  book.module,v 1.403 2006/11/30 02:04:31 drumm
+#  comment.module,v 1.515 2006/12/15 01:33:00 unconed
+#  contact.module,v 1.72 2006/12/04 10:43:34 dries
+#  menu.module,v 1.99 2006/11/30 01:55:31 drumm
+#  content_types.inc,v 1.18 2006/12/05 05:47:37 dries
+#  node.module,v 1.752 2006/12/14 14:07:57 dries
+#  path.module,v 1.103 2006/11/26 02:20:01 drumm
+#  profile.module,v 1.185 2006/12/13 23:50:26 unconed
+#  drupal.module,v 1.137 2006/12/11 16:57:42 dries
+#  statistics.module,v 1.246 2006/11/26 02:20:01 drumm
+#  aggregator.module,v 1.323 2006/12/14 13:41:02 dries
+#  taxonomy.module,v 1.328 2006/11/30 07:05:57 unconed
+#  watchdog.module,v 1.164 2006/12/10 09:54:35 unconed
+#  locale.module,v 1.154 2006/12/01 22:47:53 unconed
+#  search.module,v 1.206 2006/12/11 16:57:42 dries
+#  search.info,v 1.3 2006/11/21 20:55:35 dries
+#  menu.inc,v 1.143 2006/12/12 06:02:52 unconed
+#  chameleon.theme,v 1.56 2006/11/29 06:36:12 drumm
+#  pager.inc,v 1.59 2006/10/15 19:57:05 dries
+#  theme.inc,v 1.332 2006/12/15 01:06:33 unconed
+#  phptemplate.engine,v 1.53 2006/12/13 23:22:57 unconed
+#  poll.module,v 1.221 2006/12/10 20:34:03 dries
+#  legacy.module,v 1.15 2006/11/21 20:14:18 dries
+#  blog.module,v 1.271 2006/12/10 20:34:02 dries
+#  tracker.module,v 1.141 2006/12/10 09:54:34 unconed
+#  aggregator.info,v 1.3 2006/11/21 20:55:33 dries
+#  blog.info,v 1.3 2006/11/21 20:55:33 dries
+#  blogapi.info,v 1.3 2006/11/21 20:55:33 dries
+#  book.info,v 1.3 2006/11/21 20:55:33 dries
+#  color.info,v 1.2 2006/11/21 20:55:34 dries
+#  comment.info,v 1.3 2006/11/21 20:55:34 dries
+#  contact.info,v 1.3 2006/11/21 20:55:34 dries
+#  drupal.info,v 1.3 2006/11/21 20:55:34 dries
+#  forum.info,v 1.4 2006/11/21 20:55:34 dries
+#  help.info,v 1.3 2006/11/21 20:55:34 dries
+#  legacy.info,v 1.3 2006/11/21 20:55:34 dries
+#  locale.info,v 1.3 2006/11/21 20:55:34 dries
+#  menu.info,v 1.3 2006/11/21 20:55:34 dries
+#  path.info,v 1.3 2006/11/21 20:55:34 dries
+#  ping.info,v 1.3 2006/11/21 20:55:35 dries
+#  poll.info,v 1.3 2006/11/21 20:55:35 dries
+#  profile.info,v 1.3 2006/11/21 20:55:35 dries
+#  statistics.info,v 1.3 2006/11/21 20:55:35 dries
+#  taxonomy.info,v 1.3 2006/11/21 20:55:35 dries
+#  throttle.info,v 1.3 2006/11/21 20:55:35 dries
+#  tracker.info,v 1.3 2006/11/21 20:55:35 dries
+#  upload.info,v 1.3 2006/11/21 20:55:35 dries
+#  block.info,v 1.3 2006/11/21 20:55:33 dries
+#  filter.info,v 1.3 2006/11/21 20:55:34 dries
+#  node.info,v 1.3 2006/11/21 20:55:34 dries
+#  system.info,v 1.3 2006/11/21 20:55:35 dries
+#  user.info,v 1.3 2006/11/21 20:55:36 dries
+#  watchdog.info,v 1.3 2006/11/21 20:55:36 dries
+#  throttle.module,v 1.71 2006/12/04 10:56:21 dries
+#  color.module,v 1.12 2006/12/10 09:54:33 unconed
+#  help.module,v 1.67 2006/12/10 09:54:33 unconed
+#  color.inc,v 1.2 2006/12/06 16:32:54 dries
+#  database.pgsql.inc,v 1.42 2006/12/14 13:26:41 dries
+#  install.inc,v 1.30 2006/12/08 11:54:04 dries
+#  tablesort.inc,v 1.43 2006/12/01 08:50:33 dries
+#  xmlrpc.inc,v 1.38 2006/09/03 08:21:18 dries
+#  xmlrpcs.inc,v 1.21 2006/07/05 11:45:51 dries
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#  ping.module,v 1.45 2006/11/21 20:14:18 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-02-04 13:47+0100\n"
+"PO-Revision-Date: 2008-03-10 11:25+0200\n"
+"Last-Translator: Ilari Sani <ilari.sani@assemblix.net>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/book/book-navigation.tpl.php:40
+msgid "‹ "
+msgstr "‹ "
+
+#: modules/book/book-navigation.tpl.php:43
+msgid "Go to parent page"
+msgstr "Mene yläsivulle"
+
+#: modules/book/book-navigation.tpl.php:43
+msgid "up"
+msgstr "ylös"
+
+#: modules/book/book-navigation.tpl.php:46
+msgid " ›"
+msgstr " ›"
+
+#: modules/book/book.admin.inc:15
+msgid "edit order and titles"
+msgstr "järjestyksen ja otsikoiden muokkaaminen"
+
+#: modules/book/book.admin.inc:33
+msgid "Allowed book outline types"
+msgstr "Kirjaan lisättävän sisällön tyypit"
+
+#: modules/book/book.admin.inc:36
+msgid ""
+"Select content types which users with the %add-perm permission will be "
+"allowed to add to the book hierarchy. Users with the %outline-perm "
+"permission can add all content types."
+msgstr ""
+"Valitse, minkä tyyppistä sisältöä käyttäjät, joilla on %add-perm -oikeus "
+"voivat lisätä kirjan hierarkiaan. Käyttäjät, joilla on %outline-perm -oikeus "
+"voivat lisätä kaikentyyppistä sisältöä."
+
+#: modules/book/book.admin.inc:36 modules/book/book.module:43
+msgid "add content to books"
+msgstr "kirjoituksien lisääminen kirjoihin"
+
+#: modules/book/book.admin.inc:36 modules/book/book.module:43
+msgid "administer book outlines"
+msgstr "kirjan hierarkian ylläpito"
+
+#: modules/book/book.admin.inc:41
+msgid "Default child page type"
+msgstr "Alasivujen oletustyyppi"
+
+#: modules/book/book.admin.inc:44;60
+msgid ""
+"The content type for the %add-child link must be one of those selected as an "
+"allowed book outline type."
+msgstr ""
+"%add-child -linkin sisällön on oltava tyyppiä, jonka lisääminen kirjaan on "
+"sallittu."
+
+#: modules/book/book.admin.inc:44;60 modules/book/book.module:57
+msgid "Add child page"
+msgstr "Lisää alasivu"
+
+#: modules/book/book.admin.inc:78
+msgid "Save book pages"
+msgstr "Tallenna kirjan sivut"
+
+#: modules/book/book.admin.inc:116
+msgid "Title changed from %original to %current."
+msgstr "Otsikko vaihdettiin muodosta %original muotoon %current."
+
+#: modules/book/book.admin.inc:123
+msgid "Updated book %title."
+msgstr "Kirja %title päivitetty."
+
+#: modules/book/book.admin.inc:118
+msgid "book: updated %title."
+msgstr "kirja: %title päivitetty."
+
+#: modules/book/book.pages.inc:52
+msgid "Unknown export format."
+msgstr "Tuntematon vientimuoto."
+
+#: modules/book/book.pages.inc:126
+msgid "Update book outline"
+msgstr "Päivitä kirjan hierarkia"
+
+#: modules/book/book.pages.inc:126
+msgid "Add to book outline"
+msgstr "Lisää kirjaaan"
+
+#: modules/book/book.pages.inc:132
+msgid "Remove from book outline"
+msgstr "Poista kirjasta"
+
+#: modules/book/book.pages.inc:160
+msgid "No changes were made"
+msgstr "Muutoksia ei tehty"
+
+#: modules/book/book.pages.inc:169
+msgid ""
+"The post has been added to the selected book. You may now position it "
+"relative to other pages."
+msgstr ""
+"Kirjoitus on lisätty valittuun kirjaan. Voit nyt säätää sen sijantia "
+"kirjassa."
+
+#: modules/book/book.pages.inc:173
+msgid "The book outline has been updated."
+msgstr "Kirjan hierarkia on päivitetty."
+
+#: modules/book/book.pages.inc:177
+msgid "There was an error adding the post to the book."
+msgstr "Kirjoituksen lisääminen kirjaan ei onnistunut."
+
+#: modules/book/book.pages.inc:193
+msgid ""
+"%title has associated child pages, which will be relocated automatically to "
+"maintain their connection to the book. To recreate the hierarchy (as it was "
+"before removing this page), %title may be added again using the Outline tab, "
+"and each of its former child pages will need to be relocated manually."
+msgstr ""
+"Sivulla %title on alasivuja, jotka siirretään automaattisesti jotta ne "
+"pysyvät mukana kirjassa. Luodaksesi hierarkian uudelleen (sellaisena kuin se "
+"oli ennen tämän sivun poistamista), lisää %title uudelleen kirjaan Hierarkia-"
+"välilehdestä, ja laita aiemmat alasivut takaisin paikalleen käsin."
+
+#: modules/book/book.pages.inc:196
+msgid "%title may be added to hierarchy again using the Outline tab."
+msgstr ""
+"Voit lisätä sivun %title takaisin kirjan hierarkiaan Hierarkia-välilehdeltä."
+
+#: modules/book/book.pages.inc:199
+msgid "Are you sure you want to remove %title from the book hierarchy?"
+msgstr "Haluatko varmasti poistaa sivun %name? tästä kirjasta?"
+
+#: modules/book/book.pages.inc:199
+msgid "Remove"
+msgstr "Poista"
+
+#: modules/book/book.pages.inc:213
+msgid "The post has been removed from the book."
+msgstr "Kirjoitus on poistettu kirjasta."
+
+#: modules/book/book.module:64
+msgid "Printer-friendly version"
+msgstr "Tulostettava sivu"
+
+#: modules/book/book.module:66
+msgid "Show a printer-friendly version of this book page and its sub-pages."
+msgstr "Näytä tulostettava versio tästä kirjan sivusta ja sen alasivuista."
+
+#: modules/book/book.module:180;189
+msgid "Book navigation"
+msgstr "Kirjan navigaatio"
+
+#: modules/book/book.module:223
+msgid "Show block on all pages"
+msgstr "Näytä lohko kaikilla sivuilla"
+
+#: modules/book/book.module:224
+msgid "Show block only on book pages"
+msgstr "Näytä lohko ainoastaan kirjojen sivuilla"
+
+#: modules/book/book.module:228
+msgid "Book navigation block display"
+msgstr "Kirjojen navigaatiolohkon näyttäminen"
+
+#: modules/book/book.module:231
+msgid ""
+"If <em>Show block on all pages</em> is selected, the block will contain the "
+"automatically generated menus for all of the site's books. If <em>Show block "
+"only on book pages</em> is selected, the block will contain only the one "
+"menu corresponding to the current page's book. In this case, if the current "
+"page is not in a book, no block will be displayed. The <em>Page specific "
+"visibility settings</em> or other visibility settings can be used in "
+"addition to selectively display this block."
+msgstr ""
+"Jos valitset <em>Näytä lohko kaikilla sivuilla</em>, lohko sisältää kaikkien "
+"sivuston kirjojen automaattisesti luodut valikot. Jos valitset <em>Näytä "
+"lohko ainoastaan kirjojen sivuilla</em>, lohko sisältää ainoastaan "
+"parhaillaan luettavan kirjan valikon. Lohkoa ei tällöin näytetä, jos "
+"luettava sivu kuulu mihinkään kirjaan. Lohkon <em>sivukohtaisia "
+"näkyvyysasetuksia</em> ja muita näkyvyysasetuksia voi myös käyttää "
+"rajoittamaan, millä sivuilla lohko näkyy."
+
+#: modules/book/book.module:302
+msgid "Change book (update list of parents)"
+msgstr "Vaihda kirjaa (päivittää yläsivujen listan)"
+
+#: modules/book/book.module:337
+msgid "This is the top-level page in this book."
+msgstr "Tämä on kirjan ylin sivu."
+
+#: modules/book/book.module:340
+msgid "This will be the top-level page in this book."
+msgstr "Tästä tulee kirjan ylin sivu."
+
+#: modules/book/book.module:344
+msgid "No book selected."
+msgstr "Yhtään kirjaa ei ole valittuna."
+
+# Jos tämä tarkoittaa sitä, mitä luulen sen tarkoittavan niin se pitää kirjoittaa uusiksi.
+#: modules/book/book.module:351
+msgid ""
+"The parent page in the book. The maximum depth for a book and all child "
+"pages is !maxdepth. Some pages in the selected book may not be available as "
+"parents if selecting them would exceed this limit."
+msgstr ""
+"Kirjan yläsivu. Kirjan ja sen alasivujen maksimisyvyys on !maxdepth. "
+"Joitakin valitun kirjan sivuja ei välttämättä näytetä yläsivuina, jos niiden "
+"valitseminen ylittää tämän rajan."
+
+#: modules/book/book.module:369
+msgid "Book outline"
+msgstr "Kirjan hierarkia"
+
+#: modules/book/book.module:391
+msgid "Pages at a given level are ordered first by weight and then by title."
+msgstr ""
+"Kunkin tason sivut järjestetään ensimmäiseksi painon ja  sen jälkeen otsikon "
+"perusteella."
+
+#: modules/book/book.module:408
+msgid "create a new book"
+msgstr "luo uusi kirja"
+
+#: modules/book/book.module:422
+msgid "Your page will be a part of the selected book."
+msgstr "Sivusi lisätään valittuun kirjaan."
+
+#: modules/book/book.module:759
+msgid ""
+"%title is part of a book outline, and has associated child pages. If you "
+"proceed with deletion, the child pages will be relocated automatically."
+msgstr ""
+"%title kuuluu kirjaan, ja sillä on alasivuja. Jos poistat sen, alasivut "
+"siirretään automaattisesti muualle kirjaan."
+
+# Lisäsin selityksen hierarkia-käsitteestä.
+#: modules/book/book.module:1002
+msgid ""
+"The book module is suited for creating structured, multi-page hypertexts "
+"such as site resource guides, manuals, and Frequently Asked Questions "
+"(FAQs). It permits a document to have chapters, sections, subsections, etc. "
+"Authors with suitable permissions can add pages to a collaborative book, "
+"placing them into the existing document by adding them to a table of "
+"contents menu."
+msgstr ""
+"<em>Kirjamoduuli</em> sopii hierarkkisten, monisivuisten tekstien luomiseen "
+"(esim. oppaat, käyttöohjeet ja usein kysytyt kysymykset). Kirjoissa voi olla "
+"lukuja, kappaleita, alakappaleita, jne.  Näitä kutsutaan kirjan "
+"hierarkiaksi. Kirjoittajat, joilla on siihen oikeus voivat kirjoittaa kirjaa "
+"yhdessä ja lisätä sivuja kirjaan."
+
+#: modules/book/book.module:1003
+msgid ""
+"Pages in the book hierarchy have navigation elements at the bottom of the "
+"page for moving through the text. These links lead to the previous and next "
+"pages in the book, and to the level above the current page in the book's "
+"structure. More comprehensive navigation may be provided by enabling the "
+"<em>book navigation block</em> on the <a href=\"@admin-block\">blocks "
+"administration page</a>."
+msgstr ""
+"Kirjan sivujen alalaidassa on joukko linkkejä, jolla kirjaa voi selata. "
+"Linkit johtavat seuraavalle ja edelliselle sivulle, sekä kirjan hierarkiassa "
+"ylöspäin. <em>Kirjojen navigointilohko</em> tarjoaa lisää linkkejä, ja sen "
+"voi ottaa käyttöön <a href=\"@admin-block\">lohkojen ylläpitosivulla</a>."
+
+#: modules/book/book.module:1004
+msgid ""
+"Users can select the <em>printer-friendly version</em> link visible at the "
+"bottom of a book page to generate a printer-friendly display of the page and "
+"all of its subsections. "
+msgstr ""
+"Kirjan sivun alalaidasta löytyvä <em>tulostettava sivu</em> -linkki luo "
+"sivusta ja kaikista sen alasivuista tulostamiseen sopivan version."
+
+#: modules/book/book.module:1005
+msgid ""
+"Users with the <em>administer book outlines</em> permission can add a post "
+"of any content type to a book, by selecting the appropriate book while "
+"editing the post or by using the interface available on the post's "
+"<em>outline</em> tab."
+msgstr ""
+"Käyttäjät, joilla on <em>kirjan hierarkian ylläpito</em> -oikeus voivat "
+"lisätä kirjaan kaikenlaista sisältöä. Halutun kirjan voi valita kirjoitusta "
+"muokattaessa, tai myöhemmin kirjoituksen <em>Hierarkia</em>-välilehdeltä."
+
+#: modules/book/book.module:1006
+msgid ""
+"Administrators can view a list of all books on the <a href=\"@admin-node-book"
+"\">book administration page</a>. The <em>Outline</em> page for each book "
+"allows section titles to be edited or rearranged."
+msgstr ""
+"Ylläpitäjät näkevät listan kaikista kirjoista <a href=\"@admin-node-book"
+"\">kirjojen ylläpitosivulta</a>. Kullakin kirjalla on <em>Hierarkia</em>-"
+"sivu, jolla voi järjestellä kirjan osia ja kappaleita, sekä muokata "
+"otsikoita."
+
+#: modules/book/book.module:1007
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@book"
+"\">Book module</a>."
+msgstr "Lue käsikirjasta lisää <a href=\"@book\">kirjoista</a>."
+
+#: modules/book/book.module:1010
+msgid ""
+"The book module offers a means to organize a collection of related posts, "
+"collectively known as a book. When viewed, these posts automatically display "
+"links to adjacent book pages, providing a simple navigation system for "
+"creating and reviewing structured content."
+msgstr ""
+"Kirjamoduulin avulla toisiinsa liittyviä kirjoituksia voi kerätä yhteen "
+"kokoelmaksi, jota kutsutaan kirjaksi. Kirjan sivuilla näytetään "
+"automaattisesti linkit viereisille sivuille."
+
+#: modules/book/book.module:1012
+msgid ""
+"The outline feature allows you to include posts in the <a href=\"@book"
+"\">book hierarchy</a>, as well as move them within the hierarchy or to <a "
+"href=\"@book-admin\">reorder an entire book</a>."
+msgstr ""
+"Voit lisätä uusia sivuja <a href=\"@book\">kirjan hierarkiaan</a>. Voit myös "
+"siirrellä niitä hierarkiassa tai <a href=\"@book-admin\">järjestellä koko "
+"kirjan uudelleen</a>."
+
+#: modules/book/book.module:43
+msgid "create new books"
+msgstr "uusien kirjojen luominen"
+
+#: modules/book/book.module:43
+msgid "access printer-friendly version"
+msgstr "tulostettavan version katseleminen"
+
+#: modules/book/book.module:79;108
+msgid "Books"
+msgstr "Kirjat"
+
+#: modules/book/book.module:80
+msgid "Manage your site's book outlines."
+msgstr "Kokoa kirjoituksia kirjoiksi ja järjestele niiden sisältöä."
+
+#: modules/book/book.module:99
+msgid "Re-order book pages and change titles"
+msgstr "Järjestele kirjan sivuja ja muokkaa otsikoita"
+
+#: modules/book/book.module:122
+msgid "Outline"
+msgstr "Hierarkia"
+
+#: modules/book/book.module:132
+msgid "Remove from outline"
+msgstr "Poista kirjasta"
+
+#: modules/book/book.module:0
+msgid "book"
+msgstr "kirja"
+
+#: modules/book/book.install:29
+msgid "Book page"
+msgstr "Kirjan sivu"
+
+#: modules/book/book.install:31
+msgid ""
+"A <em>book page</em> is a page of content, organized into a collection of "
+"related entries collectively known as a <em>book</em>. A <em>book page</em> "
+"automatically displays links to adjacent pages, providing a simple "
+"navigation system for organizing and reviewing structured content."
+msgstr ""
+"<em>Kirjan sivu</em> on kirjoitus, joka kuuluu kokoelmaan joita kutsutaan "
+"<em>kirjaksi</em>. Jokaisella <em>kirjan sivulla</em> näytetään "
+"automaattisesti linkit viereisille sivuille."
+
+# Toimiiko tämä?
+#: modules/book/book.install:254
+msgid ""
+"Stores book outline information. Uniquely connects each node in the outline "
+"to a link in {menu_links}"
+msgstr ""
+"Varastoi tietoja kirjoista. Yhdistää jokaisen kirjoituksen kirjan "
+"hierarkiassa linkkiin {menu_links}issä."
+
+#: modules/book/book.install:261
+msgid "The book page's {menu_links}.mlid."
+msgstr "Kirjan sivun {menu_links}.mlid."
+
+#: modules/book/book.install:268
+msgid "The book page's {node}.nid."
+msgstr "Kirjan sivun {node}.nid."
+
+#: modules/book/book.install:275
+msgid "The book ID is the {book}.nid of the top-level page."
+msgstr "Kirjan ID on ylimmän sivun {book}.nid."

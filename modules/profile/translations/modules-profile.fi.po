@@ -1,0 +1,566 @@
+# translation of general.po to
+# Finnish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  common.inc,v 1.602 2006/12/15 07:47:08 unconed
+#  system.module,v 1.428 2006/12/15 08:53:56 unconed
+#  upload.module,v 1.145 2006/12/14 13:30:59 dries
+#  image.inc,v 1.16 2006/12/12 01:03:34 unconed
+#  unicode.inc,v 1.23 2006/12/06 16:15:52 dries
+#  system.install,v 1.60 2006/12/13 10:41:56 unconed
+#  database.mysql.inc,v 1.64 2006/12/04 11:06:29 dries
+#  database.mysqli.inc,v 1.30 2006/12/04 11:06:29 dries
+#  file.inc,v 1.88 2006/12/11 16:45:17 dries
+#  user.module,v 1.731 2006/12/12 10:11:43 unconed
+#  form.inc,v 1.166 2006/12/12 10:01:38 unconed
+#  filter.module,v 1.157 2006/12/14 10:14:05 unconed
+#  locale.inc,v 1.101 2006/12/10 09:54:32 unconed
+#  blogapi.module,v 1.99 2006/11/21 20:14:17 dries
+#  forum.module,v 1.371 2006/12/10 20:34:02 dries
+#  block.module,v 1.244 2006/12/11 23:00:09 unconed
+#  book.module,v 1.403 2006/11/30 02:04:31 drumm
+#  comment.module,v 1.515 2006/12/15 01:33:00 unconed
+#  contact.module,v 1.72 2006/12/04 10:43:34 dries
+#  menu.module,v 1.99 2006/11/30 01:55:31 drumm
+#  content_types.inc,v 1.18 2006/12/05 05:47:37 dries
+#  node.module,v 1.752 2006/12/14 14:07:57 dries
+#  path.module,v 1.103 2006/11/26 02:20:01 drumm
+#  profile.module,v 1.185 2006/12/13 23:50:26 unconed
+#  drupal.module,v 1.137 2006/12/11 16:57:42 dries
+#  statistics.module,v 1.246 2006/11/26 02:20:01 drumm
+#  aggregator.module,v 1.323 2006/12/14 13:41:02 dries
+#  taxonomy.module,v 1.328 2006/11/30 07:05:57 unconed
+#  watchdog.module,v 1.164 2006/12/10 09:54:35 unconed
+#  locale.module,v 1.154 2006/12/01 22:47:53 unconed
+#  search.module,v 1.206 2006/12/11 16:57:42 dries
+#  search.info,v 1.3 2006/11/21 20:55:35 dries
+#  menu.inc,v 1.143 2006/12/12 06:02:52 unconed
+#  chameleon.theme,v 1.56 2006/11/29 06:36:12 drumm
+#  pager.inc,v 1.59 2006/10/15 19:57:05 dries
+#  theme.inc,v 1.332 2006/12/15 01:06:33 unconed
+#  phptemplate.engine,v 1.53 2006/12/13 23:22:57 unconed
+#  poll.module,v 1.221 2006/12/10 20:34:03 dries
+#  legacy.module,v 1.15 2006/11/21 20:14:18 dries
+#  blog.module,v 1.271 2006/12/10 20:34:02 dries
+#  tracker.module,v 1.141 2006/12/10 09:54:34 unconed
+#  aggregator.info,v 1.3 2006/11/21 20:55:33 dries
+#  blog.info,v 1.3 2006/11/21 20:55:33 dries
+#  blogapi.info,v 1.3 2006/11/21 20:55:33 dries
+#  book.info,v 1.3 2006/11/21 20:55:33 dries
+#  color.info,v 1.2 2006/11/21 20:55:34 dries
+#  comment.info,v 1.3 2006/11/21 20:55:34 dries
+#  contact.info,v 1.3 2006/11/21 20:55:34 dries
+#  drupal.info,v 1.3 2006/11/21 20:55:34 dries
+#  forum.info,v 1.4 2006/11/21 20:55:34 dries
+#  help.info,v 1.3 2006/11/21 20:55:34 dries
+#  legacy.info,v 1.3 2006/11/21 20:55:34 dries
+#  locale.info,v 1.3 2006/11/21 20:55:34 dries
+#  menu.info,v 1.3 2006/11/21 20:55:34 dries
+#  path.info,v 1.3 2006/11/21 20:55:34 dries
+#  ping.info,v 1.3 2006/11/21 20:55:35 dries
+#  poll.info,v 1.3 2006/11/21 20:55:35 dries
+#  profile.info,v 1.3 2006/11/21 20:55:35 dries
+#  statistics.info,v 1.3 2006/11/21 20:55:35 dries
+#  taxonomy.info,v 1.3 2006/11/21 20:55:35 dries
+#  throttle.info,v 1.3 2006/11/21 20:55:35 dries
+#  tracker.info,v 1.3 2006/11/21 20:55:35 dries
+#  upload.info,v 1.3 2006/11/21 20:55:35 dries
+#  block.info,v 1.3 2006/11/21 20:55:33 dries
+#  filter.info,v 1.3 2006/11/21 20:55:34 dries
+#  node.info,v 1.3 2006/11/21 20:55:34 dries
+#  system.info,v 1.3 2006/11/21 20:55:35 dries
+#  user.info,v 1.3 2006/11/21 20:55:36 dries
+#  watchdog.info,v 1.3 2006/11/21 20:55:36 dries
+#  throttle.module,v 1.71 2006/12/04 10:56:21 dries
+#  color.module,v 1.12 2006/12/10 09:54:33 unconed
+#  help.module,v 1.67 2006/12/10 09:54:33 unconed
+#  color.inc,v 1.2 2006/12/06 16:32:54 dries
+#  database.pgsql.inc,v 1.42 2006/12/14 13:26:41 dries
+#  install.inc,v 1.30 2006/12/08 11:54:04 dries
+#  tablesort.inc,v 1.43 2006/12/01 08:50:33 dries
+#  xmlrpc.inc,v 1.38 2006/09/03 08:21:18 dries
+#  xmlrpcs.inc,v 1.21 2006/07/05 11:45:51 dries
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#  ping.module,v 1.45 2006/11/21 20:14:18 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-02-04 13:47+0100\n"
+"PO-Revision-Date: 2008-02-21 11:38+0200\n"
+"Last-Translator: Ilari Sani <ilari.sani@assemblix.net>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/profile/profile.admin.inc:55
+msgid "Add new field"
+msgstr "Lisää uusi kenttä"
+
+#: modules/profile/profile.admin.inc:82
+msgid "Profile fields have been updated."
+msgstr "Profiilin kentät on päivitetty."
+
+#: modules/profile/profile.admin.inc:115
+msgid ""
+"No fields in this category. If this category remains empty when saved, it "
+"will be removed."
+msgstr ""
+"Tässä ryhmässä ei ole kenttiä. Jos ryhmä on tallennettaessa yhä tyhjä, se "
+"poistetaan."
+
+#: modules/profile/profile.admin.inc:144
+msgid "No fields available."
+msgstr "Yhtään kenttää ei ole saatavilla."
+
+#: modules/profile/profile.admin.inc:178
+msgid "edit %title"
+msgstr "muokkaa %title"
+
+# toivottavasti toimii
+#: modules/profile/profile.admin.inc:196
+msgid "add new %type"
+msgstr "lisää uusi %type"
+
+#: modules/profile/profile.admin.inc:211
+msgid "Field settings"
+msgstr "Kentän asetukset"
+
+#: modules/profile/profile.admin.inc:217
+msgid ""
+"The category the new field should be part of. Categories are used to group "
+"fields logically. An example category is \"Personal information\"."
+msgstr "Ryhmä, johon uusi kenttä kuuluu. Esim. \"Henkilökohtaiset tiedot\"."
+
+#: modules/profile/profile.admin.inc:223
+msgid ""
+"The title of the new field. The title will be shown to the user. An example "
+"title is \"Favorite color\"."
+msgstr "Uuden kentän otsikko. Se näytetään käyttäjälle. Esim \"Lempiväri\"."
+
+#: modules/profile/profile.admin.inc:227
+msgid "Form name"
+msgstr "Lomakkeen nimi"
+
+#: modules/profile/profile.admin.inc:229
+msgid ""
+"The name of the field. The form name is not shown to the user but used "
+"internally in the HTML code and URLs.\n"
+"Unless you know what you are doing, it is highly recommended that you prefix "
+"the form name with <code>profile_</code> to avoid name clashes with other "
+"fields. Spaces or any other special characters except dash (-) and "
+"underscore (_) are not allowed. An example name is \"profile_favorite_color"
+"\" or perhaps just \"profile_color\"."
+msgstr ""
+"Kentän nimi. Lomakkeen nimeä ei näytetä käyttäjälle, mutta sitä käytetään "
+"taustalla HTML-koodissa ja osoitteissa.\n"
+"Ellet tiedä mitä olet tekemässä on erittäin suositeltavaa että lisäät nimen "
+"alkuun määreen <code>profiili_</code> välttääksesi yhteentörmäyksiä muiden "
+"kenttien nimien kanssa. Välilyöntejä, skandeja ja muita erikoismerkkejä ei "
+"sallita, lukuun ottamatta väliviivaa (-) ja alaviivaa (_). Esimerkki: "
+"\"profiili_lempivari\"."
+
+#: modules/profile/profile.admin.inc:234
+msgid "Explanation"
+msgstr "Selitys"
+
+#: modules/profile/profile.admin.inc:236
+msgid ""
+"An optional explanation to go with the new field. The explanation will be "
+"shown to the user."
+msgstr "Vapaavalintainen kuvaus kentälle, näytetään käyttäjälle."
+
+#: modules/profile/profile.admin.inc:240
+msgid "Selection options"
+msgstr "Valinnan asetukset"
+
+#: modules/profile/profile.admin.inc:242
+msgid ""
+"A list of all options. Put each option on a separate line. Example options "
+"are \"red\", \"blue\", \"green\", etc."
+msgstr ""
+"Lista kaikista vaihtoehdoista. Laita yksi vaihtoehto kullekin riville. "
+"Esimerkkejä vaihtoehdoista: \"punainen\", \"sininen\", \"vihreä\", jne."
+
+#: modules/profile/profile.admin.inc:246
+msgid "Visibility"
+msgstr "Näkyvyys"
+
+#: modules/profile/profile.admin.inc:248
+msgid ""
+"Hidden profile field, only accessible by administrators, modules and themes."
+msgstr ""
+"Piilotettu profiilikenttä, joka näytetään vain ylläpitäjille, moduuleille ja "
+"teemoille."
+
+#: modules/profile/profile.admin.inc:248
+msgid "Private field, content only available to privileged users."
+msgstr ""
+"Henkilökohtainen kenttä, sisältö vain etuoikeutettujen käyttäjien nähtävillä."
+
+#: modules/profile/profile.admin.inc:248
+msgid ""
+"Public field, content shown on profile page but not used on member list "
+"pages."
+msgstr ""
+"Julkinen kenttä, sisältö näytetään profiilisivulla, mutta ei "
+"käyttäjälistoissa."
+
+#: modules/profile/profile.admin.inc:248
+msgid "Public field, content shown on profile page and on member list pages."
+msgstr ""
+"Julkinen kenttä, sisältö näytetään profiilisivulla ja käyttäjälistoissa."
+
+#: modules/profile/profile.admin.inc:252;259
+msgid "Page title"
+msgstr "Sivun otsikko"
+
+#: modules/profile/profile.admin.inc:254
+msgid ""
+"To enable browsing this field by value, enter a title for the resulting "
+"page. The word <code>%value</code> will be substituted with the "
+"corresponding value. An example page title is \"People whose favorite color "
+"is %value\". This is only applicable for a public field."
+msgstr ""
+"Jos haluat, että käyttäjiä voi selata tämän kentän arvon mukaan, kirjoita "
+"selaussivun otsikko. Sanan <code>%value</code> tilalle vaihdetaan kyseinen "
+"arvo. Esimerkki otsikosta: \"Ihmiset, joiden lempiväri on %value\". Tämä "
+"toimii vain, jos kenttä on julkinen."
+
+#: modules/profile/profile.admin.inc:261
+msgid ""
+"To enable browsing this field by value, enter a title for the resulting "
+"page. An example page title is \"People who are employed\". This is only "
+"applicable for a public field."
+msgstr ""
+"Jos haluat, että käyttäjiä voi selata tämän kentän arvon mukaan, kirjoita "
+"selausssivun otsikko. Esimerkki otsikosta: \"Ihmiset, joilla on työpaikka\". "
+"Tämä toimii vain, jos kenttä on julkinen."
+
+#: modules/profile/profile.admin.inc:267
+msgid ""
+"The weights define the order in which the form fields are shown. Lighter "
+"fields \"float up\" towards the top of the category."
+msgstr ""
+"Ryhmä, johon uusi kenttä kuuluu. Kentät näytetään profiilisivulla "
+"ryhmiteltyinä. Esim. \"Henkilökohtaisia tietoja\"."
+
+#: modules/profile/profile.admin.inc:270
+msgid "Form will auto-complete while user is typing."
+msgstr "Kenttä täydennetään automaattisesti käyttäjän näppäillessä."
+
+#: modules/profile/profile.admin.inc:274
+msgid "The user must enter a value."
+msgstr "Käyttäjän täytyy antaa arvo."
+
+#: modules/profile/profile.admin.inc:278
+msgid "Visible in user registration form."
+msgstr "Näkyy rekisteröintilomakkeessa."
+
+#: modules/profile/profile.admin.inc:282
+msgid "Save field"
+msgstr "Tallenna kenttä"
+
+#: modules/profile/profile.admin.inc:293
+msgid ""
+"The specified form name contains one or more illegal characters. Spaces or "
+"any other special characters except dash (-) and underscore (_) are not "
+"allowed."
+msgstr ""
+"Antamasi lomakkeen nimi sisältää kiellettyjä merkkejä. Välilyöntejä, "
+"skandeja ja muita erikoismerkkejä ei sallita, lukuun ottamatta väliviivaa "
+"(-) ja alaviivaa (_)."
+
+#: modules/profile/profile.admin.inc:297
+msgid "The specified form name is reserved for use by Drupal."
+msgstr "Antamasi lomakkeen nimi on varattu Drupalin käyttöön."
+
+#: modules/profile/profile.admin.inc:304
+msgid "The specified category name is reserved for use by Drupal."
+msgstr "Antamasi ryhmän nimi on varattu Drupalin käyttöön."
+
+#: modules/profile/profile.admin.inc:316
+msgid "The specified title is already in use."
+msgstr "Antamasi otsikko on jo käytössä."
+
+#: modules/profile/profile.admin.inc:319
+msgid "The specified name is already in use."
+msgstr "Antamasi nimi on jo käytössä."
+
+#: modules/profile/profile.admin.inc:323
+msgid "A hidden field cannot be required."
+msgstr "Piilotettu kenttä ei voi olla pakollinen."
+
+#: modules/profile/profile.admin.inc:326
+msgid "A hidden field cannot be set to visible on the user registration form."
+msgstr "Piilotettua kenttää ei voi näyttää rekisteröintilomakkeessa."
+
+#: modules/profile/profile.admin.inc:344
+msgid "The field has been created."
+msgstr "Kenttä on luotu."
+
+#: modules/profile/profile.admin.inc:350
+msgid "The field has been updated."
+msgstr "Kenttä on päivitetty."
+
+#: modules/profile/profile.admin.inc:372
+msgid "Are you sure you want to delete the field %field?"
+msgstr "Haluatko varmasti poistaa kentän %field?"
+
+#: modules/profile/profile.admin.inc:373
+msgid ""
+"This action cannot be undone. If users have entered values into this field "
+"in their profile, these entries will also be deleted. If you want to keep "
+"the user-entered data, instead of deleting the field you may wish to <a href="
+"\"@edit-field\">edit this field</a> and change it to a hidden profile field "
+"so that it may only be accessed by administrators."
+msgstr ""
+"Tätä toimintoa ei voi perua. Jos käyttäjät ovat syöttäneet profiileissaan "
+"tietoja tähän kenttään, myös nämä tiedot poistetaan. Jos haluat säilyttää "
+"käyttäjien syöttämät tiedot, voit <a href=\"@edit-field\">muokata kenttää</"
+"a> ja tehdä siitä piilotetun, jolloin se näkyy vain ylläpitäjille."
+
+#: modules/profile/profile.admin.inc:386
+msgid "The field %field has been deleted."
+msgstr "Kenttä %field on poistettu."
+
+#: modules/profile/profile.admin.inc:345;387 modules/profile/profile.module:0
+msgid "profile"
+msgstr "profiili"
+
+#: modules/profile/profile.admin.inc:345
+msgid "Profile field %field added under category %category."
+msgstr "Profiilikenttä %field lisättiin ryhmään %category."
+
+#: modules/profile/profile.admin.inc:387
+msgid "Profile field %field deleted."
+msgstr "Profiilikenttä %field poistettu."
+
+#: modules/profile/profile.pages.inc:102 modules/profile/profile.module:80
+msgid "User list"
+msgstr "Käyttäjien lista"
+
+#: modules/profile/profile.module:35
+msgid ""
+"The profile module allows custom fields (such as country, full name, or age) "
+"to be defined and displayed in the <em>My Account</em> section. This permits "
+"users of a site to share more information about themselves, and can help "
+"community-based sites organize users around specific information."
+msgstr ""
+"Profiilimoduulin avulla voi määritellä omia kenttiä (kuten kansallisuus, "
+"koko nimi tai ikä), jotka näkyvät <em>Oma käyttäjätilini</em> -sivulla. Näin "
+"käyttäjät voivat kertoa itsestään enemmän ja löytää muita samanhenkisiä "
+"käyttäjiä."
+
+#: modules/profile/profile.module:36
+msgid "The following types of fields can be added to a user profile:"
+msgstr "Käyttäjäprofiiliin voidaan lisätä seuraavan tyyppisiä kenttiä:"
+
+#: modules/profile/profile.module:37;541
+msgid "single-line textfield"
+msgstr "yhden rivin tekstikenttä"
+
+#: modules/profile/profile.module:38;542
+msgid "multi-line textfield"
+msgstr "monen rivin tekstikenttä"
+
+#: modules/profile/profile.module:39;543
+msgid "checkbox"
+msgstr "valintaruutu"
+
+#: modules/profile/profile.module:40;544
+msgid "list selection"
+msgstr "valintalista"
+
+#: modules/profile/profile.module:41;545
+msgid "freeform list"
+msgstr "vapaa lista"
+
+#: modules/profile/profile.module:43;547
+msgid "date"
+msgstr "päiväys"
+
+#: modules/profile/profile.module:44
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@profile"
+"\">Profile module</a>."
+msgstr "Lue käsikirjasta lisää<a href=\"@profile\">profiileista</a>."
+
+#: modules/profile/profile.module:47
+msgid ""
+"This page displays a list of the existing custom profile fields to be "
+"displayed on a user's <em>My Account</em> page. To provide structure, "
+"similar or related fields may be placed inside a category. To add a new "
+"category (or edit an existing one), edit a profile field and provide a new "
+"category name. To change the category of a field or the order of fields "
+"within a category, grab a drag-and-drop handle under the Title column and "
+"drag the field to a new location in the list. (Grab a handle by clicking and "
+"holding the mouse while hovering over a handle icon.) Remember that your "
+"changes will not be saved until you click the <em>Save configuration</em> "
+"button at the bottom of the page."
+msgstr ""
+"Tämä sivu näyttää käytössä olevat profiilikentät, jotkä näytetään käyttäjän "
+"<em>Oma käyttäjätilini</em> -sivulla. Samankaltaisia tai toisiinsa liittyviä "
+"kenttiä voi järjestellä ryhmiksi. Lisäää uusi ryhmä (tai muokkaa käytössä "
+"olevaa) muokkaamalla profiilikenttää ja kirjoittamalla uusi ryhmän nimi. "
+"Siirrä kenttiä paikasta tai ryhmästä toiseen vetämällä niitä Otsikko-"
+"sarakkeen alla olevasta vetokahvasta. (Osoita hiirellä kahva-ikonia, paina "
+"hiiren näppäin pohjaan ja vedä.) Muista, että muutoksia ei tallenneta ennen "
+"kuin painat <em>Tallenna asetukset</em> -painiketta sivun alalaidassa."
+
+#: modules/profile/profile.module:137
+msgid "Author information"
+msgstr "Kirjoittajan tiedot"
+
+#: modules/profile/profile.module:148
+msgid "Link to full user profile"
+msgstr "Linkki koko käyttäjäprofiiliin"
+
+#: modules/profile/profile.module:150
+msgid "Profile fields to display"
+msgstr "Näytettävät profiilikentät"
+
+#: modules/profile/profile.module:153
+msgid ""
+"Select which profile fields you wish to display in the block. Only fields "
+"designated as public in the <a href=\"@profile-admin\">profile field "
+"configuration</a> are available."
+msgstr ""
+"Valitse lohkossa näytttävät profiilikentät. Tarjolla on ainoastaan kenttiä, "
+"jotka on <a href=\"@profile-admin\">asetettu julkisiksi</a>."
+
+#: modules/profile/profile.module:185
+msgid "View full user profile"
+msgstr "Näytä koko käyttäjäprofiili"
+
+#: modules/profile/profile.module:190
+msgid "About %name"
+msgstr "Tietoja käyttäjästä %name"
+
+#: modules/profile/profile.module:333
+msgid ""
+"Put each item on a separate line or separate them by commas. No HTML allowed."
+msgstr ""
+"Laita jokainen kohta omalle rivilleen tai erottele ne pilkuilla. HTML ei ole "
+"sallittu."
+
+# Lause uusiksi, toivottavasti pätee edelleen.
+#: modules/profile/profile.module:435
+msgid "The value provided for %field is not a valid URL."
+msgstr "Kirjoita kohtaan %field toimiva osoite."
+
+#: modules/profile/profile.module:440
+msgid "The field %field is required."
+msgstr "Kenttä %field on pakollinen."
+
+#: modules/profile/profile.module:87
+msgid "Profiles"
+msgstr "Profiilit"
+
+#: modules/profile/profile.module:88
+msgid "Create customizable fields for your users."
+msgstr "Lisää profiileihin kenttiä, joilla käyttäjät voivat kertoa itsestään."
+
+#: modules/profile/profile.module:95
+msgid "Add field"
+msgstr "Lisää kenttä"
+
+#: modules/profile/profile.module:102
+msgid "Profile category autocomplete"
+msgstr "Profiilin ryhmän automaattinen täydennys"
+
+#: modules/profile/profile.module:108
+msgid "Edit field"
+msgstr "Muokkaa kenttää"
+
+#: modules/profile/profile.module:115
+msgid "Delete field"
+msgstr "Poista kenttä"
+
+#: modules/profile/profile.module:122
+msgid "Profile autocomplete"
+msgstr "Profiilin automaattinen täydennys"
+
+#: modules/profile/profile.install:27
+msgid "Stores profile field information."
+msgstr "Varastoi profiilikenttien tiedot."
+
+#: modules/profile/profile.install:32
+msgid "Primary Key: Unique profile field ID."
+msgstr "Pääavain: Profiilikentän ainutkertainen tunnus."
+
+#: modules/profile/profile.install:38
+msgid "Title of the field shown to the end user."
+msgstr "Kentän otsikko sellaisena, kuin se näytetään käyttäjille."
+
+#: modules/profile/profile.install:45
+msgid "Internal name of the field used in the form HTML and URLs."
+msgstr ""
+"Kentän sisäinen nimi, jota käytetään lomakkeen HTML-koodissa ja osoitteissa."
+
+#: modules/profile/profile.install:50
+msgid "Explanation of the field to end users."
+msgstr "Kentän selitys käyttäjiä varten."
+
+#: modules/profile/profile.install:56
+msgid "Profile category that the field will be grouped under."
+msgstr "Ryhmä, johon kenttä kuuluu."
+
+#: modules/profile/profile.install:62
+msgid "Title of page used for browsing by the field's value"
+msgstr "Kentän arvon selaussivun otsikko"
+
+#: modules/profile/profile.install:68
+msgid "Type of form field."
+msgstr "Kentän tyyppi."
+
+#: modules/profile/profile.install:75
+msgid "Weight of field in relation to other profile fields."
+msgstr "Kentän paino suhteessa muihin kenttiin."
+
+#: modules/profile/profile.install:82
+msgid "Whether the user is required to enter a value. (0 = no, 1 = yes)"
+msgstr "Onko käytettäjän syötettävä arvo? (0 = ei, 1 = kyllä)"
+
+#: modules/profile/profile.install:89
+msgid ""
+"Whether the field is visible in the user registration form. (1 = yes, 0 = no)"
+msgstr "Näkyy rekisteröintilomakkeessa."
+
+#: modules/profile/profile.install:96
+msgid ""
+"The level of visibility for the field. (0 = hidden, 1 = private, 2 = public "
+"on profile but not member list pages, 3 = public on profile and list pages)"
+msgstr ""
+"Kentän näkyvyyden taso. (0 = piilotettu, 1 = yksityinen, 2 = julkinen, "
+"näytetään profiilissa mutta ei listoissa, 3 = julkinen, näytetään sekä "
+"profiilissa että listoissa)"
+
+#: modules/profile/profile.install:103
+msgid "Whether form auto-completion is enabled. (0 = disabled, 1 = enabled)"
+msgstr "Onko automaattinen täydennys käytössä? (0 = ei käytössä, 1 = käytössä)"
+
+#: modules/profile/profile.install:108
+msgid "List of options to be used in a list selection field."
+msgstr "Valintalistassa käytettävien vaihtoehtojen lista."
+
+#: modules/profile/profile.install:117
+msgid "Stores values for profile fields."
+msgstr "Varastoi profiilikenttien arvot."
+
+#: modules/profile/profile.install:124
+msgid "The {profile_fields}.fid of the field."
+msgstr "Kentän {profile_fields}.fid."
+
+#: modules/profile/profile.install:131
+msgid "The {users}.uid of the profile user."
+msgstr "Profiilin käyttäjän {users}.uid."
+
+#: modules/profile/profile.install:136
+msgid "The value for the field."
+msgstr "Kentän arvo."

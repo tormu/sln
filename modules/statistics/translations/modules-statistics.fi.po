@@ -1,0 +1,514 @@
+# translation of general.po to
+# Finnish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  common.inc,v 1.602 2006/12/15 07:47:08 unconed
+#  system.module,v 1.428 2006/12/15 08:53:56 unconed
+#  upload.module,v 1.145 2006/12/14 13:30:59 dries
+#  image.inc,v 1.16 2006/12/12 01:03:34 unconed
+#  unicode.inc,v 1.23 2006/12/06 16:15:52 dries
+#  system.install,v 1.60 2006/12/13 10:41:56 unconed
+#  database.mysql.inc,v 1.64 2006/12/04 11:06:29 dries
+#  database.mysqli.inc,v 1.30 2006/12/04 11:06:29 dries
+#  file.inc,v 1.88 2006/12/11 16:45:17 dries
+#  user.module,v 1.731 2006/12/12 10:11:43 unconed
+#  form.inc,v 1.166 2006/12/12 10:01:38 unconed
+#  filter.module,v 1.157 2006/12/14 10:14:05 unconed
+#  locale.inc,v 1.101 2006/12/10 09:54:32 unconed
+#  blogapi.module,v 1.99 2006/11/21 20:14:17 dries
+#  forum.module,v 1.371 2006/12/10 20:34:02 dries
+#  block.module,v 1.244 2006/12/11 23:00:09 unconed
+#  book.module,v 1.403 2006/11/30 02:04:31 drumm
+#  comment.module,v 1.515 2006/12/15 01:33:00 unconed
+#  contact.module,v 1.72 2006/12/04 10:43:34 dries
+#  menu.module,v 1.99 2006/11/30 01:55:31 drumm
+#  content_types.inc,v 1.18 2006/12/05 05:47:37 dries
+#  node.module,v 1.752 2006/12/14 14:07:57 dries
+#  path.module,v 1.103 2006/11/26 02:20:01 drumm
+#  profile.module,v 1.185 2006/12/13 23:50:26 unconed
+#  drupal.module,v 1.137 2006/12/11 16:57:42 dries
+#  statistics.module,v 1.246 2006/11/26 02:20:01 drumm
+#  aggregator.module,v 1.323 2006/12/14 13:41:02 dries
+#  taxonomy.module,v 1.328 2006/11/30 07:05:57 unconed
+#  watchdog.module,v 1.164 2006/12/10 09:54:35 unconed
+#  locale.module,v 1.154 2006/12/01 22:47:53 unconed
+#  search.module,v 1.206 2006/12/11 16:57:42 dries
+#  search.info,v 1.3 2006/11/21 20:55:35 dries
+#  menu.inc,v 1.143 2006/12/12 06:02:52 unconed
+#  chameleon.theme,v 1.56 2006/11/29 06:36:12 drumm
+#  pager.inc,v 1.59 2006/10/15 19:57:05 dries
+#  theme.inc,v 1.332 2006/12/15 01:06:33 unconed
+#  phptemplate.engine,v 1.53 2006/12/13 23:22:57 unconed
+#  poll.module,v 1.221 2006/12/10 20:34:03 dries
+#  legacy.module,v 1.15 2006/11/21 20:14:18 dries
+#  blog.module,v 1.271 2006/12/10 20:34:02 dries
+#  tracker.module,v 1.141 2006/12/10 09:54:34 unconed
+#  aggregator.info,v 1.3 2006/11/21 20:55:33 dries
+#  blog.info,v 1.3 2006/11/21 20:55:33 dries
+#  blogapi.info,v 1.3 2006/11/21 20:55:33 dries
+#  book.info,v 1.3 2006/11/21 20:55:33 dries
+#  color.info,v 1.2 2006/11/21 20:55:34 dries
+#  comment.info,v 1.3 2006/11/21 20:55:34 dries
+#  contact.info,v 1.3 2006/11/21 20:55:34 dries
+#  drupal.info,v 1.3 2006/11/21 20:55:34 dries
+#  forum.info,v 1.4 2006/11/21 20:55:34 dries
+#  help.info,v 1.3 2006/11/21 20:55:34 dries
+#  legacy.info,v 1.3 2006/11/21 20:55:34 dries
+#  locale.info,v 1.3 2006/11/21 20:55:34 dries
+#  menu.info,v 1.3 2006/11/21 20:55:34 dries
+#  path.info,v 1.3 2006/11/21 20:55:34 dries
+#  ping.info,v 1.3 2006/11/21 20:55:35 dries
+#  poll.info,v 1.3 2006/11/21 20:55:35 dries
+#  profile.info,v 1.3 2006/11/21 20:55:35 dries
+#  statistics.info,v 1.3 2006/11/21 20:55:35 dries
+#  taxonomy.info,v 1.3 2006/11/21 20:55:35 dries
+#  throttle.info,v 1.3 2006/11/21 20:55:35 dries
+#  tracker.info,v 1.3 2006/11/21 20:55:35 dries
+#  upload.info,v 1.3 2006/11/21 20:55:35 dries
+#  block.info,v 1.3 2006/11/21 20:55:33 dries
+#  filter.info,v 1.3 2006/11/21 20:55:34 dries
+#  node.info,v 1.3 2006/11/21 20:55:34 dries
+#  system.info,v 1.3 2006/11/21 20:55:35 dries
+#  user.info,v 1.3 2006/11/21 20:55:36 dries
+#  watchdog.info,v 1.3 2006/11/21 20:55:36 dries
+#  throttle.module,v 1.71 2006/12/04 10:56:21 dries
+#  color.module,v 1.12 2006/12/10 09:54:33 unconed
+#  help.module,v 1.67 2006/12/10 09:54:33 unconed
+#  color.inc,v 1.2 2006/12/06 16:32:54 dries
+#  database.pgsql.inc,v 1.42 2006/12/14 13:26:41 dries
+#  install.inc,v 1.30 2006/12/08 11:54:04 dries
+#  tablesort.inc,v 1.43 2006/12/01 08:50:33 dries
+#  xmlrpc.inc,v 1.38 2006/09/03 08:21:18 dries
+#  xmlrpcs.inc,v 1.21 2006/07/05 11:45:51 dries
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#  ping.module,v 1.45 2006/11/21 20:14:18 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-02-04 13:47+0100\n"
+"PO-Revision-Date: 2008-03-10 11:44+0200\n"
+"Last-Translator: Ilari Sani <ilari.sani@assemblix.net>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/statistics/statistics.admin.inc:14
+#: modules/statistics/statistics.pages.inc:46
+msgid "Timestamp"
+msgstr "Ajankohta"
+
+#: modules/statistics/statistics.admin.inc:15;51
+#: modules/statistics/statistics.pages.inc:47
+msgid "Page"
+msgstr "Sivu"
+
+#: modules/statistics/statistics.admin.inc:29
+#: modules/statistics/statistics.pages.inc:25;56
+msgid "details"
+msgstr "yksityiskohdat"
+
+#: modules/statistics/statistics.admin.inc:33;64;97;129
+#: modules/statistics/statistics.pages.inc:29;60
+msgid "No statistics available."
+msgstr "Tilastoja ei ole saatavilla."
+
+#: modules/statistics/statistics.admin.inc:50;79;115
+msgid "Hits"
+msgstr "Osumat"
+
+#: modules/statistics/statistics.admin.inc:52
+msgid "Average page generation time"
+msgstr "Keskimääräinen sivun luontinopeus"
+
+#: modules/statistics/statistics.admin.inc:53;81
+msgid "Total page generation time"
+msgstr "Sivujen luomisen kokonaisaika"
+
+#: modules/statistics/statistics.admin.inc:60
+msgid "%time ms"
+msgstr "%time ms"
+
+#: modules/statistics/statistics.admin.inc:67
+msgid "Top pages in the past %interval"
+msgstr "Suosituimmat sivut, viimeiset %interval"
+
+#: modules/statistics/statistics.admin.inc:92
+msgid "unban"
+msgstr "poista panna"
+
+#: modules/statistics/statistics.admin.inc:92
+msgid "ban"
+msgstr "aseta pannaan"
+
+#: modules/statistics/statistics.admin.inc:100
+msgid "Top visitors in the past %interval"
+msgstr "Ahkerimmat vierailijat, viimeiset %interval"
+
+#: modules/statistics/statistics.admin.inc:112
+msgid "Top referrers in the past %interval"
+msgstr "Ahkerimmat viittaajat, viimeiset %interval"
+
+#: modules/statistics/statistics.admin.inc:116
+msgid "Url"
+msgstr "Osoite"
+
+#: modules/statistics/statistics.admin.inc:117
+msgid "Last visit"
+msgstr "Viimeisin vierailu"
+
+#: modules/statistics/statistics.admin.inc:188
+#: modules/statistics/statistics.module:136
+msgid "Access log settings"
+msgstr "Osumien kirjaamisen asetukset"
+
+#: modules/statistics/statistics.admin.inc:191
+msgid "Enable access log"
+msgstr "Ota käyttöön osumien kirjaaminen"
+
+#: modules/statistics/statistics.admin.inc:194
+msgid "Log each page access. Required for referrer statistics."
+msgstr ""
+"Kirjaa jokainen osuma lokiin. Tätä vaaditaan viittausten tilastointiin."
+
+#: modules/statistics/statistics.admin.inc:198
+msgid "Discard access logs older than"
+msgstr "Poista lokimerkinnät, jotka ovat vanhempia kuin"
+
+#: modules/statistics/statistics.admin.inc:201
+msgid ""
+"Older access log entries (including referrer statistics) will be "
+"automatically discarded. (Requires a correctly configured <a href=\"@cron"
+"\">cron maintenance task</a>.)"
+msgstr ""
+"Vanhemmat lokimerkinnät (myös viittaustilastot) poistetaan automaattisesti. "
+"(Tämä vaatii säännöllisen <a href=\"@cron\">cron-ajon</a>.)"
+
+#: modules/statistics/statistics.admin.inc:206
+msgid "Content viewing counter settings"
+msgstr "Lukukertojen laskurin asetukset"
+
+#: modules/statistics/statistics.admin.inc:209
+msgid "Count content views"
+msgstr "Laske kirjoitusten lukukerrat"
+
+#: modules/statistics/statistics.admin.inc:212
+msgid "Increment a counter each time content is viewed."
+msgstr "Kasvata kirjoituksen laskuria joka kerta kun se luetaan."
+
+#: modules/statistics/statistics.module:15
+msgid ""
+"The statistics module keeps track of numerous site usage statistics, "
+"including the number of times, and from where, each of your posts is viewed. "
+"These statistics are useful in determining how users are interacting with "
+"each other and with your site, and are required for the display of some "
+"Drupal blocks."
+msgstr ""
+"Tilastomoduuli pitää kirjaa sivuston tilastoista, kuten kuinka monesti ja "
+"mistä kirjoituksia luetaan. Tilastot kertovat, mitä käyttäjät tekevät "
+"toistensa ja sivuston kanssa. Joidenkin Drupalin lohkojen näyttäminen vaatii "
+"tilastomoduulin."
+
+#: modules/statistics/statistics.module:16
+msgid "The statistics module provides:"
+msgstr "Tilastomoduuli tarjoaa:"
+
+#: modules/statistics/statistics.module:17
+msgid ""
+"a counter for each post on your site that increments each time the post is "
+"viewed. (Enable <em>Count content views</em> on the <a href=\"@accesslog"
+"\">access log settings page</a>, and determine if the post access counters "
+"should be visible to any user roles on the <a href=\"@permissions"
+"\">permissions page</a>.)"
+msgstr ""
+"Kirjoituskohtaisen laskurin, jonka lukua kasvatetaan joka kerta kun "
+"kirjoitus luetaan. (Ota käyttöön <em>Laske sisällön lukukerrat</em> <a href="
+"\"@accesslog\">Tilastoinnin asetuksista</a>. Valitse näytetäänkö "
+"kirjoitusten lukukerrat eri rooleille <a href=\"@permissions"
+"\">käyttöoikeussivulta</a>.)"
+
+#: modules/statistics/statistics.module:18
+msgid ""
+"a <a href=\"@recent-hits\">recent hits</a> log that displays information "
+"about the latest activity on your site, including the URL and title of the "
+"page accessed, the user name (if available) and IP address of the accessing "
+"party."
+msgstr ""
+"<a href=\"@recent-hits\">Uusimmat osumat -lokin, joka näyttää tietoja "
+"sivustosi käytöstä (kuten luetun sivun osoite ja otsikko sekä käyttäjän "
+"mahdollinen nimi ja IP-osoite)."
+
+#: modules/statistics/statistics.module:19
+msgid ""
+"a <a href=\"@top-referrers\">top referrers</a> log that displays the "
+"referring parties for your site visits (where your visitors came from)."
+msgstr ""
+"<a href=\"@top-referrers\">Ahkerimmat viittaajat</a> -lokin, joka näyttää "
+"sivustollesi viitannet sivut (eli mistä käyttäjät tulevat)."
+
+#: modules/statistics/statistics.module:20
+msgid ""
+"a <a href=\"@top-pages\">top pages</a> log that displays site content in "
+"descending order by number of views."
+msgstr ""
+"<a href=\"@top-pages\">Suosituimmat sivut</a> -lokin, joka näyttää sivuston "
+"sivut järjestettynä lukukertojen mukaan."
+
+#: modules/statistics/statistics.module:21
+msgid ""
+"a <a href=\"@top-visitors\">top visitors</a> log that displays the most "
+"active users on your site."
+msgstr ""
+"<a href=\"@top-visitors\">Ahkerimmat kävijät</a> -lokin, joka näyttää "
+"sivustollasi useimmin vierailevat käyttäjät."
+
+#: modules/statistics/statistics.module:22
+msgid ""
+"a <em>Popular content</em> block that displays the day's most viewed "
+"content, the all-time most viewed content, and the last content viewed. "
+"(Enable the <em>Popular content</em> block on the <a href=\"@blocks\">blocks "
+"administration page</a>.)"
+msgstr ""
+"<em>Suosittu sisältö</em> -lohkon, joka näyttää päivän ja kaikkien aikojen "
+"suosituimmat sivut, sekä viimeksi katsellut sivut. (Kytke <em>Popular "
+"content</em> -lohko käyttöön <a href=\"@blocks\">lohkojen ylläpitosivulta</"
+"a>.)"
+
+#: modules/statistics/statistics.module:23
+msgid "Configuring the statistics module"
+msgstr "Tilastomoduulin asetukset"
+
+#: modules/statistics/statistics.module:24
+msgid ""
+"When the <em>Enable access log</em> setting on the <a href=\"@accesslog"
+"\">access log settings page</a> is enabled, data about every page accessed "
+"(including the remote host's IP address, referrer, node accessed, and user "
+"name) is stored in the access log. The access log must be enabled for the <a "
+"href=\"@recent-hits\">recent hits</a>, <a href=\"@top-referrers\">top "
+"referrers</a>, <a href=\"@top-pages\">top pages</a>, and <a href=\"@top-"
+"visitors\">top visitors</a> log pages to function. Enabling the access log "
+"adds one additional database call per page displayed by Drupal."
+msgstr ""
+"Kun <em>Ota käyttöön osumien kirjaus</em> on valittuna  <a href=\"@accesslog"
+"\">osumien kirjaamisen asetussivulla</a>, käyttäjän IP-osoite, "
+"viittaustiedot, luettu kirjoitus, ja käyttäjän nimi tallennetaan "
+"osumalokiin. Lokin täytyy olla käytössä, jotta <a href=\"@recent-hits"
+"\">Uusimmat osumat</a>, <a href=\"@top-pages\">Suosituimmat sivut</a> ja <a "
+"href=\"@top-visitors\">Ahkerimmat kävijät</a> -sivut toimivat. Lokin "
+"käyttäminen vaatii yhden tietokantakyselyn joka kerta kun Drupal näyttää "
+"jonkin sivun."
+
+#: modules/statistics/statistics.module:25
+msgid ""
+"The <em>Discard access logs older than</em> setting on the <a href="
+"\"@accesslog\">access log settings page</a> specifies the length of time "
+"entries are retained in the access log before they are deleted. Automatic "
+"access log entry deletion requires a correctly configured <a href=\"@cron"
+"\">cron maintenance task</a>."
+msgstr ""
+"<em> Poista lokimerkinnät, jotka ovat vanhempia kuin</em> -asetus <a href="
+"\"@accesslog\">osumien kirjaamisen asetussivulla</a> määrittää, kuinka kauan "
+"merkinnät säilytetään lokissa ennen kuin ne poistetaan. Merkintöjen "
+"automaattinen poistaminen vaatii säännöllisen <a href=\"@cron\">cron-ajon</"
+"a>."
+
+#: modules/statistics/statistics.module:26
+msgid ""
+"The <em>Count content views</em> setting on the <a href=\"@accesslog"
+"\">access log settings page</a> enables a counter for each post on your site "
+"that increments each time the post is viewed. This option must be enabled to "
+"provide post-specific access counts. Enabling this option adds one "
+"additional database call per each post displayed by Drupal."
+msgstr ""
+"<em>Laske kirjoitusten lukukerrat</em> -asetus <a href=\"@accesslog"
+"\">osumien kirjaamisen asetussivulla</a> ottaa käyttöön kirjoituskohtaisen "
+"laskurin, jota kasvatetaan joka kerta, kun kirjoitusta luetaan. Tämä "
+"toiminto näyttää lukukertojen määrän kirjoitusten yhteydessä. Toiminnon "
+"käyttäminen vaatii yhden ylimääräisen tietokantakyselyn joka kerta kun "
+"Drupal näyttää jonkin kirjoituksen."
+
+#: modules/statistics/statistics.module:27
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@statistics"
+"\">Statistics module</a>."
+msgstr "Lue käsikirjasta lisää  <a href=\"@statistics\">tilastoista</a>."
+
+#: modules/statistics/statistics.module:30
+msgid ""
+"Settings for the statistical information that Drupal will keep about the "
+"site. See <a href=\"@statistics\">site statistics</a> for the actual "
+"information."
+msgstr ""
+"Drupalin keräämien tilastotietojen asetukset. Lue <a href=\"@statistics"
+"\">varsinaiset tilastot</a> tilastosivuilta."
+
+#: modules/statistics/statistics.module:32
+msgid "This page displays the site's most recent hits."
+msgstr "Tämä sivu näyttää sivuston uusimmat osumat."
+
+#: modules/statistics/statistics.module:34
+msgid ""
+"This page displays all external referrers, or external references to your "
+"website."
+msgstr ""
+"Tämä sivu näyttää kaikki ulkoiset viittaajat, eli mistä käyttäjät tulevat "
+"sivustollesi."
+
+#: modules/statistics/statistics.module:36
+msgid ""
+"When you ban a visitor, you prevent the visitor's IP address from accessing "
+"your site. Unlike blocking a user, banning a visitor works even for "
+"anonymous users. This is most commonly used to block resource-intensive bots "
+"or web crawlers."
+msgstr ""
+"Kun asetat vierailijan pannaan, estät käynnit sivustolla vierailijan IP-"
+"osoitteesta. Tämä tehoaa myös anonyymeihin käyttäjiin, toisin kuin "
+"käyttäjätunnuksen sulkeminen. Tätä käytetään tavallisesti estämään "
+"suorituskykyä kuluttavien latausohjelmien käyttö (bot, crawler)."
+
+#: modules/statistics/statistics.module:246;288
+msgid "Popular content"
+msgstr "Suosittu sisältö"
+
+#: modules/statistics/statistics.module:256
+msgid "Number of day's top views to display"
+msgstr "Päivän suosituimpien määrä"
+
+#: modules/statistics/statistics.module:256
+msgid "How many content items to display in \"day\" list."
+msgstr "Kuinka monta kirjoitusta näytetään \"Tämänpäiväiset\" -listassa"
+
+#: modules/statistics/statistics.module:257
+msgid "Number of all time views to display"
+msgstr "Kaikkien aikojen suosituimpien määrä"
+
+#: modules/statistics/statistics.module:257
+msgid "How many content items to display in \"all time\" list."
+msgstr "Montako kirjoitusta näytetään \"Kaikkiaan\"-listassa?"
+
+#: modules/statistics/statistics.module:258
+msgid "Number of most recent views to display"
+msgstr "Viimeksi katsottujen määrä"
+
+#: modules/statistics/statistics.module:258
+msgid "How many content items to display in \"recently viewed\" list."
+msgstr "Montako kirjoitusta näytetään \"Viimeksi katsottu\" -listassa?"
+
+#: modules/statistics/statistics.module:272
+msgid "Today's:"
+msgstr "Tämänpäiväiset:"
+
+#: modules/statistics/statistics.module:277
+msgid "All time:"
+msgstr "Kaikkiaan:"
+
+#: modules/statistics/statistics.module:282
+msgid "Last viewed:"
+msgstr "Viimeksi luettu:"
+
+#: modules/statistics/statistics.module:85
+msgid "1 read"
+msgid_plural "@count reads"
+msgstr[0] "Luettu kerran"
+msgstr[1] "Luettu @count kertaa"
+
+#: modules/statistics/statistics.module:72
+msgid "access statistics"
+msgstr "tilastojen tarkastelu"
+
+#: modules/statistics/statistics.module:72
+msgid "view post access counter"
+msgstr "lukukertojen näyttäminen kirjoitusten yhteydessä"
+
+#: modules/statistics/statistics.module:97
+msgid "Recent hits"
+msgstr "Uusimmat osumat"
+
+#: modules/statistics/statistics.module:98
+msgid "View pages that have recently been visited."
+msgstr "Tarkastele sivuja, joilla on vierailtu äskettäin."
+
+#: modules/statistics/statistics.module:104
+msgid "Top pages"
+msgstr "Suosituimmat sivut"
+
+#: modules/statistics/statistics.module:105
+msgid "View pages that have been hit frequently."
+msgstr "Tarkastele sivuja, joilla vieraillaan usein."
+
+#: modules/statistics/statistics.module:112
+msgid "Top visitors"
+msgstr "Ahkerimmat kävijät"
+
+#: modules/statistics/statistics.module:113
+msgid "View visitors that hit many pages."
+msgstr "Tarkastele kävijöitä, jotka vierailevat monilla sivuilla."
+
+#: modules/statistics/statistics.module:120
+msgid "Top referrers"
+msgstr "Ahkerimmat viittaajat"
+
+#: modules/statistics/statistics.module:121
+msgid "View top referrers."
+msgstr "Tarkastele ahkerimpia käyttäjiä."
+
+#: modules/statistics/statistics.module:128
+msgid "View access log."
+msgstr "Tarkastele osumien lokitietoja."
+
+#: modules/statistics/statistics.module:137
+msgid "Control details about what and how your site logs."
+msgstr "Säädä, mitä tietoja sivustosi kerää sivujen lukemisesta."
+
+#: modules/statistics/statistics.module:146
+msgid "Track page visits"
+msgstr "Seuraa sivujen lukemista"
+
+#: modules/statistics/statistics.module:0
+msgid "statistics"
+msgstr "tilastot"
+
+#: modules/statistics/statistics.install:52
+msgid "Stores site access information for statistics."
+msgstr "Varastoi tilastotietoja sivuston käytöstä."
+
+#: modules/statistics/statistics.install:57
+msgid "Primary Key: Unique accesslog ID."
+msgstr "Ensisijainen avain: käyttölokin ainutkertainen tunniste."
+
+#: modules/statistics/statistics.install:64
+msgid "Browser session ID of user that visited page."
+msgstr "Sivulla käyneen käyttäjän selainistunnon tunniste."
+
+#: modules/statistics/statistics.install:70
+msgid "Title of page visited."
+msgstr "Luetun sivun osoite."
+
+#: modules/statistics/statistics.install:76
+msgid "Internal path to page visited (relative to Drupal root.)"
+msgstr "Luetun sivun sisäinen polku (suhteessa Drupalin juureen)."
+
+#: modules/statistics/statistics.install:82
+msgid "Referrer URI."
+msgstr "Viittaajan osoite."
+
+#: modules/statistics/statistics.install:88
+msgid "Hostname of user that visited the page."
+msgstr "Vierailijan isäntänimi."
+
+#: modules/statistics/statistics.install:95
+msgid "User {users}.uid that visited the page."
+msgstr "Sivulla vierailleen käyttäjän {users}.uid."
+
+#: modules/statistics/statistics.install:102
+msgid "Time in milliseconds that the page took to load."
+msgstr "Sivun lataamisessa kestänyt aika millisekunteina."
+
+#: modules/statistics/statistics.install:109
+msgid "Timestamp of when the page was visited."
+msgstr "Vierailun aikaleima."

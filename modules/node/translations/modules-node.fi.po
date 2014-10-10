@@ -1,0 +1,1430 @@
+# translation of general.po to
+# Finnish translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  common.inc,v 1.602 2006/12/15 07:47:08 unconed
+#  system.module,v 1.428 2006/12/15 08:53:56 unconed
+#  upload.module,v 1.145 2006/12/14 13:30:59 dries
+#  image.inc,v 1.16 2006/12/12 01:03:34 unconed
+#  unicode.inc,v 1.23 2006/12/06 16:15:52 dries
+#  system.install,v 1.60 2006/12/13 10:41:56 unconed
+#  database.mysql.inc,v 1.64 2006/12/04 11:06:29 dries
+#  database.mysqli.inc,v 1.30 2006/12/04 11:06:29 dries
+#  file.inc,v 1.88 2006/12/11 16:45:17 dries
+#  user.module,v 1.731 2006/12/12 10:11:43 unconed
+#  form.inc,v 1.166 2006/12/12 10:01:38 unconed
+#  filter.module,v 1.157 2006/12/14 10:14:05 unconed
+#  locale.inc,v 1.101 2006/12/10 09:54:32 unconed
+#  blogapi.module,v 1.99 2006/11/21 20:14:17 dries
+#  forum.module,v 1.371 2006/12/10 20:34:02 dries
+#  block.module,v 1.244 2006/12/11 23:00:09 unconed
+#  book.module,v 1.403 2006/11/30 02:04:31 drumm
+#  comment.module,v 1.515 2006/12/15 01:33:00 unconed
+#  contact.module,v 1.72 2006/12/04 10:43:34 dries
+#  menu.module,v 1.99 2006/11/30 01:55:31 drumm
+#  content_types.inc,v 1.18 2006/12/05 05:47:37 dries
+#  node.module,v 1.752 2006/12/14 14:07:57 dries
+#  path.module,v 1.103 2006/11/26 02:20:01 drumm
+#  profile.module,v 1.185 2006/12/13 23:50:26 unconed
+#  drupal.module,v 1.137 2006/12/11 16:57:42 dries
+#  statistics.module,v 1.246 2006/11/26 02:20:01 drumm
+#  aggregator.module,v 1.323 2006/12/14 13:41:02 dries
+#  taxonomy.module,v 1.328 2006/11/30 07:05:57 unconed
+#  watchdog.module,v 1.164 2006/12/10 09:54:35 unconed
+#  locale.module,v 1.154 2006/12/01 22:47:53 unconed
+#  search.module,v 1.206 2006/12/11 16:57:42 dries
+#  search.info,v 1.3 2006/11/21 20:55:35 dries
+#  menu.inc,v 1.143 2006/12/12 06:02:52 unconed
+#  chameleon.theme,v 1.56 2006/11/29 06:36:12 drumm
+#  pager.inc,v 1.59 2006/10/15 19:57:05 dries
+#  theme.inc,v 1.332 2006/12/15 01:06:33 unconed
+#  phptemplate.engine,v 1.53 2006/12/13 23:22:57 unconed
+#  poll.module,v 1.221 2006/12/10 20:34:03 dries
+#  legacy.module,v 1.15 2006/11/21 20:14:18 dries
+#  blog.module,v 1.271 2006/12/10 20:34:02 dries
+#  tracker.module,v 1.141 2006/12/10 09:54:34 unconed
+#  aggregator.info,v 1.3 2006/11/21 20:55:33 dries
+#  blog.info,v 1.3 2006/11/21 20:55:33 dries
+#  blogapi.info,v 1.3 2006/11/21 20:55:33 dries
+#  book.info,v 1.3 2006/11/21 20:55:33 dries
+#  color.info,v 1.2 2006/11/21 20:55:34 dries
+#  comment.info,v 1.3 2006/11/21 20:55:34 dries
+#  contact.info,v 1.3 2006/11/21 20:55:34 dries
+#  drupal.info,v 1.3 2006/11/21 20:55:34 dries
+#  forum.info,v 1.4 2006/11/21 20:55:34 dries
+#  help.info,v 1.3 2006/11/21 20:55:34 dries
+#  legacy.info,v 1.3 2006/11/21 20:55:34 dries
+#  locale.info,v 1.3 2006/11/21 20:55:34 dries
+#  menu.info,v 1.3 2006/11/21 20:55:34 dries
+#  path.info,v 1.3 2006/11/21 20:55:34 dries
+#  ping.info,v 1.3 2006/11/21 20:55:35 dries
+#  poll.info,v 1.3 2006/11/21 20:55:35 dries
+#  profile.info,v 1.3 2006/11/21 20:55:35 dries
+#  statistics.info,v 1.3 2006/11/21 20:55:35 dries
+#  taxonomy.info,v 1.3 2006/11/21 20:55:35 dries
+#  throttle.info,v 1.3 2006/11/21 20:55:35 dries
+#  tracker.info,v 1.3 2006/11/21 20:55:35 dries
+#  upload.info,v 1.3 2006/11/21 20:55:35 dries
+#  block.info,v 1.3 2006/11/21 20:55:33 dries
+#  filter.info,v 1.3 2006/11/21 20:55:34 dries
+#  node.info,v 1.3 2006/11/21 20:55:34 dries
+#  system.info,v 1.3 2006/11/21 20:55:35 dries
+#  user.info,v 1.3 2006/11/21 20:55:36 dries
+#  watchdog.info,v 1.3 2006/11/21 20:55:36 dries
+#  throttle.module,v 1.71 2006/12/04 10:56:21 dries
+#  color.module,v 1.12 2006/12/10 09:54:33 unconed
+#  help.module,v 1.67 2006/12/10 09:54:33 unconed
+#  color.inc,v 1.2 2006/12/06 16:32:54 dries
+#  database.pgsql.inc,v 1.42 2006/12/14 13:26:41 dries
+#  install.inc,v 1.30 2006/12/08 11:54:04 dries
+#  tablesort.inc,v 1.43 2006/12/01 08:50:33 dries
+#  xmlrpc.inc,v 1.38 2006/09/03 08:21:18 dries
+#  xmlrpcs.inc,v 1.21 2006/07/05 11:45:51 dries
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#  ping.module,v 1.45 2006/11/21 20:14:18 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2008-02-04 13:47+0100\n"
+"PO-Revision-Date: 2008-03-10 11:52+0200\n"
+"Last-Translator: Ilari Sani <ilari.sani@assemblix.net>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Finnish\n"
+"X-Poedit-Country: FINLAND\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: modules/node/content_types.inc:42
+msgid "No content types available."
+msgstr "Yhtään sisällön tyyppiä ei ole saatavilla."
+
+#: modules/node/content_types.inc:75
+msgid ""
+"The human-readable name of this content type. This text will be displayed as "
+"part of the list on the <em>create content</em> page. It is recommended that "
+"this name begin with a capital letter and contain only letters, numbers, and "
+"<strong>spaces</strong>. This name must be unique."
+msgstr ""
+"Sisällön tyypin nimi käyttäjää varten.  Tämä teksti näytetään <em>Luo "
+"sisältöä</em> -sivun listalla. Nimen pitäisi alkaa isolla kirjaimella ja "
+"sisältää vain kirjaimia, numeroita ja <strong>välilyöntejä</strong>. Nimi ei "
+"saa olla jo käytössä."
+
+#: modules/node/content_types.inc:86
+msgid ""
+"The machine-readable name of this content type. This text will be used for "
+"constructing the URL of the <em>create content</em> page for this content "
+"type. This name must contain only lowercase letters, numbers, and "
+"underscores. Underscores will be converted into hyphens when constructing "
+"the URL of the <em>create content</em> page. This name must be unique."
+msgstr ""
+"Sisällön tyypin nimi järjestelmää varten. Tätä tekstiä käytetään tämän "
+"tyyppisen sisällön <em>Luo sisältöä</em> -sivun osoitteessa. Nimen voi "
+"sisältää vain pieniä kirjaimia, numeroita ja alaviivoja. Alaviivat "
+"muunnetaan väliviivoiksi, kun osoite muodostetaan. Nimi ei saa olla jo "
+"käytössä."
+
+#: modules/node/content_types.inc:98
+msgid ""
+"The machine-readable name of this content type. This field cannot be "
+"modified for system-defined content types."
+msgstr ""
+"Sisällön tyypin nimi järjestelmää varten.  Kenttää ei voi muokata, jos "
+"järjestelmä on määritellyt tyypin."
+
+#: modules/node/content_types.inc:106
+msgid ""
+"A brief description of this content type. This text will be displayed as "
+"part of the list on the <em>create content</em> page."
+msgstr ""
+"Tyypin lyhyt kuvaus.  Tämä teksti näytetään <em>Luo sisältöä</em> -sivulla."
+
+#: modules/node/content_types.inc:111
+msgid "Submission form settings"
+msgstr "Lähetyslomakkeen asetukset"
+
+#: modules/node/content_types.inc:116
+msgid "Title field label"
+msgstr "Otsikkokentän nimi"
+
+#: modules/node/content_types.inc:125
+msgid "This content type does not have a title field."
+msgstr "Tällä sisällön tyypillä ei ole otsikkokenttää."
+
+#: modules/node/content_types.inc:129
+msgid "Body field label"
+msgstr "Runkokentän nimi"
+
+#: modules/node/content_types.inc:132
+msgid ""
+"To omit the body field for this content type, remove any text and leave this "
+"field blank."
+msgstr ""
+"Jollet halua, että tämän tyyppisessä sisällössä on runko, jätä tämä kenttä "
+"tyhjäksi."
+
+#: modules/node/content_types.inc:136
+msgid "Minimum number of words"
+msgstr "Sanojen minimimäärä"
+
+#: modules/node/content_types.inc:139
+msgid ""
+"The minimum number of words for the body field to be considered valid for "
+"this content type. This can be useful to rule out submissions that do not "
+"meet the site's standards, such as short test posts."
+msgstr ""
+"Sisällön rungossa pitää olla vähintään näin monta sanaa, tai se hylätään. "
+"Tällä tavoin voidaan torjua kirjoituksia jotka eivät vastaa sivuston "
+"laatutasoa, kuten lyhyet testikirjoitukset."
+
+#: modules/node/content_types.inc:143
+msgid "Explanation or submission guidelines"
+msgstr "Selitys tai ohjeet"
+
+#: modules/node/content_types.inc:145
+msgid ""
+"This text will be displayed at the top of the submission form for this "
+"content type. It is useful for helping or instructing your users."
+msgstr ""
+"Tämä teksti näytetään lähetyslomakkeen yläosassa.  Se voi sisältää neuvoja "
+"tai sääntöjä käyttäjille."
+
+#: modules/node/content_types.inc:149
+msgid "Workflow settings"
+msgstr "Työnkulun asetukset"
+
+#: modules/node/content_types.inc:154
+msgid "Default options"
+msgstr "Oletusasetukset"
+
+#: modules/node/content_types.inc:158 modules/node/node.pages.inc:212
+msgid "Promoted to front page"
+msgstr "Näytetään etusivulla"
+
+#: modules/node/content_types.inc:159 modules/node/node.pages.inc:217
+msgid "Sticky at top of lists"
+msgstr "Kiinnitä listojen alkuun"
+
+#: modules/node/content_types.inc:160 modules/node/node.pages.inc:156
+msgid "Create new revision"
+msgstr "Luo uusi versio"
+
+#: modules/node/content_types.inc:162
+msgid ""
+"Users with the <em>administer nodes</em> permission will be able to override "
+"these options."
+msgstr ""
+"Käyttäjät, joilla on <em>solmujen ylläpito</em> -oikeus voivat ohittaa nämä "
+"asetukset."
+
+#: modules/node/content_types.inc:192
+msgid "Save content type"
+msgstr "Tallenna sisällön tyyppi"
+
+#: modules/node/content_types.inc:200;282
+msgid "Delete content type"
+msgstr "Poista sisällön tyyppi"
+
+#: modules/node/content_types.inc:231
+msgid "The machine-readable name %type is already taken."
+msgstr "Järjestelmää varten tarkoitettu nimi %type on jo käytössä."
+
+#: modules/node/content_types.inc:234
+msgid ""
+"The machine-readable name must contain only lowercase letters, numbers, and "
+"underscores."
+msgstr ""
+"Järjestelmää varten tarkoitettu nimi voi sisältää vain pieniä kirjaimia, "
+"numeroita ja alaviivoja."
+
+#: modules/node/content_types.inc:239
+msgid "Invalid machine-readable name. Please enter a name other than %invalid."
+msgstr ""
+"Järjestelmää varten tarkoitettu nimi ei kelpaa. Anna jokin muu nimi kuin %"
+"invalid."
+
+#: modules/node/content_types.inc:246
+msgid "The human-readable name %name is already taken."
+msgstr "Käyttäjää varten tarkoitettu nimi %name on jo käytössä."
+
+#: modules/node/content_types.inc:326
+msgid "The content type %name has been reset to its default values."
+msgstr "Sisällön tyyppi %name on palautettu oletusarvoihinsa."
+
+#: modules/node/content_types.inc:331
+msgid "The content type %name has been updated."
+msgstr "Sisällön tyyppi %name on päivitetty."
+
+#: modules/node/content_types.inc:334
+msgid "The content type %name has been added."
+msgstr "Sisällön tyyppi %name on lisätty."
+
+#: modules/node/content_types.inc:383
+msgid "Are you sure you want to delete the content type %type?"
+msgstr "Haluatko varmasti poistaa sisällön tyypin %type?"
+
+#: modules/node/content_types.inc:403
+msgid "The content type %name has been deleted."
+msgstr "Sisällön tyyppi %name on poistettu."
+
+#: modules/node/content_types.inc:335 modules/node/node.module:0
+msgid "node"
+msgstr "solmu"
+
+#: modules/node/content_types.inc:335
+msgid "Added content type %name."
+msgstr "Lisätty sisällön tyyppi %name."
+
+#: modules/node/content_types.inc:404
+msgid "Deleted content type %name."
+msgstr "Poistettu sisällön tyyppi %name."
+
+#: modules/node/content_types.inc:350
+msgid "Changed the content type of 1 post from %old-type to %type."
+msgid_plural ""
+"Changed the content type of @count posts from %old-type to %type."
+msgstr[0] "1 kirjoitus muutettiin tyypistä %old-type tyypiksi %type."
+msgstr[1] "@count kirjoitusta muutettiin tyypistä %old-type tyypiksi %type."
+
+#: modules/node/content_types.inc:388
+msgid ""
+"<strong>Warning:</strong> there is currently 1 %type post on your site. It "
+"may not be able to be displayed or edited correctly, once you have removed "
+"this content type."
+msgid_plural ""
+"<strong>Warning:</strong> there are currently @count %type posts on your "
+"site. They may not be able to be displayed or edited correctly, once you "
+"have removed this content type."
+msgstr[0] ""
+"<strong>Varoitus:</strong> Sivustolla on tällä hetkellä 1 kirjoitus, jonka "
+"tyyppi on %type. Jos poistat tämän tyypin, sitä ei välttämättä voi näyttää "
+"tai muokata oikein."
+msgstr[1] ""
+"<strong>Varoitus:</strong> Sivustolla on tällä hetkellä @count kirjoitusta, "
+"joiden tyyppi on %type. Jos poistat tämän tyypin, niitä ei välttämättä voi "
+"näyttää tai muokata oikein."
+
+#: modules/node/node.admin.inc:16
+msgid ""
+"If the site is experiencing problems with permissions to content, you may "
+"have to rebuild the permissions cache. Possible causes for permission "
+"problems are disabling modules or configuration changes to permissions. "
+"Rebuilding will remove all privileges to posts, and replace them with "
+"permissions based on the current modules and settings."
+msgstr ""
+"Jos sivustolla on ongelmia sisällön pääsyoikeuksissa, pääsyoikeuksien "
+"välimuisti on ehkä rakennettava uudelleen. Mahdollisia syitä "
+"pääsyoikeusongelmiin ovat moduulien poiskytkeminen ja käyttöoikeusasetusten "
+"muokkaaminen. Välimuistin päivittäminen poistaa kaikki pääsyoikeudet "
+"kirjoituksista ja korvaa ne uusilla, nyt käytettävien moduulien ja asetusten "
+"mukaisilla oikeuksilla."
+
+#: modules/node/node.admin.inc:17
+msgid ""
+"Rebuilding may take some time if there is a lot of content or complex "
+"permission settings. After rebuilding has completed posts will automatically "
+"use the new permissions."
+msgstr ""
+"Uudelleen rakentaminen saattaa kestää kauan, jos sisältöä on paljon tai "
+"asetukset ovat monimutkaisia. Uudelleen rakentamisen jälkeen kirjoitukset "
+"käyttävät automaattisesti uusia pääsyoikeuksia."
+
+#: modules/node/node.admin.inc:21
+msgid "Node access status"
+msgstr "Solmujen pääsyoikeuksien tila"
+
+#: modules/node/node.admin.inc:26;70;80 modules/node/node.module:1425
+msgid "Rebuild permissions"
+msgstr "Rakenna pääsyoikeudet uudelleen"
+
+#: modules/node/node.admin.inc:31
+msgid "Number of posts on main page"
+msgstr "Etusivulla näytettävien kirjoitusten määrä"
+
+#: modules/node/node.admin.inc:33
+msgid ""
+"The default maximum number of posts to display per page on overview pages "
+"such as the main page."
+msgstr "Etusivulla ja muissa listoissa näytettävien kirjoitusten oletusmäärä."
+
+#: modules/node/node.admin.inc:36
+msgid "Length of trimmed posts"
+msgstr "Lyhennelmien pituus"
+
+#: modules/node/node.admin.inc:39
+msgid "200 characters"
+msgstr "200 merkkiä"
+
+#: modules/node/node.admin.inc:40
+msgid "400 characters"
+msgstr "400 merkkiä"
+
+#: modules/node/node.admin.inc:41
+msgid "600 characters"
+msgstr "600 merkkiä"
+
+#: modules/node/node.admin.inc:42
+msgid "800 characters"
+msgstr "800 merkkiä"
+
+#: modules/node/node.admin.inc:43
+msgid "1000 characters"
+msgstr "1000 merkkiä"
+
+#: modules/node/node.admin.inc:44
+msgid "1200 characters"
+msgstr "1200 merkkiä"
+
+#: modules/node/node.admin.inc:45
+msgid "1400 characters"
+msgstr "1400 merkkiä"
+
+#: modules/node/node.admin.inc:46
+msgid "1600 characters"
+msgstr "1600 merkkiä"
+
+#: modules/node/node.admin.inc:47
+msgid "1800 characters"
+msgstr "1800 merkkiä"
+
+#: modules/node/node.admin.inc:48
+msgid "2000 characters"
+msgstr "2000 merkkiä"
+
+#: modules/node/node.admin.inc:50
+msgid ""
+"The maximum number of characters used in the trimmed version of a post. "
+"Drupal will use this setting to determine at which offset long posts should "
+"be trimmed. The trimmed version of a post is typically used as a teaser when "
+"displaying the post on the main page, in XML feeds, etc. To disable teasers, "
+"set to 'Unlimited'. Note that this setting will only affect new or updated "
+"content and will not affect existing teasers."
+msgstr ""
+"Automaattisesti luotujen lyhennelmien pituus. Drupal katkaisee pitkät "
+"kirjoitukset tästä kohtaa. Lyhennelmiä käytetään esim. etusivulla ja RSS-"
+"syötteissä. Jos valitset \"Rajoittamaton\", kirjoituksia ei lyhennetä. Jos "
+"kirjoitat oman lyhennelmän, tätä asetusta ei käytetä. Huomaa myös, että tätä "
+"asetusta käytetään vain silloin, kun sisältöä luodaan tai päivitetään. Se ei "
+"vaikuta jo luotuihin lyhennelmiin."
+
+#: modules/node/node.admin.inc:55
+msgid "Preview post"
+msgstr "Esikatselu"
+
+#: modules/node/node.admin.inc:58
+msgid "Must users preview posts before submitting?"
+msgstr "Onko käyttäjien esikatseltava kirjoitusta ennen tallentamista?"
+
+#: modules/node/node.admin.inc:79
+msgid "Are you sure you want to rebuild the permissions on site content?"
+msgstr "Oletko varma, että haluat rakentaa sisällön pääsyoikeudet uudelleen?"
+
+#: modules/node/node.admin.inc:80
+msgid ""
+"This action rebuilds all permissions on site content, and may be a lengthy "
+"process. This action cannot be undone."
+msgstr ""
+"Tämä toiminto rakentaa kaikki sisällön pääsyoikeudet uudelleen, ja se voi "
+"kestää kauan. Tätä ei voi perua."
+
+#: modules/node/node.admin.inc:98
+msgid "Publish"
+msgstr "Julkaise"
+
+#: modules/node/node.admin.inc:103
+msgid "Unpublish"
+msgstr "Peru julkaisu"
+
+#: modules/node/node.admin.inc:108
+msgid "Promote to front page"
+msgstr "Näytä etusivulla"
+
+#: modules/node/node.admin.inc:113
+msgid "Demote from front page"
+msgstr "Poista etusivulta"
+
+#: modules/node/node.admin.inc:118
+msgid "Make sticky"
+msgstr "Kiinnitä listojen alkuun"
+
+#: modules/node/node.admin.inc:123
+msgid "Remove stickiness"
+msgstr "Irroita listojen alusta"
+
+#: modules/node/node.admin.inc:143;500
+msgid "published"
+msgstr "julkaistu"
+
+#: modules/node/node.admin.inc:144;500
+msgid "not published"
+msgstr "ei julkaistu"
+
+#: modules/node/node.admin.inc:145
+msgid "promoted"
+msgstr "näytetään etusivulla"
+
+#: modules/node/node.admin.inc:146
+msgid "not promoted"
+msgstr "ei näytetä etusivulla"
+
+#: modules/node/node.admin.inc:147
+msgid "sticky"
+msgstr "kiinnitetty"
+
+#: modules/node/node.admin.inc:148
+msgid "not sticky"
+msgstr "ei kiinnitetty"
+
+#: modules/node/node.admin.inc:154
+msgid "Up to date translation"
+msgstr "Käännös ajan tasalla"
+
+#: modules/node/node.admin.inc:155
+msgid "Outdated translation"
+msgstr "Käännös ei ajan tasalla"
+
+#: modules/node/node.admin.inc:159
+msgid "type"
+msgstr "tyyppi"
+
+#: modules/node/node.admin.inc:163
+msgid "category"
+msgstr "kategoria"
+
+#: modules/node/node.admin.inc:168
+msgid "language"
+msgstr "kieli"
+
+#: modules/node/node.admin.inc:220
+msgid "Show only items where"
+msgstr "Näytä ainoastaan kohteet joissa"
+
+#: modules/node/node.admin.inc:238
+msgid "<em>and</em> where <strong>%a</strong> is <strong>%b</strong>"
+msgstr "<em>ja</em> missä <strong>%a</strong> on <strong>%b</strong>"
+
+#: modules/node/node.admin.inc:241
+msgid "<strong>%a</strong> is <strong>%b</strong>"
+msgstr "<strong>%a</strong> on <strong>%b</strong>"
+
+#: modules/node/node.admin.inc:369
+msgid "The update has encountered an error."
+msgstr "Päivityksessä tapahtui virhe."
+
+#: modules/node/node.admin.inc:435
+msgid "An error occurred and processing did not complete."
+msgstr "Tapahtui virhe; käsittelyä ei tehty loppuun."
+
+#: modules/node/node.admin.inc:521
+msgid "No items selected."
+msgstr "Yhtään kohdetta ei ole valittuna."
+
+#: modules/node/node.admin.inc:619
+msgid "Are you sure you want to delete these items?"
+msgstr "Oletko varma, että haluat poistaa nämä kohteet?"
+
+#: modules/node/node.admin.inc:629
+msgid "The items have been deleted."
+msgstr "Kohteet on poistettu."
+
+#: modules/node/node.admin.inc:436
+msgid "1 item successfully processed:"
+msgid_plural "@count items successfully processed:"
+msgstr[0] "1 kohde käsiteltiin:"
+msgstr[1] "@count kohdetta käsiteltiin:"
+
+#: modules/node/node.pages.inc:57
+msgid "Create @name"
+msgstr "Luo @name"
+
+#: modules/node/node.pages.inc:147
+msgid "Revision information"
+msgstr "Version tiedot"
+
+#: modules/node/node.pages.inc:161
+msgid "Log message"
+msgstr "Lokimerkintä"
+
+#: modules/node/node.pages.inc:163
+msgid ""
+"An explanation of the additions or updates being made to help other authors "
+"understand your motivations."
+msgstr "Tehtyjen lisäysten tai muutosten kuvaus muiden käyttäjien avuksi."
+
+#: modules/node/node.pages.inc:171
+msgid "Authoring information"
+msgstr "Julkaisutiedot"
+
+#: modules/node/node.pages.inc:183
+msgid "Leave blank for %anonymous."
+msgstr "Jos jätät tämän tyhjäksi, nimeksi merkitään %anonymous."
+
+#: modules/node/node.pages.inc:189
+msgid "Format: %time. Leave blank to use the time of form submission."
+msgstr "Muoto: %time. Jätä tyhjäksi käyttääksesi lomakkeen lähetysaikaa."
+
+#: modules/node/node.pages.inc:200
+msgid "Publishing options"
+msgstr "Julkaisuasetukset"
+
+#: modules/node/node.pages.inc:280
+msgid "Show summary in full view"
+msgstr "Näytä myös tiivistelmä, kun koko kirjoitus näytetään"
+
+#: modules/node/node.pages.inc:433
+msgid ""
+"The trimmed version of your post shows what your post looks like when "
+"promoted to the main page or when exported for syndication.<span class=\"no-"
+"js\"> You can insert the delimiter \"&lt;!--break--&gt;\" (without the "
+"quotes) to fine-tune where your post gets split.</span>"
+msgstr ""
+"Kirjoituksen lyhennettyä versiota käytetään mm. etusivulla ja RSS-"
+"syötteissä. Voit merkitä kirjoitukseen erottimen \"&lt;!--break--&gt;"
+"\" (ilman lainausmerkkejä), jolloin se katkaistaan siitä kohtaa."
+
+#: modules/node/node.pages.inc:434
+msgid "Preview trimmed version"
+msgstr "Esikatsele lyhennettyä versiota"
+
+#: modules/node/node.pages.inc:436
+msgid "Preview full version"
+msgstr "Esikatsele täyspitkää versiota"
+
+#: modules/node/node.pages.inc:459
+msgid "@type %title has been created."
+msgstr "@type %title on lisätty."
+
+#: modules/node/node.pages.inc:463
+msgid "@type %title has been updated."
+msgstr "@type %title on päivitetty."
+
+#: modules/node/node.pages.inc:473
+msgid "The post could not be saved."
+msgstr "Kirjoitusta ei voitu tallentaa."
+
+#: modules/node/node.pages.inc:501
+msgid "Are you sure you want to delete %title?"
+msgstr "Haluatko varmasti poistaa kirjoituksen %title?"
+
+#: modules/node/node.pages.inc:524
+msgid "Revisions for %title"
+msgstr "Kirjoituksen %title versiot"
+
+#: modules/node/node.pages.inc:526
+msgid "Revision"
+msgstr "Versio"
+
+#: modules/node/node.pages.inc:544;550
+msgid "!date by !username"
+msgstr "!date, !username"
+
+#: modules/node/node.pages.inc:547
+msgid "current revision"
+msgstr "Nykyinen versio"
+
+#: modules/node/node.pages.inc:553
+msgid "revert"
+msgstr "palauta"
+
+#: modules/node/node.pages.inc:570
+msgid "Are you sure you want to revert to the revision from %revision-date?"
+msgstr ""
+"Oletko varma, että haluat ottaa käyttöön version jonka päiväys on %revision-"
+"date?"
+
+#: modules/node/node.pages.inc:570
+msgid "Revert"
+msgstr "Palauta käyttöön"
+
+#: modules/node/node.pages.inc:576
+msgid "Copy of the revision from %date."
+msgstr "Kopio versiosta päivämäärältä %date."
+
+#: modules/node/node.pages.inc:584
+msgid ""
+"@type %title has been reverted back to the revision from %revision-date."
+msgstr "@type %title on palautettu versioon, jonka päiväys on %revision-date"
+
+#: modules/node/node.pages.inc:590
+msgid "Are you sure you want to delete the revision from %revision-date?"
+msgstr "Haluatko varmasti poistaa version, jonka päiväys on %revision-date?"
+
+#: modules/node/node.pages.inc:598
+msgid "Revision from %revision-date of @type %title has been deleted."
+msgstr ""
+"Kirjoituksesta %title poistettiin versio, jonka tyyppi oli @type ja päiväys  "
+"%revision-date."
+
+#: modules/node/node.pages.inc:458
+msgid "@type: added %title."
+msgstr "@type: lisättiin %title."
+
+#: modules/node/node.pages.inc:462
+msgid "@type: updated %title."
+msgstr "@type: päivitettiin %title."
+
+#: modules/node/node.pages.inc:583
+msgid "@type: reverted %title revision %revision."
+msgstr "@type: palautettiin käyttöön %title versio %revision."
+
+#: modules/node/node.pages.inc:597
+msgid "@type: deleted %title revision %revision."
+msgstr "@type: poistettiin %title versio %revision."
+
+#: modules/node/node.module:29
+msgid "The content access permissions need to be rebuilt."
+msgstr "Sisällön pääsyoikeudet pitää rakentaa uudelleen."
+
+#: modules/node/node.module:32
+msgid ""
+"The content access permissions need to be rebuilt. Please visit <a href="
+"\"@node_access_rebuild\">this page</a>."
+msgstr ""
+"Sisällön pääsyoikeudet täytyy rakentaa uudelleen. Ole hyvä ja käy <a href="
+"\"@node_access_rebuild\">uudelleenrakennussivulla</a>."
+
+#: modules/node/node.module:39
+msgid ""
+"The node module manages content on your site, and stores all posts "
+"(regardless of type) as a \"node\". In addition to basic publishing "
+"settings, including whether the post has been published, promoted to the "
+"site front page, or should remain present (or sticky) at the top of lists, "
+"the node module also records basic information about the author of a post. "
+"Optional revision control over edits is available. For additional "
+"functionality, the node module is often extended by other modules."
+msgstr ""
+"Solmumoduuli hallitsee sivuston sisältöä. Kaikentyyppisistä kirjoituksista "
+"käytettävä tekninen termi on \"solmu\". Solmumoduuli tallentaa perustiedot "
+"kunkin kirjoituksen kirjoittajasta sekä julkaisutietoja, kuten näytetäänkö "
+"kirjoitus etusivulla ja kiinnitetäänkö se listojen alkuun. Kirjoituksista "
+"voi myös tallentaa useita versioita. Solmumoduulin kanssa käytetään usein "
+"muita moduuleja, jotka lisäävät siihen toimintoja."
+
+#: modules/node/node.module:40
+msgid ""
+"Though each post on your site is a node, each post is also of a particular "
+"<a href=\"@content-type\">content type</a>. <a href=\"@content-type"
+"\">Content types</a> are used to define the characteristics of a post, "
+"including the title and description of the fields displayed on its add and "
+"edit pages. Each content type may have different default settings for "
+"<em>Publishing options</em> and other workflow controls. By default, the two "
+"content types in a standard Drupal installation are <em>Page</em> and "
+"<em>Story</em>. Use the <a href=\"@content-type\">content types page</a> to "
+"add new or edit existing content types. Additional content types also become "
+"available as you enable additional core, contributed and custom modules."
+msgstr ""
+"Solmumoduuli hallitsee sivuston sisältöä. Kaikentyyppisistä kirjoituksista "
+"käytettävä tekninen termi on \"solmu\". Solmumoduuli tallentaa perustiedot "
+"kunkin kirjoituksen kirjoittajasta sekä julkaisutietoja, kuten näytetäänkö "
+"kirjoitus etusivulla ja kiinnitetäänkö se listojen alkuun. Kirjoituksista "
+"voi myös tallentaa useita versioita. Solmumoduulin kanssa käytetään usein "
+"muita moduuleja, jotka lisäävät siihen toimintoja."
+
+#: modules/node/node.module:41
+msgid ""
+"The administrative <a href=\"@content\">content page</a> allows you to "
+"review and manage your site content. The <a href=\"@post-settings\">post "
+"settings page</a> sets certain options for the display of posts. The node "
+"module makes a number of permissions available for each content type, which "
+"may be set by role on the <a href=\"@permissions\">permissions page</a>."
+msgstr ""
+"<a href=\"@content\">Sisällön ylläpitosivulla</a> voit tarkastella ja "
+"hallita sivustosi sisältöä. <a href=\"@post-settings\">Kirjoitusten "
+"asetukset</a> -sivulta löytyy kirjoitusten näyttämiseen liittyviä asetuksia. "
+"Eri tyyppisiin kirjoituksiin liittyy myös oikeuksia, joita voi myöntää eri "
+"rooleille <a href=\"@permissions\">käyttöoikeuksien ylläpitosivulta</a>."
+
+#: modules/node/node.module:42
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@node"
+"\">Node module</a>."
+msgstr "Lue käsikirjasta lisää <a href=\"@node\">sisällöstä</a>."
+
+#: modules/node/node.module:47
+msgid ""
+"Below is a list of all the content types on your site. All posts that exist "
+"on your site are instances of one of these content types."
+msgstr ""
+"Alla on lista kaikista sivuston sisällön tyypeista. Jokainen sivuston "
+"kirjoituksista edustaa jotakin näistä tyypeistä."
+
+#: modules/node/node.module:49
+msgid ""
+"To create a new content type, enter the human-readable name, the machine-"
+"readable name, and all other relevant fields that are on this page. Once "
+"created, users of your site will be able to create posts that are instances "
+"of this content type."
+msgstr ""
+"Luodaksesi uuden sisällön tyypin, anna sen käyttäjää sekä järjestelmää "
+"varten tarkoitetut nimet ja täytä muut haluamasi kentät. Uuden tyypin "
+"luomisen jälkeen käyttäjät voivat luoda tämän tyyppisiä kirjoituksia."
+
+#: modules/node/node.module:51
+msgid ""
+"The revisions let you track differences between multiple versions of a post."
+msgstr "Voit seurata kirjoituksen eri versioiden eroja."
+
+#: modules/node/node.module:260
+msgid ""
+"You specified that the summary should not be shown when this post is "
+"displayed in full view. This setting is ignored when the summary is empty."
+msgstr ""
+"Määrittele minkä tyyppistä sisältöä julkaistaan, lisätään etusivulle jne."
+
+#: modules/node/node.module:264
+msgid ""
+"You specified that the summary should not be shown when this post is "
+"displayed in full view. This setting has been ignored since you have not "
+"defined a summary for the post. (To define a summary, insert the delimiter "
+"\"&lt;!--break--&gt;\" (without the quotes) in the Body of the post to "
+"indicate the end of the summary and the start of the main content.)"
+msgstr ""
+"Valitsit, että tiivistelmää ei näytetä kun kirjoitus näytetään kokonaan. "
+"Tätä asetusta ei käytetä, koska et ole merkinnyt tiivistelmää. (Voit lisätä "
+"tekstiin  \"&lt;!--break--&gt;\" -merkinnän ilman lainausmerkkejä. Se "
+"osoittaa, missä tiivistelmä päättyy ja varsinainen kirjoitus alkaa.)"
+
+#: modules/node/node.module:785
+msgid "The body of your @type is too short. You need at least %words words."
+msgstr ""
+"@type on liian lyhyt. Rungon pituuden on oltava vähintään %words sanaa."
+
+#: modules/node/node.module:789
+msgid ""
+"This content has been modified by another user, changes cannot be saved."
+msgstr "Toinen käyttäjä on muokannut sisältöä. Muutoksia ei voitu tallentaa."
+
+#: modules/node/node.module:798
+msgid "The username %name does not exist."
+msgstr "Käyttäjätunnusta %name ei ole olemassa."
+
+#: modules/node/node.module:981
+msgid "@type %title has been deleted."
+msgstr "@type %title on poistettu."
+
+#: modules/node/node.module:1096
+msgid "Revision of %title from %date"
+msgstr "Versio kirjoituksesta %title, julkaistu %date"
+
+#: modules/node/node.module:1116
+msgid "Log"
+msgstr "Loki"
+
+#: modules/node/node.module:1161
+msgid "Content ranking"
+msgstr "Sisällön arvojärjestys"
+
+#: modules/node/node.module:1165
+msgid ""
+"The following numbers control which properties the content search should "
+"favor when ordering the results. Higher numbers mean more influence, zero "
+"means the property is ignored. Changing these numbers does not require the "
+"search index to be rebuilt. Changes take effect immediately."
+msgstr ""
+"Seuraavat luvut vaikuttavat siihen mitä asetuksia sisältöhaku suosii "
+"järjestäessään hakutuloksia. Suurempi luku tarkoittaa suurempaa vaikutusta. "
+"Nolla tarkoittaa, että asetusta ei huomioida lainkaan. Näiden lukujen "
+"muuttaminen ei vaadi hakuindeksin päivittämistä; muutokset tulevat voimaan "
+"välittömästi."
+
+#: modules/node/node.module:1168
+msgid "Keyword relevance"
+msgstr "Hakusanan osuvuus"
+
+#: modules/node/node.module:1169
+msgid "Recently posted"
+msgstr "Viimeksi lisätty"
+
+#: modules/node/node.module:1171
+msgid "Number of comments"
+msgstr "Kommenttien määrä"
+
+#: modules/node/node.module:1174
+msgid "Number of views"
+msgstr "Katselukerrat"
+
+#: modules/node/node.module:1314
+msgid "Factor"
+msgstr "Tekijä"
+
+#: modules/node/node.module:1348
+msgid "Read more"
+msgstr "Lue lisää"
+
+#: modules/node/node.module:1352
+msgid "Read the rest of !title."
+msgstr "Lue koko kirjoitus !title."
+
+#: modules/node/node.module:1610;1616;1617
+msgid "Syndicate"
+msgstr "Syötteet"
+
+#: modules/node/node.module:1731
+msgid "RSS"
+msgstr "RSS"
+
+#: modules/node/node.module:1735
+msgid ""
+"<h1 class=\"title\">Welcome to your new Drupal website!</h1><p>Please follow "
+"these steps to set up and start using your website:</p>"
+msgstr ""
+"<h1 class=\"title\">Tervetuloa uudelle Drupal-sivustollesi!</h1><p>Pääset "
+"sivuston käytössä alkuun seuraamalla näitä ohjeita:</p>"
+
+#: modules/node/node.module:1738
+msgid ""
+"<strong>Configure your website</strong> Once logged in, visit the <a href="
+"\"@admin\">administration section</a>, where you can <a href=\"@config"
+"\">customize and configure</a> all aspects of your website."
+msgstr ""
+"<strong>Säädä asetuksia</strong> Sisään kirjautumisen jälkeen voit <a href="
+"\"@config\">muokata ja säätää</a> sivustosi kaikkia asetuksia <a href="
+"\"@admin\">ylläpitoalueella</a>."
+
+#: modules/node/node.module:1739
+msgid ""
+"<strong>Enable additional functionality</strong> Next, visit the <a href="
+"\"@modules\">module list</a> and enable features which suit your specific "
+"needs. You can find additional modules in the <a href=\"@download_modules"
+"\">Drupal modules download section</a>."
+msgstr ""
+"<strong>Ota käyttöön lisätoimintoja</strong> Tutustu Drupalin <a href="
+"\"@modules\">moduuleihin</a> ja kytke käyttöön ne ominaisuudet, joita "
+"sivustosi tarvitsee. Voit myös <a href=\"@download_modules\">ladata lisää "
+"moduuleja </a> Drupalin sivuilta."
+
+#: modules/node/node.module:1740
+msgid ""
+"<strong>Customize your website design</strong> To change the \"look and feel"
+"\" of your website, visit the <a href=\"@themes\">themes section</a>. You "
+"may choose from one of the included themes or download additional themes "
+"from the <a href=\"@download_themes\">Drupal themes download section</a>."
+msgstr ""
+"<strong>Muokkaa sivustosi ulkoasua</strong> Valitse <a href=\"@themes"
+"\">teemojen ylläpitosivulta</a>, miltä sivustosi näyttää. Voit valita jonkin "
+"järjestelmän mukana toimitetuista teemoista tai <a href=\"@download_themes"
+"\">ladata niitä lisää</a> Drupalin sivuilta."
+
+#: modules/node/node.module:1741
+msgid ""
+"<strong>Start posting content</strong> Finally, you can <a href=\"@content"
+"\">create content</a> for your website. This message will disappear once you "
+"have promoted a post to the front page."
+msgstr ""
+"<strong>Kirjoita sisältöä</strong> Käytyäsi läpi yllä mainitut asiat voit <a "
+"href=\"@content\">luoda sisältöä</a> sivustollesi. Tämä tervetuloviesti "
+"katoaa, kun lisäät etusivulle jonkin kirjoituksen."
+
+#: modules/node/node.module:1743
+msgid ""
+"For more information, please refer to the <a href=\"@help\">help section</"
+"a>, or the <a href=\"@handbook\">online Drupal handbooks</a>. You may also "
+"post at the <a href=\"@forum\">Drupal forum</a>, or view the wide range of "
+"<a href=\"@support\">other support options</a> available."
+msgstr ""
+"Lisää tietoja löytyy Drupalin <a href=\"@help\">ohjeesta</a> ja <a href="
+"\"@handbook\">verkko-käsikirjasta</a>. Voit myös kirjoittaa <a href=\"@forum"
+"\">Drupalin keskustelupalstoille</a> tai etsiä apua monista muista <a href="
+"\"@support\">käyttötukipalveluista</a>."
+
+#: modules/node/node.module:1815;1867
+msgid "Advanced search"
+msgstr "Edistynyt haku"
+
+#: modules/node/node.module:1826
+msgid "Containing any of the words"
+msgstr "Sisältää minkä tahansa sanoista"
+
+#: modules/node/node.module:1832
+msgid "Containing the phrase"
+msgstr "Sisältää lauseen"
+
+#: modules/node/node.module:1838
+msgid "Containing none of the words"
+msgstr "Ei sisällä sanoja"
+
+#: modules/node/node.module:1847
+msgid "Only in the category(s)"
+msgstr "Vain luokassa/luokissa"
+
+#: modules/node/node.module:1860
+msgid "Only of the type(s)"
+msgstr "Vain tyyppiä/tyyppejä"
+
+#: modules/node/node.module:2282
+msgid "Rebuilding content access permissions"
+msgstr "Rakennetaan sisällön pääsyoikeuksia uudelleen."
+
+#: modules/node/node.module:2312
+msgid "Content permissions have been rebuilt."
+msgstr "Voit seurata kirjoituksen eri versioiden eroja."
+
+#: modules/node/node.module:2358
+msgid "The content access permissions have been rebuilt."
+msgstr "Sisällön pääsyoikeudet on rakennettu uudelleen."
+
+#: modules/node/node.module:2362
+msgid "The content access permissions have not been properly rebuilt."
+msgstr "Sisällön pääsyoikeuksien uudelleen rakentaminen ei onnistunut."
+
+#: modules/node/node.module:2450
+msgid "Submitted by !username on @datetime"
+msgstr "Kirjoittanut !username @datetime"
+
+#: modules/node/node.module:2465
+msgid "When either saving a new post or updating an existing post"
+msgstr "Kun kirjoitus tallennetaan tai päivitetään"
+
+#: modules/node/node.module:2468
+msgid "After saving a new post"
+msgstr "Uuden kirjoituksen tallentamisen jälkeen"
+
+#: modules/node/node.module:2471
+msgid "After saving an updated post"
+msgstr "Päivtetyn kirjoituksen tallentamisen jälkeen"
+
+#: modules/node/node.module:2474
+msgid "After deleting a post"
+msgstr "Kirjoituksen poistamisen jälkeen"
+
+#: modules/node/node.module:2477
+msgid "When content is viewed by an authenticated user"
+msgstr "Kun sisään kirjautunut käyttäjä lukee sisältöä"
+
+#: modules/node/node.module:2491
+msgid "Publish post"
+msgstr "Julkaise kirjoitus"
+
+#: modules/node/node.module:2501
+msgid "Unpublish post"
+msgstr "Peru kirjoituksen julkaisu"
+
+#: modules/node/node.module:2511
+msgid "Make post sticky"
+msgstr "Kiinnitä kirjoitus listojen alkuun"
+
+#: modules/node/node.module:2521
+msgid "Make post unsticky"
+msgstr "Irroita kirjoitus listojen alusta"
+
+#: modules/node/node.module:2531
+msgid "Promote post to front page"
+msgstr "Näytä kirjoitus etusivulla"
+
+#: modules/node/node.module:2541
+msgid "Remove post from front page"
+msgstr "Poista kirjoitus etusivulta"
+
+#: modules/node/node.module:2551
+msgid "Change the author of a post"
+msgstr "Vaihda kirjoituksen kirjoittajaa"
+
+#: modules/node/node.module:2562
+msgid "Save post"
+msgstr "Tallenna kirjoitus"
+
+#: modules/node/node.module:2570
+msgid "Unpublish post containing keyword(s)"
+msgstr "Poista kirjoitus, joka sisältää tiettyjä sanoja"
+
+#: modules/node/node.module:2653
+msgid "The username of the user to which you would like to assign ownership."
+msgstr "Sen käyttäjän tunnus, jolle haluat antaa omistuksen."
+
+#: modules/node/node.module:2692
+msgid "Please enter a valid username."
+msgstr "Anna käyttäjätunnus."
+
+#: modules/node/node.module:2706
+msgid ""
+"The post will be unpublished if it contains any of the character sequences "
+"above. Use a comma-separated list of character sequences. Example: funny, "
+"bungee jumping, \"Company, Inc.\". Character sequences are case-sensitive."
+msgstr ""
+"Kirjoitusta ei julkaista, jos se sisältää yhdenkin ylläolevista "
+"merkkijonoista. Käytä pilkulla erotettua listaa merkkijonoista. Esimerkki: "
+"hassu, benji-hyppy, \"Aho, Juhani\". Isot ja pienet kirjaimet ovat erillisiä."
+
+#: modules/node/node.module:980
+msgid "@type: deleted %title."
+msgstr "@type: poistettiin %title."
+
+#: modules/node/node.module:2585
+msgid "Set @type %title to published."
+msgstr "Julkaistiin @type %title."
+
+#: modules/node/node.module:2594;2729
+msgid "Set @type %title to unpublished."
+msgstr "Peruttiin julkaisu: @type %title."
+
+#: modules/node/node.module:2603
+msgid "Set @type %title to sticky."
+msgstr "Kiinnitettiin @type %title listojen alkuun."
+
+#: modules/node/node.module:2612
+msgid "Set @type %title to unsticky."
+msgstr "Irroitettiin @type %title listojen alusta."
+
+#: modules/node/node.module:2621
+msgid "Promoted @type %title to front page."
+msgstr "Näytetään @type %title etusivulla."
+
+#: modules/node/node.module:2630
+msgid "Removed @type %title from front page."
+msgstr "Poistettiin @type %title etusivulta."
+
+#: modules/node/node.module:2639
+msgid "Saved @type %title"
+msgstr "Tallennettiin @type %title"
+
+#: modules/node/node.module:2649
+msgid "Changed owner of @type %title to uid %name."
+msgstr "Kirjoituksen %title omistajaksi vaihdettiin %name."
+
+#: modules/node/node.module:1122
+msgid "administer content types"
+msgstr "sisällön tyyppien ylläpito"
+
+#: modules/node/node.module:1122
+msgid "administer nodes"
+msgstr "solmujen ylläpito"
+
+#: modules/node/node.module:1122
+msgid "access content"
+msgstr "sisällön lukeminen"
+
+#: modules/node/node.module:1122
+msgid "view revisions"
+msgstr "versioiden tarkastelu"
+
+#: modules/node/node.module:1122
+msgid "revert revisions"
+msgstr "versioiden palautus"
+
+#: modules/node/node.module:1403
+msgid "View, edit, and delete your site's content."
+msgstr "Katsele, muokkaa ja poista sivuston sisältöä."
+
+#: modules/node/node.module:1417
+msgid "Post settings"
+msgstr "Kirjoitusten asetukset"
+
+#: modules/node/node.module:1418
+msgid ""
+"Control posting behavior, such as teaser length, requiring previews before "
+"posting, and the number of posts on the front page."
+msgstr ""
+"Säädä kirjoitusten asetuksia kuten lyhennelmän pituutta, pakollista "
+"esikatselua ja etusivulla näytettävien kirjoitusten määrää."
+
+#: modules/node/node.module:1436
+msgid ""
+"Manage posts by content type, including default status, front page "
+"promotion, etc."
+msgstr ""
+"Määrittele minkä tyyppistä sisältöä julkaistaan, lisätään etusivulle jne."
+
+#: modules/node/node.module:1447
+msgid "Add content type"
+msgstr "Lisää sisällön tyyppi"
+
+#: modules/node/node.module:1460
+msgid "Create content"
+msgstr "Luo sisältöä"
+
+#: modules/node/node.module:1534;1544
+msgid "Revisions"
+msgstr "Versiot"
+
+#: modules/node/node.module:1551
+msgid "Revert to earlier revision"
+msgstr "Palauta käyttöön aikaisempi versio"
+
+#: modules/node/node.module:1561
+msgid "Delete earlier revision"
+msgstr "Poista aikaisempi versio"
+
+#: modules/node/node.install:9
+msgid "The base table for nodes."
+msgstr "Versio kirjoituksesta %title, julkaistu %date"
+
+#: modules/node/node.install:12
+msgid "The primary identifier for a node."
+msgstr "Syötteet"
+
+#: modules/node/node.install:17
+msgid "The current {node_revisions}.vid version identifier."
+msgstr "Nykyinen version {node_revisions}.vid tunniste."
+
+#: modules/node/node.install:23
+msgid "The {node_type}.type of this node."
+msgstr "Tämän solmun {node_type}.type."
+
+#: modules/node/node.install:29
+msgid "The {languages}.language of this node."
+msgstr "Tämän solmun {languages}.language."
+
+#: modules/node/node.install:35
+msgid "The title of this node, always treated a non-markup plain text."
+msgstr ""
+"Solmun otsikko. Tätä kohdellaan aina perustekstinä, joka ei sisällä HTML- "
+"tms. merkintöjä."
+
+#: modules/node/node.install:41
+msgid ""
+"The {users}.uid that owns this node; initially, this is the user that "
+"created it."
+msgstr "Solmun omistajan {users}.uid. Tämä on aluksi solmun luonut käyttäjä."
+
+#: modules/node/node.install:46
+msgid ""
+"Boolean indicating whether the node is published (visible to non-"
+"administrators)."
+msgstr ""
+"Boolean-arvo, joka ilmoittaa onko solmu julkaistu (näkyy myös käyttäjille, "
+"jotka eivät ole ylläpitäjiä)."
+
+#: modules/node/node.install:51
+msgid "The Unix timestamp when the node was created."
+msgstr "Solmun luomishetken UNIX-aikaleima."
+
+#: modules/node/node.install:56
+msgid "The Unix timestamp when the node was most recently saved."
+msgstr "Solmun uusimman muokkauksen UNIX-aikaleima."
+
+#: modules/node/node.install:61
+msgid ""
+"Whether comments are allowed on this node: 0 = no, 1 = read only, 2 = read/"
+"write."
+msgstr ""
+"Onko solmun kommentointi sallittu? (0 = ei, 1 = vain luku, 2= luku/"
+"kirjoitus)."
+
+#: modules/node/node.install:66
+msgid "Boolean indicating whether the node should displayed on the front page."
+msgstr "Boolean-arvo, joka ilmoittaa näytetäänkö solmu etusivulla."
+
+#: modules/node/node.install:71
+msgid ""
+"Previously, a boolean indicating whether the node was \"in moderation\"; "
+"mostly no longer used."
+msgstr ""
+"Aikaisemmin käytetty boolean-arvo, joka ilmoittaa onko solmu "
+"\"tarkastettavana\". Ei enää juurikaan käytetä."
+
+#: modules/node/node.install:76
+msgid ""
+"Boolean indicating whether the node should be displayed at the top of lists "
+"in which it appears."
+msgstr ""
+"Boolean-arvo, joka ilmoittaa näytetäänkö solmu ensimmäisenä listoissa, "
+"joissa se esiintyy."
+
+#: modules/node/node.install:81
+msgid ""
+"The translation set id for this node, which equals the node id of the source "
+"post in each set."
+msgstr ""
+"Solmun käännösjoukon tunniste, joka on sama kuin joukon alkuperäisen "
+"kirjoituksen tunniste."
+
+#: modules/node/node.install:87
+msgid "A boolean indicating whether this translation page needs to be updated."
+msgstr "Boolean-arvo, joka ilmoittaa tarvitseeko tämä käännös päivittää."
+
+#: modules/node/node.install:111
+msgid ""
+"Identifies which realm/grant pairs a user must possess in order to view, "
+"update, or delete specific nodes."
+msgstr ""
+"Määrittää, mikä alue/lupa -pari käyttäjällä tulee olla, jotta hän voi "
+"tarkastella, päivittää tai poistaa tiettyjä solmuja."
+
+#: modules/node/node.install:114
+msgid "The {node}.nid this record affects."
+msgstr "{node}.nid, jota tämä merkintä koskee."
+
+#: modules/node/node.install:120
+msgid ""
+"The grant ID a user must possess in the specified realm to gain this row's "
+"privileges on the node."
+msgstr ""
+"Sen oikeuden tunniste, joka käyttäjällä tulee olla määritetyllä alueella, "
+"jotta hän saa solmun suhteen tämän rivin oikeudet."
+
+# Ei helvetti.
+#: modules/node/node.install:126
+msgid ""
+"The realm in which the user must possess the grant ID. Each node access node "
+"can define one or more realms."
+msgstr ""
+"Alue, jossa käyttäjällä tulee olla oikeuden tunniste. Kullakin solmun "
+"pääsysolmulla voi olla useita alueita."
+
+#: modules/node/node.install:132
+msgid ""
+"Boolean indicating whether a user with the realm/grant pair can view this "
+"node."
+msgstr ""
+"Boolean-arvo, joka ilmoittaa voiko käyttäjä jolla on tämä alue/oikeus -pari "
+"tarkastella tätä solmua."
+
+#: modules/node/node.install:139
+msgid ""
+"Boolean indicating whether a user with the realm/grant pair can edit this "
+"node."
+msgstr ""
+"Boolean-arvo, joka ilmoittaa voiko käyttäjä jolla on tämä alue/oikeus -pari "
+"muokata tätä solmua."
+
+#: modules/node/node.install:146
+msgid ""
+"Boolean indicating whether a user with the realm/grant pair can delete this "
+"node."
+msgstr ""
+"Boolean-arvo, joka ilmoittaa voiko käyttäjä jolla on tämä alue/oikeus -pari "
+"poistaa tämän solmun."
+
+#: modules/node/node.install:157
+msgid "Access statistics for {node}s."
+msgstr "{node}jen käyttötilastot."
+
+#: modules/node/node.install:160
+msgid "The {node}.nid for these statistics."
+msgstr "Näiden tilastojen {node}.nid."
+
+#: modules/node/node.install:165
+msgid "The total number of times the {node} has been viewed."
+msgstr "Kuinka monta kertaa {node} on luettu."
+
+#: modules/node/node.install:172
+msgid "The total number of times the {node} has been viewed today."
+msgstr "Kuinka monta kertaa {node} on tänään näytetty."
+
+#: modules/node/node.install:179
+msgid "The most recent time the {node} has been viewed."
+msgstr "Koska {node} on viimeksi näytetty."
+
+#: modules/node/node.install:189
+msgid "Stores information about each saved version of a {node}."
+msgstr "Varastoi tietoja jokaisesta {node}n tallennetusta versiosta."
+
+#: modules/node/node.install:192
+msgid "The {node} this version belongs to."
+msgstr "{node}, johon tämä versio kuuluu."
+
+#: modules/node/node.install:198
+msgid "The primary identifier for this version."
+msgstr "Version pääasiallinen tunniste."
+
+#: modules/node/node.install:203
+msgid "The {users}.uid that created this version."
+msgstr "Version luoneen käyttäjän {users}.uid."
+
+#: modules/node/node.install:208
+msgid "The title of this version."
+msgstr "Tämän version otsikko."
+
+#: modules/node/node.install:214
+msgid "The body of this version."
+msgstr "Tämän version runko."
+
+#: modules/node/node.install:219
+msgid "The teaser of this version."
+msgstr "Tämän version lyhennelmä."
+
+#: modules/node/node.install:224
+msgid "The log entry explaining the changes in this version."
+msgstr "Lokiteksti, joka selittää version muutokset."
+
+#: modules/node/node.install:229
+msgid "A Unix timestamp indicating when this version was created."
+msgstr "Version luomishetken UNIX-aikaleima."
+
+#: modules/node/node.install:234
+msgid "The input format used by this version's body."
+msgstr "Tämän version rungossa käytetty syöttömuoto."
+
+#: modules/node/node.install:247
+msgid "Stores information about all defined {node} types."
+msgstr "Varastoi tietoja kaikista määritellyistä {node}jen tyypeistä."
+
+#: modules/node/node.install:250
+msgid "The machine-readable name of this type."
+msgstr "Tämän tyypin järjestelmää varten tarkoitettu nimi."
+
+#: modules/node/node.install:255
+msgid "The human-readable name of this type."
+msgstr "Tämän tyypin käyttäjää varten tarkoitettu nimi."
+
+#: modules/node/node.install:261
+msgid "The module that implements this type."
+msgstr "Moduuli, joka toteuttaa tämän tyypin."
+
+#: modules/node/node.install:266
+msgid "A brief description of this type."
+msgstr "Tyypin lyhyt kuvaus."
+
+#: modules/node/node.install:271
+msgid "Help information shown to the user when creating a {node} of this type."
+msgstr "Ohjeita, jotka näytetään käyttäjälle luotaessa tämän tyyppinen {node}."
+
+#: modules/node/node.install:276
+msgid "Boolean indicating whether this type uses the {node}.title field."
+msgstr ""
+"Boolean-arvo, joka ilmoittaa käyttääkö tämä tyyppi {node}.title-kenttää."
+
+#: modules/node/node.install:282
+msgid "The label displayed for the title field on the edit form."
+msgstr "Otsikon nimike muokkauslomakkeessa."
+
+#: modules/node/node.install:288
+msgid ""
+"Boolean indicating whether this type uses the {node_revisions}.body field."
+msgstr ""
+"Boolean-arvo, joka ilmoittaa käyttääkö tämä tyyppi {node_revisions}.body-"
+"kenttää."
+
+#: modules/node/node.install:294
+msgid "The label displayed for the body field on the edit form."
+msgstr "Sisällön rungon nimike muokkauslomakkeessa."
+
+#: modules/node/node.install:300
+msgid "The minimum number of words the body must contain."
+msgstr "Rungon sanojen minimimäärä."
+
+#: modules/node/node.install:306
+msgid ""
+"A boolean indicating whether this type is defined by a module (FALSE) or by "
+"a user via a module like the Content Construction Kit (TRUE)."
+msgstr ""
+"Boolean-arvo, joka ilmoittaa onko tämän tyypin määritellyt moduuli (FALSE) "
+"vai käyttäjä jonkin moduulin kuten CCK:n kautta (TRUE)."
+
+#: modules/node/node.install:312
+msgid ""
+"A boolean indicating whether this type has been modified by an "
+"administrator; currently not used in any way."
+msgstr ""
+"Boolean-arvo, joka ilmoittaa onko ylläpitäjä muokannut tyyppiä. Tätä ei "
+"tällä hetkellä käytetä millään tavoin."
+
+#: modules/node/node.install:318
+msgid ""
+"A boolean indicating whether the administrator can change the machine name "
+"of this type."
+msgstr ""
+"Boolean-arvo, joka ilmoittaa voiko ylläpitäjä muuttaa tyypin järjestelmälle "
+"tarkoitettua nimeä."
+
+#: modules/node/node.install:324
+msgid ""
+"The original machine-readable name of this node type. This may be different "
+"from the current type name if the locked field is 0."
+msgstr ""
+"Tämän solmun tyypin alkuperäinen järjestelmää varten tarkoitettu nimi. Tämä "
+"voi poiketa nykyisestä nimestä, jos lukittu-kentän arvo on 0."
