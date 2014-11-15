@@ -15,6 +15,11 @@ stylesheets[all][] = debug.css
 stylesheets[all][] = styles/styles.css
 stylesheets[all][] = styles/sln_teema.css
 
+; JS needed by the theme
+scripts[] = js/jquery.tablesorter.min.js
+scripts[] = js/sln_teema.js
+scripts[] = js/autoHeight.js
+
 ; Regions
 regions[sidebar_first] = Left sidebar
 regions[sidebar_second] = Right sidebar

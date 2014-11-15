@@ -14,18 +14,14 @@
  *   $rows are keyed by row number, fields within rows are keyed by field ID.
  * @ingroup views_templates
  */
+ //dsm($rows);
  
-  $header['value_1'] = '<img src="' . path_to_theme() . '/images/galleria.gif" alt="IRC-Galleria" />';
-  $header['value'] = '<img src="' . path_to_theme() . '/images/facebook.gif" alt="Facebook" />';
-  $header['value_7'] = '<img src="' . path_to_theme() . '/images/external.gif" alt="WWW" />';
-  if(!user_access('view profile_facebook field')) {
-    unset($header['value']);
-  }
-  if(!user_access('view profile_name field')) {
-    unset($header['value_3']);
-  }
+  $header['value'] = '<img src="' . path_to_theme() . '/images/galleria.gif" alt="IRC-Galleria" />';
+  //$header['valuexxxxxx'] = '<img src="' . path_to_theme() . '/images/facebook.gif" alt="Facebook" />';
+  $header['value_6'] = '<img src="' . path_to_theme() . '/images/external.gif" alt="WWW" />';
+
   //Ei näytetä koskaan vaihtoehtoista nick-kenttää
-  unset($header['value_8']);
+  unset($header['value_1']);
 ?>
 <table class="<?php print $class; ?>">
   <?php if (!empty($title)) : ?>
@@ -44,30 +40,20 @@
     <?php foreach ($rows as $count => $row): ?>
       <?php
         //Vaihtoehtoinen nick korvaa käyttäjänimen
-        if(!empty($row['value_8'])) {
-          $row['name'] = $row['value_8'];
+        if(!empty($row['value_1'])) {
+          $row['name'] = $row['value_1'];
         }
+        //Ja tyhjennetään vaihtoehtoinen nick kaikilta
+        unset($row['value_1']);
       ?>
       <tr class="<?php print implode(' ', $row_classes[$count]); ?>">
         <?php foreach ($row as $field => $content): ?>
           <?php
-            $show = TRUE;
-            if($field == 'value_3' && !user_access('view profile_name field') || $field == 'value_8') {
-              $show = FALSE;
+            if($field == 'value' && !empty($content)) {
+              $content = l($header['value'], 'http://irc-galleria.net/user/'.$content, array('html' => TRUE));
             }
-            elseif($field == 'value') {
-              if(!user_access('view profile_facebook field')) {
-                $show = FALSE;
-              }
-              elseif(!empty($content)) {
-                $content = l($header['value'], $content, array('html' => TRUE));
-              }
-            }
-            elseif($field == 'value_1' && !empty($content)) {
-              $content = l($header['value_1'], 'http://irc-galleria.net/user/'.$content, array('html' => TRUE));
-            }
-            elseif($field == 'value_7' && !empty($content)) {
-              $content = l($header['value_7'], $content, array('html' => TRUE));
+            elseif($field == 'value_6' && !empty($content)) {
+              $content = l($header['value_6'], $content, array('html' => TRUE));
             }
             elseif($field == 'rid' && !empty($content)) {
               if($content == 'operator') {
@@ -78,17 +64,10 @@
               }
             }
             //print $field . ' - ' . $content . '<br />';
-            
-            //Käyttäjän syntymäaika näytetään ikänä
-            if($field == 'value_6') {
-              //$content = sln_age($content);
-            }
           ?>
-          <?php if($show) : ?>
-            <td class="views-field views-field-<?php print $fields[$field]; ?>">
-              <?php print $content; ?>
-            </td>
-          <?php endif; ?>
+          <td class="views-field views-field-<?php print $fields[$field]; ?>">
+            <?php print $content; ?>
+          </td>
         <?php endforeach; ?>
       </tr>
     <?php endforeach; ?>
