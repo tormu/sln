@@ -1,0 +1,27 @@
+; $Id: sln_Teema.info,v 1.0 2014/11/15 jari Exp $
+
+name = #sln
+description = #sln-sivuston teema
+screenshot = images/screenshot.png
+core = 7.x
+engine = phptemplate
+
+base theme = ninesixty
+
+; Stylesheets. Anything within the "framework" folder will be placed before all others.
+stylesheets[all][] = debug.css
+
+; Theme specific styles. Any sub-themes should override this.
+stylesheets[all][] = styles/styles.css
+stylesheets[all][] = styles/sln_teema.css
+
+; Regions
+regions[sidebar_first] = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer
+
+; Information added manually 2014/11/15
+version = "7.x-1.0"
+core = "7.x"
