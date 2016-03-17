@@ -4,3 +4,6 @@ sites/*/settings*.php
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
+
+# Local symbolic link to sln.tormu.com
+sites/sln.tormu.com.dd
